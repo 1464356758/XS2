@@ -1,0 +1,53 @@
+name: XS2 CH002 brief and history check once
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/xs2-ch002-brief-once.yml'
+permissions:
+  contents: write
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify locked run and prepare writing brief
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('book/daily/active.json').read_text())
+          s=json.loads(Path('book/state.json').read_text())
+          assert a['run_id']=='4b752a19c9dd403b9f68429d5e79ca09' and a['chapter']==2 and a['status']=='running'
+          assert a['baseline_count']==1 and s['book_id']==a['book_id'] and len(s['chapters'])==1 and s['revision']==4
+          PY
+          mkdir -p drafts
+          python3 tools/novel_state.py --root book brief-request --out drafts/CH002_brief.json
+          python3 tools/novel_state.py --root book history-search --query '骨砂 试土 活草' --limit 5
+          python3 tools/novel_state.py --root book history-search --query '借药 欠契 田地' --limit 5
+          python3 tools/novel_state.py --root book history-search --query '粮田 水渠 争水' --limit 5
+          python3 tools/novel_state.py --root book history-search --query '药棚 十二株 半成苗' --limit 5
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('drafts/CH002_brief.json')
+          b=json.loads(p.read_text(encoding='utf-8'))
+          a=json.loads(Path('editorial/CH002_brief_authored.json').read_text(encoding='utf-8'))
+          b.update(a,decision='ready')
+          p.write_text(json.dumps(b,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          python3 tools/novel_state.py --root book brief-check --file drafts/CH002_brief.json
+          python3 tools/novel_state.py --root book context --profile writer --out drafts/CH002_writer_packet.md
+          python3 tools/novel_state.py --root book status
+      - name: Commit verified brief and remove one-time workflow
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/xs2-ch002-brief-once.yml
+          rm -f drafts/CH002_writer_packet.md
+          git add book/state.json book/briefs/ drafts/CH002_brief.json
+          git -c user.name='XS2 Daily Runner' -c user.email='xs2-daily-runner@users.noreply.github.com' commit -m 'daily: verify CH002 writing brief and history search'
+          git push origin HEAD:main
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"

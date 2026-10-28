@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "af52fe99-2c10-47f4-a08d-7d383173a212",
-    "title": "未命名小说",
+    "title": "《凡人修仙：我把废灵田种成仙城》",
     "platform": "zongheng",
-    "selected_topic_id": null
+    "selected_topic_id": "T03"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-28T09:28:04+00:00",
-    "state_revision": 0,
-    "workflow_revision": 3,
-    "state_sha256": "4ed145fd590bb692446b2c438a959167e20fbadf69f645f731f21c760c0abea5",
-    "workflow_sha256": "76aa4b19bc1a08b205962c1a4059513ad14ec2f4cad0d07fb7ec25bce4dcf85b",
+    "generated_at": "2026-10-28T14:31:59+00:00",
+    "state_revision": 3,
+    "workflow_revision": 5,
+    "state_sha256": "37549f4cb6eb3a6736979fd089abb6ac85d7b1aed1dbac13f8fe4703e6224bec",
+    "workflow_sha256": "472b65f29ba21dabd550926d2ecb48384d718c898c56dd6a408292ede34152eb",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "已准备8个原创选题，等待作者选择。",
-    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-    "updated_at": "2026-10-28T09:28:04+00:00"
+    "detail": "T03已由作者正式选定；100章十阶段长纲、人物与世界硬规则、首十章路线均已登记。未生成任何小说正文。",
+    "next_action": "等待作者另行明确授权开始第1章；届时先生成写作任务书并执行V4.3审查。",
+    "updated_at": "2026-10-28T14:31:59+00:00"
   },
   "chapters": [],
   "topics": [
@@ -521,6 +521,18 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-28T14:31:59+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《《凡人修仙：我把废灵田种成仙城》》，准备长篇规划。"
+    },
+    {
+      "at": "2026-10-28T14:31:59+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T03已由作者正式选定；100章十阶段长纲、人物与世界硬规则、首十章路线均已登记。未生成任何小说正文。"
     }
   ]
 }

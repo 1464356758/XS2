@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
-  "title": "未命名小说",
-  "revision": 0,
+  "title": "《凡人修仙：我把废灵田种成仙城》",
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_69b28ca03780bfb06139f98f6d3a6f32633468983494ec0be616c3e988fa2c75.md",
+      "sha256": "69b28ca03780bfb06139f98f6d3a6f32633468983494ec0be616c3e988fa2c75",
+      "reason": "作者选择T03：登记基础世界观、人物关系及硬规则"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_afca16cc0a92ab369f6e628771738cff890f2e110c2efc855fc1ae3adcc01ecf.md",
+      "sha256": "afca16cc0a92ab369f6e628771738cff890f2e110c2efc855fc1ae3adcc01ecf",
+      "reason": "作者选择T03：登记100章十阶段大纲与第一阶段详细路线"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_69b28ca03780bfb06139f98f6d3a6f32633468983494ec0be616c3e988fa2c75.md",
+      "sha256": "69b28ca03780bfb06139f98f6d3a6f32633468983494ec0be616c3e988fa2c75",
+      "reason": "作者选择T03：登记基础世界观、人物关系及硬规则"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_afca16cc0a92ab369f6e628771738cff890f2e110c2efc855fc1ae3adcc01ecf.md",
+      "sha256": "afca16cc0a92ab369f6e628771738cff890f2e110c2efc855fc1ae3adcc01ecf",
+      "reason": "作者选择T03：登记100章十阶段大纲与第一阶段详细路线"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {

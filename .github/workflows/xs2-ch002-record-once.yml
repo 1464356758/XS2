@@ -1,0 +1,57 @@
+name: XS2 CH002 record and reader review once
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/xs2-ch002-record-once.yml'
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bind authored record, verify quotes and generate pending release
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,'tools')
+          import novel_state as ns
+          s=ns.load_state('book')
+          a=json.loads(Path('book/daily/active.json').read_text())
+          assert a['run_id']=='4b752a19c9dd403b9f68429d5e79ca09' and a['chapter']==2 and a['status']=='running'
+          assert s['revision']==4 and len(s['chapters'])==1 and s['tasks']['2']['phase']=='candidate'
+          t=Path('book',s['tasks']['2']['candidate_path']).read_text(encoding='utf-8')
+          assert ns.han_count(t)==8317
+          r=json.loads(Path('editorial/CH002_record_authored.json').read_text(encoding='utf-8'))
+          r.update(base_revision=s['revision'],canon_sha256=s['inputs']['canon']['sha256'],text_sha256=ns.digest(t),measured_han=ns.han_count(t))
+          for item in r['facts']+r['thread_events']:
+              assert item['quote'] in t, 'quote absent in candidate: '+item['quote']
+          Path('editorial/CH002_record_bound.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          CANDIDATE="$(python3 - <<'PY'
+          import json
+          print('book/'+json.load(open('book/state.json'))['tasks']['2']['candidate_path'])
+          PY
+          )"
+          python3 tools/novel_state.py --root book check-record --text "$CANDIDATE" --record editorial/CH002_record_bound.json
+          python3 tools/novel_state.py --root book context --profile reader --text "$CANDIDATE" --out /tmp/CH002_reader_packet.md
+          python3 tools/novel_state.py --root book release-request --text "$CANDIDATE" --record editorial/CH002_record_bound.json --out editorial/CH002_release_template.json
+          python3 - <<'PY'
+          import json
+          r=json.load(open('editorial/CH002_release_template.json'))
+          print('RELEASE_TEMPLATE_KEYS',list(r))
+          print('PROMISE_IDS',[x['id'] for x in r.get('promise_reviews',[])])
+          PY
+      - name: Save record and pending template for manual evidence review
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/xs2-ch002-record-once.yml
+          git add editorial/CH002_record_bound.json editorial/CH002_release_template.json
+          git -c user.name='XS2 Daily Runner' -c user.email='xs2-daily-runner@users.noreply.github.com' commit -m 'daily: validate CH002 factual record and prepare pending release'
+          git push origin HEAD:main
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"

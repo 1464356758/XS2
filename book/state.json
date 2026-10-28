@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "title": "《凡人修仙：我把废灵田种成仙城》",
-  "revision": 3,
+  "revision": 4,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "死苗与封条",
+      "stage": "S01",
+      "text_path": "chapters/CH001_fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234.txt",
+      "text_sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+      "record_path": "records/CH001_dc27a300e10fd5bf28c1ef20148134480b1218cdd393dc98d620cecacd85b4bf.json",
+      "record_sha256": "dc27a300e10fd5bf28c1ef20148134480b1218cdd393dc98d620cecacd85b4bf",
+      "han_count": 8941,
+      "adopted_at": "2026-10-28T15:03:18+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -57,7 +68,7 @@
       "task_id": "712de9d6-70c9-4887-b63f-7c5326b8af4a",
       "chapter": 1,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -74,10 +85,98 @@
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+        "record_sha256": "dc27a300e10fd5bf28c1ef20148134480b1218cdd393dc98d620cecacd85b4bf"
+      }
+    },
     "published": {},
-    "gates": {},
-    "promises": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_c14f5c725019371337bfde83097f7a2596f46e7381182cb3aac3a94a476f592c.json",
+        "sha256": "c14f5c725019371337bfde83097f7a2596f46e7381182cb3aac3a94a476f592c",
+        "used": true
+      }
+    },
+    "promises": {
+      "PR01": {
+        "history": [
+          {
+            "id": "PR01",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "本章建立三名危重者七日急缺药；第五章安排三剂药与真实缓毒后果，期限按实际章时校核，不提前宣布治愈。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+              "quote": "七日内若找不到足够药性，最重的三个，我不敢替你们说一定熬得过去。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 5,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "PR02": {
+        "history": [
+          {
+            "id": "PR02",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "第1章只有野草与泥样迹象，第3章前给实验数据，第5章以成苗与药性检验第一次实证废田复苏。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+              "quote": "可它还活着。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 5,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "PR03": {
+        "history": [
+          {
+            "id": "PR03",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "禁药封田令阻止任意种售，第4章争短期检查，第10章核实是否取得仅限本村的救灾许可。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+              "quote": "“禁药封田令。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "PR04": {
+        "history": [
+          {
+            "id": "PR04",
+            "action": "set",
+            "deadline_chapter": 70,
+            "reason": "上游水质与灰脉热成因只建立疑点；第7章初验、第40章完整水路、第70章制度责任阶段性结清；此长期承诺不以每章重复同一提示拖延。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+              "quote": "但祖母后来用朱砂在粗线旁补了一个短短的箭头，反指枯骨坡。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 70,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
   },
   "writing_briefs": {

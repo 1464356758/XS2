@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 6,
+  "revision": 7,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "zongheng",
   "selected_topic": {
     "id": "T03",
@@ -24,7 +24,7 @@
   },
   "research_path": "research/platform_2e8b09951daab3cbaeb2d5df815f937d8ebf9dc4e524cbd42fc4e779b59066b7.json",
   "topics_path": "research/topics_b8a2112cf4dd225cd16409879e0462588c974bb42def1f3309ce7e853a06aaee.json",
-  "chapter": 1,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-10-28T07:35:14+00:00",
@@ -67,9 +67,15 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "第一章完整初稿已登记候选，等待证据审读和发布前检查；尚未定稿。"
+    },
+    {
+      "at": "2026-10-28T15:03:18+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第1章《死苗与封条》8941汉字已完成V4.3检查并正式采用冻结，未登记纵横平台发布。"
     }
   ],
-  "detail": "第一章完整初稿已登记候选，等待证据审读和发布前检查；尚未定稿。",
-  "next_action": "核对本章全文，填写事实记录与release审查，通过后再采用。",
-  "updated_at": "2026-10-28T14:58:44+00:00"
+  "detail": "第1章《死苗与封条》8941汉字已完成V4.3检查并正式采用冻结，未登记纵横平台发布。",
+  "next_action": "收到作者下一章写作指令后，按已登记的canon、roadmap与前章冻结全文写第2章《十二株半死苗》。",
+  "updated_at": "2026-10-28T15:03:18+00:00"
 }

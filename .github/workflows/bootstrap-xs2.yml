@@ -41,7 +41,8 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          rm .github/workflows/bootstrap-xs2.yml
-          git add -A
+          # The Actions token cannot commit GitHub workflow files.
+          # Keep the bootstrap workflow unchanged and commit the novel workspace.
+          git add -A -- . ':!.github/workflows'
           git commit -m 'Initialize XS2 V4.3 novel workspace (awaiting platform)'
           git push origin HEAD:main

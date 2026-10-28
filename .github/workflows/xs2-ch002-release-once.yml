@@ -108,7 +108,7 @@ jobs:
         run: |
           set -euo pipefail
           git rm .github/workflows/xs2-ch002-release-once.yml
-          git add -A -- book/ online/ editorial/ .github/workflows/xs2-ch002-release-once.yml
+          git add -A -- book/ online/ editorial/
           if git diff --cached --name-only | grep -E '^book/(chapters|records)/CH001_'; then echo 'FROZEN_CH001_CHANGED'; exit 1; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

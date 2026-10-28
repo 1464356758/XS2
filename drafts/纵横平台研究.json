@@ -1,0 +1,313 @@
+{
+  "platform": "zongheng",
+  "checked_at": "2026-10-28T09:22:00Z",
+  "coverage_status": "partial",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "纵横中文网排行榜：月票、24小时畅销、新书、新书订阅、点击、推荐",
+      "url": "https://betabook.zongheng.com/rank.html",
+      "accessed_at": "2026-10-28",
+      "notes": "同一访问页面中的多榜快照；数值和名次会随平台实时变化"
+    },
+    {
+      "id": "S02",
+      "title": "2026新版纵横中文网作者福利及投稿指南",
+      "url": "https://doc.zongheng.com/welfare/zongheng",
+      "accessed_at": "2026-10-28",
+      "notes": "核实征稿、签约、类型激励、全勤与违规条款"
+    },
+    {
+      "id": "S03",
+      "title": "纵横作者帮助中心：创建作品与审核",
+      "url": "https://doc.zongheng.com/help/2/CREATE_BOOK.html",
+      "accessed_at": "2026-10-28",
+      "notes": "部分帮助信息可能与2026新版政策更新频率不同"
+    },
+    {
+      "id": "S04",
+      "title": "纵横中文网首页：题材曝光与榜单交叉对照",
+      "url": "https://book.zongheng.com/index.shtml",
+      "accessed_at": "2026-10-28",
+      "notes": "首页展示与榜单抓取时刻可能不同"
+    }
+  ],
+  "rules": [
+    {
+      "topic": "平台定位与收稿",
+      "status": "verified",
+      "source_id": "S02",
+      "conclusion": "男生向全品类征稿，包含玄幻、都市、历史、仙侠、奇幻、武侠、竞技、科幻、游戏、悬疑、现实题材等，侧重传统主站、渠道与新媒体方向。"
+    },
+    {
+      "topic": "平台投稿路径与审稿",
+      "status": "verified",
+      "source_id": "S02",
+      "conclusion": "可通过作家专区注册发书或编辑邮箱投稿；官方2026页面写明网站发书满1万字自动进入签约审核，通常1—5个工作日站内反馈；邮箱投稿通常1—5个工作日回邮。不是签约保证。"
+    },
+    {
+      "topic": "创建作品与审核门槛",
+      "status": "verified",
+      "source_id": "S03",
+      "conclusion": "帮助中心指引从作者专区创建新书，要求书名和内容相符，并说明新书审核和作品信息限制；该帮助页部分规定可能较旧，最终以现行后台及编辑答复为准。"
+    },
+    {
+      "topic": "一稿多投与原创合规",
+      "status": "verified",
+      "source_id": "S02",
+      "conclusion": "官方投稿指南提醒在纵横编辑给出审稿意见前，不要向其他站点编辑一稿多投；福利规则禁止抄袭及大量无意义情节填充、重复正文等欺骗行为。"
+    },
+    {
+      "topic": "2026年度鼓励方向",
+      "status": "verified",
+      "source_id": "S02",
+      "conclusion": "2026年度类型激励列出传统东方玄幻、架空或穿越历史、都市官场/年代/职业、武侠仙侠、凡人流、科举、民俗、神话等方向。名单代表政策鼓励范围，不等于全站销量榜。"
+    },
+    {
+      "topic": "连续更新与全勤",
+      "status": "verified",
+      "source_id": "S02",
+      "conclusion": "2026新版基础全勤写明符合条件的签约作品日更至少4000字、月更至少12万字等要求；不同档还有上架与收入条件，具体以执行时政策及签约合同为准。拟定的每章8000—10000字是本项目编辑目标，不是平台强制。"
+    },
+    {
+      "topic": "AI生成或AI辅助内容是否允许投稿、是否需标注",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "本次未在纵横已访问的2026公开投稿/福利及作者帮助页中找到针对AI辅助投稿的明确、可直接引用政策；正式上传前需查作者后台协议、最新公告并向编辑确认，不推定完全允许或禁止。"
+    },
+    {
+      "topic": "新书留存、实际收益和签约率",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "公开榜单无法证明作品真实留存、订阅转化、合同收益或新作者签约概率；不据此预测收入。"
+    }
+  ],
+  "rank_samples": [
+    {
+      "title": "明君",
+      "author": "知白",
+      "list_name": "月票榜",
+      "rank": 1,
+      "category": "历史·架空",
+      "book_url": "https://book.zongheng.com/book/1610880.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第1位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "高位月票；政治身份冲突与天下局势"
+    },
+    {
+      "title": "无敌天命",
+      "author": "青鸾峰上",
+      "list_name": "24小时畅销榜",
+      "rank": 1,
+      "category": "玄幻·剑道",
+      "book_url": "https://book.zongheng.com/book/1336976.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第1位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "热血升级，跨世界冒险"
+    },
+    {
+      "title": "齐天",
+      "author": "日落红尘",
+      "list_name": "月票榜",
+      "rank": 3,
+      "category": "玄幻·家族崛起",
+      "book_url": "https://book.zongheng.com/book/1435440.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第3位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "家族兴衰与血缘羁绊"
+    },
+    {
+      "title": "星辰大道",
+      "author": "随散飘风",
+      "list_name": "推荐榜",
+      "rank": 1,
+      "category": "玄幻·诸天",
+      "book_url": "https://book.zongheng.com/book/1385191.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第1位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "诸天规模与多阶段目标"
+    },
+    {
+      "title": "太荒吞天诀",
+      "author": "铁马飞桥",
+      "list_name": "24小时畅销榜",
+      "rank": 4,
+      "category": "玄幻·修炼",
+      "book_url": "https://book.zongheng.com/book/780568.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第4位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "升级和长期资源争夺，书籍链接需要再次核对"
+    },
+    {
+      "title": "最强狂兵Ⅱ：黑暗荣耀",
+      "author": "烈焰滔滔",
+      "list_name": "24小时畅销榜",
+      "rank": 5,
+      "category": "都市·兵王",
+      "book_url": "https://book.zongheng.com/book/1366535.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第5位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "高手回归与危险势力对抗"
+    },
+    {
+      "title": "盗梦千年",
+      "author": "咸鱼老白",
+      "list_name": "月票榜",
+      "rank": 7,
+      "category": "仙侠·幻想修真",
+      "book_url": "https://book.zongheng.com/book/1552353.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第7位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "独特能力题目结合修炼成长"
+    },
+    {
+      "title": "天黑请点灯",
+      "author": "罗樵森",
+      "list_name": "月票榜",
+      "rank": 8,
+      "category": "奇闻异事·悬疑怪谈",
+      "book_url": "https://book.zongheng.com/book/1415876.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第8位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "民俗谜案与险境"
+    },
+    {
+      "title": "崩拳，裂枪，问武神！",
+      "author": "清蒸鱼",
+      "list_name": "新书榜",
+      "rank": 1,
+      "category": "玄幻·高武",
+      "book_url": "https://book.zongheng.com/book/1619144.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第1位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "武术招式与强敌"
+    },
+    {
+      "title": "这个武神太努力了",
+      "author": "水门绅士",
+      "list_name": "新书榜",
+      "rank": 2,
+      "category": "玄幻·高武",
+      "book_url": "https://book.zongheng.com/book/1628213.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第2位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "努力逆袭和训练成长"
+    },
+    {
+      "title": "民国第一武圣",
+      "author": "藏雷客",
+      "list_name": "新书榜",
+      "rank": 4,
+      "category": "玄幻·民国高武",
+      "book_url": "https://book.zongheng.com/book/1622055.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第4位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "历史时代质感与武道升级"
+    },
+    {
+      "title": "杂灵根的我，靠加点杀穿修真界",
+      "author": "落木",
+      "list_name": "新书榜",
+      "rank": 5,
+      "category": "仙侠·凡人逆袭",
+      "book_url": "https://book.zongheng.com/book/1628389.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第5位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "低资质逆袭与明确进阶"
+    },
+    {
+      "title": "人生读档：2001",
+      "author": "更俗",
+      "list_name": "新书订阅榜",
+      "rank": 1,
+      "category": "都市·重生商战",
+      "book_url": "https://book.zongheng.com/book/1589055.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第1位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "时代机会与商业博弈"
+    },
+    {
+      "title": "她们眼中穷校草，竟是资本真大佬",
+      "author": "及时晴",
+      "list_name": "新书订阅榜",
+      "rank": 2,
+      "category": "都市·重生逆袭",
+      "book_url": "https://book.zongheng.com/book/1504723.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第2位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "身份反差与事业发展"
+    },
+    {
+      "title": "大唐第一谋",
+      "author": "寒梅惊雪",
+      "list_name": "新书订阅榜",
+      "rank": 4,
+      "category": "历史·穿越权谋",
+      "book_url": "https://book.zongheng.com/book/1585118.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第4位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "谋略与皇权风险"
+    },
+    {
+      "title": "权力危途",
+      "author": "任语丁",
+      "list_name": "新书订阅榜",
+      "rank": 6,
+      "category": "都市·职场权力",
+      "book_url": "https://book.zongheng.com/book/1587629.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第6位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "制度矛盾与复杂人际"
+    },
+    {
+      "title": "边军小卒：杀敌爆气血，我无限破镜！",
+      "author": "爱小咪锋",
+      "list_name": "新书订阅榜",
+      "rank": 10,
+      "category": "历史·边军高武",
+      "book_url": "https://book.zongheng.com/book/1578593.html",
+      "source_id": "S01",
+      "observed_at": "2026-10-28",
+      "visible_indicator": "榜单第10位（访问快照，仅作相对位置，不是年度排名）",
+      "mechanism": "边地战斗与成长设定"
+    }
+  ],
+  "analysis": {
+    "conclusions": [
+      "月票、畅销与点击的头部主力仍是玄幻仙侠长篇，优势是长期成长结构；成熟头部竞争强，新作者不应照搬。",
+      "新书榜高武与凡人逆袭出现密集样本，说明概念清晰、主角能力可理解的题目有可见曝光机会，但新书榜热度并非付费证明。",
+      "新书订阅榜出现都市重生商战和历史权谋，表明现实动机、时代变化与关系博弈同样值得重视。",
+      "民俗悬疑可以作为新鲜题材或混搭引擎，但当前公开榜单支持度较次一级，创新需控制解谜成本。"
+    ],
+    "market_mechanisms": [
+      "主角面临即刻损失和具体的短期目标",
+      "升级或事业成长有清晰代价，不是无限加点",
+      "历史/职业知识用于产生选择和后果，不靠密集说明",
+      "每一阶段的对立方会学习并升级策略",
+      "长篇中点改变主角原有方法并迫使其付出代价"
+    ],
+    "snapshot_note": "排名以2026-10-28访问的官方动态页面为来源。不同页面及抓取时点的排序和数字可能不一致，未作榜单实时统计。"
+  },
+  "gaps": [
+    "未获得纵横后台协议或编辑就AI辅助创作、AI生成文本投稿作出的现行明确确认。",
+    "公开榜单没有全站各题材收入分布、真实留存或实际签约率，不能宣称题材收益排名。",
+    "榜单持续变动，若正式发书前有时间间隔，需要复查。",
+    "部分作者页面只提供标签与字数，没有充足且可对照的完整免费简介，机制分析属于编辑推断。"
+  ]
+}

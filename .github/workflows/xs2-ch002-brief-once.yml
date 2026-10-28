@@ -46,7 +46,8 @@ jobs:
           set -euo pipefail
           git rm .github/workflows/xs2-ch002-brief-once.yml
           rm -f drafts/CH002_writer_packet.md
-          git add book/state.json book/briefs/ drafts/CH002_brief.json
+          git add book/state.json book/briefs/
+          git add -f drafts/CH002_brief.json
           git -c user.name='XS2 Daily Runner' -c user.email='xs2-daily-runner@users.noreply.github.com' commit -m 'daily: verify CH002 writing brief and history search'
           git push origin HEAD:main
           git fetch origin main

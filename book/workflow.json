@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "revision": 0,
+  "revision": 3,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
-  "phase": "WAITING_PLATFORM",
-  "platform": null,
+  "phase": "WAITING_TOPIC",
+  "platform": "zongheng",
   "selected_topic": null,
-  "research_path": null,
-  "topics_path": null,
+  "research_path": "research/platform_2e8b09951daab3cbaeb2d5df815f937d8ebf9dc4e524cbd42fc4e779b59066b7.json",
+  "topics_path": "research/topics_b8a2112cf4dd225cd16409879e0462588c974bb42def1f3309ce7e853a06aaee.json",
   "chapter": 1,
   "history": [
     {
@@ -14,9 +14,27 @@
       "phase": "WAITING_PLATFORM",
       "label": "等待选择平台",
       "detail": "系统已准备好，请先选择创作平台。"
+    },
+    {
+      "at": "2026-10-28T09:28:04+00:00",
+      "phase": "RESEARCH_PLATFORM",
+      "label": "核查平台规则",
+      "detail": "已选择纵横中文网，正在等待核查现行规则。"
+    },
+    {
+      "at": "2026-10-28T09:28:04+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-10-28T09:28:04+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
     }
   ],
-  "detail": "系统已准备好，请先选择创作平台。",
-  "next_action": "在起点、番茄、七猫、晋江中选择一个平台，或指定其他平台。",
-  "updated_at": "2026-10-28T07:35:14+00:00"
+  "detail": "已准备8个原创选题，等待作者选择。",
+  "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
+  "updated_at": "2026-10-28T09:28:04+00:00"
 }

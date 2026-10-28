@@ -1,0 +1,139 @@
+name: XS2 CH002 release and daily finish once
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/xs2-ch002-release-once.yml'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build authored V4.3 report with exact evidence binding
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,'tools')
+          import novel_state as ns
+          s=ns.load_state('book')
+          a=json.loads(Path('book/daily/active.json').read_text(encoding='utf-8'))
+          assert a['run_id']=='4b752a19c9dd403b9f68429d5e79ca09' and a['chapter']==2 and a['status']=='running'
+          assert a['baseline_count']==1 and len(s['chapters'])==1 and s['revision']==4
+          assert s['tasks']['2']['phase']=='candidate' and s['tasks']['2']['repairs']==0
+          t=Path('book',s['tasks']['2']['candidate_path']).read_text(encoding='utf-8')
+          assert ns.han_count(t)==8317 and ns.digest(t)==s['tasks']['2']['candidate_sha256']
+          old=Path('book',s['chapters']['1']['text_path']).read_text(encoding='utf-8')
+          assert ns.digest(old)==s['chapters']['1']['text_sha256']
+          r=json.loads(Path('editorial/CH002_release_template.json').read_text(encoding='utf-8'))
+          au=json.loads(Path('editorial/CH002_release_authored.json').read_text(encoding='utf-8'))
+          def ev(quote,chapter=2):
+              body=t if chapter==2 else old
+              assert quote in body, 'review quote missing in chapter '+str(chapter)+': '+quote
+              sha=s['tasks']['2']['candidate_sha256'] if chapter==2 else s['chapters']['1']['text_sha256']
+              return {'chapter':chapter,'sha256':sha,'quote':quote}
+          for key in ('decision','read_full_text','blocking_issues','reader_reason_to_continue','consequence','ending_runway'):
+              r[key]=au[key]
+          r['checks']={k:{'decision':v['decision'],'conclusion':v['conclusion'],'evidence':[ev(v['quote'])]} for k,v in au['checks'].items()}
+          r['comparison']=[{'chapter':x['chapter'],'sha256':s['chapters'][str(x['chapter'])]['text_sha256'],'quote':x['quote'],'difference':x['difference']} for x in au['comparison']]
+          for x in r['comparison']: ev(x['quote'],x['chapter'])
+          r['future_window']=au['future_window']
+          for item in r['promise_reviews']:
+              x=au['promises'][item['id']]
+              item.update(action=x['action'],deadline_chapter=x['deadline_chapter'],reason=x['reason'],evidence=ev(x['quote']))
+          n=r['narrative_review']; x=au['narrative_review']
+          n['actual_scenes']=[{'event':v['event'],'choice':v['choice'],'change':v['change'],'evidence':[ev(v['quote'])]} for v in x['actual_scenes']]
+          n['plan_comparison']=x['plan_comparison']
+          reader=x['reader']
+          n['reader'].update({k:reader[k] for k in ('mode','limitation','understanding','information_load','promise_delivery')})
+          n['reader']['evidence']=[ev(reader['quote'])]
+          n['reader']['issues']=[{'severity':v['severity'],'status':v['status'],'reason':v['reason'],'evidence':ev(v['quote'])} for v in reader['issues']]
+          n['character_causality']={k:{'status':v['status'],'conclusion':v['conclusion'],'evidence':[ev(v['quote'])]} for k,v in x['character_causality'].items()}
+          assert n['history']['queries']==x['history']['queries']
+          n['history']['comparisons']=[{'similarity':v['similarity'],'difference':v['difference'],'source':ev(v['source_quote'],1),'current_evidence':ev(v['current_quote'])} for v in x['history']['comparisons']]
+          n['history']['no_match_reason']=x['history']['no_match_reason']
+          n['reader_updates']=[{'kind':v['kind'],'statement':v['statement'],'evidence':[ev(v['quote'])]} for v in x['reader_updates']]
+          n['reader_update_note']=x['reader_update_note']
+          assert n['surface_findings']==[], 'production-language findings require separate review'
+          Path('editorial/CH002_release_bound.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('AUTHORED_REVIEW_EVIDENCE_BOUND',len(r['checks']),'checks',len(n['actual_scenes']),'scenes')
+          PY
+      - name: Validate release, adopt one chapter, finish same run and rebuild index
+        run: |
+          set -euo pipefail
+          CANDIDATE="$(python3 - <<'PY'
+          import json
+          print('book/'+json.load(open('book/state.json'))['tasks']['2']['candidate_path'])
+          PY
+          )"
+          python3 tools/novel_state.py --root book release-check --text "$CANDIDATE" --record editorial/CH002_record_bound.json --report editorial/CH002_release_bound.json
+          python3 tools/novel_state.py --root book adopt --text "$CANDIDATE" --record editorial/CH002_record_bound.json
+          python3 tools/daily_update.py --project . finish --run-id 4b752a19c9dd403b9f68429d5e79ca09
+          python3 tools/online_state.py task --phase WAITING_NEXT --chapter 3 --detail '第2章《十二株半死苗》8317汉字已通过V4.3审查并冻结，十二株损一剩十一株；未登记纵横平台发布。' --next '按已冻结CH001—CH002、canon和roadmap继续第3章《骨砂不能救所有人》，先核根况、排水与三昼夜熟化，不提前开写。'
+          python3 tools/online_state.py --project . build-index
+          python3 tools/online_state.py --project . validate-index
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('book/state.json').read_text(encoding='utf-8'))
+          a=json.loads(Path('book/daily/active.json').read_text(encoding='utf-8'))
+          assert a['status']=='completed' and a['run_id']=='4b752a19c9dd403b9f68429d5e79ca09'
+          assert len(s['chapters'])==2 and '2' in s['serialization']['frozen'] and s['serialization']['gates']['2']['used']
+          p=Path('book',a['receipt_path'])
+          assert p.is_file()
+          receipt=json.loads(p.read_text(encoding='utf-8'))
+          assert receipt['run_id']==a['run_id'] and receipt['chapter']==2
+          handoff=(
+            '# XS2 CH002 每日完成接管记录\n\n'
+            '- 唯一事实源：本仓库默认分支；作品ID：'+s['book_id']+'。\n'
+            '- 已冻结：CH001《死苗与封条》、CH002《十二株半死苗》；本次只采用CH002，8317汉字。\n'
+            '- CH002：十二株半成苗三株试盆、九株备用；乙株根颈坏死，剩十一株活苗，均未成药。\n'
+            '- 旧骨砂试验耗近四分之一坛，封存疑料后可用不足半坛；两瓢水限额，实际首轮一瓢半、余半瓢封存。\n'
+            '- 宁禾半小袋米押给村议会，许青簪监管试苗，顾行舟预告三日内现场检田；正式许可未获。\n'
+            '- PR01/PR02第五章、PR03第十章、PR04第七十章、PR06第八章，按正式state承诺账为准。\n'
+            '- 下一章：CH003《骨砂不能救所有人》；核验甲丙根况、排水与旧闸，骨砂熟化至少三昼夜，病棚净水优先。\n'
+            '- 完成回执：book/'+a['receipt_path']+'；run_id：'+a['run_id']+'。\n'
+            '- 平台发布：未登记；不代表确认未发布。模型/思考档位：未验证。\n'
+          )
+          Path('book/接管记录.md').write_text(handoff,encoding='utf-8')
+          print('ADOPTED_SHA',s['chapters']['2']['text_sha256'])
+          print('ADOPTED_AT',s['chapters']['2']['adopted_at'])
+          print('RECEIPT',a['receipt_path'])
+          PY
+      - name: Non-force atomic push with remote run ownership and readback
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/xs2-ch002-release-once.yml
+          git add -A -- book/ online/ editorial/ .github/workflows/xs2-ch002-release-once.yml
+          if git diff --cached --name-only | grep -E '^book/(chapters|records)/CH001_'; then echo 'FROZEN_CH001_CHANGED'; exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          python3 - <<'PY'
+          import json,subprocess
+          raw=subprocess.check_output(['git','show','origin/main:book/daily/active.json'],text=True)
+          a=json.loads(raw)
+          assert a['run_id']=='4b752a19c9dd403b9f68429d5e79ca09' and a['chapter']==2 and a['status']=='running'
+          assert a['baseline_count']==1 and a['baseline_fingerprint']=='a528051cf2ad600bf4b0431e3e736884d81125f06bce1ed759579d8720cbe102'
+          PY
+          git commit -m 'daily: adopt CH002 with evidence, finish receipt and verified index'
+          git push origin HEAD:main
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          python3 tools/online_state.py --project . validate-index
+          python3 - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          s=json.loads(subprocess.check_output(['git','show','origin/main:book/state.json'],text=True))
+          a=json.loads(subprocess.check_output(['git','show','origin/main:book/daily/active.json'],text=True))
+          r=json.loads(subprocess.check_output(['git','show','origin/main:book/'+a['receipt_path']],text=True))
+          assert a['run_id']==r['run_id']=='4b752a19c9dd403b9f68429d5e79ca09'
+          assert r['body_sha256']==s['chapters']['2']['text_sha256']
+          assert s['serialization']['frozen']['2']['text_sha256']==r['body_sha256']
+          print('REMOTE_READBACK_PASS',subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip())
+          PY

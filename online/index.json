@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-28T14:31:59+00:00",
+    "generated_at": "2026-10-28T14:58:44+00:00",
     "state_revision": 3,
-    "workflow_revision": 5,
-    "state_sha256": "37549f4cb6eb3a6736979fd089abb6ac85d7b1aed1dbac13f8fe4703e6224bec",
-    "workflow_sha256": "472b65f29ba21dabd550926d2ecb48384d718c898c56dd6a408292ede34152eb",
+    "workflow_revision": 6,
+    "state_sha256": "bb2e811ad2e45d821797e04ca2bc92d41d173ff13cf0c41b06066f9d6669a021",
+    "workflow_sha256": "223d4792d7698786b3bebba012d8b037fba67e004ebea67a161249ae4be25c6f",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "PLANNING",
-    "label": "长篇规划",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 1,
-    "detail": "T03已由作者正式选定；100章十阶段长纲、人物与世界硬规则、首十章路线均已登记。未生成任何小说正文。",
-    "next_action": "等待作者另行明确授权开始第1章；届时先生成写作任务书并执行V4.3审查。",
-    "updated_at": "2026-10-28T14:31:59+00:00"
+    "detail": "第一章完整初稿已登记候选，等待证据审读和发布前检查；尚未定稿。",
+    "next_action": "核对本章全文，填写事实记录与release审查，通过后再采用。",
+    "updated_at": "2026-10-28T14:58:44+00:00"
   },
   "chapters": [],
   "topics": [
@@ -533,6 +533,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "T03已由作者正式选定；100章十阶段长纲、人物与世界硬规则、首十章路线均已登记。未生成任何小说正文。"
+    },
+    {
+      "at": "2026-10-28T14:58:44+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第一章完整初稿已登记候选，等待证据审读和发布前检查；尚未定稿。"
     }
   ]
 }

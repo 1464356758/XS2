@@ -52,7 +52,24 @@
       "reason": "作者选择T03：登记100章十阶段大纲与第一阶段详细路线"
     }
   ],
-  "tasks": {},
+  "tasks": {
+    "1": {
+      "task_id": "712de9d6-70c9-4887-b63f-7c5326b8af4a",
+      "chapter": 1,
+      "mode": "write",
+      "phase": "candidate",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+          "reason": "第一章完整初稿：夜间求药、祖田微生机、押粮与旧水渠",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+      "candidate_path": "candidates/CH001_fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234.txt"
+    }
+  },
   "completion": null,
   "serialization": {
     "schema_version": 1,
@@ -62,5 +79,11 @@
     "gates": {},
     "promises": {},
     "incidents": {}
+  },
+  "writing_briefs": {
+    "1": {
+      "path": "briefs/CH001_f4d05d95c74d287e5782ec47451ed82474216f189e3f7a9d90e48651aacd304c.json",
+      "sha256": "f4d05d95c74d287e5782ec47451ed82474216f189e3f7a9d90e48651aacd304c"
+    }
   }
 }

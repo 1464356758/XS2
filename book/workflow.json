@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 8,
+  "revision": 9,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "zongheng",
   "selected_topic": {
     "id": "T03",
@@ -24,7 +24,7 @@
   },
   "research_path": "research/platform_2e8b09951daab3cbaeb2d5df815f937d8ebf9dc4e524cbd42fc4e779b59066b7.json",
   "topics_path": "research/topics_b8a2112cf4dd225cd16409879e0462588c974bb42def1f3309ce7e853a06aaee.json",
-  "chapter": 2,
+  "chapter": 3,
   "history": [
     {
       "at": "2026-10-28T07:35:14+00:00",
@@ -79,9 +79,15 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "第二章已登记完整候选，三盆试验与损苗已成文，等待章后事实与V4.3审读；尚未采用。"
+    },
+    {
+      "at": "2026-10-28T18:13:44+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章《十二株半死苗》8317汉字已通过V4.3审查并冻结，十二株损一剩十一株；未登记纵横平台发布。"
     }
   ],
-  "detail": "第二章已登记完整候选，三盆试验与损苗已成文，等待章后事实与V4.3审读；尚未采用。",
-  "next_action": "核对正文与前章、编制真实记录和release检查，通过后采用并完成本次daily run。",
-  "updated_at": "2026-10-28T18:09:18+00:00"
+  "detail": "第2章《十二株半死苗》8317汉字已通过V4.3审查并冻结，十二株损一剩十一株；未登记纵横平台发布。",
+  "next_action": "按已冻结CH001—CH002、canon和roadmap继续第3章《骨砂不能救所有人》，先核根况、排水与三昼夜熟化，不提前开写。",
+  "updated_at": "2026-10-28T18:13:44+00:00"
 }

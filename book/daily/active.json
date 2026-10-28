@@ -7,8 +7,10 @@
   "start_date": "2026-10-29",
   "started_at": "2026-10-28T18:03:27+00:00",
   "chapter": 2,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 1,
   "baseline_fingerprint": "a528051cf2ad600bf4b0431e3e736884d81125f06bce1ed759579d8720cbe102",
-  "attempts": []
+  "attempts": [],
+  "completed_at": "2026-10-28T18:13:44+00:00",
+  "receipt_path": "daily/2026-10-29.json"
 }

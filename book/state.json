@@ -79,6 +79,22 @@
       ],
       "candidate_sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
       "candidate_path": "candidates/CH001_fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234.txt"
+    },
+    "2": {
+      "task_id": "887e7281-c48b-4e9a-9d6f-aaafc0ccec81",
+      "chapter": 2,
+      "mode": "write",
+      "phase": "candidate",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
+          "reason": "次章完整初稿：三盆试苗、村议限水、烧根损苗、三日检田",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
+      "candidate_path": "candidates/CH002_0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996.txt"
     }
   },
   "completion": null,

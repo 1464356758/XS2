@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-28T15:03:18+00:00",
+    "generated_at": "2026-10-28T18:09:18+00:00",
     "state_revision": 4,
-    "workflow_revision": 7,
-    "state_sha256": "fcca17530c6f4b9763f4a8c2241d4cad86c36ef8846f69141e1a3af10678463e",
-    "workflow_sha256": "d089009087f2d97e6ffaef56e44d344cf269ab49bcda2ead7fa46c93a394d1cc",
+    "workflow_revision": 8,
+    "state_sha256": "a1ce303a5fffcd9b89ad530696f35f293d6eefc5a2d09eaa48a9f04b0c2bcfe9",
+    "workflow_sha256": "a1dbf0260b736dcc157305c4a55fec7c30307bc9436306dea98189b05763b42f",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 2,
-    "detail": "第1章《死苗与封条》8941汉字已完成V4.3检查并正式采用冻结，未登记纵横平台发布。",
-    "next_action": "收到作者下一章写作指令后，按已登记的canon、roadmap与前章冻结全文写第2章《十二株半死苗》。",
-    "updated_at": "2026-10-28T15:03:18+00:00"
+    "detail": "第二章已登记完整候选，三盆试验与损苗已成文，等待章后事实与V4.3审读；尚未采用。",
+    "next_action": "核对正文与前章、编制真实记录和release检查，通过后采用并完成本次daily run。",
+    "updated_at": "2026-10-28T18:09:18+00:00"
   },
   "chapters": [
     {
@@ -558,6 +558,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第1章《死苗与封条》8941汉字已完成V4.3检查并正式采用冻结，未登记纵横平台发布。"
+    },
+    {
+      "at": "2026-10-28T18:09:18+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第二章已登记完整候选，三盆试验与损苗已成文，等待章后事实与V4.3审读；尚未采用。"
     }
   ]
 }

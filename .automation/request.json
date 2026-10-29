@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs2_20261030_cmd02_zgyz4r4vz5dg9bkfr0",
-  "base_sha": "511b1e045ffa5a6a7170ef3be7bc59977486d254",
+  "request_id": "xs2_20261030_cmd03_zgyz4r4vz5dg9bkfr0",
+  "base_sha": "5e3cf3b4c8ce058a961f1eb6df002186d170503d",
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH003_brief.json"
+        "candidate",
+        "--chapter",
+        "3",
+        "--text",
+        "drafts/CH003.txt"
       ]
     },
     {
@@ -29,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH003.txt",
         "--out",
-        "drafts/CH003_writer.md"
+        "drafts/CH003_reader.md"
       ]
     }
   ]

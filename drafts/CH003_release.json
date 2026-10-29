@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
+  "chapter": 3,
+  "base_revision": 5,
+  "task_id": "504fe0f5-9e6d-4600-8ae6-a898c799a2af",
+  "repairs": 0,
+  "text_sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+  "record_sha256": "baec65ca9fe50d1c27ff30169989831b8a69e8152a2a021cbe662a2f39b11077",
+  "canon_sha256": "69b28ca03780bfb06139f98f6d3a6f32633468983494ec0be616c3e988fa2c75",
+  "roadmap_sha256": "afca16cc0a92ab369f6e628771738cff890f2e110c2efc855fc1ae3adcc01ecf",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "77ddb3a3fabda50f2f9b06e3b38065c383f7e4917d45ff047a3579b31562d1c2",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "1": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+    "2": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
+    "3": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 2,
+      "sha256": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 4,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 5,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 6,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "PR01",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "quote": ""
+      }
+    },
+    {
+      "id": "PR02",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "quote": ""
+      }
+    },
+    {
+      "id": "PR03",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "quote": ""
+      }
+    },
+    {
+      "id": "PR04",
+      "action": "keep",
+      "deadline_chapter": 70,
+      "reason": "",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "quote": ""
+      }
+    },
+    {
+      "id": "PR06",
+      "action": "keep",
+      "deadline_chapter": 8,
+      "reason": "",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "fdf642b71dfa2d2caa230b7444f059543e4cf29754c0021db9d6392e3de2c234",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "38aca3c312dd4fefd3da78d79c28eda7a25b6d2520dcc7f5d2d46667560014a5",
+      "queries": [
+        "骨砂 排水 烧根 熟化",
+        "分水 清水 村议 病患",
+        "鲁大山 小葵 水尺 旧渠"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}

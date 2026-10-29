@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 9,
+  "revision": 10,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "phase": "WAITING_NEXT",
   "platform": "zongheng",
@@ -24,7 +24,7 @@
   },
   "research_path": "research/platform_2e8b09951daab3cbaeb2d5df815f937d8ebf9dc4e524cbd42fc4e779b59066b7.json",
   "topics_path": "research/topics_b8a2112cf4dd225cd16409879e0462588c974bb42def1f3309ce7e853a06aaee.json",
-  "chapter": 3,
+  "chapter": 4,
   "history": [
     {
       "at": "2026-10-28T07:35:14+00:00",
@@ -85,9 +85,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第2章《十二株半死苗》8317汉字已通过V4.3审查并冻结，十二株损一剩十一株；未登记纵横平台发布。"
+    },
+    {
+      "at": "2026-10-29T18:08:00+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "第2章《十二株半死苗》8317汉字已通过V4.3审查并冻结，十二株损一剩十一株；未登记纵横平台发布。",
-  "next_action": "按已冻结CH001—CH002、canon和roadmap继续第3章《骨砂不能救所有人》，先核根况、排水与三昼夜熟化，不提前开写。",
-  "updated_at": "2026-10-28T18:13:44+00:00"
+  "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-10-29T18:08:00+00:00"
 }

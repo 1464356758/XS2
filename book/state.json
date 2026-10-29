@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "title": "《凡人修仙：我把废灵田种成仙城》",
-  "revision": 5,
+  "revision": 6,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -41,6 +41,16 @@
       "record_sha256": "0b5737849fda1b8206384560fa28cfc246cb8b28937040d96842893bf6ca2056",
       "han_count": 8317,
       "adopted_at": "2026-10-28T18:13:44+00:00"
+    },
+    "3": {
+      "title": "骨砂不能救所有人",
+      "stage": "S01",
+      "text_path": "chapters/CH003_0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5.txt",
+      "text_sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+      "record_path": "records/CH003_baec65ca9fe50d1c27ff30169989831b8a69e8152a2a021cbe662a2f39b11077.json",
+      "record_sha256": "baec65ca9fe50d1c27ff30169989831b8a69e8152a2a021cbe662a2f39b11077",
+      "han_count": 8261,
+      "adopted_at": "2026-10-29T18:08:00+00:00"
     }
   },
   "checkpoints": [],
@@ -110,7 +120,7 @@
       "task_id": "504fe0f5-9e6d-4600-8ae6-a898c799a2af",
       "chapter": 3,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -135,6 +145,10 @@
       "2": {
         "text_sha256": "0260b04e135cc7b0bfe738154678b7dc3c4222d54314fca5ce3d1e5fac0cc996",
         "record_sha256": "0b5737849fda1b8206384560fa28cfc246cb8b28937040d96842893bf6ca2056"
+      },
+      "3": {
+        "text_sha256": "0c93b49e53f9833c0e1420d346ac6d13ef510296bfe4716a82d99227ad1bf2c5",
+        "record_sha256": "baec65ca9fe50d1c27ff30169989831b8a69e8152a2a021cbe662a2f39b11077"
       }
     },
     "published": {},
@@ -147,6 +161,11 @@
       "2": {
         "path": "releases/CH002_9dab99ea513e91db958ed6aa3f4a633805524dd9a67c79862adbcdb343397722.json",
         "sha256": "9dab99ea513e91db958ed6aa3f4a633805524dd9a67c79862adbcdb343397722",
+        "used": true
+      },
+      "3": {
+        "path": "releases/CH003_371c2e79f55b70bb178a2a9aa69eef2c829f58cbca7f1ba171880bedaadb18e6.json",
+        "sha256": "371c2e79f55b70bb178a2a9aa69eef2c829f58cbca7f1ba171880bedaadb18e6",
         "used": true
       }
     },
@@ -168,7 +187,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "PR02": {
         "history": [
@@ -187,7 +206,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "PR03": {
         "history": [
@@ -206,7 +225,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "PR04": {
         "history": [
@@ -225,7 +244,7 @@
         ],
         "deadline_chapter": 70,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "PR06": {
         "history": [
@@ -244,7 +263,7 @@
         ],
         "deadline_chapter": 8,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       }
     },
     "incidents": {}

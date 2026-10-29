@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs2_20261030_pf_zgyz4r4vz5dg9bkfr0",
-  "base_sha": "5bfe95cfd6e355694906ab5c7eaa4238be2c79bb",
+  "request_id": "xs2_20261030_begin_zgyz4r4vz5dg9bkfr0",
+  "base_sha": "0cad09348f5157e9a9bbe18ddd5c51c167871ac2",
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,5 @@
     "session_id": "xs2_20261030_zgyz4r4vz5dg9bkfr0",
     "platform_run_id": "a33d5df4-0b80-8325-9a8b-a3d4cf0c4223"
   },
-  "phase": "preflight"
+  "phase": "begin"
 }

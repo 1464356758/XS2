@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "preflight_redesign_20261029_xs2_01",
+  "request_sha256": "b88351198faf5358b76de42e734f2860613d654a62af7ac03dd2c9894e9a83ce",
+  "source_sha": "1886584829519b64373ecae66dc068913ab130ab",
+  "base_sha": "a8dd2e2042ed762903fdea1ca72efbf6869837bd",
+  "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "maintenance_redesign_20261029"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-10-29T02:20:51+00:00",
+  "executor_status": "ok",
+  "github_run_id": "40805786238",
+  "business_status": "preflight_passed",
+  "active_status": "completed",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs2_20261030_cmd01_zgyz4r4vz5dg9bkfr0",
-  "base_sha": "2953e13230db2cbca4cdd0281cc56241a1244cc4",
+  "request_id": "xs2_20261030_cmd02_zgyz4r4vz5dg9bkfr0",
+  "base_sha": "511b1e045ffa5a6a7170ef3be7bc59977486d254",
   "book_id": "af52fe99-2c10-47f4-a08d-7d383173a212",
   "controller": {
     "kind": "automation",
@@ -17,33 +17,9 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH003_brief.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "骨砂 排水 烧根 熟化",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "分水 清水 村议 病患",
-        "--limit",
-        "5"
       ]
     },
     {
@@ -53,11 +29,9 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "宁禾 许青簪 鲁大山 杜连禾 旧渠 骨砂",
+        "writer",
         "--out",
-        "drafts/CH003_author.md"
+        "drafts/CH003_writer.md"
       ]
     }
   ]

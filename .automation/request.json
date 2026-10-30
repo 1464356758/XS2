@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvm9dox_vxbz5",
-  "base_sha": "d5473be3984833215a4dc708f3c36d04ac7ca9a9",
+  "request_id": "ch002_finalize_mvvmb6oe_wh54j",
+  "base_sha": "0d356d007d0b1426b28683a5edb43a175696b22c",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -10,62 +10,9 @@
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "command",
+  "phase": "finalize",
   "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "repair",
-        "--chapter",
-        "2",
-        "--text",
-        "drafts/CH002_V3.txt",
-        "--reason",
-        "R2：回读CH001确认北窗找正经材料的话由诺拉说，改为昨日共同待办，去掉错指伊恩曾说；旧章不动，原任务累计2轮。"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
-        "--text",
-        "drafts/CH002_V3.txt",
-        "--out",
-        "drafts/CH002_reader_V3.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/CH002_V3.txt",
-        "--record",
-        "drafts/CH002_record_V3.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
-        "--text",
-        "drafts/CH002_V3.txt",
-        "--record",
-        "drafts/CH002_record_V3.json",
-        "--out",
-        "drafts/CH002_release_pending_V3.json"
-      ]
-    }
-  ]
+  "text": "drafts/CH002_V3.txt",
+  "record": "drafts/CH002_record_V3.json",
+  "report": "drafts/CH002_release_V3.json"
 }

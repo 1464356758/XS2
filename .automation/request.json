@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvlxbsb_l05kc",
-  "base_sha": "6dd0e47679a13fe270319ae309949daedc7d4e87",
+  "request_id": "ch002_command_mvvlznha_i7dzq",
+  "base_sha": "a887b8001e33cbae0e42e4f28a00a498f79fdd5f",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -18,11 +18,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "2",
         "--text",
-        "drafts/CH002_V1.txt"
+        "drafts/CH002_V2.txt",
+        "--reason",
+        "R1：补实临时借宿下午腾台与母亲过渡去向，修正旧件和人物移动连续性、姓名来源与未呈现说话次数，明确陪护换入前先换出；具体引文见CH002_R1_issues。"
       ]
     },
     {
@@ -34,25 +36,9 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH002_V1.txt",
+        "drafts/CH002_V2.txt",
         "--out",
-        "drafts/CH002_reader_V1.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--detail",
-        "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。",
-        "--next",
-        "保留同一候选任务，按已证问题局部修订，完成真实记录和release审核。",
-        "--chapter",
-        "2"
+        "drafts/CH002_reader_V2.md"
       ]
     }
   ]

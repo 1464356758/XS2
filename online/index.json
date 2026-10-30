@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T16:41:16+00:00",
+    "generated_at": "2026-10-30T17:03:49+00:00",
     "state_revision": 3,
-    "workflow_revision": 7,
-    "state_sha256": "7513cb7ad903393816755e3ade23b316184dcc209a020826eec5062222d641ad",
-    "workflow_sha256": "0c2c2e7d623c867cf4c019a64bb972039b8e36b3e5bf2d8cdab1e8e0e9aa8dbd",
+    "workflow_revision": 9,
+    "state_sha256": "ec15560bfd38beac4b9f023c7441792cd0ddb8ff54c17bf5408cb5bbaacbdfb8",
+    "workflow_sha256": "802e69b3be863b7db04ad0b7e4eb77f5f119d8dcd0c4810b4e34f1f35f2b0610",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 1,
-    "detail": "作者已授权开始写；执行CH001《锅炉是冷的，龙也是》，写前任务书已登记，准备完整正文。",
-    "next_action": "只完成CH001正文、实际审核、必要局部修订、冻结采用和远端回读。",
-    "updated_at": "2026-10-30T16:41:16+00:00"
+    "detail": "CH001已完成第1轮局部修订，同一候选任务继续审核；仅修引述、物件连续性和人物辨识。",
+    "next_action": "完成绑定当前正文的事实记录与发布前报告，实审通过后冻结采用、finish与远端回读。",
+    "updated_at": "2026-10-30T16:59:46+00:00"
   },
   "chapters": [],
   "topics": [
@@ -1007,6 +1007,18 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者已授权开始写；执行CH001《锅炉是冷的，龙也是》，写前任务书已登记，准备完整正文。"
+    },
+    {
+      "at": "2026-10-30T16:55:24+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH001完整初稿8909汉字已登记，正在实读正文反向提纲、限信息审读与事实因果审核。"
+    },
+    {
+      "at": "2026-10-30T16:59:46+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH001已完成第1轮局部修订，同一候选任务继续审核；仅修引述、物件连续性和人物辨识。"
     }
   ]
 }

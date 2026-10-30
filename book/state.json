@@ -52,7 +52,29 @@
       "reason": "登记100章十阶段因果路线、承诺结局与前5章场景预算；尚未开始写"
     }
   ],
-  "tasks": {},
+  "tasks": {
+    "1": {
+      "task_id": "cf1b7cd1-c5d0-4f1c-b633-3cef1d37415a",
+      "chapter": 1,
+      "mode": "write",
+      "phase": "candidate",
+      "repairs": 1,
+      "history": [
+        {
+          "sha256": "22fb3a8369efaf2d4b0236f7ea7d2a7f22610ade7602699a988c063e9d02064b",
+          "reason": "初稿",
+          "repairs": 0
+        },
+        {
+          "sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
+          "reason": "R1：修正三回引述与石托出场连续性，补清暖屋内照护者与门外求暖者辨识；同一目标局部修订。",
+          "repairs": 1
+        }
+      ],
+      "candidate_sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
+      "candidate_path": "candidates/CH001_530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb.txt"
+    }
+  },
   "completion": null,
   "serialization": {
     "schema_version": 1,

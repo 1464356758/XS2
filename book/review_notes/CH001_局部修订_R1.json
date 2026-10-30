@@ -1,0 +1,35 @@
+{
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 1,
+  "mode": "same_context_approximation",
+  "round": 1,
+  "old_text_sha256": "22fb3a8369efaf2d4b0236f7ea7d2a7f22610ade7602699a988c063e9d02064b",
+  "new_text_sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
+  "issues": [
+    {
+      "id": "I-01",
+      "severity": "must_fix",
+      "finding": "初稿只交代拖出一只试验石托，此处突然写手里两只不连贯；保留已出场物件，不新增搬运。",
+      "old_quote": "旁边的匠人将手里两只石托放稳，隔着胡子哼了一声。",
+      "new_quote": "旁边的匠人把试过的石托重新放稳，隔着胡子哼了一声。",
+      "status": "resolved_by_local_repair"
+    },
+    {
+      "id": "I-02",
+      "severity": "must_fix",
+      "finding": "正文只有一次“外头那条龙”，龙的具体三回计数无对应文字；删去精确次数。",
+      "old_quote": "“我的名字。你刚才叫了三回‘外头那条龙’。”",
+      "new_quote": "“我的名字。你刚才叫我‘外头那条龙’。”",
+      "status": "resolved_by_local_repair"
+    },
+    {
+      "id": "I-03",
+      "severity": "verify",
+      "finding": "明确午后争板者及其母亲已在屋内，避免结尾另一位带椅求暖的男人被误认为同一个人。",
+      "old_quote": "屋里不是春天。人仍裹着衣裳，窗边偶尔还有一点冷气，可说话时已经不必把下巴死死缩进领子。",
+      "new_quote": "午后争床板的男人也在。他的母亲缩着两只脚，先前借来的那层布留在她背后。男人坐在台前，手里的饼掰了几次，也没吃完。\n\n屋里不是春天。人仍裹着衣裳，窗边偶尔还有一点冷气，可说话时已经不必把下巴死死缩进领子。",
+      "status": "resolved_by_local_repair"
+    }
+  ],
+  "scope": "局部物件连续性、精确引述与人物辨识；未改canon/roadmap，不重开候选任务。"
+}

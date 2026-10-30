@@ -95,16 +95,21 @@
       "chapter": 2,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "7f06bcf0da90ddcdf48e1a57b750c0148e8b97b279d628c889969a9adbd0d7a3",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd",
+          "reason": "R1：补实临时借宿下午腾台与母亲过渡去向，修正旧件和人物移动连续性、姓名来源与未呈现说话次数，明确陪护换入前先换出；具体引文见CH002_R1_issues。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "7f06bcf0da90ddcdf48e1a57b750c0148e8b97b279d628c889969a9adbd0d7a3",
-      "candidate_path": "candidates/CH002_7f06bcf0da90ddcdf48e1a57b750c0148e8b97b279d628c889969a9adbd0d7a3.txt"
+      "candidate_sha256": "e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd",
+      "candidate_path": "candidates/CH002_e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd.txt"
     }
   },
   "completion": null,

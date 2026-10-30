@@ -1,0 +1,88 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "ch002_command_mvvlznha_i7dzq",
+  "request_sha256": "42fa5d5a001f6266f2d703c67d97e9f163d8b4f987333cb820350c0cc119cc37",
+  "source_sha": "22b6d9fdb9f8d0b59f75000efbeaee81058bb897",
+  "base_sha": "a887b8001e33cbae0e42e4f28a00a498f79fdd5f",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-30T23:34:20+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41145252749",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002_V2.txt",
+        "--reason",
+        "R1：补实临时借宿下午腾台与母亲过渡去向，修正旧件和人物移动连续性、姓名来源与未呈现说话次数，明确陪护换入前先换出；具体引文见CH002_R1_issues。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/ch002_command_mvvlznha_i7dzq/tool-01.stdout.txt",
+          "sha256": "9b2dd7eaa72ae94e43bfe4b8bfc81bd640e6fd81e45e41158f22534a4524bc83",
+          "bytes": 830
+        },
+        "stderr": {
+          "path": ".automation/work/ch002_command_mvvlznha_i7dzq/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002_V2.txt",
+        "--out",
+        "drafts/CH002_reader_V2.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/ch002_command_mvvlznha_i7dzq/tool-02.stdout.txt",
+          "sha256": "9bddbf9d84446d1e3431e5835e3191bdc1f92318d414744f0506c4ea1b3025b1",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/ch002_command_mvvlznha_i7dzq/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
+  "changed_paths": [
+    ".automation/work/ch002_command_mvvlznha_i7dzq/tool-01.stderr.txt",
+    ".automation/work/ch002_command_mvvlznha_i7dzq/tool-01.stdout.txt",
+    ".automation/work/ch002_command_mvvlznha_i7dzq/tool-02.stderr.txt",
+    ".automation/work/ch002_command_mvvlznha_i7dzq/tool-02.stdout.txt",
+    "book/candidates/CH002_e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH002_reader_V2.md",
+    "online/index.json"
+  ]
+}

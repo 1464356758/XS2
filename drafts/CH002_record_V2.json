@@ -1,0 +1,359 @@
+{
+  "chapter": 2,
+  "title": "第一把椅子给谁",
+  "stage": "S01",
+  "base_revision": 4,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd",
+  "complete": true,
+  "story_time_end": 2100,
+  "temporal_precision": "从D0九点问话之后接起，明确跨到D1次晨、午后、傍晚与七下钟声；章末状态按D1十九点时段2100登记，不给未报时小场景编造精确分钟。事实多为本章结尾可知的状态与已发生事件回顾，较早先后以正文为准。",
+  "summary": "D0夜伊恩和诺拉到白铁门找到马汀母亲，向邻居借一晚坐台并由马汀守火；下午依约退回，晚间才实际进饭厅。次晨知原暖屋后半夜需烧1捆备用柴、另1捆留存。逐户核实后伊恩收回随行车夫鲁克优先排位，改由本人守前半夜原小灶使其真能休息。实盘粮5928份、D1领出312后余5616份；柴库84捆、再领11后73捆，暖屋另有未烧备用2捆；银342已含抵达18。乌铎具名，拒绝坏件赶第二暖屋，借旧毡临时护西屋料箱。原争板母子经本人同意与照护核实让出本夜2位，马汀母子七点入屋，仍总60。赫穆D1有限供原屋并明确D2休息，下一章须实际兑现与回访。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "他接过诺拉手里的灯，将光放低，照着男人卷在被里的那双布鞋。\n\n“你家在哪儿？”"
+      }
+    ],
+    "conclusion": "实读CH001冻结全文与CH002完整候选，以正文反提场景并核对两组母子、私人材料、库存、照护和龙的能力。R1修正借宿截止、旧件位置、老人去向、姓名来源与未经呈现的说话次数，明确陪护先出后进。只有一轮局修，同上下文近似审读，不冒充独立读者；八项带引文结论另在release报告。"
+  },
+  "facts": [
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:visitor001_name",
+      "value": "伊恩已由门外求位者自报得知其名为马汀；他与上章午后争板男人不是同一人。",
+      "holder": "CHAR-01",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“我叫马汀。”男人说，“您别记成白铁门那家。”"
+    },
+    {
+      "kind": "fact",
+      "key": "night:D0:martin_mother",
+      "value": "D0夜马汀母亲获隔壁一晚临时安置，由马汀守后半夜火；没有成为饭厅第61人。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "老人没有进入暖屋，也没有被留在那间冷屋里独自坐到天亮。"
+    },
+    {
+      "kind": "state",
+      "key": "char:VISITOR-001:request",
+      "value": "马汀与母亲最终各占一位进入D1晚饭厅，本章兑现上章的求位，不是凭一把椅子增加容量。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“我跟你一道接。”诺拉说，“你母亲一位，你一位。”"
+    },
+    {
+      "kind": "fact",
+      "key": "night:D0:heat_outcome",
+      "value": "守夜人说明后半夜门侧变冷，由匠人看过后用原小灶烧掉一捆备用柴；伊恩次晨目见仅剩另一捆。不能声称全靠龙热撑一夜。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“后半夜靠门的人冷。匠人来看过，叫在原来的小灶里接火，烧了这一捆。天快亮时，里面的人才又睡着。”"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:D0_reserve",
+      "value": "两捆D0暖屋备用中一捆已烧，一捆留到D1，未把两捆全算烧完。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "饭厅门边的备用柴少了一捆。\n\n剩下那捆仍绑着，绳结朝外。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:needs_and_carers",
+      "value": "伊恩通过实际逐户走访知道照护者和儿童也占安全暖位，诺拉并非掌握所有家庭未询问的信息。",
+      "holder": "CHAR-01",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "她不只问冷不冷，还问屋里谁能起来添柴，谁能去领饭。"
+    },
+    {
+      "kind": "fact",
+      "key": "allocation:D1:rule",
+      "value": "本次不按到门早晚、领主随行身份或搬粮功劳直接排最前；依亲见需要并保留鲁克待排。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "诺拉把他的名字写进了待排的纸上，没划掉，也没移到最前。"
+    },
+    {
+      "kind": "state",
+      "key": "char:ROOK:work",
+      "value": "随行车夫鲁克脚疼、缺觉，当日不再赶车搬物或守火，由塞恩另排照看牲口；没有写伤病痊愈。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“他今天别搬东西，也别排守火。今晚前半段我去，后半段你找一个白天歇过的人。你那条腿别再站整夜。”"
+    },
+    {
+      "kind": "fact",
+      "key": "choice:CHAR-01:withdraw_preference",
+      "value": "伊恩收回给鲁克优先留位的指令，承认诺拉依据需要安排；并非用公平要求把鲁克扔下。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“你的名字照样记。今晚该先进去的人，让诺拉按看过的情形排。我不能一句话把别人划掉。”"
+    },
+    {
+      "kind": "state",
+      "key": "char:ROOK:rest",
+      "value": "鲁克白天实际睡过，晚上仍脚疼未进饭厅；在原护卫屋休息，由伊恩开始守前半夜小灶，尚未宣称整夜轮值完成。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "鲁克已经躺下了，脱下来的靴子放在墙边。他白天睡过一觉，吃饭时也有人去叫，但脚还疼，今夜仍没排进饭厅。"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-FOOD:D0_issue",
+      "value": "诺拉核对D0领出合312份本城日用混合食物，厨房和各户合并计；饭厅住户不是额外60个配给人口。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "前一日领出去的食物由诺拉逐项对过，共折三百一十二份日用口粮；厨房和各户分到的都算在里面，不能因为汤送去饭厅，便给那些人再领一次。"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-FOOD:D1_before_issue",
+      "value": "D1实盘未领出粮按旧量器折5928份，静态只够312人19日，不含访客或未来损耗保证。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "未领出的粮袋合在一起，点到最后，余数是五千九百二十八份。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "D1领出当日312份后库内5616份；领出不代表每口已吃完，住户或厨房余粮不二次加回库。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "今日要领出的份量又单独分开。等袋口重新扎紧，库内留着的只剩五千六百一十六份。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:food_inventory",
+      "value": "伊恩亲自记数与复算后才知道粮库5928份、今日领出后5616份；不是从作者开篇表直接得知。",
+      "holder": "CHAR-01",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "等他们进去，两个帮忙的住户已经将靠墙的袋子挪开，露出下面的垫木。诺拉先摸袋底，再看封口，遇到开过的，便叫人拿旧量器来。伊恩接过纸，照她报的数记。"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-WOOD:D1_before_issue",
+      "value": "D1库内实盘可领干柴84捆，暖屋另有D0备用1；在户已领木段未逐户计余，潮木另放不算干柴。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "库内能领的干柴八十四捆，与昨夜领走的十二捆分开。饭厅门边还留一捆没动。至于住户灶里有没有没烧尽的小段，得去各处问，眼下不能拿来许给另一家。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D1再领11捆后库内73捆；11捆为住户8、厨房2、暖屋补1。此为库内余数，不代表全城所有灶中余柴已实耗清零。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "住户小灶八捆，厨房两捆，暖屋只补一捆，与原先那捆凑成两捆备用。这一回从库里领出十一捆，剩下七十三。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D1晚暖屋备用两捆均仍绑着，其中一捆从D0保留、一捆D1新补；与库内73捆分开。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "门边两捆备用柴都还绑着，旧账纸上已经分清了其中哪一捆昨夜便在。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "公库亲点342银，已含抵达队18银；本章未支付工钱、未购新粮，未将旧纸上的主张记成已付。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "银币平码在布上，诺拉报数，伊恩复点。三百四十二枚，里面已经有他们从南边带来的十八枚，不能再加。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:craftsman_name",
+      "value": "原匿名灰石族匠人自报乌铎；伊恩现知道其名，不当成新到的另一位匠人。",
+      "holder": "CHAR-01",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“昨天忘了说。我叫乌铎。”"
+    },
+    {
+      "kind": "state",
+      "key": "site:旧洗衣房:use",
+      "value": "洗衣房有空地但窗缺、旧件裂，乌铎拒绝本夜安排住人；第二暖屋尚未启用。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“我不放人进去睡。”"
+    },
+    {
+      "kind": "state",
+      "key": "prop:旧裂铁件:location",
+      "value": "坏旧件单独放在洗衣房破盆中，学徒已被叫来看，未重新投入设备或拿去换出新暖位。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "乌铎将那块旧件放到破盆里，没有交给等在外面的搬料人。他叫一个学徒来看，又指着裂口，让对方把东西单独搁好。"
+    },
+    {
+      "kind": "state",
+      "key": "site:西屋:window",
+      "value": "伊恩与乌铎实查漏窗、移动私料箱，用乌铎同意借出的旧毡临时遮住；未称永久修复，不取回南窗四床板或恢复完整床。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "两人将旧毡遮上，乌铎又仔细看过窗板，没有说已经修好了。风声低下去后，伊恩松开手，掌心凉得发疼。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:乌铎旧毡:loan",
+      "value": "乌铎借旧毡护西屋私料，待换窗板后需还；不是领主无偿取得永久材料。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“借在这儿。”他说，“料还放这间屋，算护我的东西。等换好窗板，这片还我。”"
+    },
+    {
+      "kind": "fact",
+      "key": "allocation:D1:north_window_household",
+      "value": "上章争板母子在被询问本人意愿、核实家中妻子与小灶轮看后，只让出本夜两位，明日仍须复访。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“今晚划。明天还来问。”"
+    },
+    {
+      "kind": "fact",
+      "key": "allocation:D1:temporary_host_respected",
+      "value": "临时宿主到下午需腾台得到实际执行，马汀母亲先被背回原屋，由马汀取热水陪候，没有占隔壁到晚。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "隔壁已经按约腾出台子，马汀将母亲背回了原屋，正把旧被往她脚下拢。"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-02:D2_rest_claim",
+      "value": "赫穆明确明天不吐，伊恩承认D2休息；本章仍是D1，不能据此提前登记D2实际零吐息兑现。",
+      "holder": "CHAR-02",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "“明天不吐。”"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:D1:limited_supply",
+      "value": "赫穆在乌铎看护下给原饭厅补当日有限可用热，实际出现温意后停止；没有测出精确深息比例，也未填第二石或新屋。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "过了一阵，乌铎过来查看，屋内才渐渐有了与昨晚相似的温意。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:蓄热石:current_use",
+      "value": "另一完整石仍留在原处，未因盘点或人数压力而投入第二份供暖。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "另一枚完整的石头还留在原处。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "D1七点左右马汀母子入屋，原母子自愿住家；暖位仍合60含照护，换照护先出后进。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "昨日的六十，和今日的六十，已有两张不一样的脸。"
+    },
+    {
+      "kind": "fact",
+      "key": "care:D1:guard_shift_start",
+      "value": "伊恩实际坐到护卫屋原小灶旁，鲁克可以躺下；后半夜仅安排，未提前登记已完成。",
+      "holder": "",
+      "valid_from": 2100,
+      "valid_until": null,
+      "quote": "他没再多说，搬来一张矮凳，在原来的小灶旁坐下。鲁克看了他一会儿，终于把脸转向墙里。"
+    }
+  ],
+  "progression": {
+    "goal": "在既有六十暖位内给无处过夜的具体住户可执行安置，兑现首夜与盘点承诺。",
+    "obstacle": "病弱、儿童与陪护都占位；随行者也有合理需要，第二暖屋缺可靠材料与工期。",
+    "method": "逐户亲见与复访、按需要排位、让自家人同样等待，并实际组织原小灶替班；实盘防重复计粮柴。",
+    "choice": "收回给鲁克留位的偏袒；不强迫住户腾位、不占邻居过期借宿、不凭身份启用坏件。",
+    "result": "原母子自愿只让本夜两位，马汀母子真进入饭厅；鲁克真能躺下，六十容量未扩大。",
+    "consequence": "伊恩承担前半夜守灶，抱孩子家庭仍不满；73捆库柴与两捆屋内备用分开、5616粮份与342银成为后续约束，第二屋仍不可住。",
+    "next_options": "D2实际兑现赫穆不吐与回访，安排守火人员休息，依73捆库柴和已有分配处理燃料、工资与取材；不能算龙火额度结转。",
+    "scene_function": "以门外一把椅子具体化公平，从领主让出财物升级为约束偏袒和承担照护，盘点与手艺拒绝服务于本夜真实去向。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-SIXTY-FIRST",
+      "action": "payoff",
+      "description": "先临时安置、下午守约腾台、晚间以两位自愿腾换实际接入马汀母子；没有增容为61位。",
+      "quote": "马汀侧身，慢慢背着母亲转过屏风。"
+    },
+    {
+      "id": "TH-FIRST-NIGHT",
+      "action": "payoff",
+      "description": "次晨给出实际首夜与备用柴结果：门边后半夜变冷，原小灶烧1捆补热，1捆保留；非全靠龙热。",
+      "quote": "“后半夜靠门的人冷。匠人来看过，叫在原来的小灶里接火，烧了这一捆。天快亮时，里面的人才又睡着。”"
+    },
+    {
+      "id": "TH-INVENTORY-MORNING",
+      "action": "payoff",
+      "description": "诺拉带领实际盘粮柴银，伊恩记数核算，开篇作者基线转为有取得途径的人物新知。",
+      "quote": "未领出的粮袋合在一起，点到最后，余数是五千九百二十八份。"
+    },
+    {
+      "id": "TH-WEST-WINDOW",
+      "action": "payoff",
+      "description": "依前章明天承诺实查并临时遮漏、移私料；不假称永久修好，借毡归还另设待处理项。",
+      "quote": "两人将旧毡遮上，乌铎又仔细看过窗板，没有说已经修好了。"
+    },
+    {
+      "id": "TH-REST-FIRST3",
+      "action": "develop",
+      "description": "赫穆明确次日D2不吐并得到接受，尚需下一章实际兑现，不提前payoff或重置期限。",
+      "quote": "“明天不吐。”"
+    },
+    {
+      "id": "TH-D2-REVISIT",
+      "action": "plant",
+      "description": "诺拉答应D2回访今夜返家的争板母子及未排入的母子三人，不许把让位和没抢签当不冷了。",
+      "quote": "“今晚划。明天还来问。”"
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "plant",
+      "description": "北窗正经材料仍待找到，不能因今晚换住户而忘记此需求。",
+      "quote": "“那别因为我娘今夜不睡那里，就不找了。”"
+    },
+    {
+      "id": "TH-WEST-FELT-LOAN",
+      "action": "plant",
+      "description": "西屋临时借毡护匠料，待合理换板须归还或在有代价的新处理下结清，不能当公共无主资产。",
+      "quote": "“借在这儿。”他说，“料还放这间屋，算护我的东西。等换好窗板，这片还我。”"
+    }
+  ],
+  "stage_closing": false
+}

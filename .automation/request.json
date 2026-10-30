@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvlznha_i7dzq",
-  "base_sha": "a887b8001e33cbae0e42e4f28a00a498f79fdd5f",
+  "request_id": "ch002_command_mvvm3e62_5zleo",
+  "base_sha": "b9969661328d12f9807ce89d2f0347312985abda",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -18,13 +18,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "2",
+        "check-record",
         "--text",
         "drafts/CH002_V2.txt",
-        "--reason",
-        "R1：补实临时借宿下午腾台与母亲过渡去向，修正旧件和人物移动连续性、姓名来源与未呈现说话次数，明确陪护换入前先换出；具体引文见CH002_R1_issues。"
+        "--record",
+        "drafts/CH002_record_V2.json"
       ]
     },
     {
@@ -32,13 +30,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH002_V2.txt",
+        "--record",
+        "drafts/CH002_record_V2.json",
         "--out",
-        "drafts/CH002_reader_V2.md"
+        "drafts/CH002_release_pending_V2.json"
       ]
     }
   ]

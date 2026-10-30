@@ -2,15 +2,29 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "run_id": "178c115a27c141b9bbbe2bb7f072848f",
-  "work_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3:2026-10-31:1",
+  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
+  "work_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3:2026-10-31:2",
   "start_date": "2026-10-31",
-  "started_at": "2026-10-30T16:37:52+00:00",
-  "chapter": 1,
-  "status": "completed",
-  "baseline_count": 0,
-  "baseline_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "started_at": "2026-10-30T23:21:09+00:00",
+  "chapter": 2,
+  "status": "running",
+  "baseline_count": 1,
+  "baseline_fingerprint": "cfa8a1f184005fba7d321b0c5c3a64654f48910c2a32c226aef2ac73fcab1d6a",
   "attempts": [],
-  "completed_at": "2026-10-30T17:17:12+00:00",
-  "receipt_path": "daily/2026-10-31.json"
+  "trigger_ids": [
+    "manual_CH002_20261031_mvvlhfcp_s9x58t5hk1"
+  ],
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "executor_checkpoint": {
+    "request_id": "ch002_begin_mvvlipxg_2bbvz",
+    "phase": "begin",
+    "at": "2026-10-30T23:21:09+00:00",
+    "github_run_id": "41143939840"
+  }
 }

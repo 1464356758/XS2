@@ -1,0 +1,27 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "ch002_begin_mvvlipxg_2bbvz",
+  "request_sha256": "7436511e603956bdd9f749335170f57abf613825a51c322f0ac2beef47ee8b8b",
+  "source_sha": "ecb27a25c327dbe1f1140fab3a36805a6683a7d2",
+  "base_sha": "56e5dbc32d94926d53fb7a0ac331a64d12d51084",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "begin",
+  "executed_at": "2026-10-30T23:21:09+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41143939840",
+  "business_status": "started",
+  "daily_action": "started",
+  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
+  "chapter": 2,
+  "changed_paths": [
+    "book/daily/active.json",
+    "online/index.json"
+  ]
+}

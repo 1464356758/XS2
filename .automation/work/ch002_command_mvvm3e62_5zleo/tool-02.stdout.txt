@@ -1,0 +1,5 @@
+{
+  "path": "/tmp/novel-tool-batch-m9pz216c/project/drafts/CH002_release_pending_V2.json",
+  "decision": "pending",
+  "note": "必须实际阅读全文并填写证据；模板不是通过报告。"
+}

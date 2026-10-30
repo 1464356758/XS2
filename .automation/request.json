@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvlk51q_hqxmq",
-  "base_sha": "0c254433271353eb4016f9c0ec3f035cfb0954fe",
+  "request_id": "ch002_command_mvvlli2d_4vfpf",
+  "base_sha": "4763c1a8f4189c6e319fd8f69715d195427548dc",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -18,33 +18,21 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH002_brief_ready.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH002_brief_pending.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "暖位 拆床 让出 私人",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "诺拉 库存 柴 备用 旧炉",
-        "--limit",
-        "5"
+        "drafts/CH002_writer.md"
       ]
     }
   ]

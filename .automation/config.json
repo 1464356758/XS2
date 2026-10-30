@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "automation_id": "6ae4d35ceaec8191b9745360f064026d"
+  "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+  "completion_policy": "per_trigger"
 }

@@ -80,6 +80,22 @@ class ExecutorTests(WorkspaceFixture):
         self.assertEqual(active["chapter"], 2)
         self.assertEqual(len(ns.load_state(self.root)["chapters"]), 1)
 
+    def test_per_trigger_executor_requires_stable_key_and_allows_same_day(self):
+        import daily_update
+        first = daily_update.begin(self.project)
+        self.release(1)
+        daily_update.finish(self.project, first["run_id"])
+        path = self.project / ".automation/config.json"
+        cfg = ns.read_json(path); cfg["completion_policy"] = "per_trigger"; ns.atomic_json(path, cfg)
+        with self.assertRaises(executor.ns.WorkspaceError):
+            executor.begin_owned(self.project, self.request("begin"))
+        result = self.execute("begin", trigger_id="synthetic_scheduled_trigger")
+        self.assertEqual(result["business_status"], "started")
+        self.assertEqual(result["chapter"], 2)
+        again = self.execute("begin", trigger_id="synthetic_scheduled_trigger")
+        self.assertEqual(again["business_status"], "continue_owned")
+        self.assertEqual(again["run_id"], result["run_id"])
+
     def test_foreign_session_cannot_run_commands_or_block_the_owner(self):
         started = self.begin(); original = (self.root / "daily/active.json").read_bytes()
         self.owner["session_id"] = "another_synthetic_session"

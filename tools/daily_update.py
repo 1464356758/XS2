@@ -12,6 +12,44 @@ import uuid
 import novel_state as ns
 
 SH = timezone(timedelta(hours=8))
+TRIGGER_ID = re.compile(r"[A-Za-z0-9_-]{8,100}")
+
+
+def trigger_path(trigger_id):
+    ns.require(isinstance(trigger_id, str) and bool(TRIGGER_ID.fullmatch(trigger_id)), "触发编号须为8—100位稳定编号；重试不得换号。")
+    return "daily/triggers/" + trigger_id + ".json"
+
+
+def canonical_receipt_path(active):
+    if active.get("trigger_ids"):
+        return "daily/runs/" + active["run_id"] + ".json"
+    return "daily/" + date_of(active["completed_at"]) + ".json"
+
+
+def consume_trigger(root, state, trigger_id, receipt, path):
+    marker = {"schema_version": 1, "type": "novel-trigger-consumption-v1", "book_id": state["book_id"],
+              "trigger_id": trigger_id, "run_id": receipt["run_id"], "chapter": receipt["chapter"], "receipt_path": path}
+    target = root / trigger_path(trigger_id)
+    if target.exists():
+        ns.require(ns.read_json(target) == marker, "该触发已绑定其他完成章，禁止覆盖。")
+    else:
+        ns.immutable_text(target, json.dumps(marker, ensure_ascii=False, indent=2) + "\n")
+
+
+def consumed_receipt(root, state, trigger_id):
+    path = root / trigger_path(trigger_id)
+    if not path.exists():
+        return None
+    marker = ns.read_json(path)
+    ns.require(marker.get("type") == "novel-trigger-consumption-v1" and marker.get("book_id") == state["book_id"] and
+               marker.get("trigger_id") == trigger_id and isinstance(marker.get("run_id"), str) and
+               bool(TRIGGER_ID.fullmatch(marker["run_id"])), "触发完成绑定无效。")
+    target = marker.get("receipt_path")
+    ns.require(isinstance(target, str) and (target == "daily/runs/" + marker["run_id"] + ".json" or
+               bool(re.fullmatch(r"daily/\d{4}-\d{2}-\d{2}\.json", target))), "触发回执路径无效。")
+    receipt = verify_receipt(root, state, ns.read_json(root / target))
+    ns.require(receipt["run_id"] == marker["run_id"] and receipt["chapter"] == marker["chapter"], "触发与回执不是同一目标。")
+    return receipt
 
 
 def stamp():
@@ -109,25 +147,37 @@ def finish_locked(root, state, active):
                "record_path": item["record_path"], "record_sha256": item["record_sha256"],
                "release_path": gate["path"], "release_sha256": gate["sha256"], "state_revision": state["revision"]}
     verify_receipt(root, state, receipt)
-    path = root / "daily" / (receipt["date"] + ".json")
+    relpath = canonical_receipt_path(dict(active, completed_at=adopted))
+    path = root / relpath
     if path.exists():
         old = verify_receipt(root, state, ns.read_json(path))
         ns.require(old["run_id"] == receipt["run_id"] and old["body_sha256"] == receipt["body_sha256"], "当天已有其他有效完成记录，不能覆盖。")
         receipt = old
     else:
         ns.immutable_text(path, json.dumps(receipt, ensure_ascii=False, indent=2) + "\n")
-    ns.atomic_json(root / "daily/active.json", dict(active, status="completed", completed_at=adopted, receipt_path="daily/" + receipt["date"] + ".json"))
-    return dict(receipt, action="completed", remote_sync_required=True)
+    # The first receipt for a day remains immutable. Additional same-day work
+    # has its own run receipt; daily queries still use formal file commits.
+    daypath = root / "daily" / (receipt["date"] + ".json")
+    if not daypath.exists():
+        ns.immutable_text(daypath, json.dumps(receipt, ensure_ascii=False, indent=2) + "\n")
+    for trigger_id in active.get("trigger_ids", []):
+        consume_trigger(root, state, trigger_id, receipt, relpath)
+    ns.atomic_json(root / "daily/active.json", dict(active, status="completed", completed_at=adopted, receipt_path=relpath))
+    return dict(receipt, action="completed", receipt_path=relpath, remote_sync_required=True)
 
 
-def begin(project, resume_stopped=False):
+def begin(project, resume_stopped=False, trigger_id=None):
     root, _ = load(project)
     with ns.writer_lock(root):
         _, state = load(project)
         today = date_of(stamp())
         existing = root / "daily" / (today + ".json")
-        if existing.exists():
-            receipt = verify_receipt(root, state, ns.read_json(existing))
+        if trigger_id is not None:
+            trigger_path(trigger_id)
+            receipt = consumed_receipt(root, state, trigger_id)
+        else:
+            receipt = verify_receipt(root, state, ns.read_json(existing)) if existing.exists() else None
+        if receipt is not None:
             # A stop between immutable receipt creation and active update must
             # not leave tomorrow trapped in yesterday's running target.
             active = active_record(root)
@@ -142,7 +192,7 @@ def begin(project, resume_stopped=False):
             completed_missing_receipt = False
             if active["status"] == "completed":
                 receipt_path = active.get("receipt_path")
-                expected_path = "daily/" + date_of(active["completed_at"]) + ".json"
+                expected_path = canonical_receipt_path(active)
                 ns.require(receipt_path == expected_path, "完成执行的回执路径无效。")
                 completed_missing_receipt = not (root / receipt_path).exists()
                 if not completed_missing_receipt:
@@ -151,6 +201,14 @@ def begin(project, resume_stopped=False):
             if active["status"] in ("running", "blocked") or completed_missing_receipt:
                 # 回执丢失时依据 adopt 实际时间恢复，不能把昨日采用改记为今天。
                 if str(active["chapter"]) in state["chapters"]:
+                    if trigger_id is not None:
+                        # Recovery consumes this opportunity too. Keep the
+                        # original canonical path for already-finished tasks.
+                        original_path = active.get("receipt_path")
+                        recovered = finish_locked(root, state, active)
+                        consume_trigger(root, state, trigger_id, recovered, original_path or recovered["receipt_path"])
+                        recovered["action"] = "recovered_completion"
+                        return recovered
                     result = finish_locked(root, state, active)
                     result["action"] = "recovered_completion"
                     return result
@@ -160,6 +218,8 @@ def begin(project, resume_stopped=False):
                 ns.require(active["chapter"] == len(state["chapters"]) + 1 and prefix_fingerprint(state, active["baseline_count"]) == active["baseline_fingerprint"], "恢复目标与当前正式状态不匹配。")
                 history = active.get("attempts", []) + [{"run_id": active["run_id"], "status": active["status"], "reason": active.get("reason", ""), "stopped_confirmed_at": stamp()}]
                 active = dict(active, run_id=uuid.uuid4().hex, status="running", resumed_at=stamp(), attempts=history[-30:], reason="")
+                if trigger_id is not None:
+                    active["trigger_ids"] = list(dict.fromkeys(active.get("trigger_ids", []) + [trigger_id]))
                 ns.atomic_json(root / "daily/active.json", active)
                 return dict(active, action="resumed", remote_sync_required=True)
         ns.require(state["completion"] is None and len(state["chapters"]) < state["config"]["target_chapters"], "小说已达到目标，先处理完稿流程。")
@@ -170,6 +230,8 @@ def begin(project, resume_stopped=False):
                   "run_id": uuid.uuid4().hex, "work_id": state["book_id"] + ":" + today + ":" + str(n),
                   "start_date": today, "started_at": stamp(), "chapter": n, "status": "running",
                   "baseline_count": n - 1, "baseline_fingerprint": prefix_fingerprint(state, n - 1), "attempts": []}
+        if trigger_id is not None:
+            active["trigger_ids"] = [trigger_id]
         ns.atomic_json(root / "daily/active.json", active)
         return dict(active, action="started", remote_sync_required=True,
                     note="先原子同步本执行记录并回读确认；并发写入失败时重新读取，不能继续并行写作。")
@@ -204,13 +266,14 @@ def main():
     p.add_argument("--project", default=".")
     sub = p.add_subparsers(dest="command", required=True)
     s = sub.add_parser("begin"); s.add_argument("--resume-stopped", action="store_true", help="仅在旧执行实际停止后使用，不自动抢占")
+    s.add_argument("--trigger-id", help="作者已授权按次执行时的稳定触发编号；同次重试沿用")
     for name in ("finish", "block"):
         s = sub.add_parser(name); s.add_argument("--run-id", required=True)
         if name == "block": s.add_argument("--reason", required=True)
     sub.add_parser("status")
     args = p.parse_args()
     try:
-        if args.command == "begin": result = begin(args.project, args.resume_stopped)
+        if args.command == "begin": result = begin(args.project, args.resume_stopped, args.trigger_id)
         elif args.command == "finish": result = finish(args.project, args.run_id)
         elif args.command == "block": result = block(args.project, args.run_id, args.reason)
         else:

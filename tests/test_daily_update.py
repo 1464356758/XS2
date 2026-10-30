@@ -95,6 +95,62 @@ class DailyTests(WorkspaceFixture):
         self.assertEqual(recovered["action"], "recovered_completion")
         self.assertEqual(recovered["chapter"], 1)
 
+    def test_new_trigger_advances_same_day_and_preserves_first_receipt(self):
+        first = daily.begin(self.project)
+        self.release(1)
+        receipt = daily.finish(self.project, first["run_id"])
+        daypath = self.root / "daily" / (receipt["date"] + ".json")
+        original = daypath.read_bytes()
+        second = daily.begin(self.project, trigger_id="synthetic_manual_CH002")
+        self.assertEqual(second["action"], "started")
+        self.assertEqual(second["chapter"], 2)
+        self.release(2)
+        done = daily.finish(self.project, second["run_id"])
+        self.assertEqual(daypath.read_bytes(), original)
+        self.assertEqual(done["chapter"], 2)
+        self.assertTrue((self.root / done["receipt_path"]).is_file())
+        retry = daily.begin(self.project, trigger_id="synthetic_manual_CH002")
+        self.assertEqual(retry["action"], "already_completed")
+        self.assertEqual(retry["run_id"], second["run_id"])
+        self.assertEqual(daily.begin(self.project, trigger_id="synthetic_scheduled_NEXT")["chapter"], 3)
+
+    def test_foreign_trigger_never_steals_running_target(self):
+        first = daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        second = daily.begin(self.project, trigger_id="synthetic_second_trigger")
+        self.assertEqual(second["action"], "verify_in_progress")
+        self.assertEqual(first["run_id"], second["run_id"])
+
+    def test_trigger_recovery_consumes_current_opportunity_without_next_chapter(self):
+        first = daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        self.release(1)
+        recovered = daily.begin(self.project, trigger_id="synthetic_recovery_trigger")
+        self.assertEqual(recovered["action"], "recovered_completion")
+        self.assertEqual(recovered["chapter"], 1)
+        self.assertEqual(daily.begin(self.project, trigger_id="synthetic_first_trigger")["action"], "already_completed")
+        self.assertEqual(daily.begin(self.project, trigger_id="synthetic_recovery_trigger")["action"], "already_completed")
+        self.assertEqual(first["run_id"], recovered["run_id"])
+
+    def test_missing_run_receipt_recovers_with_actual_adoption_date(self):
+        first = daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        self.release(1)
+        receipt = daily.finish(self.project, first["run_id"])
+        (self.root / receipt["receipt_path"]).unlink()
+        recovered = daily.begin(self.project, trigger_id="synthetic_recovery_trigger")
+        self.assertEqual(recovered["action"], "recovered_completion")
+        self.assertEqual(recovered["completed_at"], receipt["completed_at"])
+
+    def test_stopped_trigger_recovery_consumes_both_opportunities(self):
+        daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        resumed = daily.begin(self.project, resume_stopped=True, trigger_id="synthetic_recovery_trigger")
+        self.release(1)
+        daily.finish(self.project, resumed["run_id"])
+        for trigger in ("synthetic_first_trigger", "synthetic_recovery_trigger"):
+            self.assertEqual(daily.begin(self.project, trigger_id=trigger)["action"], "already_completed")
+
+    def test_trigger_id_cannot_traverse_paths(self):
+        with self.assertRaises(daily.ns.WorkspaceError):
+            daily.begin(self.project, trigger_id="../../state")
+
     def test_completed_active_with_lost_receipt_recovers_instead_of_starting_next(self):
         task = daily.begin(self.project)
         self.release(1)

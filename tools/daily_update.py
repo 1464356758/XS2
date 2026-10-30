@@ -47,6 +47,11 @@ def consumed_receipt(root, state, trigger_id):
     target = marker.get("receipt_path")
     ns.require(isinstance(target, str) and (target == "daily/runs/" + marker["run_id"] + ".json" or
                bool(re.fullmatch(r"daily/\d{4}-\d{2}-\d{2}\.json", target))), "触发回执路径无效。")
+    if not (root / target).is_file():
+        active = active_record(root)
+        ns.require(active and active.get("run_id") == marker["run_id"] and active.get("chapter") == marker["chapter"],
+                   "旧触发的回执缺失且不再是当前目标，停止核实，不能新开一章。")
+        return None
     receipt = verify_receipt(root, state, ns.read_json(root / target))
     ns.require(receipt["run_id"] == marker["run_id"] and receipt["chapter"] == marker["chapter"], "触发与回执不是同一目标。")
     return receipt

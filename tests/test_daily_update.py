@@ -147,6 +147,16 @@ class DailyTests(WorkspaceFixture):
         for trigger in ("synthetic_first_trigger", "synthetic_recovery_trigger"):
             self.assertEqual(daily.begin(self.project, trigger_id=trigger)["action"], "already_completed")
 
+    def test_same_trigger_with_lost_run_receipt_recovers_instead_of_opening_next(self):
+        first = daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        self.release(1)
+        receipt = daily.finish(self.project, first["run_id"])
+        (self.root / receipt["receipt_path"]).unlink()
+        recovered = daily.begin(self.project, trigger_id="synthetic_first_trigger")
+        self.assertEqual(recovered["action"], "recovered_completion")
+        self.assertEqual(recovered["run_id"], first["run_id"])
+        self.assertEqual(daily.begin(self.project, trigger_id="synthetic_first_trigger")["action"], "already_completed")
+
     def test_trigger_id_cannot_traverse_paths(self):
         with self.assertRaises(daily.ns.WorkspaceError):
             daily.begin(self.project, trigger_id="../../state")

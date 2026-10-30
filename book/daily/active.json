@@ -7,7 +7,7 @@
   "start_date": "2026-10-31",
   "started_at": "2026-10-30T23:21:09+00:00",
   "chapter": 2,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 1,
   "baseline_fingerprint": "cfa8a1f184005fba7d321b0c5c3a64654f48910c2a32c226aef2ac73fcab1d6a",
   "attempts": [],
@@ -22,9 +22,11 @@
     "invocation_kind": "author_manual"
   },
   "executor_checkpoint": {
-    "request_id": "ch002_command_mvvm9dox_vxbz5",
-    "phase": "command",
-    "at": "2026-10-30T23:42:02+00:00",
-    "github_run_id": "41145980798"
-  }
+    "request_id": "ch002_finalize_mvvmb6oe_wh54j",
+    "phase": "finalize",
+    "at": "2026-10-30T23:43:18+00:00",
+    "github_run_id": "41146113899"
+  },
+  "completed_at": "2026-10-30T23:43:18+00:00",
+  "receipt_path": "daily/runs/048ede580b0a4bcf8d9ac52b4b26c3c3.json"
 }

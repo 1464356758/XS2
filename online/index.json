@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T23:42:02+00:00",
-    "state_revision": 4,
-    "workflow_revision": 12,
-    "state_sha256": "f52fa2c1bce72790ce410a7d00c7a843c074d93a1ae74d5ee3f23b83cf905360",
-    "workflow_sha256": "7000953d535f03d70441b06605dc1a42bf4ae9e9a273d20ac9cf4d433a0c31f8",
+    "generated_at": "2026-10-30T23:43:18+00:00",
+    "state_revision": 5,
+    "workflow_revision": 13,
+    "state_sha256": "7ddeb747c5147b3db8ec3095ae6e2d70b3944041ddafb38f9fd2eb93015b37c0",
+    "workflow_sha256": "c32924efeafc8a6c0fd61f3bbef273fee399a5f1690d5ae63d311cfa0dc9a739",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 1,
+    "adopted_chapters": 2,
     "target_han": 900000,
-    "actual_han": 8953,
+    "actual_han": 17731,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 1,
+    "frozen_chapters": 2,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 2,
-    "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。",
-    "next_action": "保留同一候选任务，按已证问题局部修订，完成真实记录和release审核。",
-    "updated_at": "2026-10-30T23:32:31+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 3,
+    "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-10-30T23:43:18+00:00"
   },
   "chapters": [
     {
@@ -53,6 +53,18 @@
       "han_count": 8953,
       "text_path": "book/chapters/CH001_22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32.txt",
       "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 2,
+      "title": "第一把椅子给谁",
+      "stage": "S01",
+      "han_count": 8778,
+      "text_path": "book/chapters/CH002_58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3.txt",
+      "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -1050,6 +1062,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。"
+    },
+    {
+      "at": "2026-10-30T23:43:18+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

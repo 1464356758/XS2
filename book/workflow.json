@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 12,
+  "revision": 13,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -33,7 +33,7 @@
   },
   "research_path": "research/platform_60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28.json",
   "topics_path": "research/topics_23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e.json",
-  "chapter": 2,
+  "chapter": 3,
   "history": [
     {
       "at": "2026-10-30T15:27:55+00:00",
@@ -112,9 +112,15 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。"
+    },
+    {
+      "at": "2026-10-30T23:43:18+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。",
-  "next_action": "保留同一候选任务，按已证问题局部修订，完成真实记录和release审核。",
-  "updated_at": "2026-10-30T23:32:31+00:00"
+  "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-10-30T23:43:18+00:00"
 }

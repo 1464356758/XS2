@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvlli2d_4vfpf",
-  "base_sha": "4763c1a8f4189c6e319fd8f69715d195427548dc",
+  "request_id": "ch002_command_mvvlq061_9lfs6",
+  "base_sha": "af5a0de55dd922f6937621dbeeaacbbe1b81358f",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -14,25 +14,19 @@
   "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
   "commands": [
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "brief-check",
-        "--file",
-        "drafts/CH002_brief_ready.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "writer",
-        "--out",
-        "drafts/CH002_writer.md"
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--detail",
+        "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。",
+        "--next",
+        "继续写完整CH002，随后实际审读与八项审核。",
+        "--chapter",
+        "2"
       ]
     }
   ]

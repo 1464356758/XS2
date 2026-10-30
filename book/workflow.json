@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 11,
+  "revision": 12,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -106,9 +106,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。"
+    },
+    {
+      "at": "2026-10-30T23:32:31+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。"
     }
   ],
-  "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。",
-  "next_action": "继续写完整CH002，随后实际审读与八项审核。",
-  "updated_at": "2026-10-30T23:26:49+00:00"
+  "detail": "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。",
+  "next_action": "保留同一候选任务，按已证问题局部修订，完成真实记录和release审核。",
+  "updated_at": "2026-10-30T23:32:31+00:00"
 }

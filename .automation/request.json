@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "preflight_0cbb80e5e830422890f5607068bcdb6b",
+  "base_sha": "d78e665150d9e406b97c1219e0e7ed8d6a65d6b6",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "maintenance",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "ca2acafe9fdf497d9921aa173a1e075e",
+    "platform_run_id": null
+  },
+  "phase": "preflight"
+}

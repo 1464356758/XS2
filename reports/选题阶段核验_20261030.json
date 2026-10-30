@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-30T23:48:57+08:00",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "phase": "WAITING_TOPIC",
+  "selected_topic": null,
+  "adopted_chapters": 0,
+  "input_count": 0,
+  "open_novel_tasks": 0,
+  "sources": 32,
+  "rank_samples": 13,
+  "topic_candidates": 8,
+  "coverage": "partial",
+  "source_ids_checked": true,
+  "writing_authorized": false,
+  "platform_submission": false,
+  "automation_id": null,
+  "files": {
+    "research/platform_60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28.json": {
+      "bytes": 37602,
+      "sha256": "60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28"
+    },
+    "research/topics_23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e.json": {
+      "bytes": 23593,
+      "sha256": "23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e"
+    },
+    "research/番茄开书研究_20261030.md": {
+      "bytes": 10698,
+      "sha256": "402f2db56c6d9905cbc777eb192b2ffd0da228f565d7361bbf9d5d3ec402015d"
+    },
+    "research/8个原创选题_20261030.md": {
+      "bytes": 24078,
+      "sha256": "8dcf793099a39c1570f8fd3aaebd516992e7d7b7bf2bb6d7726a1aaffb08ba52"
+    }
+  }
+}

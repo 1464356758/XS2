@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "platform": "fanqie",
+  "checked_at": "2026-10-30T23:46:43+08:00",
+  "coverage_status": "partial",
+  "platform_selected_by": "本次作者明确指定：番茄",
+  "author_preference": "你来选话题，需要热门的题材！",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "番茄官方帮助中心：签约评估的标准是什么",
+      "url": "https://fanqienovel.com/writer/zone/help/article?rank1=10189&rank2=10191&rank3=0",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "正文由搜索引擎返回的官方页面文本取得；直接打开只返回页面框架。核实评估内容，不据此推定作者等级对应签约权限。"
+    },
+    {
+      "id": "R02",
+      "title": "番茄小说关于整治大规模量产低质内容的公告",
+      "url": "https://fanqienovel.com/writer/zone/article/7602950185735438398",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-02-04",
+      "limitations": "核实AI粗制滥造治理；不将其解释为平台对全自动成书或外部模型的认可。"
+    },
+    {
+      "id": "R03",
+      "title": "番茄小说关于加强低质内容治理公告（5月）",
+      "url": "https://fanqienovel.com/writer/zone/article/7642544663915675672",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-05-22"
+    },
+    {
+      "id": "R04",
+      "title": "AI写作工具功能上线通知",
+      "url": "https://fanqienovel.com/writer/zone/article/7327136545129906238",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2024-05-08",
+      "limitations": "是历史官方工具通知，不证明2026年工具权限未变，也不替代现行原创、签约或申报要求。"
+    },
+    {
+      "id": "R05",
+      "title": "2026年番茄小说福利焕新",
+      "url": "https://fanqienovel.com/writer/zone/article/7681617764179509273",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-09-08",
+      "limitations": "主要规则表格为图片，本次未取得可逐格核验的数字；只采用已读文字中的生效、适用与期限说明。"
+    },
+    {
+      "id": "R06",
+      "title": "长篇网文发文规则（第二版）上线通知",
+      "url": "https://fanqienovel.com/writer/zone/article/7639950766869839897",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-10-20",
+      "limitations": "等级额度表为图片，未读取各等级日/月字数和可更新作品数的完整数字。不得沿用旧版每日5万字等上限。"
+    },
+    {
+      "id": "R07",
+      "title": "番茄小说作家等级3.0体系改版上线通知",
+      "url": "https://fanqienovel.com/writer/zone/article/7685235637053554712",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-10-12",
+      "limitations": "作者本人的等级和作品创建权限未访问；不从其他仓库签约、作品数量或聊天推定账号等级。"
+    },
+    {
+      "id": "R08",
+      "title": "番茄官方作家专区首页",
+      "url": "https://fanqienovel.com/writer/zone/",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "首页可见《番茄小说签约模式调整通知》标题；本次未取得该通知官方全文或可复核的官方文章URL，具体等级限制列为待官方核实。"
+    },
+    {
+      "id": "R09",
+      "title": "近期三大热门方向爆款拆解与创作指南Tips",
+      "url": "https://fanqienovel.com/writer/zone/article/7697081389316833342",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-10-16",
+      "limitations": "原文明确面向短故事作者，只作为情绪机制的补充线索，不冒充长篇榜单或长篇题材收入证明。"
+    },
+    {
+      "id": "R10",
+      "title": "新手勇闯番茄：解锁三种写作编辑器",
+      "url": "https://fanqienovel.com/writer/zone/article/7455639656860762137",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "历史编辑器入口说明，准确发布时间本次未核实；本书平台建书、实名和具体单章上限尚未实测。"
+    },
+    {
+      "id": "R11",
+      "title": "番茄小说低质治理公告（9月）",
+      "url": "https://fanqienovel.com/writer/zone/article/7698999877673418776",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "published_at": "2026-10-21",
+      "limitations": "本次直接读取仅取得标题、署时和章节标题，未取得公告完整正文，不据此填写处罚数量。"
+    },
+    {
+      "id": "R12",
+      "title": "番茄官方公告列表",
+      "url": "https://fanqienovel.com/writer/zone/notice",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "第一页可访问；?page=2返回工具访问错误，未把第一页当作所有公告覆盖。"
+    },
+    {
+      "id": "L01",
+      "title": "新书榜页面：西方奇幻样本视图，路径1_1",
+      "url": "https://fanqienovel.com/rank/1_1",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L02",
+      "title": "阅读榜页面：西方奇幻样本视图，路径1_2",
+      "url": "https://fanqienovel.com/rank/1_2",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L03",
+      "title": "新书榜页面：古风世情样本视图，路径0_1",
+      "url": "https://fanqienovel.com/rank/0_1",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L04",
+      "title": "阅读榜页面：历史古代样本视图，路径1_2_273",
+      "url": "https://fanqienovel.com/rank/1_2_273",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L05",
+      "title": "阅读榜页面：古风世情样本视图，路径0_2",
+      "url": "https://fanqienovel.com/rank/0_2",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L06",
+      "title": "新书榜页面：悬疑脑洞样本视图，路径1_1_539",
+      "url": "https://fanqienovel.com/rank/1_1_539",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "L07",
+      "title": "新书榜页面：都市脑洞样本视图，路径1_1_262",
+      "url": "https://fanqienovel.com/rank/1_1_262",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "页面标注统计截止10-29 24:00。动态页头的频道/分类选择文字未完整解析，类别据对应作品页核对；只记录该URL可见序位，不能称全站总榜排名。新书/阅读视图结合路径、榜单说明及作品字数核对；未取得接口原始频道参数。"
+    },
+    {
+      "id": "B01",
+      "title": "红龙暴君：刚破壳，先把龙妹弄哭：官方作品页",
+      "url": "https://fanqienovel.com/page/7676151969102171161",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B02",
+      "title": "魔王城锻造师，我能打造极品词条：官方作品页",
+      "url": "https://fanqienovel.com/page/7688260083297307673",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B03",
+      "title": "人在诡异，靠第四天灾登顶至高：官方作品页",
+      "url": "https://fanqienovel.com/page/7654593151348247614",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B04",
+      "title": "领主：我在苦痛世界，养成少女：官方作品页",
+      "url": "https://fanqienovel.com/page/7320218217488600126",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B05",
+      "title": "伪人作者穿古代，满朝文武皆素材：官方作品页",
+      "url": "https://fanqienovel.com/page/7676486220452482072",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B06",
+      "title": "万人嫌太子重生摸鱼指南：官方作品页",
+      "url": "https://fanqienovel.com/page/7683574281887812670",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B07",
+      "title": "持械入宋：官方作品页",
+      "url": "https://fanqienovel.com/page/7616151491132279832",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B08",
+      "title": "魏家孽种成首辅，全族跪求我认祖：官方作品页",
+      "url": "https://fanqienovel.com/page/7612158980839722046",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B09",
+      "title": "冒姓琅琊：官方作品页",
+      "url": "https://fanqienovel.com/page/7414011485757639704",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B10",
+      "title": "惹金枝：官方作品页",
+      "url": "https://fanqienovel.com/page/7231424472606051384",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B11",
+      "title": "什么叫我成了灭世级怪谈？：官方作品页",
+      "url": "https://fanqienovel.com/page/7669372598957919256",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B12",
+      "title": "恐怖游戏：开局皮嫁骨吓哭全球！：官方作品页",
+      "url": "https://fanqienovel.com/page/7692412234982493208",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    },
+    {
+      "id": "B13",
+      "title": "穿成警察，满城霸总排队来送业绩：官方作品页",
+      "url": "https://fanqienovel.com/page/7676887467571547198",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "access_method": "公开页面及搜索引擎返回的官方页面文本",
+      "limitations": "读取范围为作品信息、简介及页面实际可见的目录项；没有通读正文，没有读取后台、收益或留存。"
+    }
+  ],
+  "rules": [
+    {
+      "topic": "投稿与签约：质量评估流程",
+      "status": "verified",
+      "source_id": "R01",
+      "conclusion": "官方帮助说明区分连载与完本流程；完本先经完结审核，再做内容安全与质量评估。评估重视新意、清晰叙事、完整主线及长期潜力，同时排查侵权和低质内容。申请不等于签约。"
+    },
+    {
+      "topic": "签约模式：本作者可用权限",
+      "status": "unknown",
+      "source_id": "R08",
+      "conclusion": "官方首页已显示签约模式调整通知，但本次未取得官方全文。另有可靠新闻报道2026-10-12起Lv.0/Lv.1新作限完本签约、Lv.2及以上可选连载；仅列为待官方与账号复核的线索，不用旧2万/5万/8万字规则对本书作承诺。",
+      "secondary_source_ids": [
+        "X01"
+      ],
+      "affects": "创作可继续到候选与规划；正式平台建书、申请签约与每日发布方式需据本账号复核，未擅自缩短100章目标。"
+    },
+    {
+      "topic": "发文与更新：现行版本",
+      "status": "verified",
+      "source_id": "R06",
+      "conclusion": "2026-10-20开始适用第二版发文规则，原优化通知失效。规则区分创建作品、更新作品及提交字数额度；额度随作者等级变化，定时发布按实际排期日期占用。"
+    },
+    {
+      "topic": "本账号日/月额度、单章上限、平台有效字数口径",
+      "status": "unknown",
+      "source_id": "R06",
+      "conclusion": "等级额度图片表未完整读取，未接入本账号后台，也未核实单章字数上限。系统8000—10000汉字是作者的本地正式章标准，不能自动等同平台有效更新字数或已满足平台发文限制；后续如需分发映射，须保留原冻结正文并另行确认方案。"
+    },
+    {
+      "topic": "原创与版权",
+      "status": "verified",
+      "source_id": "R01",
+      "conclusion": "侵权抄袭属于内容安全审核问题；本书采用原创候选，仅分析合法公开简介和目录机制。公开GitHub保存不是平台独家首发资格确认，不自动主张已满足独家条款。"
+    },
+    {
+      "topic": "AI辅助与低质治理",
+      "status": "verified",
+      "source_id": "R02",
+      "conclusion": "平台针对滥用AI量产低质作品采取拒签、限制分发、下架或账号处罚；不能把使用AI工具等同于获准全自动提交。当前工作流保留逐章创作与证据审查，不宣称绕过检测。"
+    },
+    {
+      "topic": "叙事质量与反注水",
+      "status": "verified",
+      "source_id": "R03",
+      "conclusion": "官方治理范围包括提纲复述式写文、结构异常、冗长而无推进、模板化拼接等。9000字长章必须有有意义场景与实际变化，不能靠凑长度满足工具。"
+    },
+    {
+      "topic": "外部AI使用的申报、标识及签约特别条款",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "未取得对外部模型全部适用的完整现行申报和版权条款；2024年官方自带工具通知不构成外部AI生成作品必可签约的依据。正式投稿前复核对应入口与合同。"
+    },
+    {
+      "topic": "福利：适用版本与有效期",
+      "status": "verified",
+      "source_id": "R05",
+      "conclusion": "2026年9月是过渡期，10月1日起采用新版福利；完本与连载各有适用奖励，活动文字注明本轮有效至2026-12-31。符合具体条件的签约长篇才参与，不把按时写作视为应获稿费。"
+    },
+    {
+      "topic": "福利：金额、完整门槛与2027政策",
+      "status": "unknown",
+      "source_id": "R05",
+      "conclusion": "奖励表格图片数字、个人适用资格和2027年政策未完整核实，因此不计算预期月收入、不承诺全勤或保底。按100天写作将跨入2027，不能把2026活动长期外推。"
+    },
+    {
+      "topic": "榜单统计口径",
+      "status": "verified",
+      "source_id": "L06",
+      "conclusion": "官方说明以在读数据排榜；阅读榜与30万字以上作品有关，新书榜对应30万字以下及其余签约、推荐和更新条件；每天更新前一日数据。本次页面截止10月29日24:00；在读不等于收入、销量或留存。"
+    },
+    {
+      "topic": "近期题材补充材料的适用边界",
+      "status": "verified",
+      "source_id": "R09",
+      "conclusion": "10月16日作家课堂讨论关系反转、主动离开和古风女性选择等情绪机制，但文章面向短故事。只能启发长篇假设，不能据此称90万字同类已获市场验证。"
+    }
+  ],
+  "rank_samples": [
+    {
+      "id": "S01",
+      "title": "红龙暴君：刚破壳，先把龙妹弄哭",
+      "author": "补豪我的ID被占了",
+      "category": "西方奇幻",
+      "list_name": "新书榜·西方奇幻样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "12.3万",
+      "source_id": "L01",
+      "book_source_id": "B01",
+      "book_url": "https://fanqienovel.com/page/7676151969102171161",
+      "book_length_display": "18.1万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "简介用非人身份、资源积累和领地扩张建立持续成长期待；这是据简介作出的机制判断，不能证明本书同样有效。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S02",
+      "title": "魔王城锻造师，我能打造极品词条",
+      "author": "黑墨阴暗乌",
+      "category": "西方奇幻",
+      "list_name": "新书榜·西方奇幻样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 4,
+      "metric_name": "在读",
+      "metric_display": "8.4万",
+      "source_id": "L01",
+      "book_source_id": "B02",
+      "book_url": "https://fanqienovel.com/page/7688260083297307673",
+      "book_length_display": "20.4万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "制造型主角把能力反馈与伙伴成长结合，目录呈现资源、装备、势力的接续；只参考职业可视成果，不沿用词条系统或魔王城角色。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S03",
+      "title": "人在诡异，靠第四天灾登顶至高",
+      "author": "我时糕手",
+      "category": "西方奇幻",
+      "list_name": "阅读榜·西方奇幻样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "60万",
+      "source_id": "L02",
+      "book_source_id": "B03",
+      "book_url": "https://fanqienovel.com/page/7654593151348247614",
+      "book_length_display": "81.8万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "反常识组织方式带来危机中的喜剧反差；标题含诡异而官网主类是西方奇幻，不误归悬疑榜。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S04",
+      "title": "领主：我在苦痛世界，养成少女",
+      "author": "嘎嘎乱写",
+      "category": "西方奇幻",
+      "list_name": "阅读榜·西方奇幻样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 2,
+      "metric_name": "在读",
+      "metric_display": "32.7万",
+      "source_id": "L02",
+      "book_source_id": "B04",
+      "book_url": "https://fanqienovel.com/page/7320218217488600126",
+      "book_length_display": "411.1万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "领地建设、关系群像与外部扩张构成长周期；属于长篇存量样本，不推定新人可复制。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S05",
+      "title": "伪人作者穿古代，满朝文武皆素材",
+      "author": "春日渐",
+      "category": "古风世情",
+      "list_name": "新书榜·古风世情样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "25.2万",
+      "source_id": "L03",
+      "book_source_id": "B05",
+      "book_url": "https://fanqienovel.com/page/7676486220452482072",
+      "book_length_display": "20.7万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "将受压处境转为主动反击，用身份与职业错位制造传播性；不复用话本报复、真假千金或具体亲属配置。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S06",
+      "title": "万人嫌太子重生摸鱼指南",
+      "author": "木草非人",
+      "category": "古风世情",
+      "list_name": "新书榜·古风世情样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 3,
+      "metric_name": "在读",
+      "metric_display": "8.6万",
+      "source_id": "L03",
+      "book_source_id": "B06",
+      "book_url": "https://fanqienovel.com/page/7683574281887812670",
+      "book_length_display": "12.1万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "人物改变旧选择，使原关系失去惯性，轻喜剧与关系反转并行；不把简介承诺等同于正文已兑现。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S07",
+      "title": "持械入宋",
+      "author": "茶根儿",
+      "category": "历史古代",
+      "list_name": "阅读榜·历史古代样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "72.6万",
+      "source_id": "L04",
+      "book_source_id": "B07",
+      "book_url": "https://fanqienovel.com/page/7616151491132279832",
+      "book_length_display": "169.2万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "小队分工、历史危机与组织扩张提供群像动力。新候选仅参考协作与资源制约，不采用携现代武器入宋的事件链。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S08",
+      "title": "魏家孽种成首辅，全族跪求我认祖",
+      "author": "生活中的咸鱼",
+      "category": "历史古代",
+      "list_name": "阅读榜·历史古代样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 2,
+      "metric_name": "在读",
+      "metric_display": "71万",
+      "source_id": "L04",
+      "book_source_id": "B08",
+      "book_url": "https://fanqienovel.com/page/7612158980839722046",
+      "book_length_display": "153.0万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "地位压制与能力上升、旧关系反噬形成长期张力；未读正文，不据此评价史实或真实权谋水平。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S09",
+      "title": "冒姓琅琊",
+      "author": "东周公子南",
+      "category": "历史古代",
+      "list_name": "阅读榜·历史古代样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 4,
+      "metric_name": "在读",
+      "metric_display": "49.9万",
+      "source_id": "L04",
+      "book_source_id": "B09",
+      "book_url": "https://fanqienovel.com/page/7414011485757639704",
+      "book_length_display": "154.7万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "身份生存与外部秩序形成多层压力；新书不借用冒姓、南朝门阀关系或具体脱险链。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S10",
+      "title": "惹金枝",
+      "author": "空留",
+      "category": "古风世情",
+      "list_name": "阅读榜·古风世情样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "28.6万",
+      "source_id": "L05",
+      "book_source_id": "B10",
+      "book_url": "https://fanqienovel.com/page/7231424472606051384",
+      "book_length_display": "116.4万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "人物能力、污名与家族处境相连，长期读物提供关系和主线参照；已于2024年完结，明确是当前仍可见的存量样本，不当成2026新书。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S11",
+      "title": "什么叫我成了灭世级怪谈？",
+      "author": "狂拽酷炫鲨",
+      "category": "悬疑脑洞",
+      "list_name": "新书榜·悬疑脑洞样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "33万",
+      "source_id": "L06",
+      "book_source_id": "B11",
+      "book_url": "https://fanqienovel.com/page/7669372598957919256",
+      "book_length_display": "23.9万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "普通人处境与非常规身份形成快速反差，能力成长接续新危机；本书候选避免收容夺能和伪人化路线。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S12",
+      "title": "恐怖游戏：开局皮嫁骨吓哭全球！",
+      "author": "芝士黑桃",
+      "category": "悬疑脑洞",
+      "list_name": "新书榜·悬疑脑洞样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 2,
+      "metric_name": "在读",
+      "metric_display": "23.1万",
+      "source_id": "L06",
+      "book_source_id": "B12",
+      "book_url": "https://fanqienovel.com/page/7692412234982493208",
+      "book_length_display": "24.2万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "题材承诺直观，较快进入有胜负结果的事件；只记录高概念入口，不借用其民俗装置、国别对抗和具体惊悚桥段。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    },
+    {
+      "id": "S13",
+      "title": "穿成警察，满城霸总排队来送业绩",
+      "author": "沙漠里的驴",
+      "category": "都市脑洞",
+      "list_name": "新书榜·都市脑洞样本视图",
+      "list_scope": "指定URL的可见样本视图；非全站总榜",
+      "observed_at": "2026-10-30T23:46:43+08:00",
+      "data_cutoff": "2026-10-29T24:00:00+08:00（沿用榜面写法）",
+      "cutoff_normalized": "2026-10-30T00:00:00+08:00",
+      "visible_position": 1,
+      "metric_name": "在读",
+      "metric_display": "41.3万",
+      "source_id": "L07",
+      "book_source_id": "B13",
+      "book_url": "https://fanqienovel.com/page/7676887467571547198",
+      "book_length_display": "29.8万字",
+      "reading_scope": "作品信息、简介和可见目录项；未读正文",
+      "mechanism_inference": "职业规则与类型惯例冲突形成喜剧和情绪补偿；本次不把更换职业后的相同霸总惩治链作为原创候选。",
+      "revenue": null,
+      "retention": null,
+      "subscription": null
+    }
+  ],
+  "gaps": [
+    "总体覆盖为partial：13个可回查样本不足以代表全站、全品类或新人全部竞争情况。",
+    "榜单动态页头未完整解析；类别以作品页核对，排名仅为对应固定URL的可见序位，未称全站总榜。",
+    "只读取公开作品信息、简介及实际可见目录项，未读这些小说的全文或所有开篇，不能给出真实留存、收入或全文质量评价。",
+    "签约模式调整官方全文未取得；新闻对低等级作者完本签约的报道仅作线索。本账号等级、现有平台作品及签约权限未知。",
+    "发文等级额度表、奖励门槛表以图片承载，未读取全部数字；本账号单章与日/月字数上限未知。",
+    "外部AI使用的完整现行标识/申报条款与具体合同未取得；不声明平台已接受本工作流自动生成作品。",
+    "官方公告分页读取失败，未声称穷尽所有近期规则；9月低质公告只取得标题和署时。",
+    "年代创业、海上天灾、仙侠徒步和剧院行业候选缺少本次同类近期榜单样本，明确标探索方向。",
+    "2026福利不能外推到2027；写作、GitHub采用冻结与平台发布分别登记。"
+  ],
+  "secondary_sources": [
+    {
+      "id": "X01",
+      "title": "新作者必须完本才能签约，番茄小说新规引争议",
+      "publisher": "界面新闻",
+      "url": "https://www.jiemian.com/article/15182681.html",
+      "accessed_at": "2026-10-30T23:46:43+08:00",
+      "use": "仅用作签约权限变化的待官方确认线索，不登记为已核实官方规则"
+    }
+  ],
+  "method": {
+    "sample_count": 13,
+    "rank_types": [
+      "新书榜样本视图",
+      "阅读榜样本视图",
+      "分类页面对照"
+    ],
+    "copyright": "不下载小说全文；不复刻样本事件链；分析均据实际可见材料并注明推断。",
+    "title_search": "8个暂定标题以番茄域名限定的精确搜索未返回同名结果；搜索覆盖有限，不能证明全网唯一或情节不存在相似。",
+    "no_income_inference": true,
+    "no_platform_submission": true
+  },
+  "editorial_conclusions": [
+    {
+      "type": "inference",
+      "conclusion": "职业能力提供可见成果，搭配诡异危机或领地建设，有利于明确书名承诺；只是选题判断，不是转化数据结论。",
+      "sample_ids": [
+        "S01",
+        "S02",
+        "S11"
+      ]
+    },
+    {
+      "type": "inference",
+      "conclusion": "被压制者主动改变选择、让旧关系付出真实代价，能形成清晰情绪入口；长篇仍需要独立的成长与外部主线。",
+      "sample_ids": [
+        "S05",
+        "S06",
+        "S08"
+      ]
+    },
+    {
+      "type": "inference",
+      "conclusion": "长篇需要从个人生存推进到组织责任和不可逆取舍；单靠同招打脸或数值上升会削弱100章耐久性。",
+      "sample_ids": [
+        "S04",
+        "S07",
+        "S09"
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 3,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "RESEARCH_PLATFORM",
+  "phase": "WAITING_TOPIC",
   "platform": "fanqie",
   "selected_topic": null,
-  "research_path": null,
-  "topics_path": null,
+  "research_path": "research/platform_60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28.json",
+  "topics_path": "research/topics_23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e.json",
   "chapter": 1,
   "history": [
     {
@@ -20,9 +20,21 @@
       "phase": "RESEARCH_PLATFORM",
       "label": "核查平台规则",
       "detail": "已选择番茄小说，正在等待核查现行规则。"
+    },
+    {
+      "at": "2026-10-30T15:47:14+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-10-30T15:47:32+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
     }
   ],
-  "detail": "已选择番茄小说，正在等待核查现行规则。",
-  "next_action": "核查官方规则和公开榜单，保留来源与时间，再提出5—10个原创选题。",
-  "updated_at": "2026-10-30T15:27:55+00:00"
+  "detail": "已准备8个原创选题，等待作者选择。",
+  "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
+  "updated_at": "2026-10-30T15:47:32+00:00"
 }

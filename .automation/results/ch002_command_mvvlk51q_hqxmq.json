@@ -1,0 +1,107 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "ch002_command_mvvlk51q_hqxmq",
+  "request_sha256": "19982a613a0ea5e4b1ba0517731209a5a0a817d30c20decbb1703c33228e5901",
+  "source_sha": "db2906dacd1d76313557c25c88eaf2356fab7a6c",
+  "base_sha": "0c254433271353eb4016f9c0ec3f035cfb0954fe",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-30T23:22:15+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41144051803",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_brief_pending.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-01.stdout.txt",
+          "sha256": "80a29c7c6fc4da824149485197b1176010a898dc834cffb00033439f58b313c9",
+          "bytes": 177
+        },
+        "stderr": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "暖位 拆床 让出 私人",
+        "--limit",
+        "5"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-02.stdout.txt",
+          "sha256": "d643e054d07552bf8abad1bd6ce5f0822330e2701bcc39367993f41bf7884f81",
+          "bytes": 2613
+        },
+        "stderr": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "诺拉 库存 柴 备用 旧炉",
+        "--limit",
+        "5"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-03.stdout.txt",
+          "sha256": "f302388987929d2143c4019bd786d6be60a81a89cb7d1b487b4edacd17b11b50",
+          "bytes": 2646
+        },
+        "stderr": {
+          "path": ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
+  "changed_paths": [
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-01.stderr.txt",
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-01.stdout.txt",
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-02.stderr.txt",
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-02.stdout.txt",
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-03.stderr.txt",
+    ".automation/work/ch002_command_mvvlk51q_hqxmq/tool-03.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH002_brief_pending.json",
+    "online/index.json"
+  ]
+}

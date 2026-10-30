@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 9,
+  "revision": 10,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -94,9 +94,15 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH001已完成第1轮局部修订，同一候选任务继续审核；仅修引述、物件连续性和人物辨识。"
+    },
+    {
+      "at": "2026-10-30T17:18:35+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。"
     }
   ],
-  "detail": "CH001已完成第1轮局部修订，同一候选任务继续审核；仅修引述、物件连续性和人物辨识。",
-  "next_action": "完成绑定当前正文的事实记录与发布前报告，实审通过后冻结采用、finish与远端回读。",
-  "updated_at": "2026-10-30T16:59:46+00:00"
+  "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。",
+  "next_action": "本次只交付CH001；下一目标CH002，须实读CH001并先承接D0夜间求位，再核对首夜与次日盘点。",
+  "updated_at": "2026-10-30T17:18:35+00:00"
 }

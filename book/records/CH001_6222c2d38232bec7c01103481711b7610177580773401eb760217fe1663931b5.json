@@ -1,0 +1,330 @@
+{
+  "chapter": 1,
+  "title": "锅炉是冷的，龙也是",
+  "stage": "S01",
+  "base_revision": 3,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+  "complete": true,
+  "story_time_end": 780,
+  "temporal_precision": "D0 21:00，依正文天黑及九下钟声与canon零点换算。事实表保守登记章末有效状态；没有为未报时场景编造精确分钟，较早发生顺序须回读原文。",
+  "summary": "伊恩抵达灰炉堡，承认旧炉不可启动、当地炉艺不在自己知识内。灰石族匠人与赫穆完成有限试火，伊恩以让出西屋、拆床、整理龙棚和保留拒绝/出入权换取第一次口头合作。12块床板分为8块垫龙棚、4块补暖屋南窗，屏风和床帐移作保温。傍晚饭厅实际有暖意，一枚蓄热石按匠人估计到一格，另一枚未用；夜里60暖位坐满，其他住户仍用分散小灶。诺拉安排12捆柴领用，其中2捆作未拆备用。21点又有人带椅为母亲求位，伊恩仅问地址，首夜结果和次日盘点仍待落实。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [],
+    "mode": "same_context_approximation",
+    "conclusion": "完整审读8953汉字当前修订稿；R1已修精确说话次数、石托连续性和两组住户辨识，R2改正“大人”不能推出姓名的称呼逻辑。第一章无已采用旧章；对照实际canon/roadmap及原文，不把未盘库存、过夜估计、未来接人登记为已证事实。发布前须执行release-check，文学判断为同上下文近似。",
+    "input_sources": [
+      {
+        "kind": "canon",
+        "path": "book/inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+        "sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803"
+      },
+      {
+        "kind": "roadmap",
+        "path": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+        "sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "site:灰炉堡:旧封闭炉",
+      "value": "截至本章末，伊恩已决定旧封闭炉不启动；未发生修复或重启。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "伊恩站起来，把炉门旁的火钩拿开，横放到门外。\n\n“这座先不开。”"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:local_furnace_limit",
+      "value": "伊恩知道自己不掌握此世界旧炉热路与灰石族纹路；不能从现代经验直接推出完整修复方法。",
+      "holder": "CHAR-01",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "他能看出这东西不该贸然点起来。至于里面原本怎样走热、灰石族留的纹路怎样起作用，他不知道。认识裂口，并不等于会修这个世界的炉子。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:modern_identity",
+      "value": "伊恩保有程野30岁时供热检修、带班的记忆；本章没有把这些经历告诉在场其他人。",
+      "holder": "CHAR-01",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "半个月前，他还叫程野，日子大半耗在供热站和检修现场。三十岁，带过一个不大不小的班组，最熟悉的不是设计图，而是凌晨有人在电话里说：又不热了，你来看看。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:left_wing",
+      "value": "赫穆左翼有浅白旧痕，收翅未完成，后续仍保留在身侧，不登记痊愈。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "院子里，龙正把左边翅膀往身下收。那动作很慢，收进一半又停了。翼骨拐折处有一道浅白旧痕，周围的鳞长得不齐。它最终没有把翅膀叠好，只将几块空木箱往外推，给翼尖腾了点地方。"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:CH001:trial",
+      "value": "赫穆曾对本地蓄热石自愿进行一次细火试用，伊恩亲手感到热；非已证明整夜供热。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "一线暗红的火，从齿间落了下来。\n\n不是伊恩想象中铺天盖地的烈焰。那火细得只够沿着石面走过一遍，贴过浅纹，便被龙收回了嘴里。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:dragon_fire_budget",
+      "value": "伊恩从赫穆处获知：状态好时一天最多一整口，小口试火也计在内，三天内须有一天不吐；这是当事者自述的身体边界，不是客观精密量热结果。",
+      "holder": "CHAR-01",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“好好的时候，一天一整口。刚才那样的小口，攒起来也只能算在里面。三天里，总得有一天不吐。”"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-02:illness_refusal",
+      "value": "赫穆表示身体不适时不吐火；未因此把今后每一天的工作写成已发生。",
+      "holder": "CHAR-02",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“不舒服的时候呢？”\n\n“不吐。”"
+    },
+    {
+      "kind": "fact",
+      "key": "agreement:COOP-01:terms_offered",
+      "value": "伊恩已向赫穆提出不带链、不强求每日满量、可拒绝与可离开的冬栖合作条件；不登记魔法绑定或终身效忠。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“先过今晚。棚子要是收拾得能住，你愿意待，我们就说到春天。你要走，我不拦。你有不想干的时候，也先说。”"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:dragon_name",
+      "value": "赫穆向伊恩告知姓名，主角此后知道对方叫赫穆；其他人是否当场听清不统一代填。",
+      "holder": "CHAR-01",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“赫穆。”\n\n“什么？”\n\n“我的名字。你刚才叫我‘外头那条龙’。”"
+    },
+    {
+      "kind": "state",
+      "key": "site:西屋:use",
+      "value": "原供领主住的西屋已经失去完整床和床帐，匠人料箱已搬入，现不能按原样供伊恩独住；不把使用权改变写成伊恩私人产权出售。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "伊恩再从西屋下来的时候，拆床留下的木屑已经扫进角落。匠人的料箱占了靠墙的地方，空床框被挪到窗下，毡帐不在，风声比方才清楚了许多。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:床板:allocation",
+      "value": "拆下的床板明确分为8块供龙棚、4块供饭厅，不重复算同一木料。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "下楼时，他怀里多了四块床板，肩上搭着一条门毡。八块铺棚的板由护卫分着搬，匠人跟在旁边，不时伸手护一下翘起来的边。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:南窗",
+      "value": "四块床板已补到南窗，不再算作可售或可另铺龙棚的完整库存。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "四块床板都补在南窗。"
+    },
+    {
+      "kind": "state",
+      "key": "site:龙棚:floor",
+      "value": "8块床板只垫腹下最潮部分，另拣原有厚木，未声称将整间棚铺满或无材料扩建。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "那八块床板铺不满整间棚，只够垫起腹下最潮的一段。匠人把原有的厚木重新拣过，朽掉的丢开，能用的挪到稍高处。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:insulation",
+      "value": "北窗借布、床帐铺内坐台、两扇屏风挡门风并留通路，材料各有独立位置。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "北窗多蒙了一层住户借来的布，厚床帐铺在靠内的坐台。两扇屏风挡住门口直灌的风，又给出去的人留了道弯。"
+    },
+    {
+      "kind": "state",
+      "key": "site:龙棚:door",
+      "value": "门毡用于侧面破口；主通道未封，赫穆已亲自推试旧木挡，保有自行出入的实际条件。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "等地面收拾好，伊恩把肩上的门毡交给匠人。匠人比了比漏风的位置，没有把它钉到出入口上，而是用在侧面那道破口。主通道仍敞着，边上只立了一扇赫穆自己能推开的旧木挡。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:rest_place",
+      "value": "赫穆已将腹部移到干木上，左翼在旁边干地而非被人强折；住处条件得到部分实际改善。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "它伏下去，先将右边前爪放在干木上，停了停，才把身子缓缓挪过来。左翼落在旁边露出的干地上，没被人推着往里折。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:蓄热石:current_use",
+      "value": "试过的一枚已用于饭厅供热，另一个完整石头仍未投入添火；没有凭容量额外创造第二间暖屋。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "炉房与饭厅隔着不远。旧附槽的外口已由匠人清出来，早晨试过的蓄热石也放回了托中。另一块完好的石头留在边上，没有人因为还空着，就忙着往里添火。"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-04:heat_estimate",
+      "value": "灰石族匠人按旧刻痕估计已到一暖格，可先按此使用但须有人看；一整夜是否够仍未被正文验证。",
+      "holder": "CHAR-04",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“这一格到了。房也封住，今晚先按这一格用。还得有人看着。”"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:CH001:stop",
+      "value": "本次有限供热后伊恩明确不继续为闲置石头添火，赫穆回棚休息；未量出当日总吐息精确比例。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“今天就这些。”伊恩说。\n\n赫穆侧过眼睛看他，似乎有点意外。\n\n“另一块还空。”\n\n“现在没有第二间屋。”"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:issued_distribution",
+      "value": "本日已安排8捆给住户小灶、2捆厨房、2捆暖屋备用。备用要求仍绑着，不能把12捆全记为已烧尽；库余与实耗待盘。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "屋里，诺拉正向一个来领柴的人交代：“八捆给几处住户小灶，两捆厨房。剩下两捆先放暖屋门边，绑着，别急着拆。”"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-WOOD:issued_total",
+      "value": "伊恩目见领柴者将12捆搬清，确认领用行为；不由此声称所有燃烧实耗或剩余库存已盘清。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "他站起来，等领柴的人把十二捆搬清，才过去问：“剩的能撑多久？”"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:inventory_uncertainty",
+      "value": "伊恩获知旧账不能代替实盘；本章未确认粮6240份、公库342银或干柴余数，不将开篇作者基线直接注入角色知情。",
+      "holder": "CHAR-01",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "“旧账有旧账的数。有些木头压在底下，摸着干，烧起来不是那回事。”"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "截至21点饭厅暖位60人已满，不再额外增加空位；暖意已出现，未声称全城温暖。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "午后他搬进来的第一扇屏风，就立在门后。屋里有六十个人，谁也不是多余的。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-01:fatigue",
+      "value": "伊恩搬料后胳膊酸、握碗手抖，尚无恢复如初的场面；不是医学诊断。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "伊恩蹲在厨房门口，给送来的水桶让路。胳膊酸得厉害，下午搬料箱时没觉得，这会儿歇下来，手连握住碗都发抖。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-05:left_leg",
+      "value": "塞恩旧伤腿在卸床时疼痛并由短木承托后松手，不将其登记为无伤或全日无限劳动。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "塞恩的旧腿使不上劲，刚一弯，额头便绷出一层薄汗。伊恩叫他松手，他没肯，匠人却将一块短木头塞到那一头下面。"
+    },
+    {
+      "kind": "state",
+      "key": "char:VISITOR-001:request",
+      "value": "章末另一男子抱椅带被替母亲求暖位；诺拉回答已满。伊恩仅问地址，未出现答复、接人或安排第61暖位。",
+      "holder": "",
+      "valid_from": 780,
+      "valid_until": null,
+      "quote": "男人低下头，手掌在椅背上来回擦了两下。\n\n“我娘不占那张大台子。她坐得住。我把椅子都带来了。”"
+    }
+  ],
+  "progression": {
+    "goal": "在旧大炉停用的条件下为寒冷住户取得第一处暖屋，而不把老龙当可强迫的设备。",
+    "obstacle": "炉体损坏、蓄热与住房容量有限；龙要干地与自由，匠人的私料不能强占，居民各有照护需要。",
+    "method": "由当地匠人掌握炉艺、龙自愿有限供火；主角让出自己的居住便利、搬料拆床，并由诺拉处理住户实际需要。",
+    "choice": "不重启坏炉、不用领主权威强占架子与强排住户；拿西屋、床板、屏风作代价，并在另一石仍空时停止添火。",
+    "result": "龙卧到干木并保留出路；暖屋有热且60暖位入住，首个交换通过行动成立。",
+    "consequence": "主角失去原可独住的西屋与完整床，材料用途已锁定且本人疲劳；暖位不足和持续库存压力暴露。",
+    "next_options": "先核实首夜结果和两捆备用柴，回应门外母亲求位，再按诺拉安排实际盘点；不能直接宣布扩满全城。",
+    "scene_function": "从冷炉和冷淡到协商、付出、分工与可感的暖意，最后把设备数量问题变成具体人的安置问题。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-FIRST-HEAT",
+      "action": "payoff",
+      "description": "首个供暖场面已兑现：饭厅有实际暖意，完成第一处可用暖位；不是整冬或全城供热。",
+      "quote": "可那不是错觉。\n\n门边的人挪了挪。有人小声叫最里面的人别贴得太近，又把一件湿外衣铺到腿上。"
+    },
+    {
+      "id": "TH-DRY-SHELTER",
+      "action": "payoff",
+      "description": "首次合作中“先看见干地”已通过实际清理、床板和龙卧下兑现；持续维护另按长期合作处理。",
+      "quote": "龙腹贴上那几块床板时，伊恩听见了一声长长的呼气。\n\n没有火。\n\n只是它终于没再压着湿泥。"
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "plant",
+      "description": "口头冬栖合作以自愿与可离开为边界，最迟春到必须实际处理到期，不因城市依赖自动续约。",
+      "quote": "“先过今晚。棚子要是收拾得能住，你愿意待，我们就说到春天。你要走，我不拦。你有不想干的时候，也先说。”"
+    },
+    {
+      "id": "TH-REST-FIRST3",
+      "action": "plant",
+      "description": "首个三日周期必须出现至少一个无深吐息日；后续持续按硬边界检查，不能完成一次就豁免往后。",
+      "quote": "“好好的时候，一天一整口。刚才那样的小口，攒起来也只能算在里面。三天里，总得有一天不吐。”"
+    },
+    {
+      "id": "TH-FIRST-NIGHT",
+      "action": "plant",
+      "description": "首夜供暖是否足够未验证，诺拉保留两捆备用；次晨须给实际结果而非假定平安。",
+      "quote": "“那边新存的热，没撑过整夜。后半夜真不够，还有干柴接一下。”"
+    },
+    {
+      "id": "TH-INVENTORY-MORNING",
+      "action": "plant",
+      "description": "伊恩答应次日先听诺拉安排看料房和库存，需要实际执行或有代价地处理失约。",
+      "quote": "“明天我跟你看。”\n\n“别又答应一早去抬石头。”"
+    },
+    {
+      "id": "TH-WEST-WINDOW",
+      "action": "plant",
+      "description": "西屋已改存匠料但窗漏风，伊恩说等明天；次日需实查处理，不恢复已拆床。",
+      "quote": "“那个窗，还漏风。”\n\n伊恩抬头。二楼西屋的窗板在风里轻轻颤着，里面没有灯，原来放床的位置已经摆满了料箱。\n\n“等明天吧。”他说。"
+    },
+    {
+      "id": "TH-SIXTY-FIRST",
+      "action": "plant",
+      "description": "门外男子为母亲求暖位，伊恩问家址；次章应答复与安排，不预设已经收容或可以超容。",
+      "quote": "他接过诺拉手里的灯，将光放低，照着男人卷在被里的那双布鞋。\n\n“你家在哪儿？”"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 8953
+}

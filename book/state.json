@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 3,
+  "revision": 4,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "锅炉是冷的，龙也是",
+      "stage": "S01",
+      "text_path": "chapters/CH001_22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32.txt",
+      "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+      "record_path": "records/CH001_6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5.json",
+      "record_sha256": "6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5",
+      "han_count": 8953,
+      "adopted_at": "2026-10-30T17:17:12+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -57,8 +68,8 @@
       "task_id": "cf1b7cd1-c5d0-4f1c-b633-3cef1d37415a",
       "chapter": 1,
       "mode": "write",
-      "phase": "candidate",
-      "repairs": 1,
+      "phase": "adopted",
+      "repairs": 2,
       "history": [
         {
           "sha256": "22fb3a8369efaf2d4b0236f7ea7d2a7f22610ade7602699a988c063e9d02064b",
@@ -69,20 +80,189 @@
           "sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
           "reason": "R1：修正三回引述与石托出场连续性，补清暖屋内照护者与门外求暖者辨识；同一目标局部修订。",
           "repairs": 1
+        },
+        {
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "reason": "R2：赫穆不能从“大人”推知伊恩姓名，且“叫了好几回”无足够正文依据；将回应改为“这个比大人好记”，保留姓名交换而去掉错误推断。",
+          "repairs": 2
         }
       ],
-      "candidate_sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
-      "candidate_path": "candidates/CH001_530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb.txt"
+      "candidate_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+      "candidate_path": "candidates/CH001_22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32.txt"
     }
   },
   "completion": null,
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "record_sha256": "6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5"
+      }
+    },
     "published": {},
-    "gates": {},
-    "promises": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_9ca0c2e30246c0e65e9a95da5aafe3c910c78d8c90f0f99e3ad355b315e51ef5.json",
+        "sha256": "9ca0c2e30246c0e65e9a95da5aafe3c910c78d8c90f0f99e3ad355b315e51ef5",
+        "used": true
+      }
+    },
+    "promises": {
+      "TH-COOP-SPRING": {
+        "history": [
+          {
+            "id": "TH-COOP-SPRING",
+            "action": "set",
+            "deadline_chapter": 20,
+            "reason": "普通口头冬栖合作的到春边界须在第一冬末实际处理，不能默认取得龙的余生；当前只成立首次互惠。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "“先过今晚。棚子要是收拾得能住，你愿意待，我们就说到春天。你要走，我不拦。你有不想干的时候，也先说。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 20,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "TH-DRY-SHELTER": {
+        "history": [
+          {
+            "id": "TH-DRY-SHELTER",
+            "action": "complete",
+            "deadline_chapter": null,
+            "reason": "首次看见干地并卧上已兑现；这不是棚屋永久免维护，也不代表旧翼痊愈。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "龙腹贴上那几块床板时，伊恩听见了一声长长的呼气。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": null,
+        "status": "closed",
+        "last_reviewed_chapter": 1
+      },
+      "TH-FIRST-HEAT": {
+        "history": [
+          {
+            "id": "TH-FIRST-HEAT",
+            "action": "complete",
+            "deadline_chapter": null,
+            "reason": "从冷屋到实际温意和住户反应，首处热量已交付；不涵盖首夜、全城或整冬。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "伊恩将掌心贴近墙边。温意隔着一小段距离传来，不烫，也不强，和他过去站在运转机房里感到的热很不一样。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": null,
+        "status": "closed",
+        "last_reviewed_chapter": 1
+      },
+      "TH-FIRST-NIGHT": {
+        "history": [
+          {
+            "id": "TH-FIRST-NIGHT",
+            "action": "set",
+            "deadline_chapter": 2,
+            "reason": "当前只到21点，是否够整夜仍未知；次章须交代首夜与两捆备用柴实际使用情况。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "“那边新存的热，没撑过整夜。后半夜真不够，还有干柴接一下。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 2,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "TH-INVENTORY-MORNING": {
+        "history": [
+          {
+            "id": "TH-INVENTORY-MORNING",
+            "action": "set",
+            "deadline_chapter": 2,
+            "reason": "明确答应明天跟诺拉盘点，须在次章实际执行或记录失约与代价，不能照抄基线作为盘过。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "“明天我跟你看。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 2,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "TH-REST-FIRST3": {
+        "history": [
+          {
+            "id": "TH-REST-FIRST3",
+            "action": "set",
+            "deadline_chapter": 3,
+            "reason": "CH003的D2须兑现首个三日内休息日，完成此项不解除后续持续三日限制。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "三天里，总得有一天不吐。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 3,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "TH-SIXTY-FIRST": {
+        "history": [
+          {
+            "id": "TH-SIXTY-FIRST",
+            "action": "set",
+            "deadline_chapter": 2,
+            "reason": "椅子、被子和地址问句形成具体待答，次章先承接并给母亲实际去向，不能将她写成已进满屋。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "他接过诺拉手里的灯，将光放低，照着男人卷在被里的那双布鞋。\n\n“你家在哪儿？”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 2,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "TH-WEST-WINDOW": {
+        "history": [
+          {
+            "id": "TH-WEST-WINDOW",
+            "action": "set",
+            "deadline_chapter": 2,
+            "reason": "西屋现放匠料而非主角完整床；说等明天须有检查和合理处理，不能为后续复原旧便利。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+              "quote": "“那个窗，还漏风。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 2,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
   },
   "writing_briefs": {

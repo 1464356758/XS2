@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "recorded_at": "2026-10-31T00:41:16+08:00",
+  "author_request": "开始写吧",
+  "interpretation": "依据已选T02与已完成规划，开始第一章；本次只完成CH001。",
+  "chapter": 1,
+  "chapter_writing_authorized": true,
+  "schedule_creation_authorized": false,
+  "platform_submission_authorized": false,
+  "execution_mode": "manual_chat_local_python",
+  "automation_id": null,
+  "client_session_id": null,
+  "model": "unverified",
+  "reasoning_effort": "unverified"
+}

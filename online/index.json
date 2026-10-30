@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T16:33:40+00:00",
+    "generated_at": "2026-10-30T16:41:16+00:00",
     "state_revision": 3,
-    "workflow_revision": 6,
-    "state_sha256": "0d7057f1e8bbdb8036ba1d7d7e74be9a929c6c63006e8b23e6302a90a174a709",
-    "workflow_sha256": "e274ac84085d5f45f93381a75d2e31513ce9e9f46701c6fea3b8e239fd24eec5",
+    "workflow_revision": 7,
+    "state_sha256": "7513cb7ad903393816755e3ade23b316184dcc209a020826eec5062222d641ad",
+    "workflow_sha256": "0c2c2e7d623c867cf4c019a64bb972039b8e36b3e5bf2d8cdab1e8e0e9aa8dbd",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "PLANNING",
-    "label": "长篇规划",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 1,
-    "detail": "T02开书规划已完成：正式设定、人物与资源基线、100章十阶段路线、前5章场景预算及规划审查已就绪；正文0章。",
-    "next_action": "作者确认“开始写第一章”后，仅执行CH001《锅炉是冷的，龙也是》的完整写作、审核与保存。",
-    "updated_at": "2026-10-30T16:32:44+00:00"
+    "detail": "作者已授权开始写；执行CH001《锅炉是冷的，龙也是》，写前任务书已登记，准备完整正文。",
+    "next_action": "只完成CH001正文、实际审核、必要局部修订、冻结采用和远端回读。",
+    "updated_at": "2026-10-30T16:41:16+00:00"
   },
   "chapters": [],
   "topics": [
@@ -1001,6 +1001,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "T02开书规划已完成：正式设定、人物与资源基线、100章十阶段路线、前5章场景预算及规划审查已就绪；正文0章。"
+    },
+    {
+      "at": "2026-10-30T16:41:16+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "作者已授权开始写；执行CH001《锅炉是冷的，龙也是》，写前任务书已登记，准备完整正文。"
     }
   ]
 }

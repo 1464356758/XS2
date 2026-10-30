@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_command_mvvlq061_9lfs6",
-  "base_sha": "af5a0de55dd922f6937621dbeeaacbbe1b81358f",
+  "request_id": "ch002_command_mvvlxbsb_l05kc",
+  "base_sha": "6dd0e47679a13fe270319ae309949daedc7d4e87",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -14,17 +14,43 @@
   "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
   "commands": [
     {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002_V1.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002_V1.txt",
+        "--out",
+        "drafts/CH002_reader_V1.md"
+      ]
+    },
+    {
       "script": "online_state.py",
       "args": [
         "--project",
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--detail",
-        "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。",
+        "CH002完整初稿8634汉字已登记，正在实际通读与反向提纲、限信息审读和八项证据核对。",
         "--next",
-        "继续写完整CH002，随后实际审读与八项审核。",
+        "保留同一候选任务，按已证问题局部修订，完成真实记录和release审核。",
         "--chapter",
         "2"
       ]

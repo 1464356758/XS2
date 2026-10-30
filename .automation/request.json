@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_preflight_mvvlhfn6",
-  "base_sha": "7d0a7ef420bbb9cf22b0c8d1fe21711dd18e4b16",
+  "request_id": "ch002_begin_mvvlipxg_2bbvz",
+  "base_sha": "56e5dbc32d94926d53fb7a0ac331a64d12d51084",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -10,5 +10,6 @@
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "preflight"
+  "phase": "begin",
+  "trigger_id": "manual_CH002_20261031_mvvlhfcp_s9x58t5hk1"
 }

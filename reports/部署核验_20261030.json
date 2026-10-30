@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-30T23:29:49+08:00",
+  "repository_url": "https://github.com/1464356758/XS2",
+  "branch": "main",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "source_archive": "小说初始化包_V4.3_1.4.3.zip",
+  "archive_sha256": "e443e510f6da8367688bccb1c5d133210b60ac19c788e4877165a61084c70f86",
+  "archive_crc": "pass",
+  "manifest": {
+    "count": 96,
+    "missing": [],
+    "hash_mismatch": [],
+    "contains_novel_data": false
+  },
+  "initial_remote": {
+    "head": "63013c903c9d31c3f01423dce510b741771ec5fe",
+    "tree_sha": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+    "contents": [],
+    "applicable_repo_agents": null,
+    "empty_tree_get_api": "404; actual branch metadata identifies canonical empty tree; root contents is []",
+    "historical_novel_data_restored": false
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "cryptography": "50.0.2"
+  },
+  "verification": {
+    "python_unittest": {
+      "run": 174,
+      "passed": 174,
+      "failed": 0
+    },
+    "node_test": {
+      "run": 153,
+      "passed": 153,
+      "failed": 0
+    },
+    "validate_index": {
+      "valid": true,
+      "chapters": 0,
+      "phase": "RESEARCH_PLATFORM"
+    }
+  },
+  "defaults": {
+    "serial_mode": true,
+    "narrative_review_required": true,
+    "chapter_han_min": 8000,
+    "chapter_han_max": 10000,
+    "target_chapters": 100,
+    "max_local_repairs": 3,
+    "storage": "plain_files"
+  },
+  "automation": {
+    "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+    "automation_id": null,
+    "requested": false
+  },
+  "template_mutable_files": [
+    "project_config.json",
+    ".automation/config.json",
+    "online/index.json"
+  ],
+  "remote_save_and_readback": "pending at initial preparation; inspect later git evidence and takeover report"
+}

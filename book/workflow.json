@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "phase": "RESEARCH_PLATFORM",
+  "platform": "fanqie",
+  "selected_topic": null,
+  "research_path": null,
+  "topics_path": null,
+  "chapter": 1,
+  "history": [
+    {
+      "at": "2026-10-30T15:27:55+00:00",
+      "phase": "WAITING_PLATFORM",
+      "label": "等待选择平台",
+      "detail": "系统已准备好，请先选择创作平台。"
+    },
+    {
+      "at": "2026-10-30T15:27:55+00:00",
+      "phase": "RESEARCH_PLATFORM",
+      "label": "核查平台规则",
+      "detail": "已选择番茄小说，正在等待核查现行规则。"
+    }
+  ],
+  "detail": "已选择番茄小说，正在等待核查现行规则。",
+  "next_action": "核查官方规则和公开榜单，保留来源与时间，再提出5—10个原创选题。",
+  "updated_at": "2026-10-30T15:27:55+00:00"
+}

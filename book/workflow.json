@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 10,
+  "revision": 11,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -33,7 +33,7 @@
   },
   "research_path": "research/platform_60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28.json",
   "topics_path": "research/topics_23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e.json",
-  "chapter": 1,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-10-30T15:27:55+00:00",
@@ -100,9 +100,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。"
+    },
+    {
+      "at": "2026-10-30T23:26:49+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。"
     }
   ],
-  "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。",
-  "next_action": "本次只交付CH001；下一目标CH002，须实读CH001并先承接D0夜间求位，再核对首夜与次日盘点。",
-  "updated_at": "2026-10-30T17:18:35+00:00"
+  "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。",
+  "next_action": "继续写完整CH002，随后实际审读与八项审核。",
+  "updated_at": "2026-10-30T23:26:49+00:00"
 }

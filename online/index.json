@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T23:23:20+00:00",
+    "generated_at": "2026-10-30T23:26:49+00:00",
     "state_revision": 4,
-    "workflow_revision": 10,
+    "workflow_revision": 11,
     "state_sha256": "4f5157b70658e1673d989cac14507050b618a0369e5505adb1a23638d828ca9d",
-    "workflow_sha256": "a121635b9e7f068a52b3a60736827219fa16cdefdeae291a9403215ad5231fc4",
+    "workflow_sha256": "2b12860e668ef43854c674f7b954afcb7e7adf6da2943f8cf1387103276de4b3",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
-    "chapter": 1,
-    "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。",
-    "next_action": "本次只交付CH001；下一目标CH002，须实读CH001并先承接D0夜间求位，再核对首夜与次日盘点。",
-    "updated_at": "2026-10-30T17:18:35+00:00"
+    "phase": "WRITING",
+    "label": "撰写正文",
+    "chapter": 2,
+    "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。",
+    "next_action": "继续写完整CH002，随后实际审读与八项审核。",
+    "updated_at": "2026-10-30T23:26:49+00:00"
   },
   "chapters": [
     {
@@ -1038,6 +1038,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "CH001《锅炉是冷的，龙也是》8953汉字已通过实读审核、release-check、采用冻结和本次finish；目前1/100章，平台发布未登记。"
+    },
+    {
+      "at": "2026-10-30T23:26:49+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH002已启动并完成当夜接续及次晨初稿段落；完整章尚未写完，继续原目标。"
     }
   ]
 }

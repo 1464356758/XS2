@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-    "title": "番茄新书·待选题",
+    "title": "被流放冻土后，巨龙来给我烧锅炉",
     "platform": "fanqie",
-    "selected_topic_id": null
+    "selected_topic_id": "T02"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T15:48:57+00:00",
-    "state_revision": 0,
-    "workflow_revision": 3,
-    "state_sha256": "7638738d311e9b205ffcc8f009308c7649c3bc0049670922331c60bbf18d1cc3",
-    "workflow_sha256": "c9c95d79e15d3b0adf7e667591b0358a0805a3c2a428d65dd592c4421eff0106",
+    "generated_at": "2026-10-30T15:55:21+00:00",
+    "state_revision": 1,
+    "workflow_revision": 5,
+    "state_sha256": "bcbf61bd39cd609a9a9c8a687de1c44d073929bcce4b989908a3202ca23aff94",
+    "workflow_sha256": "28b786c3891853ee783b240db48921bea5ebdc084d8e9f34cd99fc7a8098a400",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "已准备8个原创选题，等待作者选择。",
-    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-    "updated_at": "2026-10-30T15:47:32+00:00"
+    "detail": "作者已明确选择T02，正在建立世界设定、人物与资源基线、100章路线和前5章安排。",
+    "next_action": "完成规划审查并保存，等待作者确认开始写第一章。",
+    "updated_at": "2026-10-30T15:55:21+00:00"
   },
   "chapters": [],
   "topics": [
@@ -983,6 +983,18 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-30T15:54:39+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《被流放冻土后，巨龙来给我烧锅炉》，准备长篇规划。"
+    },
+    {
+      "at": "2026-10-30T15:55:21+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "作者已明确选择T02，正在建立世界设定、人物与资源基线、100章路线和前5章安排。"
     }
   ]
 }

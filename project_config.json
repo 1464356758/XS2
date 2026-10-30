@@ -1,6 +1,6 @@
 {
   "system_version": "4.3-quality",
-  "project_name": "番茄新书·待选题",
+  "project_name": "被流放冻土后，巨龙来给我烧锅炉",
   "book_root": "book",
   "authority": {
     "mode": "github",
@@ -13,8 +13,8 @@
     "chapter_order": "serial",
     "route_window_min": 3,
     "route_window_max": 5,
-    "platform": null,
-    "genre": null
+    "platform": "fanqie",
+    "genre": "西方奇幻／领地建设／轻喜剧"
   },
   "execution": {
     "context_character_budget": 80000,

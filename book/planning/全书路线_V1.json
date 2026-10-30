@@ -1,0 +1,1769 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "title": "被流放冻土后，巨龙来给我烧锅炉",
+  "created_at": "2026-10-31T00:28:38+08:00",
+  "status": "planning_only_await_start",
+  "author_selected_topic": "T02",
+  "author_started_writing": false,
+  "target_chapters": 100,
+  "chapter_han_min": 8000,
+  "chapter_han_max": 10000,
+  "target_han": 900000,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "stages": [
+    {
+      "id": "S01",
+      "from_chapter": 1,
+      "to_chapter": 10,
+      "planned_day_from": 0,
+      "planned_day_to": 6,
+      "title": "先让人和龙都活过这一夜",
+      "entry_state": "接到衰退边堡、有限存粮与失修炉体；当地人没有理由信任新领主。",
+      "goal": "在不强迫赫穆的条件下建立第一处可用公共暖屋与七日轮值。",
+      "active_opposition": "寒潮、住房不足、材料缺陷和居民各不相同的诉求；龙会拒绝不合理要求。",
+      "choice_and_cost": "主角让出私人便利、承认当地技能、牺牲部分资产；只能保底而非一夜温暖全城。",
+      "intended_exit_state": "人龙有有限合作，居民愿意试一次；干柴、粮食和房屋的损耗保留。",
+      "next_stage_cause": "短期有热使长期饥饿更清楚，必须组织整个冬季的获取与分担。",
+      "dominant_methods": "危机协商、实际救运、居住安排、普通人的合作",
+      "adoption_gate": "第一夜热、一次拒绝、一次选择和真实损失须已在正文发生。"
+    },
+    {
+      "id": "S02",
+      "from_chapter": 11,
+      "to_chapter": 20,
+      "planned_day_from": 7,
+      "planned_day_to": 105,
+      "title": "一个冬天不是一张承诺",
+      "entry_state": "短期信任已建立，但静态口粮只够初始常住者20日。",
+      "goal": "以分批粮源、劳动交换与有界服务渡过第一长冬，兑现最初冬栖期限。",
+      "active_opposition": "储粮损耗、运力、商会议价、住户公平和旧债主张。",
+      "choice_and_cost": "主角不能卖掉别人未来；赔付、结薪和服务缩水都要承担。",
+      "intended_exit_state": "本冬存亡取得结果，合作不能因救命恩情自动延续。",
+      "next_stage_cause": "春季给矿路、生产与农业有限试验提供可能，热源关系需要重新谈。",
+      "dominant_methods": "供给与劳动、关系修复、日常沉淀、信用与退出",
+      "adoption_gate": "首冬实际食物来源与全部时间跳跃要闭合；春到、到期和龙的自主选择有明确场面。"
+    },
+    {
+      "id": "S03",
+      "from_chapter": 21,
+      "to_chapter": 30,
+      "planned_day_from": 106,
+      "planned_day_to": 160,
+      "title": "从一口火到一条生产链",
+      "entry_state": "临时冬约结束，单靠善意无法支撑长期就业。",
+      "goal": "建立人类燃料与有限生产、保留农业试错，避免第一笔订单绑走全城。",
+      "active_opposition": "矿工旧创伤、产权、材料不适配、事故和军用高价订单。",
+      "choice_and_cost": "停工、报废和救人花钱；选择先兑现旧付出而非账面暴富。",
+      "intended_exit_state": "新燃料与初步产出有来源，也留下长期安全维护义务。",
+      "next_stage_cause": "生产链比边堡自用复杂，必须获得可靠运输与多方合作。",
+      "dominant_methods": "技能边界、矿工选择、救援与停工、生产试错",
+      "adoption_gate": "不可将试烧一次通过当成熟技术；灾害不得随意归给破坏者。"
+    },
+    {
+      "id": "S04",
+      "from_chapter": 31,
+      "to_chapter": 40,
+      "planned_day_from": 161,
+      "planned_day_to": 245,
+      "title": "长大以后，别人不再等你",
+      "entry_state": "城里能生产和交换，但运输、人口和居住承载不足。",
+      "goal": "把单点贸易转为多方网络，接受伙伴的专业决定和新住户的需求。",
+      "active_opposition": "自然水情、合法商业竞争、空间与维护费用；芮雅会拒绝。",
+      "choice_and_cost": "赔偿延误、失去客户、缩小施工范围，不能靠贵族强占消除分歧。",
+      "intended_exit_state": "暖季有真实成果，城扩大后对未来供热的要求显著增加。",
+      "next_stage_cause": "过去的成功制造第二冬的负荷与越来越深的龙火依赖。",
+      "dominant_methods": "交通与交付、成年关系、迁居、竞争与维护",
+      "adoption_gate": "新人口、设施、欠付与运力均须实际落账；阶段末连读检查是否仍只是签约和盘点。"
+    },
+    {
+      "id": "S05",
+      "from_chapter": 41,
+      "to_chapter": 50,
+      "planned_day_from": 246,
+      "planned_day_to": 263,
+      "title": "不再把伙伴当最后一件工具",
+      "entry_state": "城市扩张超过既有产能，主角习惯了赫穆总会帮忙。",
+      "goal": "让主角面对自己逐步侵蚀承诺的行为，完成主线中点转向。",
+      "active_opposition": "未来收益已经预售，技术放大失败、催工事故、老龙负担和住户恐惧。",
+      "choice_and_cost": "主角以个人地位和城市扩张承担停用龙深息的损失，不能以龙自愿为自己免责。",
+      "intended_exit_state": "赫穆受伤并保留不可逆影响；主角的目标改为城市可以放他离开。",
+      "next_stage_cause": "放弃方便热源，必须重建生产与决策方式；外部军需提出真实诱惑。",
+      "dominant_methods": "关系变质、能力失效、管理责任、重大后果与余波",
+      "adoption_gate": "伤情必须由正文建立；不补旧设定圆谎，不把停用委托写成剥夺龙身体自主权。"
+    },
+    {
+      "id": "S06",
+      "from_chapter": 51,
+      "to_chapter": 60,
+      "planned_day_from": 264,
+      "planned_day_to": 280,
+      "title": "先学会不由我一个人决定",
+      "entry_state": "旧模式失效，普通住户与工匠失去收入和热。",
+      "goal": "完成一个有限独立供热分区，并真正交出部分决策权。",
+      "active_opposition": "资金与人才短缺、军需条件、诺拉离岗和护卫拒绝不当命令。",
+      "choice_and_cost": "削减扩张、花钱维护、承认不全覆盖；主角接受自己不能永远亲自兜底。",
+      "intended_exit_state": "有限替代有实际试运证据，关系仍有伤口，旧规模不会免费恢复。",
+      "next_stage_cause": "单区可用不等于共同体稳定，接下来要处理规则如何对自己人也生效。",
+      "dominant_methods": "关系破裂与重建、组织分工、少量技术试用、真实资源诱惑",
+      "adoption_gate": "军需条件的好处必须真实；诺拉与塞恩的反对不能被降智或感动抹掉。"
+    },
+    {
+      "id": "S07",
+      "from_chapter": 61,
+      "to_chapter": 70,
+      "planned_day_from": 281,
+      "planned_day_to": 304,
+      "title": "普通人也有拒绝和离开的权利",
+      "entry_state": "替代系统初见效，多方开始争取明确权利与责任。",
+      "goal": "使规则约束领主和本城作坊，完成首次无龙的有限降温压力测试。",
+      "active_opposition": "自己人质量失误、矿工不满、邻堡需求、感情资源边界和工资退出。",
+      "choice_and_cost": "放弃不受约束的便利，承担返工、维护与人员离开。",
+      "intended_exit_state": "共同体在不完整和有成本的情况下更可信；不称已经独立过冬。",
+      "next_stage_cause": "赫穆真正离开的物理条件仍未解决，同族到来使退出权变成眼前任务。",
+      "dominant_methods": "照护与维护、非生产性日常、自治利益冲突、真实退出",
+      "adoption_gate": "不能连续十章开会；至少半数章节应以交付、工作现场、生活或行动呈现矛盾。"
+    },
+    {
+      "id": "S08",
+      "from_chapter": 71,
+      "to_chapter": 80,
+      "planned_day_from": 305,
+      "planned_day_to": 329,
+      "title": "给老朋友修一条回家的路",
+      "entry_state": "无龙的初步运转成立，但赫穆旧翼加新伤不能走原飞行路线。",
+      "goal": "通过实查、通行协作和试行，让地面离开成为可执行选择。",
+      "active_opposition": "龙族不同利益、路旁住户、地形、维护责任与具体投机威胁。",
+      "choice_and_cost": "绕行、赔偿、返工和守路，不能以救龙之名剥夺别人的土地与安全。",
+      "intended_exit_state": "龙具有真实可离城的路径，留下的伤并未因此痊愈。",
+      "next_stage_cause": "迁徙窗口临近，帝国要求分享新产能；主角必须在不确定中兑现退出承诺。",
+      "dominant_methods": "实地旅程、人与异族的不同记忆、修路与试行、有限对抗",
+      "adoption_gate": "不能临时发现传送阵或让旧伤神愈；龙族不是统一等着听主角说服的群众。"
+    },
+    {
+      "id": "S09",
+      "from_chapter": 81,
+      "to_chapter": 90,
+      "planned_day_from": 330,
+      "planned_day_to": 351,
+      "title": "放他走，也把自己留下",
+      "entry_state": "城市尚未经历完整的独立冬季，军需提供强力资源并要求长期控制。",
+      "goal": "让赫穆实际离城，形成有限、可承担的对外供给与义务安排。",
+      "active_opposition": "民用保底、财政、燃料线路与合法公共责任同时施压。",
+      "choice_and_cost": "不扣留龙当保险、不卖掉全部未来，也不以免费免税特权结束冲突。",
+      "intended_exit_state": "赫穆已走，城承担真实税费和有界外部供给；主角不能继续假借龙的威慑。",
+      "next_stage_cause": "所有说好的独立最终必须在下一整个冬季经受现实检验。",
+      "dominant_methods": "离别、承担合法义务、燃料应急、有限谈判与诚实信息",
+      "adoption_gate": "第85章后不能召龙回来救火；外部主冲突第90章有可见结果，不再换更大反派。"
+    },
+    {
+      "id": "S10",
+      "from_chapter": 91,
+      "to_chapter": 100,
+      "planned_day_from": 352,
+      "planned_day_to": 466,
+      "title": "城里的人把冬天过完了",
+      "entry_state": "没有龙深息托底，网络、维修与普通人承担全部生活。",
+      "goal": "完成完整独立冬季，结清主要承诺、感情选择与老朋友的归属。",
+      "active_opposition": "本城缺陷、持续低温、人员疲劳、工资补偿与有限边防需求。",
+      "choice_and_cost": "停止盲目增长、承担自己人的失误，接受有些损失和离开无法复原。",
+      "intended_exit_state": "供热与生活稳定经受整冬检验；龙以客人而非救命机器回来。",
+      "next_stage_cause": "全书收束，不以突然危机或新地图把已完成的结果清零。",
+      "dominant_methods": "长期运行检验、损失纪念、兑现与普通生活、成年人的未来",
+      "adoption_gate": "独立过冬必须在龙回访前成立；主线、去留、税约、工钱和关系有实际结局。"
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "stage": "S01",
+      "title": "锅炉是冷的，龙也是",
+      "planned_story_days": "D0",
+      "central_conflict": "伊恩到堡发现旧炉不能启用，冬栖老龙拒绝被命令",
+      "active_choice_and_cost": "放弃主卧取材和领主专属暖位，与赫穆谈一次有限合作",
+      "intended_state_delta": "六十人的第一间暖屋有了可用热，其他住户仍需柴火",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 2,
+      "stage": "S01",
+      "title": "第一把椅子给谁",
+      "planned_story_days": "D1",
+      "central_conflict": "暖位不足，熟人想挤掉无关系的病弱住户",
+      "active_choice_and_cost": "让诺拉按实际需求排位，伊恩不能私保随行者",
+      "intended_state_delta": "分配获得有限信任，更多场地与木料成为硬需求",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 3,
+      "stage": "S01",
+      "title": "龙今天不上工",
+      "planned_story_days": "D2",
+      "central_conflict": "赫穆需要休息，工匠与住户同时要干柴",
+      "active_choice_and_cost": "取消装点领主府的用料，先保做饭和最低暖位",
+      "intended_state_delta": "人类独自撑过休息日，匠人取得真实报酬与拒工权",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 4,
+      "stage": "S01",
+      "title": "断桥上的粮车",
+      "planned_story_days": "D3",
+      "central_conflict": "白渡来的粮车受困，商人不肯无偿转让货权",
+      "active_choice_and_cost": "伊恩带有限人手救运并承担工期和牲口损耗，买粮另算",
+      "intended_state_delta": "粮和货主都真正到堡，欠款与商路关系同时出现",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 5,
+      "stage": "S01",
+      "title": "这一夜不许硬撑",
+      "planned_story_days": "D4—D5",
+      "central_conflict": "第一轮暴雪压塌外围棚顶，龙与人不能同时救所有物件",
+      "active_choice_and_cost": "舍弃可出售木料与领主私屋，优先转移住户和龙的休息处",
+      "intended_state_delta": "首轮寒潮被扛住，资产损失保留，尚未解决整冬食物",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 6,
+      "stage": "S01",
+      "title": "给龙留一扇门",
+      "planned_story_days": "D5—D6",
+      "central_conflict": "住户想把龙棚唯一出入口堵成储物墙",
+      "active_choice_and_cost": "伊恩兑现可自由进出的约定，承受库房不够用的麻烦",
+      "intended_state_delta": "赫穆第一次主动参与日常，人龙合作仍保留边界",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 7,
+      "stage": "S01",
+      "title": "被挑出来的坏木头",
+      "planned_story_days": "D6",
+      "central_conflict": "为赶工交来的木料不合用，乌铎拒绝使用",
+      "active_choice_and_cost": "主角不以领主权威逼匠人签字，接受退料和延期",
+      "intended_state_delta": "工期被改写，施工标准开始真实约束主角",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 8,
+      "stage": "S01",
+      "title": "热汤也要付账",
+      "planned_story_days": "D6",
+      "central_conflict": "车队愿意付费过夜，居民认为商人占了自己的热",
+      "active_choice_and_cost": "只出售独立可用的剩余服务，暂缓一笔急需的钱",
+      "intended_state_delta": "公共承诺胜过短钱，分区设施有了正当建设理由",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 9,
+      "stage": "S01",
+      "title": "那间空着的屋子",
+      "planned_story_days": "D6",
+      "central_conflict": "一户人家守着亡者旧屋，不肯交给公共扩建",
+      "active_choice_and_cost": "伊恩放弃强占，改走更费料的方案，容纳不同哀伤",
+      "intended_state_delta": "暖屋扩建变难，住户的自主权有了可见代价",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 10,
+      "stage": "S01",
+      "title": "灰炉堡的第七盏灯",
+      "planned_story_days": "D6",
+      "central_conflict": "分散灶火与公共暖屋需要同步守夜，人手不足",
+      "active_choice_and_cost": "各方承担可核实的一班，伊恩接受别人替自己下决定",
+      "intended_state_delta": "第一套轮值成立，只证明七日可生存，不冒称过完冬天",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 11,
+      "stage": "S02",
+      "title": "墙角渗出来的水",
+      "planned_story_days": "D7—D10",
+      "central_conflict": "旧粮仓渗水使账面储粮与实物不再相同",
+      "active_choice_and_cost": "公开减记损耗，停止为脸面维持过量供给",
+      "intended_state_delta": "食物真实减少，冬季采购必须提前",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 12,
+      "stage": "S02",
+      "title": "南边的人没有义务救我",
+      "planned_story_days": "D11—D14",
+      "central_conflict": "芮雅拒绝把车队全部押在一条不可靠雪路上",
+      "active_choice_and_cost": "主角接受运力限制，拆成多批并付出押金或等值货物",
+      "intended_state_delta": "粮源有了可执行运输条件，不是得到一张空承诺",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 13,
+      "stage": "S02",
+      "title": "先把旧债放到桌上",
+      "planned_story_days": "D15—D20",
+      "central_conflict": "矿路商会要把新粮与未经核实的旧欠额捆绑",
+      "active_choice_and_cost": "把已确认交易与争议主张分开，拿实物和未来可交付服务换信用",
+      "intended_state_delta": "首批大宗粮分次入仓，城市承担清楚而有限的新义务",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 14,
+      "stage": "S02",
+      "title": "冬天不能只等春天",
+      "planned_story_days": "D21—D35",
+      "central_conflict": "长冬封路，愿意工作的居民也无事可做",
+      "active_choice_and_cost": "把修车、缝补和储存维护组织成可换物的劳动，不许空发工钱",
+      "intended_state_delta": "居民从被配给者变为有产出的参与者",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 15,
+      "stage": "S02",
+      "title": "不点龙火的早晨",
+      "planned_story_days": "D36—D45",
+      "central_conflict": "一次计划中的休息与气温骤降重叠",
+      "active_choice_and_cost": "按预定上限停用商业热负荷，靠人类保温和存料保底",
+      "intended_state_delta": "休息条款经受压力，服务欠账和赔偿真实留下",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 16,
+      "stage": "S02",
+      "title": "雪墙后的集市",
+      "planned_story_days": "D46—D55",
+      "central_conflict": "外围人愿意来交换，但堡内担心外来者吃掉存粮",
+      "active_choice_and_cost": "按实际承载组织短时交换和返程，不能随意许诺收容全部人",
+      "intended_state_delta": "城与周边第一次形成稳定往来，需求和收益都变大",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 17,
+      "stage": "S02",
+      "title": "最便宜的粮最难拿",
+      "planned_story_days": "D56—D70",
+      "central_conflict": "更便宜的粮要求独占今后全部运输服务",
+      "active_choice_and_cost": "选择保留替代渠道并少赚一部分，承受紧粮和抱怨",
+      "intended_state_delta": "没有把未来锁死，芮雅看见主角能尊重合作边界",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 18,
+      "stage": "S02",
+      "title": "欠工钱的人不能装忙",
+      "planned_story_days": "D71—D85",
+      "central_conflict": "一次交货延误使匠人应得的钱无法按期给付",
+      "active_choice_and_cost": "主角处置自己的非必要资产并公开剩余欠付期限",
+      "intended_state_delta": "工资有真实偿付，损失不由最弱者默默承担",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 19,
+      "stage": "S02",
+      "title": "这一桌没有上座",
+      "planned_story_days": "D86—D104",
+      "central_conflict": "漫长等待后，一场普通聚餐暴露仍未修复的隔阂",
+      "active_choice_and_cost": "不以赦免或感动强迫所有人和好，让不同家庭各有位置",
+      "intended_state_delta": "共同生活获得温度，旧分歧保留而不妨碍合作",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 20,
+      "stage": "S02",
+      "title": "春天到了，约定也到了",
+      "planned_story_days": "D105",
+      "central_conflict": "封雪结束，最初冬栖约定应当结束",
+      "active_choice_and_cost": "主角公开归还是否继续合作的选择，不因城已依赖而扣住龙",
+      "intended_state_delta": "首冬存亡有结果，临时盟约不能自动续成终身义务",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 21,
+      "stage": "S03",
+      "title": "赫穆的新价钱",
+      "planned_story_days": "D106—D109",
+      "central_conflict": "夏季城中仍想借龙火扩张，赫穆有自己的安排",
+      "active_choice_and_cost": "按次另谈并接受拒绝，寻找人类可承担的替代工艺",
+      "intended_state_delta": "合作从救命恩情变为双方可退出的交换",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 22,
+      "stage": "S03",
+      "title": "矿口不是我的门",
+      "planned_story_days": "D110—D113",
+      "central_conflict": "旧矿重开涉及矿工既有权利和家属生活",
+      "active_choice_and_cost": "放弃一纸承领令包揽全部收益，谈共同投入与安全条件",
+      "intended_state_delta": "得到有限开采合作，矿工不成为免费劳力",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 23,
+      "stage": "S03",
+      "title": "没人愿意再下去",
+      "planned_story_days": "D114—D117",
+      "central_conflict": "旧伤和过去事故使招工无人响应",
+      "active_choice_and_cost": "请矿工决定首批可做的地面工作，支付真实工钱",
+      "intended_state_delta": "队伍从不信到愿意尝试，速度慢于领主原计划",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 24,
+      "stage": "S03",
+      "title": "第一次试烧并不好看",
+      "planned_story_days": "D118—D120",
+      "central_conflict": "当地煤样与主角经验不符，试烧结果很差",
+      "active_choice_and_cost": "承认判断错误，停止扩大生产并请乌铎主导复核",
+      "intended_state_delta": "一批材料报废，技术优势受到清楚边界约束",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 25,
+      "stage": "S03",
+      "title": "还在里面的人",
+      "planned_story_days": "D121—D123",
+      "central_conflict": "一次自然塌损困住少数工人，更多矿料可以保住",
+      "active_choice_and_cost": "放弃矿料和设备，为救人留出有限时间与人手",
+      "intended_state_delta": "有救援结果也有长期损失，事故不自动归给敌人",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 26,
+      "stage": "S03",
+      "title": "地上的活也算活",
+      "planned_story_days": "D124—D127",
+      "central_conflict": "停井后工人面临断薪，公库无力空养全队",
+      "active_choice_and_cost": "先做清理、选料与旧设施加固，按劳动实际产出分担",
+      "intended_state_delta": "维持有限收入，矿井恢复须经过可见准备",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 27,
+      "stage": "S03",
+      "title": "第一车不是庆功酒",
+      "planned_story_days": "D128—D131",
+      "central_conflict": "可用燃料终于抵堡，商人立即要求分走大半",
+      "active_choice_and_cost": "先满足已承诺的基础试运，放弃高价急单",
+      "intended_state_delta": "人类燃料有了真实入库来源，未形成无限供应",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 28,
+      "stage": "S03",
+      "title": "种子不能听领主的话",
+      "planned_story_days": "D132—D135",
+      "central_conflict": "伊恩想以保温设施换粮，老农指出季节和土壤限制",
+      "active_choice_and_cost": "保留小块对照试种，购粮继续，不把全城押在第一茬上",
+      "intended_state_delta": "农业线建立试错时间，暖棚不再等于立刻免粮荒",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 29,
+      "stage": "S03",
+      "title": "灰炉堡没有白拿的东西",
+      "planned_story_days": "D136—D139",
+      "central_conflict": "多方争抢第一笔矿货收益，最早出力者未获回报",
+      "active_choice_and_cost": "先兑现已形成的劳务和损失，再讨论扩大",
+      "intended_state_delta": "公库未暴涨，但合作者获得继续投入的理由",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 30,
+      "stage": "S03",
+      "title": "把火留给活人用",
+      "planned_story_days": "D140—D160",
+      "central_conflict": "军用订单能支付更多，民用维护和种植设施却仍不足",
+      "active_choice_and_cost": "选择有限工业热试验并拒接超载订单",
+      "intended_state_delta": "矿、粮与热建立可持续联系，扩张开始需要运输能力",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 31,
+      "stage": "S04",
+      "title": "河开了，路还没有",
+      "planned_story_days": "D161—D166",
+      "central_conflict": "解冻不等于能通航，旧码头和船体不可靠",
+      "active_choice_and_cost": "先做短途测线与修整，拒绝立刻装满货",
+      "intended_state_delta": "河路从猜想变成有界试运，人员安全有真实成本",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 32,
+      "stage": "S04",
+      "title": "芮雅的船不听领主的",
+      "planned_story_days": "D167—D172",
+      "central_conflict": "主角把车队伙伴排进自己以为最优的班次",
+      "active_choice_and_cost": "接受芮雅重新安排与拒单，承担交货延误",
+      "intended_state_delta": "两人第一次正面碰撞，合作不因好感免除边界",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 33,
+      "stage": "S04",
+      "title": "带回来的不是满船货",
+      "planned_story_days": "D173—D178",
+      "central_conflict": "返程运力只能在急需建材和另一聚落病弱者之间取舍",
+      "active_choice_and_cost": "接人并削减本城一项扩建，不能顺便获得全部货物",
+      "intended_state_delta": "住户与照护压力增长，城市承担选择后果",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 34,
+      "stage": "S04",
+      "title": "别人家的船也会算账",
+      "planned_story_days": "D179—D184",
+      "central_conflict": "新增航线要依赖别人的码头、修船与仓位",
+      "active_choice_and_cost": "以互保和可偿付费用换权限，保留对方的决定权",
+      "intended_state_delta": "运输网络有多个真实合作者，不是主角独占地图",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 35,
+      "stage": "S04",
+      "title": "这一趟先不走",
+      "planned_story_days": "D185—D190",
+      "central_conflict": "危险水情与违约成本同时到来",
+      "active_choice_and_cost": "听从现场人员停航，承担明码赔偿和名誉损失",
+      "intended_state_delta": "芮雅信任增加，主角必须承认无法控制全部期限",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 36,
+      "stage": "S04",
+      "title": "马洛也有一张好牌",
+      "planned_story_days": "D191—D196",
+      "central_conflict": "商会推出合法且便宜的替代线路",
+      "active_choice_and_cost": "改善可靠交付和维修而非伪造对手罪名",
+      "intended_state_delta": "竞争转向服务与成本，主角失去部分客户",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 37,
+      "stage": "S04",
+      "title": "搬进来的人要住哪里",
+      "planned_story_days": "D197—D202",
+      "central_conflict": "新劳动者和家属到来，领主楼最易改造",
+      "active_choice_and_cost": "让出领主楼的部分用途，明确居住权与施工上限",
+      "intended_state_delta": "城从旧住户共同体变成新旧混合，矛盾不被热汤抹平",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 38,
+      "stage": "S04",
+      "title": "旧炉为什么会坏",
+      "planned_story_days": "D203—D207",
+      "central_conflict": "乌铎查明旧炉衰败由多年维护失衡与矿路问题造成",
+      "active_choice_and_cost": "承认持续养护要花钱，否决只做漂亮新设施的方案",
+      "intended_state_delta": "旧问题获得普通而可信的解释，维护成为长期负担",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 39,
+      "stage": "S04",
+      "title": "不是每个人都想住新城",
+      "planned_story_days": "D208—D212",
+      "central_conflict": "居民对迁居、税费和地面工程有不同诉求",
+      "active_choice_and_cost": "缩小建设范围，保留不搬走者可用的生活通道",
+      "intended_state_delta": "城市扩张牺牲整齐方案，冲突来自目标差异",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 40,
+      "stage": "S04",
+      "title": "收下第一季的东西",
+      "planned_story_days": "D213—D245",
+      "central_conflict": "试种与生产结果有成有败，无法覆盖新人口所有需要",
+      "active_choice_and_cost": "保留失败田与不足，不以报喜掩盖采购和维修缺口",
+      "intended_state_delta": "首个暖季确有成果，第二冬负荷比第一冬更难承担",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 41,
+      "stage": "S05",
+      "title": "新窗里都是人",
+      "planned_story_days": "D246—D247",
+      "central_conflict": "新增家庭需要保温，商业作坊也要求扩容",
+      "active_choice_and_cost": "按已有能力分批承接，拒绝再卖尚不存在的暖位",
+      "intended_state_delta": "过去的成功带来等待者和不满，压力从求生变为分配",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 42,
+      "stage": "S05",
+      "title": "龙棚少了一块空地",
+      "planned_story_days": "D248—D249",
+      "central_conflict": "仓库借用逐步挤占赫穆栖身和通行空间",
+      "active_choice_and_cost": "伊恩先说只是暂借，发现自己也在侵蚀旧承诺",
+      "intended_state_delta": "赫穆疏远，问题不是单靠归还一块地就能结束",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 43,
+      "stage": "S05",
+      "title": "还没有运来的燃料",
+      "planned_story_days": "D250—D251",
+      "central_conflict": "燃料供应期限因上游事件延误，预售服务已承诺",
+      "active_choice_and_cost": "取消部分收益并重新分派，不把预付款当免费收入",
+      "intended_state_delta": "履约能力与账面钱分开，修正扩张速度已有代价",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 44,
+      "stage": "S05",
+      "title": "那张好看的试验图",
+      "planned_story_days": "D252—D253",
+      "central_conflict": "小规模成功无法承受多个分区同时用热",
+      "active_choice_and_cost": "拒绝把试验纪录冒称全城产能，推迟庆典",
+      "intended_state_delta": "技术线出现真实放大难题，公共信任开始受损",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 45,
+      "stage": "S05",
+      "title": "赫穆说他累了",
+      "planned_story_days": "D254—D255",
+      "central_conflict": "老龙明确要求减少深息，主角仍习惯答应所有人",
+      "active_choice_and_cost": "双方第一次在已承接工作上产生公开分歧",
+      "intended_state_delta": "同盟关系发生裂痕，身体上限从文字变为选择",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 46,
+      "stage": "S05",
+      "title": "先关哪一扇门",
+      "planned_story_days": "D256—D257",
+      "central_conflict": "作坊停热会让人失业，暖屋减热会伤住户",
+      "active_choice_and_cost": "停止一部分赚钱负荷并补偿有限损失",
+      "intended_state_delta": "扩张红利逆转，利益相同的人也开始相互指责",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 47,
+      "stage": "S05",
+      "title": "不是学徒一个人的错",
+      "planned_story_days": "D258—D259",
+      "central_conflict": "赶工缺陷伤到学徒，监工想以个人失误结案",
+      "active_choice_and_cost": "伊恩承担自己催工责任，支付照护并停止相关线路",
+      "intended_state_delta": "管理缺陷被承认，工期与劳力损失不会立刻补满",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 48,
+      "stage": "S05",
+      "title": "可以点亮，但还不能过冬",
+      "planned_story_days": "D260—D261",
+      "central_conflict": "分散热源第一次有效，却依赖未到齐材料",
+      "active_choice_and_cost": "继续有限运行而不强行接满全城",
+      "intended_state_delta": "替代路径确有证据，尚不能替赫穆承担所有需求",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 49,
+      "stage": "S05",
+      "title": "这一口火谁来负责",
+      "planned_story_days": "D262",
+      "central_conflict": "救援与旧负荷挤在同日，伤情预警后的赫穆主动冒险",
+      "active_choice_and_cost": "主角面对自己没有建立退路的责任，吐息不突破开篇日上限",
+      "intended_state_delta": "原已降低的身体阈值被透支，赫穆重伤，自愿不免除管理责任",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 50,
+      "stage": "S05",
+      "title": "今天起不许他再上工",
+      "planned_story_days": "D263",
+      "central_conflict": "居民害怕失去热源，主角也怕自己过去努力归零",
+      "active_choice_and_cost": "公开停用赫穆深息，以自己的地位和资产承受后果",
+      "intended_state_delta": "中点主线逆转：从靠龙建城变为使龙可以离城",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 51,
+      "stage": "S06",
+      "title": "没有人能替龙说不疼",
+      "planned_story_days": "D264",
+      "central_conflict": "赫穆对伤势不愿多说，人类也不懂龙体",
+      "active_choice_and_cost": "主角听从当事者与同族经验，接受不可逆部分",
+      "intended_state_delta": "伤情有边界，不出现万能医师或升级治愈",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 52,
+      "stage": "S06",
+      "title": "空炉旁边的老家伙",
+      "planned_story_days": "D265—D266",
+      "central_conflict": "赫穆无法再承担原职责，感到自己成为累赘",
+      "active_choice_and_cost": "伊恩陪他处理一件与生产无关的小事，不许以有用证明价值",
+      "intended_state_delta": "人龙关系脱离雇佣产量，保留尴尬和信任缺口",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 53,
+      "stage": "S06",
+      "title": "账面有钱，屋里没有热",
+      "planned_story_days": "D267—D268",
+      "central_conflict": "停产使原来好看的资产无法支付眼前所需",
+      "active_choice_and_cost": "卖掉非必要扩建与存货，确认谁来承担损失",
+      "intended_state_delta": "增长目标主动缩小，公库与居民的生活分开核算",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 54,
+      "stage": "S06",
+      "title": "军需总管的好条件",
+      "planned_story_days": "D269—D270",
+      "central_conflict": "塔维什提出燃料与资金换长期优先供热",
+      "active_choice_and_cost": "伊恩不把合理需求妖魔化，但不代所有人决定长期负担",
+      "intended_state_delta": "外部主冲突被明确摆出，诱惑是真实可用的资源",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 55,
+      "stage": "S06",
+      "title": "有人愿意把未来先卖掉",
+      "planned_story_days": "D271—D272",
+      "central_conflict": "部分居民支持军需条件，认为主角的边界是奢侈",
+      "active_choice_and_cost": "允许公开争论并提出两套可承担的方案",
+      "intended_state_delta": "内部形成真实分歧，不以主角演说消除资源问题",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 56,
+      "stage": "S06",
+      "title": "另一座小炉",
+      "planned_story_days": "D273—D274",
+      "central_conflict": "乌铎团队需以不成熟的人类热源先服务一个分区",
+      "active_choice_and_cost": "挑选范围可控的真实用途并保留人工备用",
+      "intended_state_delta": "小规模替代成立，成本和人手高于龙火时期",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 57,
+      "stage": "S06",
+      "title": "诺拉把钥匙放下了",
+      "planned_story_days": "D275—D276",
+      "central_conflict": "伊恩试图越过配给负责人替所有住户做决定",
+      "active_choice_and_cost": "诺拉退出核心岗位，逼他真正交出一部分决定权",
+      "intended_state_delta": "关系受损与组织缺口留下，不能靠道歉即时复位",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 58,
+      "stage": "S06",
+      "title": "塞恩不替他赶人",
+      "planned_story_days": "D277",
+      "central_conflict": "护卫被要求执行一项缺乏共同认可的迁居安排",
+      "active_choice_and_cost": "塞恩拒绝，把分歧留在主角必须亲自面对的位置",
+      "intended_state_delta": "武力边界成立，队伍忠诚不等于无条件服从",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 59,
+      "stage": "S06",
+      "title": "先留下能修的人",
+      "planned_story_days": "D278—D279",
+      "central_conflict": "资金只够新设施或维护培训中的一项",
+      "active_choice_and_cost": "保留维护人员和工资，减少看得见的扩张",
+      "intended_state_delta": "替代系统获得持续运转基础，成果不只是一座新炉",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 60,
+      "stage": "S06",
+      "title": "这间屋子靠我们自己暖",
+      "planned_story_days": "D280",
+      "central_conflict": "人类系统让首个分区完成连续试运，仍有失败区域",
+      "active_choice_and_cost": "承认覆盖不足并优先照护，赫穆不参与补火",
+      "intended_state_delta": "中点危机有阶段结果，新的治理方式尚待检验",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 61,
+      "stage": "S07",
+      "title": "领主也只有一把椅子",
+      "planned_story_days": "D281—D282",
+      "central_conflict": "多方要求固定的供热和支出发言权",
+      "active_choice_and_cost": "伊恩接受可追责的共同商议，不再把善意当授权",
+      "intended_state_delta": "主角失去一部分便利，责任分担开始制度化",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 62,
+      "stage": "S07",
+      "title": "不合格的东西照样要付代价",
+      "planned_story_days": "D283—D284",
+      "central_conflict": "本城作坊交付部件出现缺陷，合作者也有过错",
+      "active_choice_and_cost": "返工与赔付由实际责任人承担，不因自己人而掩盖",
+      "intended_state_delta": "本城质量信誉经受检验，损失真实影响采购",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 63,
+      "stage": "S07",
+      "title": "北边来的人也冷",
+      "planned_story_days": "D285—D286",
+      "central_conflict": "邻堡求助，支持本城的成员担心自己吃亏",
+      "active_choice_and_cost": "提供有限知识和可用物资，拒绝空许同等保障",
+      "intended_state_delta": "协作圈出现边界，善意不是无限兜底",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 64,
+      "stage": "S07",
+      "title": "矿工的那一票",
+      "planned_story_days": "D287—D288",
+      "central_conflict": "一条调度安排让矿工承担最多风险却最少获热",
+      "active_choice_and_cost": "调整优先级并让其他人付出可见让步",
+      "intended_state_delta": "联盟的规则因真实利益冲突而改进",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 65,
+      "stage": "S07",
+      "title": "芮雅不肯替我垫",
+      "planned_story_days": "D289—D290",
+      "central_conflict": "亲近关系让伊恩误把对方资源当成随时可用",
+      "active_choice_and_cost": "芮雅拒绝，他另筹运费并尊重已有订单",
+      "intended_state_delta": "感情不成为资源外挂，两人关系有了更成熟的边界",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 66,
+      "stage": "S07",
+      "title": "先把衣服补好",
+      "planned_story_days": "D291—D292",
+      "central_conflict": "保温除了炉火还需要住户、衣被与工时",
+      "active_choice_and_cost": "把一部分热源预算转入不起眼的修补与照护",
+      "intended_state_delta": "减少需求成为新方法，不再只提高输出",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 67,
+      "stage": "S07",
+      "title": "龙学会了一件没用的事",
+      "planned_story_days": "D293—D294",
+      "central_conflict": "赫穆想参与普通日常却被过度保护",
+      "active_choice_and_cost": "让他在自愿与安全范围内做不计产量的小事",
+      "intended_state_delta": "老龙在城里的身份改变，温暖日常兑现群像价值",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 68,
+      "stage": "S07",
+      "title": "维修钱不能总等明年",
+      "planned_story_days": "D295—D297",
+      "central_conflict": "设备在没有故障时仍需停机和投入",
+      "active_choice_and_cost": "提前花钱维护并接受短期收益减少",
+      "intended_state_delta": "预防比临时救火更难却有回报，系统能够计划休息",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 69,
+      "stage": "S07",
+      "title": "想走的人也算伙伴",
+      "planned_story_days": "D298—D300",
+      "central_conflict": "一位早期成员决定离开另谋生活",
+      "active_choice_and_cost": "按约结清，不以共同吃过苦挽留或扣欠薪",
+      "intended_state_delta": "退出权不只属于龙，城市不靠束缚维持完整",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 70,
+      "stage": "S07",
+      "title": "第一场霜没有叫醒龙",
+      "planned_story_days": "D301—D304",
+      "central_conflict": "多分区联动第一次遇到真实降温",
+      "active_choice_and_cost": "按已演练分工应对，不让赫穆当隐形备用",
+      "intended_state_delta": "人类供热通过有限压力测试，尚未经历整冬",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 71,
+      "stage": "S08",
+      "title": "乌萨来到城门外",
+      "planned_story_days": "D305—D307",
+      "central_conflict": "龙族晚辈见赫穆受伤，认为人类正在豢养他",
+      "active_choice_and_cost": "让赫穆亲自说明并允许同族进入观察",
+      "intended_state_delta": "龙族关系加入，不让主角代替龙解释所有选择",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 72,
+      "stage": "S08",
+      "title": "他们说的都不是假话",
+      "planned_story_days": "D308—D310",
+      "central_conflict": "龙与居民对同一段合作各记得不同代价",
+      "active_choice_and_cost": "承认人类确曾得益过量，而不抹去共同付出",
+      "intended_state_delta": "误解部分化解，仍需实际可离开的通道",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 73,
+      "stage": "S08",
+      "title": "地图上没有这么宽",
+      "planned_story_days": "D311—D313",
+      "central_conflict": "通往温谷的旧路已不能让受伤的赫穆通过",
+      "active_choice_and_cost": "以实地勘察更新路线，放弃照抄旧地图",
+      "intended_state_delta": "离开有既存目的地，也需要工程与通行协作，不靠伤势神愈",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 74,
+      "stage": "S08",
+      "title": "要从谁家门前过",
+      "planned_story_days": "D314—D316",
+      "central_conflict": "新路会扰动村落住地与已有运输利益",
+      "active_choice_and_cost": "绕行并赔偿实际占用，不以救龙之名越权",
+      "intended_state_delta": "路线更慢更贵，公平承担成为合作条件",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 75,
+      "stage": "S08",
+      "title": "挖开的山不会自己合上",
+      "planned_story_days": "D317—D318",
+      "central_conflict": "施工后的水土和通行问题影响居民",
+      "active_choice_and_cost": "留下恢复与维护人手，不能把费用推给路旁人",
+      "intended_state_delta": "通路有后续责任，建设不只算交工时的好处",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 76,
+      "stage": "S08",
+      "title": "先让最慢的人走一遍",
+      "planned_story_days": "D319—D320",
+      "central_conflict": "小队通过不等于大型伤龙能通过",
+      "active_choice_and_cost": "先做分段试行并允许失败，修改已花钱的部分",
+      "intended_state_delta": "道路获得真实可用证据，工期不凭信心缩短",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 77,
+      "stage": "S08",
+      "title": "火光引来的人",
+      "planned_story_days": "D321—D322",
+      "central_conflict": "关于龙火的消息吸引赏猎和投机者",
+      "active_choice_and_cost": "用巡防、协作警戒和有来源情报保护路线",
+      "intended_state_delta": "外部风险被具体处理，不把全北境变成无穷敌军",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 78,
+      "stage": "S08",
+      "title": "不是所有龙都要留下",
+      "planned_story_days": "D323—D324",
+      "central_conflict": "龙群内部对人类与迁徙存在不同选择",
+      "active_choice_and_cost": "伊恩不以赫穆背书要求所有龙签约",
+      "intended_state_delta": "同族各有自主权，共同体保留多种生活方式",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 79,
+      "stage": "S08",
+      "title": "最值钱的东西不在货单上",
+      "planned_story_days": "D325—D327",
+      "central_conflict": "有人以巨大代价换赫穆留下或借用身体能力",
+      "active_choice_and_cost": "当事者亲自拒绝，城市承担失去便宜资源的成本",
+      "intended_state_delta": "合作不再用收益衡量一切，主角完成关键价值选择",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 80,
+      "stage": "S08",
+      "title": "风喉有了一条路",
+      "planned_story_days": "D328—D329",
+      "central_conflict": "多方完成通行条件，迁徙窗口将到来",
+      "active_choice_and_cost": "确定安全离开方案并各自承担维护和接应",
+      "intended_state_delta": "赫穆可以离开而不必飞回原有高度，永久损伤保留",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 81,
+      "stage": "S09",
+      "title": "帝国也要过冬",
+      "planned_story_days": "D330—D332",
+      "central_conflict": "军需总管正式要求优先取得新网络能力",
+      "active_choice_and_cost": "主角承认地方不能独占所有公共责任，提出有限供给",
+      "intended_state_delta": "冲突从抓龙转向共同体对外义务，不无限升级魔王",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 82,
+      "stage": "S09",
+      "title": "一份足够诱人的长约",
+      "planned_story_days": "D333—D335",
+      "central_conflict": "帝国愿支付真实资源，但会长期占据民用产能",
+      "active_choice_and_cost": "公开实际好处和被牺牲的住户，不暗替大家签字",
+      "intended_state_delta": "居民作选择的代价清楚，谈判不能靠秘密万能条款",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 83,
+      "stage": "S09",
+      "title": "诺拉愿意坐回来",
+      "planned_story_days": "D336—D338",
+      "central_conflict": "主角已交出部分权力，空缺岗位仍需人承担",
+      "active_choice_and_cost": "诺拉自主决定以新责任边界回任，过去损害不被抹平",
+      "intended_state_delta": "组织重新有可信配给者，和解由行为而非一句原谅成立",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 84,
+      "stage": "S09",
+      "title": "还没到最冷的时候",
+      "planned_story_days": "D339—D340",
+      "central_conflict": "有人要求赫穆再等一个冬天作为安全保险",
+      "active_choice_and_cost": "伊恩拒绝拖延退出承诺，准备承担独立系统的风险",
+      "intended_state_delta": "真正的放手发生在还不确定能否成功时",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 85,
+      "stage": "S09",
+      "title": "让他自己走出去",
+      "planned_story_days": "D341—D343",
+      "central_conflict": "迁徙窗口开启，赫穆以地面通路离开",
+      "active_choice_and_cost": "双方不以感动续约，送别留出未说完的话",
+      "intended_state_delta": "龙真实离城，后续生存不能再靠他及时回来救火",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 86,
+      "stage": "S09",
+      "title": "少了一个影子的清晨",
+      "planned_story_days": "D344—D345",
+      "central_conflict": "失去龙的心理安全感使工作和住户情绪紊乱",
+      "active_choice_and_cost": "由普通团队接续生活，承认恐惧而不假装已胜利",
+      "intended_state_delta": "共同体开始独立生活，宣传与事实分开",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 87,
+      "stage": "S09",
+      "title": "一封没有催他回来的信",
+      "planned_story_days": "D346",
+      "central_conflict": "对外报告和私信可以被用来制造龙仍在的假象",
+      "active_choice_and_cost": "主角如实说明现状，也不给龙写求救式情感绑架",
+      "intended_state_delta": "信息诚实增加谈判压力，却保护合作基础",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 88,
+      "stage": "S09",
+      "title": "矿路停了以后",
+      "planned_story_days": "D347—D348",
+      "central_conflict": "运输受限使燃料供给暴露集中风险",
+      "active_choice_and_cost": "启用已建立的替代库存与合作路线，减少非必要服务",
+      "intended_state_delta": "冗余有真实作用也消耗储备，不能凭空多一座矿",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 89,
+      "stage": "S09",
+      "title": "该交的那一部分",
+      "planned_story_days": "D349—D350",
+      "central_conflict": "争议税额与新的合法义务需要分开面对",
+      "active_choice_and_cost": "支付已确认且可承担的部分，继续保留有证据的异议",
+      "intended_state_delta": "无特权免税的幻想被排除，城留下财政成本",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 90,
+      "stage": "S09",
+      "title": "灰炉堡不卖给任何一个人",
+      "planned_story_days": "D351",
+      "central_conflict": "各方需要在冬前达成可执行供给安排",
+      "active_choice_and_cost": "以有限余量、可复核费用和民用保底换稳定外部关系",
+      "intended_state_delta": "核心外部冲突有具体结果，既非叛国征服也非免费特许",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    },
+    {
+      "number": 91,
+      "stage": "S10",
+      "title": "下一班是谁",
+      "planned_story_days": "D352—D357",
+      "central_conflict": "第二冬将至，主角不可能守住所有炉点",
+      "active_choice_and_cost": "把调度交给受过训练的人并允许自己离开一个岗位",
+      "intended_state_delta": "独立运转先从不依赖领主本人开始",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 92,
+      "stage": "S10",
+      "title": "坏件来自我们这里",
+      "planned_story_days": "D358—D365",
+      "central_conflict": "第一轮严寒揭出本城一批部件的缺陷",
+      "active_choice_and_cost": "当众返修补偿，不把问题栽给商会或敌人",
+      "intended_state_delta": "责任体系经受损失测试，维修库存明显下降",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 93,
+      "stage": "S10",
+      "title": "这个冬天先不长高",
+      "planned_story_days": "D366—D380",
+      "central_conflict": "扩城愿望与现有维护承载发生冲突",
+      "active_choice_and_cost": "暂停新城区计划，保证已有居民住得下去",
+      "intended_state_delta": "增长被主动约束，结局不靠突然新增无尽产能",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 94,
+      "stage": "S10",
+      "title": "一笔迟到的钱",
+      "planned_story_days": "D381—D395",
+      "central_conflict": "早期承诺的工资、补偿和退出结算到期",
+      "active_choice_and_cost": "减少庆典与私人花费，按真实义务兑现",
+      "intended_state_delta": "普通人的承诺获得最终交代，不只奖励主角",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 95,
+      "stage": "S10",
+      "title": "可以送出去的热",
+      "planned_story_days": "D396—D410",
+      "central_conflict": "边防出现真实需求，本城有有限余量",
+      "active_choice_and_cost": "只交付已经证明可用的部分，不突破民用保底",
+      "intended_state_delta": "有限互助证明协议能运行，而非一纸漂亮条款",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 96,
+      "stage": "S10",
+      "title": "最冷的那几天",
+      "planned_story_days": "D411—D430",
+      "central_conflict": "长时间低温让人员疲劳、储备紧张",
+      "active_choice_and_cost": "轮换、维修和节用共同承担，不召回龙救场",
+      "intended_state_delta": "最强压力下仍有代价和局部故障，系统没有全能化",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 97,
+      "stage": "S10",
+      "title": "灯亮着，也要记得谁没回来",
+      "planned_story_days": "D431—D450",
+      "central_conflict": "胜利叙事容易遮住事故、离开与失败",
+      "active_choice_and_cost": "让损失与不同去向被承认，不虚构全员圆满",
+      "intended_state_delta": "情绪与责任线进入收束，成长不等于抹除代价",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 98,
+      "stage": "S10",
+      "title": "这回真的过完了冬天",
+      "planned_story_days": "D451—D465",
+      "central_conflict": "冬末按真实储备、维修和居民生活验证独立运行",
+      "active_choice_and_cost": "不把下一年的困难伪装为已解决，但明确本冬结果",
+      "intended_state_delta": "没有龙深息的完整冬季完成，核心建设承诺兑现",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 99,
+      "stage": "S10",
+      "title": "芮雅还要去远处",
+      "planned_story_days": "D466",
+      "central_conflict": "感情与各自生活要有明确选择",
+      "active_choice_and_cost": "两人确认互相支持的成年关系，不要求一方停掉事业",
+      "intended_state_delta": "感情线有落点，伙伴各有继续生活的自由",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": false
+    },
+    {
+      "number": 100,
+      "stage": "S10",
+      "title": "给老朋友留一碗热汤",
+      "planned_story_days": "D466",
+      "central_conflict": "赫穆以访客身份回来，城中暖意已来自人类网络",
+      "active_choice_and_cost": "伊恩让他只做客，不询问能不能再帮一次",
+      "intended_state_delta": "人龙相互选择而非相互捆绑，全书主冲突和归属感收束",
+      "status": "future_plan_not_story_fact",
+      "stage_closing": true
+    }
+  ],
+  "promises": [
+    {
+      "id": "PROM-01",
+      "promise": "书名中的龙与供暖实际发生",
+      "target": "CH001",
+      "prerequisite": "安全开敞接收与自愿约定",
+      "evidence": "正文中点火、接收和受益者场面，非只有预告"
+    },
+    {
+      "id": "PROM-02",
+      "promise": "合作有拒绝与休息权",
+      "target": "CH003开始检验，CH020到期处理",
+      "prerequisite": "开篇明确可拒绝且不自动延续",
+      "evidence": "主角在有损失时仍接受拒绝的行为"
+    },
+    {
+      "id": "PROM-03",
+      "promise": "首个冬季的生存结果",
+      "target": "CH020",
+      "prerequisite": "真实粮源、消耗、照护、时间跳跃来源连续",
+      "evidence": "冬季确实过去，不能只说准备够了"
+    },
+    {
+      "id": "PROM-04",
+      "promise": "手艺与劳动获得报酬",
+      "target": "CH010/018阶段兑现，CH094收清主要到期款",
+      "prerequisite": "何人劳动、金额/实物及付款来源在正文建立",
+      "evidence": "实际支付或明确承担的未履约结果，不能只有感谢"
+    },
+    {
+      "id": "PROM-05",
+      "promise": "农业与燃料具有独立来源",
+      "target": "CH030—040",
+      "prerequisite": "试验、季节、开采和运输",
+      "evidence": "有成有败的产出，不直接把计划产量写成库存"
+    },
+    {
+      "id": "PROM-06",
+      "promise": "主角为依赖和催工付出代价",
+      "target": "CH049—060",
+      "prerequisite": "CH041起逐步侵蚀边界与早期预警",
+      "evidence": "伤势、停产、管理和关系的真实变化"
+    },
+    {
+      "id": "PROM-07",
+      "promise": "老龙不是有用才配留下",
+      "target": "CH052/067",
+      "prerequisite": "停止深息委托、不限制自身去留",
+      "evidence": "与产量无关的共同生活场面"
+    },
+    {
+      "id": "PROM-08",
+      "promise": "退出权对普通人和亲近者同样有效",
+      "target": "CH065/069",
+      "prerequisite": "各方既有独立利益与欠付",
+      "evidence": "不扣薪、不情感勒索、不拿感情当免费运力"
+    },
+    {
+      "id": "PROM-09",
+      "promise": "赫穆可在保留伤损的情况下离开",
+      "target": "CH080可执行、CH085实际离城",
+      "prerequisite": "CH073—076勘察、赔付、试行与接应",
+      "evidence": "实体通路和离开的场面，不以飞行能力奇迹恢复替代"
+    },
+    {
+      "id": "PROM-10",
+      "promise": "城市承担有界外部义务而不卖断未来",
+      "target": "CH090",
+      "prerequisite": "对方条件真实、居民有信息、运输可行",
+      "evidence": "实际范围、付费和成本，非无限帝国豁免"
+    },
+    {
+      "id": "PROM-11",
+      "promise": "龙离开后城市能度过完整冬天",
+      "target": "CH098",
+      "prerequisite": "多热源、实到燃料、维护人员、储备与民用底线",
+      "evidence": "跨越真实冬季、记录故障代价，龙不补火"
+    },
+    {
+      "id": "PROM-12",
+      "promise": "感情与归属各有落点",
+      "target": "CH099—100",
+      "prerequisite": "成年合作、有代价的边界和独立人生",
+      "evidence": "双方明确选择、赫穆以访客回来，不以新危机强开续集"
+    }
+  ],
+  "near_chapters": [
+    {
+      "chapter": 1,
+      "title": "锅炉是冷的，龙也是",
+      "stage": "S01",
+      "story_day": "D0 08:00—21:00",
+      "time_from": 0,
+      "time_to": 780,
+      "primary_change": "陌生领主、住户与老龙形成一次有界的合作，第一间60人暖屋获得实际热量。",
+      "protagonist_choice": "放弃领主专属暖位和部分私人用途材料，以付出可信代价换合作，接受赫穆有权拒绝。",
+      "pressure": "旧炉不能启动，住房容量与接收容量分开；冷天里没有时间先建立大家的信任。",
+      "opening_checks": "800汉字内见到冷炉与拒绝被命令的龙；3000汉字内出现有限供暖交涉及对伊恩本人处境的影响。此为编辑策略，不冒称平台规定。",
+      "sensory_and_tone": "冷手重新发痛、漏风与龙挑剔人类小门的克制幽默；暖意先落在人，不是参数。",
+      "boundaries": [
+        "旧封闭炉停用",
+        "不把两暖格直接写成120人的住房",
+        "只算已实际得到的热",
+        "初始库存仍需角色实盘",
+        "第一章主要具名人物不超过四人"
+      ],
+      "promised_evidence": "正文应有真实点火、自愿条件、主角付出的资产/便利和第一批受益者；尚无正文，不填引文。",
+      "carry_forward": "CH002必须面对暖位不足，不能一句全城温暖抹去。",
+      "scene_plan": [
+        {
+          "scene": 1,
+          "han_budget": 1000,
+          "title": "进堡与冷炉",
+          "purpose": "让主角先面对人和旧炉，龙在首场出现；现代来历压缩到理解本场所需。"
+        },
+        {
+          "scene": 2,
+          "han_budget": 1400,
+          "title": "不能开的那一座",
+          "purpose": "由本地经验与可见缺陷建立停用边界，伊恩放弃逞能。"
+        },
+        {
+          "scene": 3,
+          "han_budget": 1700,
+          "title": "先问龙要什么",
+          "purpose": "赫穆提出干燥、安静、拒绝强迫和可离开的需要；协商有分歧与性格。"
+        },
+        {
+          "scene": 4,
+          "han_budget": 1500,
+          "title": "谁先让出地方",
+          "purpose": "诺拉提出住户实际需求；伊恩拿自己的便利作代价，不许别人替他慷慨。"
+        },
+        {
+          "scene": 5,
+          "han_budget": 2000,
+          "title": "第一团可用的热",
+          "purpose": "按安全接收能力控制短息，点火与受益实际呈现，不输出真实改造步骤。"
+        },
+        {
+          "scene": 6,
+          "han_budget": 1400,
+          "title": "六十个人的夜里",
+          "purpose": "用热汤和具体住户反应兑现暖意，同时交代其余人仍依赖分散小灶。"
+        }
+      ],
+      "total_han_budget": 9000,
+      "budget_status": "prewriting_plan_not_actual_word_count"
+    },
+    {
+      "chapter": 2,
+      "title": "第一把椅子给谁",
+      "stage": "S01",
+      "story_day": "D1 06:00—19:00",
+      "time_from": 1320,
+      "time_to": 2100,
+      "primary_change": "配给与安置不再完全依熟人或领主偏好，形成有限但可执行的暖位安排。",
+      "protagonist_choice": "接受诺拉按具体需求排位，即使自己的随行者不满意。",
+      "pressure": "可用房间只有60人容量，第二房间还缺场地和工时；食物与材料账面数需核实。",
+      "opening_checks": "以有人被挡在门外的具体冲突进入，不重述CH001所有协议。",
+      "sensory_and_tone": "椅子、湿毯与食物形成生活触感，气氛以人的尊严而非开会流程推进。",
+      "boundaries": [
+        "盘点后才更新人物知道的库存",
+        "库存和口粮不能给访客重复计算",
+        "房间扩容未完成不能算新暖位",
+        "不得再用一次龙火自动解决公平问题"
+      ],
+      "promised_evidence": "实际排位、受影响者选择与伊恩退让，角色新知须有取得途径。",
+      "carry_forward": "CH003既缺干柴又遇龙的休息，检验说好的拒绝权。",
+      "scene_plan": [
+        {
+          "scene": 1,
+          "han_budget": 1200,
+          "title": "门口的第一把椅子",
+          "purpose": "从两个正当需要的冲突出发，避免把争暖位者都写成坏人。"
+        },
+        {
+          "scene": 2,
+          "han_budget": 1800,
+          "title": "把名字认全",
+          "purpose": "诺拉提供住户情况；角色只知道自己调查得到的信息。"
+        },
+        {
+          "scene": 3,
+          "han_budget": 1500,
+          "title": "领主的人也要等",
+          "purpose": "主角付出偏袒随行者会更方便的机会，护卫可表达不满。"
+        },
+        {
+          "scene": 4,
+          "han_budget": 1500,
+          "title": "粮房与料堆",
+          "purpose": "实际盘点进入行动与对话，不复制整张维护表；记录与实物差异如实留着。"
+        },
+        {
+          "scene": 5,
+          "han_budget": 1700,
+          "title": "乌铎的一个不字",
+          "purpose": "具名引入匠人，对不安全旧部件拒绝；不因主角身份立刻服从。"
+        },
+        {
+          "scene": 6,
+          "han_budget": 1300,
+          "title": "今晚的安排",
+          "purpose": "落实首日排位与扩建所需，部分人接受但不全员感激。"
+        }
+      ],
+      "total_han_budget": 9000,
+      "budget_status": "prewriting_plan_not_actual_word_count"
+    },
+    {
+      "chapter": 3,
+      "title": "龙今天不上工",
+      "stage": "S01",
+      "story_day": "D2 08:00—19:00",
+      "time_from": 2880,
+      "time_to": 3540,
+      "primary_change": "不使用龙深息的一天也被人类合作撑住，技工获得真实报酬和拒工权。",
+      "protagonist_choice": "先保烹饪与最低暖位，取消私人装点用料；向有经验的人让出现场判断。",
+      "pressure": "D2明确作为休息日，不能把D0/D1没用完的龙火额度存下来再吐。",
+      "opening_checks": "从赫穆拒绝被催醒、住户等火的现场进入，让幽默与焦虑并存。",
+      "sensory_and_tone": "人挪柴、分热汤，赫穆醒着评论人类，而不是一直当沉睡道具。",
+      "boundaries": [
+        "D2深息量为零",
+        "干柴、工资与劳力在同一来源池扣减",
+        "护卫或役畜不能同时守堡和全员出林",
+        "不以新增能力渡过休息日"
+      ],
+      "promised_evidence": "自愿拒绝有实际代价，劳动者真的收到可用报酬。",
+      "carry_forward": "已知白渡车队通常会到，CH004的遇险消息须由真实抵达者或亲见提供。",
+      "scene_plan": [
+        {
+          "scene": 1,
+          "han_budget": 1400,
+          "title": "龙不需要上工的借口",
+          "purpose": "让拒绝本身有效，不靠新伤或病危才准休息。"
+        },
+        {
+          "scene": 2,
+          "han_budget": 2000,
+          "title": "同一堆柴",
+          "purpose": "厨房、住户与施工同时争料；伊恩必须说清牺牲哪项收益。"
+        },
+        {
+          "scene": 3,
+          "han_budget": 2200,
+          "title": "林边的路",
+          "purpose": "有限人数取材，天气与役畜决定能带回多少，不凭一句收集得到无限木料。"
+        },
+        {
+          "scene": 4,
+          "han_budget": 2000,
+          "title": "手艺要先有工钱",
+          "purpose": "用可支付的现金或经同意的实物结算，不许慷慨许诺全部未来。"
+        },
+        {
+          "scene": 5,
+          "han_budget": 1400,
+          "title": "不靠那口火的晚饭",
+          "purpose": "不是全城从此不用龙，而是一次有限、费力的独立支撑。"
+        }
+      ],
+      "total_han_budget": 9000,
+      "budget_status": "prewriting_plan_not_actual_word_count"
+    },
+    {
+      "chapter": 4,
+      "title": "断桥上的粮车",
+      "stage": "S01",
+      "story_day": "D3 05:00—21:00",
+      "time_from": 4140,
+      "time_to": 5100,
+      "primary_change": "粮车、货主与一批实物真正进入城内，新增交易责任而不是免费获得全部粮。",
+      "protagonist_choice": "拿有限运力救人和关键货物，另行承担采购和维修成本。",
+      "pressure": "断桥、队员安全、存粮紧迫与货物产权同时存在；不能所有东西都保住。",
+      "opening_checks": "以带明确来源的消息或到场观察进入，不让主角遥知桥塌与敌人位置。",
+      "sensory_and_tone": "绷紧的牵绳、湿冷衣料、说话先看牲口的车夫；紧张后留出短暂余波。",
+      "boundaries": [
+        "商队车辆不是本城突然多出的资产",
+        "不得把救到的货全当城产",
+        "工资与购粮共用342银的实际剩余额",
+        "消息传播符合两天以上的南路尺度"
+      ],
+      "promised_evidence": "救运选择、真实损失、实物入仓与相应交易权利。",
+      "carry_forward": "回城者有疲劳，CH005不能全部无休继续满负荷；寒潮逼迫住房取舍。",
+      "scene_plan": [
+        {
+          "scene": 1,
+          "han_budget": 900,
+          "title": "有人没有按时到",
+          "purpose": "通过行程与抵达者获得问题，不额外讲一遍世界地图。"
+        },
+        {
+          "scene": 2,
+          "han_budget": 1500,
+          "title": "城里也得留下人",
+          "purpose": "塞恩安排留守与救运，主角不能带走全部有用角色。"
+        },
+        {
+          "scene": 3,
+          "han_budget": 1800,
+          "title": "桥前的货主",
+          "purpose": "货主有自己的货与损失，拒绝免费交粮是合理立场。"
+        },
+        {
+          "scene": 4,
+          "han_budget": 2100,
+          "title": "只能先救一边",
+          "purpose": "救人、牲口与货物的优先次序改变本次所得；不写现实危险救援操作教程。"
+        },
+        {
+          "scene": 5,
+          "han_budget": 1400,
+          "title": "把粮运进门",
+          "purpose": "行程、载荷、原主车辆和本城车辆分开，实际入仓后才记收益。"
+        },
+        {
+          "scene": 6,
+          "han_budget": 1300,
+          "title": "救命不是买断",
+          "purpose": "采购、服务和修车分别结算，信用增加但钱和责任没有消失。"
+        }
+      ],
+      "total_han_budget": 9000,
+      "budget_status": "prewriting_plan_not_actual_word_count"
+    },
+    {
+      "chapter": 5,
+      "title": "这一夜不许硬撑",
+      "stage": "S01",
+      "story_day": "D4 12:00—D5 10:00",
+      "time_from": 6000,
+      "time_to": 7320,
+      "primary_change": "首轮暴雪有实际度过的结果，主角舍弃资产并兑现不强迫龙透支的约定。",
+      "protagonist_choice": "优先人和可休息的伙伴，放弃可售木料及私人屋舍，不把所有损失算成敌人破坏。",
+      "pressure": "棚顶、暖屋与疲惫的救运队不能全部兼顾；热量不等于安全空间。",
+      "opening_checks": "从暴雪将要压到哪一处生活现场开始，不以例行汇总前四章开场。",
+      "sensory_and_tone": "风停后的耳鸣、热水与湿衣、被迫挤在一起的克制幽默；给重大行动足够余波。",
+      "boundaries": [
+        "龙的每三日至少一休与日上限保持",
+        "伤损、消耗、房屋损毁保留",
+        "不突然让税官知道城内每个细节",
+        "采用前必须连读CH001—CH004实际冻结全文及CH005完整候选"
+      ],
+      "promised_evidence": "真实选择、救援后状态、财物损失和有限兑现。",
+      "carry_forward": "CH006处理龙的出入口和日常边界，CH007材料标准，CH008公共热与商业收益。",
+      "scene_plan": [
+        {
+          "scene": 1,
+          "han_budget": 1100,
+          "title": "雪压到了哪里",
+          "purpose": "让天气作用于具体空间与人，不临时改变世界规则。"
+        },
+        {
+          "scene": 2,
+          "han_budget": 1700,
+          "title": "刚回来的人",
+          "purpose": "照顾疲惫、冻伤与队伍实际出勤，不能把人当无限劳力。"
+        },
+        {
+          "scene": 3,
+          "han_budget": 1800,
+          "title": "哪间屋子放掉",
+          "purpose": "选择牺牲私人和商业资产，保留屋舍失去后的实际影响。"
+        },
+        {
+          "scene": 4,
+          "han_budget": 1700,
+          "title": "赫穆自己作的决定",
+          "purpose": "允许龙在安全范围内自愿帮忙，不把善意变成无限补火。"
+        },
+        {
+          "scene": 5,
+          "han_budget": 1500,
+          "title": "轮到别人带班",
+          "purpose": "伊恩第一次必须接受别人的安排，不亲自完成所有抢救。"
+        },
+        {
+          "scene": 6,
+          "han_budget": 1200,
+          "title": "天亮以后",
+          "purpose": "有人睡着、有人数损失、有人仍不满意；只兑现这轮寒潮，不宣称整冬已安全。"
+        }
+      ],
+      "total_han_budget": 9000,
+      "budget_status": "prewriting_plan_not_actual_word_count"
+    }
+  ],
+  "first_winter_forecast": {
+    "status": "hypothetical_plan_not_inventory_or_income",
+    "period": "D0—D105；106日",
+    "resident_base": 312,
+    "resident_planning_upper_bound": 340,
+    "initial_mixed_rations": 6240,
+    "initial_static_days": 20,
+    "conservative_resident_demand": 36040,
+    "visitor_allowance": 1200,
+    "planned_total_supply": 45000,
+    "assumed_loss_rate": 0.08,
+    "usable_after_assumed_loss": 41400,
+    "demand_including_visitors": 37240,
+    "provisional_surplus": 4160,
+    "source_plan": [
+      {
+        "source": "开篇库存",
+        "quantity": 6240,
+        "status": "author_setting_T0_not_character_counted"
+      },
+      {
+        "source": "首批南路采购，拟CH004实到",
+        "quantity": 5000,
+        "status": "future_not_arrived",
+        "cost": "现金支付优先，必须核对付钱后工资、材料是否仍可支付；救援不等于全部货归城"
+      },
+      {
+        "source": "第二批分次交货，拟CH012—013",
+        "quantity": 6000,
+        "status": "future_not_arrived",
+        "cost": "可交付修车、路务和仓务交换与有界信用；不凭无限未来劳动换粮"
+      },
+      {
+        "source": "第三批南路补给，拟CH017",
+        "quantity": 9000,
+        "status": "future_not_arrived",
+        "cost": "前期劳动产出和已收服务费，加真实运输费用，不把预付款白拿"
+      },
+      {
+        "source": "第四批冬末补给，拟CH018",
+        "quantity": 5760,
+        "status": "future_not_arrived",
+        "cost": "结算与出售非必要资产，保留损失；不得重复出售已消耗材料"
+      },
+      {
+        "source": "长冬期间本地渔猎、食物加工及外围交换合计",
+        "quantity": 13000,
+        "status": "future_estimate_requires_food_composition_check",
+        "cost": "实际人手、天气、种类与主食比例分别核实，不能按鱼肉重量直接当同量完整口粮"
+      }
+    ],
+    "constraints": [
+      "这是最低可行性情景，不是预测保证，更不是已到货或已赚到钱。每批须在正文出现来源、运输与付款或交换。",
+      "按较高人口上限从首日整段计算仅供留余量；实际新增/离开在正式章后账按发生时间记，不强行维持规划人口。",
+      "食品构成不满足基础饮食时不能只靠份数过关；本地估计需要实际季候与劳力支持。",
+      "首批5000份不能未经价格与余额核对就自动成交；本预算不设定任何实际成交价。资金不闭合须调整未写采购与可交付劳动。",
+      "任何来源未写成或严重落空时重算后续，不能引用这张表宣布第一冬已安全。"
+    ]
+  },
+  "labor_pool_forecast": {
+    "status": "planning_assignment_not_completed_labor",
+    "total_available": 172,
+    "pools": [
+      {
+        "name": "护卫及巡路",
+        "maximum_people": 12
+      },
+      {
+        "name": "熟练匠人与学徒",
+        "maximum_people": 17
+      },
+      {
+        "name": "烹饪和日常照护工作池",
+        "maximum_people": 30
+      },
+      {
+        "name": "取柴与分拣工作池",
+        "maximum_people": 24
+      },
+      {
+        "name": "运输工作池",
+        "maximum_people": 8
+      },
+      {
+        "name": "保温与清理工作池",
+        "maximum_people": 36
+      },
+      {
+        "name": "粮仓与卫生工作池",
+        "maximum_people": 12
+      },
+      {
+        "name": "机动、管理和休息工作池",
+        "maximum_people": 33
+      }
+    ],
+    "constraints": [
+      "人员分组上限不等于全员每天满工时。夜班与休息须从同一人数扣除。",
+      "伊恩等已在172人内，不在表外另加一队；临时外援单独核实食宿与报酬。",
+      "取柴、守堡、救桥和矿场不能同时使用同一护卫或役畜。"
+    ]
+  },
+  "flexible_scope": "后期细节均为预测；采用正文优先，更新未来路线不能改变旧正文、人物知情或损耗。"
+}

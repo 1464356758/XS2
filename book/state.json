@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 1,
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+      "reason": "作者已选择T02，登记独立世界、人物知识边界与开篇基线"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+      "reason": "登记100章十阶段因果路线、承诺结局与前5章场景预算；尚未开始写"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+      "reason": "作者已选择T02，登记独立世界、人物知识边界与开篇基线"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+      "reason": "登记100章十阶段因果路线、承诺结局与前5章场景预算；尚未开始写"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {

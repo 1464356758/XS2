@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-30T15:55:21+00:00",
-    "state_revision": 1,
-    "workflow_revision": 5,
-    "state_sha256": "bcbf61bd39cd609a9a9c8a687de1c44d073929bcce4b989908a3202ca23aff94",
-    "workflow_sha256": "28b786c3891853ee783b240db48921bea5ebdc084d8e9f34cd99fc7a8098a400",
+    "generated_at": "2026-10-30T16:33:40+00:00",
+    "state_revision": 3,
+    "workflow_revision": 6,
+    "state_sha256": "0d7057f1e8bbdb8036ba1d7d7e74be9a929c6c63006e8b23e6302a90a174a709",
+    "workflow_sha256": "e274ac84085d5f45f93381a75d2e31513ce9e9f46701c6fea3b8e239fd24eec5",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -41,9 +41,9 @@
     "phase": "PLANNING",
     "label": "长篇规划",
     "chapter": 1,
-    "detail": "作者已明确选择T02，正在建立世界设定、人物与资源基线、100章路线和前5章安排。",
-    "next_action": "完成规划审查并保存，等待作者确认开始写第一章。",
-    "updated_at": "2026-10-30T15:55:21+00:00"
+    "detail": "T02开书规划已完成：正式设定、人物与资源基线、100章十阶段路线、前5章场景预算及规划审查已就绪；正文0章。",
+    "next_action": "作者确认“开始写第一章”后，仅执行CH001《锅炉是冷的，龙也是》的完整写作、审核与保存。",
+    "updated_at": "2026-10-30T16:32:44+00:00"
   },
   "chapters": [],
   "topics": [
@@ -995,6 +995,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "作者已明确选择T02，正在建立世界设定、人物与资源基线、100章路线和前5章安排。"
+    },
+    {
+      "at": "2026-10-30T16:32:44+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T02开书规划已完成：正式设定、人物与资源基线、100章十阶段路线、前5章场景预算及规划审查已就绪；正文0章。"
     }
   ]
 }

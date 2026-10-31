@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-31T21:51:47+00:00",
-    "state_revision": 6,
-    "workflow_revision": 17,
-    "state_sha256": "fcb832956343d8a55032ecec1802e2cb1c4cd490b5b7d3817e19f687bcd43ff7",
-    "workflow_sha256": "42f4b445fae4e4fdc98e28a66097d68f6ad86753e8f98657012b80b4d4ff9f23",
+    "generated_at": "2026-10-31T21:52:07+00:00",
+    "state_revision": 7,
+    "workflow_revision": 18,
+    "state_sha256": "eb2e648230d239837aa399a43f2839f5e78855902ca3c53a5f06e22d4a2c3019",
+    "workflow_sha256": "667f999c1ec0bf1eadd772b75c6f0ce2e67c2f45828f8e5147dc3209dce89931",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 2,
+    "adopted_chapters": 3,
     "target_han": 900000,
-    "actual_han": 18099,
+    "actual_han": 26808,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 2,
+    "frozen_chapters": 3,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 3,
-    "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。",
-    "next_action": "核对真实引文、有限资源、完整休息日、午后回访与实际交班，再准备章后记录及release报告。",
-    "updated_at": "2026-10-31T21:44:22+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 4,
+    "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-10-31T21:52:07+00:00"
   },
   "chapters": [
     {
@@ -65,6 +65,18 @@
       "han_count": 9146,
       "text_path": "book/chapters/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt",
       "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 3,
+      "title": "龙今天不上工",
+      "stage": "S01",
+      "han_count": 8709,
+      "text_path": "book/chapters/CH003_39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3.txt",
+      "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -986,12 +998,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T15:47:32+00:00",
-      "phase": "WAITING_TOPIC",
-      "label": "等待选择题材",
-      "detail": "已准备8个原创选题，等待作者选择。"
-    },
-    {
       "at": "2026-10-30T15:54:39+00:00",
       "phase": "PLANNING",
       "label": "长篇规划",
@@ -1074,6 +1080,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。"
+    },
+    {
+      "at": "2026-10-31T21:52:07+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 6,
+  "revision": 7,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -41,6 +41,16 @@
       "record_sha256": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf",
       "han_count": 9146,
       "adopted_at": "2026-10-31T01:00:14+00:00"
+    },
+    "3": {
+      "title": "龙今天不上工",
+      "stage": "S01",
+      "text_path": "chapters/CH003_39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3.txt",
+      "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+      "record_path": "records/CH003_92abd7ca1d8ed4571349556890fa6feed55236450e7987e94876b369c023b17b.json",
+      "record_sha256": "92abd7ca1d8ed4571349556890fa6feed55236450e7987e94876b369c023b17b",
+      "han_count": 8709,
+      "adopted_at": "2026-10-31T21:52:07+00:00"
     }
   },
   "checkpoints": [],
@@ -135,7 +145,7 @@
       "task_id": "9946ed38-18f4-46a2-8e6e-76ff46e3c910",
       "chapter": 3,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -165,6 +175,10 @@
       "2": {
         "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
         "record_sha256": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf"
+      },
+      "3": {
+        "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "record_sha256": "92abd7ca1d8ed4571349556890fa6feed55236450e7987e94876b369c023b17b"
       }
     },
     "published": {},
@@ -182,7 +196,7 @@
       "3": {
         "path": "releases/CH003_0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985.json",
         "sha256": "0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -203,7 +217,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "TH-DRY-SHELTER": {
         "history": [
@@ -318,11 +332,23 @@
               "quote": "三天里，总得有一天不吐。"
             },
             "chapter": 1
+          },
+          {
+            "id": "TH-REST-FIRST3",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "D2完整零吐息至D3早验证，只完成首三日休息义务；此后持续限制保持。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+              "quote": "第一个完整休息日过去了，它一口火也没吐，人的活便多出这样一长串。"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
-        "status": "open",
-        "last_reviewed_chapter": 2
+        "status": "closed",
+        "last_reviewed_chapter": 3
       },
       "TH-SIXTY-FIRST": {
         "history": [
@@ -399,11 +425,23 @@
               "quote": "“明天午后，我来看看这一夜怎样。”"
             },
             "chapter": 2
+          },
+          {
+            "id": "TH-D2-REVISIT",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "午后亲访并问儿媳丈夫老人，真实反馈使拟抽夜工取消，约定已兑现。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+              "quote": "伊恩脚步没停在这一句上。\n\n“我来问问昨夜。”"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
-        "status": "open",
-        "last_reviewed_chapter": 2
+        "status": "closed",
+        "last_reviewed_chapter": 3
       },
       "TH-NORTH-WINDOW": {
         "history": [
@@ -422,7 +460,7 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "TH-WEST-FELT-LOAN": {
         "history": [
@@ -441,7 +479,26 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
+      },
+      "TH-SOUTH-BRIDGE": {
+        "history": [
+          {
+            "id": "TH-SOUTH-BRIDGE",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "湿冷来者已到场求借人，下一章须照护、核实与回应，不把声称货量算现有粮。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+              "quote": "先问能不能借人，把车和牲口弄开。"
+            },
+            "chapter": 3
+          }
+        ],
+        "deadline_chapter": 4,
+        "status": "open",
+        "last_reviewed_chapter": 3
       }
     },
     "incidents": {}

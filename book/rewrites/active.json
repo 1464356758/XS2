@@ -2,7 +2,7 @@
   "rewrite_id": "author_CH002_6a045381042e4c9e9bb9f0daba9b47d9",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "chapter": 2,
-  "status": "running",
+  "status": "completed",
   "run_id": "af5e8ddbadce418882ee30997e827001",
   "controller": {
     "kind": "automation",
@@ -14,5 +14,8 @@
   "source_state_sha256": "7ddeb747c5147b3db8ec3095ae6e2d70b3944041ddafb38f9fd2eb93015b37c0",
   "grant_path": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json",
   "started_at": "2026-10-31T00:39:06+00:00",
-  "previous_repairs": 2
+  "previous_repairs": 2,
+  "completed_at": "2026-10-31T01:00:14+00:00",
+  "receipt_path": "book/daily/runs/af5e8ddbadce418882ee30997e827001.json",
+  "new_text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649"
 }

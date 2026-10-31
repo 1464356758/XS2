@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "type": "novel-trigger-consumption-v1",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "trigger_id": "author_CH002_6a045381042e4c9e9bb9f0daba9b47d9",
+  "run_id": "af5e8ddbadce418882ee30997e827001",
+  "chapter": 2,
+  "receipt_path": "daily/runs/af5e8ddbadce418882ee30997e827001.json"
+}

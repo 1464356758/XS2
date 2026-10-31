@@ -2,31 +2,34 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
+  "run_id": "af5e8ddbadce418882ee30997e827001",
   "work_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3:2026-10-31:2",
   "start_date": "2026-10-31",
-  "started_at": "2026-10-30T23:21:09+00:00",
+  "started_at": "2026-10-31T00:39:06+00:00",
   "chapter": 2,
   "status": "completed",
   "baseline_count": 1,
   "baseline_fingerprint": "cfa8a1f184005fba7d321b0c5c3a64654f48910c2a32c226aef2ac73fcab1d6a",
   "attempts": [],
   "trigger_ids": [
-    "manual_CH002_20261031_mvvlhfcp_s9x58t5hk1"
+    "author_CH002_6a045381042e4c9e9bb9f0daba9b47d9"
   ],
+  "action": "started",
+  "remote_sync_required": true,
+  "note": "先原子同步本执行记录并回读确认；并发写入失败时重新读取，不能继续并行写作。",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
+  "completed_at": "2026-10-31T01:00:14+00:00",
+  "receipt_path": "daily/runs/af5e8ddbadce418882ee30997e827001.json",
   "executor_checkpoint": {
-    "request_id": "ch002_finalize_mvvmb6oe_wh54j",
-    "phase": "finalize",
-    "at": "2026-10-30T23:43:18+00:00",
-    "github_run_id": "41146113899"
-  },
-  "completed_at": "2026-10-30T23:43:18+00:00",
-  "receipt_path": "daily/runs/048ede580b0a4bcf8d9ac52b4b26c3c3.json"
+    "request_id": "rw2_rewrite_finalize_mvvp1pc2_kxdnk",
+    "phase": "rewrite_finalize",
+    "at": "2026-10-31T01:00:14+00:00",
+    "github_run_id": "41153127234"
+  }
 }

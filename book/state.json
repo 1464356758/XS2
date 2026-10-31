@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 5,
+  "revision": 6,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -33,14 +33,14 @@
       "adopted_at": "2026-10-30T17:17:12+00:00"
     },
     "2": {
-      "title": "第一把椅子给谁",
+      "title": "先让她睡一觉",
       "stage": "S01",
-      "text_path": "chapters/CH002_58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3.txt",
-      "text_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-      "record_path": "records/CH002_4afca5e61d336af0cccc23dfb89a9de5946b1e6eb7172a8dfb8fbb827c981822.json",
-      "record_sha256": "4afca5e61d336af0cccc23dfb89a9de5946b1e6eb7172a8dfb8fbb827c981822",
-      "han_count": 8778,
-      "adopted_at": "2026-10-30T23:43:18+00:00"
+      "text_path": "chapters/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt",
+      "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+      "record_path": "records/CH002_4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf.json",
+      "record_sha256": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf",
+      "han_count": 9146,
+      "adopted_at": "2026-10-31T01:00:14+00:00"
     }
   },
   "checkpoints": [],
@@ -105,7 +105,7 @@
       "chapter": 2,
       "mode": "write",
       "phase": "adopted",
-      "repairs": 2,
+      "repairs": 3,
       "history": [
         {
           "sha256": "7f06bcf0da90ddcdf48e1a57b750c0148e8b97b279d628c889969a9adbd0d7a3",
@@ -121,10 +121,15 @@
           "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
           "reason": "R2：回读CH001确认北窗找正经材料的话由诺拉说，改为昨日共同待办，去掉错指伊恩曾说；旧章不动，原任务累计2轮。",
           "repairs": 2
+        },
+        {
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "reason": "作者明确授权结构重写第二章：以实际付酬的白天照护替班促成本夜自愿腾换；承接原任务累计第三轮修订，保留前两轮及旧版本，不清零。",
+          "repairs": 3
         }
       ],
-      "candidate_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-      "candidate_path": "candidates/CH002_58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3.txt"
+      "candidate_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+      "candidate_path": "candidates/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt"
     }
   },
   "completion": null,
@@ -137,8 +142,8 @@
         "record_sha256": "6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5"
       },
       "2": {
-        "text_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-        "record_sha256": "4afca5e61d336af0cccc23dfb89a9de5946b1e6eb7172a8dfb8fbb827c981822"
+        "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "record_sha256": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf"
       }
     },
     "published": {},
@@ -149,8 +154,8 @@
         "used": true
       },
       "2": {
-        "path": "releases/CH002_dc244bb62def447758c8daedc2950c62007b1c2c998d61ad2b19e491321c9e19.json",
-        "sha256": "dc244bb62def447758c8daedc2950c62007b1c2c998d61ad2b19e491321c9e19",
+        "path": "releases/CH002_c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2.json",
+        "sha256": "c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2",
         "used": true
       }
     },
@@ -230,11 +235,11 @@
             "id": "TH-FIRST-NIGHT",
             "action": "complete",
             "deadline_chapter": 2,
-            "reason": "次晨原守夜人说明后半夜靠原小灶补1捆，另一捆亲见还绑着；以有限实际结果兑现，不称整冬安全。",
+            "reason": "次晨亲见备用余1，听守夜人说明北窗冷、原小灶烧1而未再叫龙。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "“后半夜靠门的人冷。匠人来看过，叫在原来的小灶里接火，烧了这一捆。天快亮时，里面的人才又睡着。”"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "“后半夜那边冷。匠人来看过，叫用原来的小灶接火，烧了一捆。没再去叫龙。”"
             },
             "chapter": 2
           }
@@ -261,11 +266,11 @@
             "id": "TH-INVENTORY-MORNING",
             "action": "complete",
             "deadline_chapter": 2,
-            "reason": "逐户走访后仍在上午进入实盘，实际摸袋、折量、数柴与点银，主角取得真实新知；章末各池不混。",
+            "reason": "上午搬袋、查封口、折量记数，核干柴与复点342银，不再将基线当盘点。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "诺拉先摸袋底，再看封口，遇到开过的，便叫人拿旧量器来。伊恩接过纸，照她报的数记。"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "诺拉查袋底和封口，开过的袋用旧量器折份，伊恩替她记。"
             },
             "chapter": 2
           }
@@ -311,11 +316,11 @@
             "id": "TH-SIXTY-FIRST",
             "action": "complete",
             "deadline_chapter": 2,
-            "reason": "先答地址与临时过夜，借宿到下午如约退出，D1晚两位换两位真实背母亲过屏风，包含儿子照料位。",
+            "reason": "夜借隔壁、下午如期腾台及主角让出灶边座，最后付酬照护产生2自愿空位，诺拉实核后马汀母子真的进入原屋，仍合60。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "马汀侧身，慢慢背着母亲转过屏风。"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "老人扶着儿子的手坐下。她坐得很慢，半边身体先落稳，才肯把另一只手松开。"
             },
             "chapter": 2
           }
@@ -342,11 +347,11 @@
             "id": "TH-WEST-WINDOW",
             "action": "complete",
             "deadline_chapter": 2,
-            "reason": "按说好的明天实查并临时遮护、移开私料，不称永久修好；后续正经材料与借毡归还另登记。",
+            "reason": "翌日实际检查并借乌铎私毡临时护料，一角仍翘；不称永久修好，借毡另设期限。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "两人将旧毡遮上，乌铎又仔细看过窗板，没有说已经修好了。"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "便将仍翘起的一角记下来，没有说已经修完。"
             },
             "chapter": 2
           }
@@ -361,11 +366,11 @@
             "id": "TH-D2-REVISIT",
             "action": "set",
             "deadline_chapter": 3,
-            "reason": "原母子只让本夜，未入屋母子也明确要求明日上门，不延成第7章才能看人。",
+            "reason": "D2午后必须亲访本夜返家照护家庭，儿媳要求不能只问婆婆就认全家撑得住。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "“今晚划。明天还来问。”"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "“明天午后，我来看看这一夜怎样。”"
             },
             "chapter": 2
           }
@@ -380,11 +385,11 @@
             "id": "TH-NORTH-WINDOW",
             "action": "set",
             "deadline_chapter": 7,
-            "reason": "正经木料未找到，不以原住者本夜返家取消；近期取材与材料标准工作须回到此处给实际处理结果。",
+            "reason": "明日请乌铎先看材料，最迟近期材料处理章回到北窗给实际结果；不得因旧住户今夜不在便取消需要。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "“那别因为我娘今夜不睡那里，就不找了。”"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "“饭厅北窗那阵风，还是得挡。别我今天没去，你们就说那儿不冷了。”"
             },
             "chapter": 2
           }
@@ -399,11 +404,11 @@
             "id": "TH-WEST-FELT-LOAN",
             "action": "set",
             "deadline_chapter": 7,
-            "reason": "临时借私毡不是完成永久修窗；材料安排须归还、另获真实同意或承担实际损失，不自动拿走。",
+            "reason": "旧毡为匠人原有私物，临护后需归还原片、另获真实同意或承担实际损失；未默认为公物。",
             "evidence": {
               "chapter": 2,
-              "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
-              "quote": "“借在这儿。”他说，“料还放这间屋，算护我的东西。等换好窗板，这片还我。”"
+              "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+              "quote": "“还我时别拿块新的糊弄。”匠人道，“这块是我拿惯的。”"
             },
             "chapter": 2
           }
@@ -421,8 +426,20 @@
       "sha256": "ec4e442bd2082cf94f8751b893308c514919c492917dab622acd64041c137537"
     },
     "2": {
-      "path": "briefs/CH002_4be7113de0a74223d331eaab16b1d4f423f2414e06efa5284a1d14d272c1c3ef.json",
-      "sha256": "4be7113de0a74223d331eaab16b1d4f423f2414e06efa5284a1d14d272c1c3ef"
+      "path": "briefs/CH002_8d9b0c16d726ec00e8d97d7365aa8f313550e39aea5ee72bd7e0d3b1c85b6b12.json",
+      "sha256": "8d9b0c16d726ec00e8d97d7365aa8f313550e39aea5ee72bd7e0d3b1c85b6b12"
     }
-  }
+  },
+  "replaced_chapters": [
+    {
+      "chapter": 2,
+      "rewrite_id": "author_CH002_6a045381042e4c9e9bb9f0daba9b47d9",
+      "old_text_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
+      "old_record_sha256": "4afca5e61d336af0cccc23dfb89a9de5946b1e6eb7172a8dfb8fbb827c981822",
+      "source_state_path": "rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/source_state.json",
+      "source_state_sha256": "7ddeb747c5147b3db8ec3095ae6e2d70b3944041ddafb38f9fd2eb93015b37c0",
+      "author_grant_path": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json",
+      "replacement_text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649"
+    }
+  ]
 }

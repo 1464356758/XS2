@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-31T00:57:12+00:00",
-    "state_revision": 5,
-    "workflow_revision": 14,
-    "state_sha256": "7ddeb747c5147b3db8ec3095ae6e2d70b3944041ddafb38f9fd2eb93015b37c0",
-    "workflow_sha256": "3f40e063a06e2b405dc1e65b643dd32529fb26564c3323d2e1a7ff10079b4afe",
+    "generated_at": "2026-10-31T01:00:14+00:00",
+    "state_revision": 6,
+    "workflow_revision": 15,
+    "state_sha256": "6c2667c921009d365ed62f18837661906a8775c8fdac9e9e5801f7b4deee0ec7",
+    "workflow_sha256": "d871d82a14de26f37113ff20282556d8c83492c44cd00d434e1f347eeb48a7f4",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -23,7 +23,7 @@
     "target_chapters": 100,
     "adopted_chapters": 2,
     "target_han": 900000,
-    "actual_han": 17731,
+    "actual_han": 18099,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
-    "chapter": 2,
-    "detail": "作者明确授权重写第二章，正式旧版保留至新版检查采用；累计返修不清零。",
-    "next_action": "在授权前文视图完成任务书、正文、实读与检查。",
-    "updated_at": "2026-10-31T00:39:06+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 3,
+    "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。",
+    "next_action": "下一次定时按最新正式第二章续写第三章。",
+    "updated_at": "2026-10-31T01:00:14+00:00"
   },
   "chapters": [
     {
@@ -60,11 +60,11 @@
     },
     {
       "number": 2,
-      "title": "第一把椅子给谁",
+      "title": "先让她睡一觉",
       "stage": "S01",
-      "han_count": 8778,
-      "text_path": "book/chapters/CH002_58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3.txt",
-      "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
+      "han_count": 9146,
+      "text_path": "book/chapters/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt",
+      "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -987,12 +987,6 @@
   "history": [
     {
       "at": "2026-10-30T15:27:55+00:00",
-      "phase": "WAITING_PLATFORM",
-      "label": "等待选择平台",
-      "detail": "系统已准备好，请先选择创作平台。"
-    },
-    {
-      "at": "2026-10-30T15:27:55+00:00",
       "phase": "RESEARCH_PLATFORM",
       "label": "核查平台规则",
       "detail": "已选择番茄小说，正在等待核查现行规则。"
@@ -1074,6 +1068,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者明确授权重写第二章，正式旧版保留至新版检查采用；累计返修不清零。"
+    },
+    {
+      "at": "2026-10-31T01:00:14+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。"
     }
   ]
 }

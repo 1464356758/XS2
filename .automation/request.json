@@ -1,18 +1,14 @@
 {
   "schema_version": 1,
-  "request_id": "ch002_finalize_mvvmb6oe_wh54j",
-  "base_sha": "0d356d007d0b1426b28683a5edb43a175696b22c",
+  "request_id": "rw2_preflight_mvvo5sm9_iqurl",
+  "base_sha": "6a3f6a7cddd469938d3353819629f930892c3f97",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "manual_ch002_mvvlhfcp_s9x58t5hk1",
+    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "finalize",
-  "run_id": "048ede580b0a4bcf8d9ac52b4b26c3c3",
-  "text": "drafts/CH002_V3.txt",
-  "record": "drafts/CH002_record_V3.json",
-  "report": "drafts/CH002_release_V3.json"
+  "phase": "preflight"
 }

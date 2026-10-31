@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_command_mvvoc9sq_ly5pi",
-  "base_sha": "b574d300a7926d33e8f1df8aa1b76f132d8cbc62",
+  "request_id": "rw2_rewrite_command_mvvosvno_m9ppa",
+  "base_sha": "b1160f759017531458930de0a99f1da9fb4a2a32",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -14,59 +14,31 @@
   "run_id": "af5e8ddbadce418882ee30997e827001",
   "commands": [
     {
-      "script": "novel_state.py",
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
-        "drafts/CH002_REWRITE_brief_pending.json"
+        "repair",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--reason",
+        "作者明确授权结构重写第二章：以实际付酬的白天照护替班促成本夜自愿腾换；承接原任务累计第三轮修订，保留前两轮及旧版本，不清零。"
       ]
     },
     {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "暖屋 让出 拆床 照护",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "诺拉 小灶 领柴 库存",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "brief-check",
-        "--file",
-        "drafts/CH002_REWRITE_brief_ready.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
       "args": [
         "--root",
         "book",
         "context",
+        "--chapter",
+        "2",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
         "--out",
-        "drafts/CH002_REWRITE_writer.md"
+        "drafts/CH002_REWRITE_reader.md"
       ]
     }
   ],

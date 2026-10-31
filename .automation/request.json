@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_command_mvvovb86_6zg98",
-  "base_sha": "05c28a425d9069f11dc143fa7e8d034237f932f5",
+  "request_id": "rw2_rewrite_command_mvvowdn5_191ig",
+  "base_sha": "bac7c4c01c6251fdfcdf09396a17a48672e7a961",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -18,13 +18,13 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "2",
+        "context",
+        "--profile",
+        "reader",
         "--text",
         "drafts/CH002_REWRITE_V1.txt",
-        "--reason",
-        "作者明确授权结构重写第二章：以实际付酬的白天照护替班促成本夜自愿腾换；承接原任务累计第三轮修订，保留前两轮及旧版本，不清零。"
+        "--out",
+        "drafts/CH002_REWRITE_reader.md"
       ]
     },
     {
@@ -32,15 +32,25 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--chapter",
-        "2",
-        "--profile",
-        "reader",
+        "check-record",
         "--text",
         "drafts/CH002_REWRITE_V1.txt",
+        "--record",
+        "drafts/CH002_REWRITE_record.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--record",
+        "drafts/CH002_REWRITE_record.json",
         "--out",
-        "drafts/CH002_REWRITE_reader.md"
+        "drafts/CH002_REWRITE_release_pending.json"
       ]
     }
   ],

@@ -1,0 +1,329 @@
+{
+  "chapter": 3,
+  "title": "龙今天不上工",
+  "stage": "S01",
+  "base_revision": 6,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+  "complete": true,
+  "story_time_end": 4260,
+  "temporal_precision": "承接CH002的D1十九点，先实交班睡眠；转D2清晨、午钟、午后、傍晚、午夜前，跨D3六点后至七下钟声。依D0八点为零点，D3七点=4260。facts保守登记章末回顾/有效状态，不伪造中段精确分钟；D2与D3领粮分开。",
+  "summary": "伊恩在D1夜由已明确换岗的护卫接过小灶，得到真实睡眠。D2履行赫穆整日零吐息，主动取消木架归整和第二托位准备，将两名护卫转为训练及夜间轮换，询价请乌铎半天检查旧小灶与北窗、阿卓先休后守前半夜、两名本地搬工分送柴。北窗只重理旧压条与借布、直风减少仍漏，未挪西屋私毡。库柴73先领14后59，夜里再领2余57；暖屋旧留1加新领6合7，D3晨实耗6余1，其它已领柴未假作全烧。实付乌铎1银、两搬工各6铜（1银换12铜）、阿卓1银，公库338。D2领312后粮5304，D3新领312后4992。午后实访昨日让位家庭，听儿媳与丈夫回报D1夜换班有效，今晚仍在家试；伊恩撤去拟抽该户跑腿，另留已睡护卫，将照护与看火分开。夜间集中送饭收碗减少门风，按实际冷耗补柴，午夜前完成当面交班及学徒工钱，伊恩也能离岗睡。D3原60人含照护撑过冷夜，非永久独立供热。07点外来车夫到场声称白渡粮车困在坏桥南头并求借人，尚未实勘或取得粮权。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "三天里，总得有一天不吐。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "“明天午后，我来看看这一夜怎样。”"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "库里留下七十三。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "钱箱里如今留下三百四十一枚银币。"
+      }
+    ],
+    "conclusion": "实际生成并读取writer和两版reader资料；reader中的CH001/新版CH002与已读冻结全文逐字一致，当前R1候选全文及全部变动上下文已核对。同一上下文近似，不能真正遗忘设定，不冒充独立读者。R1纠正时段错指、在场连续性、搬工身份与跨日粮数；八项与主线六维实读判断及真实引文进入release报告。代价、岗位、薪酬、回访与完整休息日均由正文动作支持；没有将代码通过当文学通过。模型与思考档位无实际运行元数据，未验证。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "care:D1_D2:actual_handover",
+      "value": "护卫实际接过火钳，伊恩睡到D2清晨；未把纸上安排当完成接班。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "火钳终于离手，伊恩的手指却还蜷着。"
+    },
+    {
+      "kind": "fact",
+      "key": "night:D1:wood_used",
+      "value": "D2清晨亲见暖屋D1备用2中拆用1，剩1；与D0消耗为不同一夜，不重复扣库。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "小灶烧着。两捆备用柴拆过一捆，另一捆还绑着。"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:D2:rest",
+      "value": "D2完整自然日龙吐息为零；跨D3早仅查看，未再次委托。首个休息日成立，不解除以后每三日的持续限制。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "第一个完整休息日过去了，它一口火也没吐，人的活便多出这样一长串。"
+    },
+    {
+      "kind": "fact",
+      "key": "work:D2:deferred",
+      "value": "木架与第二托位准备被取消当日推进，护卫先学后休换夜班，本地搬工改送柴；不是无成本新增人手。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "“木架先不搬。”伊恩说，"
+    },
+    {
+      "kind": "state",
+      "key": "labour:AZHUO:terms",
+      "value": "阿卓为乌铎成年学徒，自己报24岁；先白天交班预备后回家睡，傍晚至午夜前守饭厅，工毕取1银离开，未成全天免费劳力。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "阿卓白天这一趟只作交班预备，晚间的一银等前半夜的活做完再付。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D2:cash_exchange",
+      "value": "乌铎上午工钱1银；公库另1银向其私钱袋换12铜，两个半天搬工各6铜。交换不额外增加公库，实际工资合2银。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "一枚是乌铎这半天的报酬，另一枚请他换开。他从自己的旧钱袋里数出十二枚铜币，摊在箱盖上，一边六枚，给两个搬工。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "D2这轮乌铎1银、搬工合1银、阿卓1银均实付，公库341-3=338银；没有另计铜库存。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "公库还余三百三十八枚银币，"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-WOOD:D2_initial_issue",
+      "value": "库73先领14：住户8、厨房2、饭厅4，饭厅另有昨夜保留1，不重复领取。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "八捆住户，两捆厨房，四捆送饭厅。饭厅还有昨夜留的一捆，诺拉另写在旁边，没有再从库里领一次。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D2库73先领14后59，再追加领2后57；潮木未混作干柴，无林中新增。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "原来五十九捆，拿出两捆还剩五十七。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:issued_distribution",
+      "value": "D2新领合16，8住户、2厨房、6暖屋。住户等已领后的实际剩余尚未逐户点，不认定全耗。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "全城其他小灶的余柴还得逐处收数，他没将领出去的八捆一笔说成烧尽。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D2清晨留1+当日新领6合7，到D3早共烧6、余1未拆；已烧6只算此屋D2至D3早，不含D1夜那1。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "昨日清晨留下的一捆，加后来两次领来的六捆，共七捆，至此用了六捆，干处还剩一捆未拆。"
+    },
+    {
+      "kind": "fact",
+      "key": "res:RES-FOOD:D2_issue",
+      "value": "D2实际领312含人类既有配给，库5616->5304，饭厅不另算人口。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "今日仍从库里领出三百一十二份，五千六百一十六变成五千三百零四，送饭厅的并不另算。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "本章跨到D3已实际领新一日312，库5304->4992；不可仍用D2末5304作为章末数。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "诺拉领出新一日三百一十二份口粮，库内由五千三百零四份减至四千九百九十二。"
+    },
+    {
+      "kind": "fact",
+      "key": "food:D2:dragon_shared_meal",
+      "value": "送龙的一块饼与半碗稠汤来自伊恩当日312配给中个人那份，主角少吃；未暗增公粮或用吃饭换火。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "今日分到伊恩名下的食物没有凭空多一份，只是饼进了龙的嘴里，他午饭少了半碗汤和一块饼。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:赫穆石板藏鱼:stock",
+      "value": "本章亲见赫穆从自己的石板藏处取两条冻鱼并吃掉，这处藏鱼已空；不推定其别处资源、以后每日自动有鱼或龙的完整营养已获保证。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "石板底下空了，伊恩看见它伸爪探了一次，没有再拿出别的。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:北窗",
+      "value": "乌铎只理顺旧布与原压条，直吹风减弱但仍冷/裂，合用新料尚需取得；未永久修好，不挪西屋私毡。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "风声小了。伊恩的手背贴近那处，仍摸得到一点冷气。"
+    },
+    {
+      "kind": "state",
+      "key": "prop:乌铎旧毡:loan",
+      "value": "西屋借毡仍在原处护私料且债未解除，不能将不拿来暖屋等同已归还。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "“不拿。”伊恩说，“那块护着他的料，还是借的。不能这里挡住，楼上又进雪。”"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "D2夜至D3早既有60位含照护未增，虽较冷仍等到早饭；没有变为全城永久供暖或痊愈。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "六十个人，包括照护家属，一个没有因添柴又被挤出去。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:D1_household_outcome",
+      "value": "伊恩D2午后亲访、听儿媳和丈夫互证D1夜前后班与晨间补睡；属当事者报告及伊恩现场观察，不将D2当夜以后情况预认全安。",
+      "holder": "CHAR-01",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "“昨夜前半夜我起了两回。”她说，“后半夜推醒他了。他没再说车轮陷着。”"
+    },
+    {
+      "kind": "fact",
+      "key": "care:D2:household_revisit",
+      "value": "午后亲访问三人，听回报与今夜选择，取消拟抽丈夫做夜间跑腿，改问已睡护卫；没有将付一次钱变为全家长期义务。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "他们把原来准备夜里随叫随到的那户从帮工名单里拿掉，另问白天睡过的一名护卫，"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:care_fire_separation",
+      "value": "伊恩经回访确认照护会占双手，回场把守火、送水、家属陪护分开，并实际在午夜交接时核实。",
+      "holder": "CHAR-01",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "让他们知道守火的人不会再替每个人离开灶边。"
+    },
+    {
+      "kind": "state",
+      "key": "site:灰炉堡:旧封闭炉",
+      "value": "本章旧封闭炉仍封，叉铁片仍在；新托位未完成，不认增加接收容量或新暖屋。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "伊恩看了一眼封着的炉胆，那只打着叉的铁片仍在。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:left_wing",
+      "value": "赫穆整日可休，旧翼仍未收拢，不视为愈合。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "赫穆睡得很沉，干木上留着身体压过的痕，旧翼仍没收拢。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-05:left_leg",
+      "value": "塞恩旧腿仍在台阶停顿，未因接班而免除身体限制。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "旧伤腿走到台阶时停了一下，伊恩没催，自己也停了片刻。"
+    },
+    {
+      "kind": "state",
+      "key": "char:ROOK:work",
+      "value": "D3鲁克仍脚疼需扶床沿，被留下休息，未记痊愈赶车或参加救援。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "坐回去揉那只还疼的脚。"
+    },
+    {
+      "kind": "state",
+      "key": "visitors:D3:messenger",
+      "value": "一名湿冷、腿缠破布的外来男子由守门人扶入，未承诺长期收容、未计入此前60暖位或既发312口粮。",
+      "holder": "",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "两名守门人扶进一个浑身湿冷的男人，他的小腿缠着破布，袖口沾着车轴上的黑油。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:south_bridge_report",
+      "value": "伊恩只从到场男子听到白渡粮车昨傍晚困在旧石桥南头及请求借人；货、桥况和所有权未实勘，不能当已取得粮。",
+      "holder": "CHAR-01",
+      "valid_from": 4260,
+      "valid_until": null,
+      "quote": "“白渡的粮车。昨傍晚到旧石桥，桥面坏了一段，两辆车困在南头。”"
+    }
+  ],
+  "progression": {
+    "goal": "在人类不调用龙火的D2保持既有最低暖位与灶火，并兑现对昨日让位家庭的回访。",
+    "obstacle": "暖石退热、冷风和分散灶火增加燃料与劳力；一人不能同时看门守灶照护，学徒要休息且可拒绝加班。",
+    "method": "取消非必要搬架/托位工作，亲自校对岗位、提前分送干柴，付酬请本地手艺人检查与教会交班；回访后撤掉不宜外抽的照护人，夜里合并送饭收碗并补领柴。",
+    "choice": "不拿昨日未用吐息当今日额度、不因龙醒着就索火，不挪私毡、不启裂托；将工期与钱粮损耗留给自己，付钱后允许劳动者真的下班。",
+    "result": "D3天明原60人含照护仍有位置，D2赫穆一口未吐；乌铎/搬工/阿卓实际收款、伊恩前后两次交班睡眠，午后回访获得当事者的新反馈。",
+    "consequence": "库粮4992、干柴57另暖屋未拆1、公库338；暖屋小灶从D2至D3早共耗6捆，未升级产能，托位和木架延期、漏窗未永久修复。龙这处私藏鱼吃空未增公粮。",
+    "next_options": "CH004先照护到场车夫并核问消息，再有限派人实勘旧石桥、救人畜；粮权与采购另谈，守堡和人龙休息仍须留人。CH005暴雪取舍前按实际全文做五章回看。",
+    "scene_function": "一次休息权的实际压力检验，带班经验转为预送、撤活、岗位分离与真实交接；回访不是独立打卡，而改变夜间谁能被抽走。结尾转入有来源的粮运外部行动。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-REST-FIRST3",
+      "action": "payoff",
+      "description": "D2完整零吐息至D3早有实际无龙火过夜结果，只完成首个休息日；以后持续三日限制保留。",
+      "quote": "第一个完整休息日过去了，它一口火也没吐，人的活便多出这样一长串。"
+    },
+    {
+      "id": "TH-D2-REVISIT",
+      "action": "payoff",
+      "description": "按约D2午后亲访让位家庭，分别问儿媳、丈夫、老人，并据反馈撤掉拟抽夜工，非只收老人一句好着。",
+      "quote": "伊恩脚步没停在这一句上。\n\n“我来问问昨夜。”"
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "partial",
+      "description": "当日乌铎看材料、理旧压条借布，少直风仍需换合用料，不关闭永久修复。",
+      "quote": "“新的要好料。”乌铎说，“这个先压回去，别指望一次管到开春。”"
+    },
+    {
+      "id": "TH-WEST-FELT-LOAN",
+      "action": "develop",
+      "description": "护料借毡未挪用未归还，责任保留。",
+      "quote": "“不拿。”伊恩说，“那块护着他的料，还是借的。不能这里挡住，楼上又进雪。”"
+    },
+    {
+      "id": "TH-SOUTH-BRIDGE",
+      "action": "plant",
+      "description": "到场车夫求借人救车与牲口，CH004应先核实桥况并回应；救到货不等于取得粮权。",
+      "quote": "车上的人叫我来，不是问你们买不买粮——先问能不能借人，把车和牲口弄开。"
+    }
+  ],
+  "stage_closing": false
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_mvwxkbhn_4fz2yhu758a",
-  "base_sha": "729e7a58a37153a088e1b83bc75cbf73e5eb8c37",
+  "request_id": "command_mvwxmmbz_v1qmh2jsxns",
+  "base_sha": "1c0d115dbd4a494aecc652dce4e6f9304ed89418",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -16,13 +16,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "3",
+        "check-record",
         "--text",
         "drafts/CH003.txt",
-        "--reason",
-        "R1：修正上章谈托位的时段错指与伊恩在场却被派人寻找的连续性，补D3早饭真实领粮后4992和七点时标，明确两名搬工同一身份；具体证据见drafts/CH003_R1_issues.json。"
+        "--record",
+        "drafts/CH003_record.json"
       ]
     },
     {
@@ -30,15 +28,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH003.txt",
-        "--budget",
-        "80000",
+        "--record",
+        "drafts/CH003_record.json",
         "--out",
-        "drafts/CH003_reader_R1.md"
+        "drafts/CH003_release.json"
       ]
     }
   ],

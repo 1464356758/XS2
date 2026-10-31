@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 16,
+  "revision": 17,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -136,9 +136,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。"
+    },
+    {
+      "at": "2026-10-31T21:44:22+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。"
     }
   ],
-  "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
-  "next_action": "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。",
-  "updated_at": "2026-10-31T21:37:32+00:00"
+  "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。",
+  "next_action": "核对真实引文、有限资源、完整休息日、午后回访与实际交班，再准备章后记录及release报告。",
+  "updated_at": "2026-10-31T21:44:22+00:00"
 }

@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-31T21:37:32+00:00",
+    "generated_at": "2026-10-31T21:44:23+00:00",
     "state_revision": 6,
-    "workflow_revision": 16,
-    "state_sha256": "871ba564b04dc8b88a1f32a99f14481803d9a2ba8d607de8792d709e012ee215",
-    "workflow_sha256": "6e390440114336723609a0a27da1e532f50e2a2c18018f1ef91b2c06967a08a0",
+    "workflow_revision": 17,
+    "state_sha256": "057563e3550de874aef3b675c5a1893a8e430e959c017147f23035efd4afc2e8",
+    "workflow_sha256": "42f4b445fae4e4fdc98e28a66097d68f6ad86753e8f98657012b80b4d4ff9f23",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 3,
-    "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
-    "next_action": "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。",
-    "updated_at": "2026-10-31T21:37:32+00:00"
+    "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。",
+    "next_action": "核对真实引文、有限资源、完整休息日、午后回访与实际交班，再准备章后记录及release报告。",
+    "updated_at": "2026-10-31T21:44:22+00:00"
   },
   "chapters": [
     {
@@ -986,12 +986,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T15:47:14+00:00",
-      "phase": "SCANNING_RANKINGS",
-      "label": "研究榜单",
-      "detail": "规则和榜单资料已保存；存在待核实项。"
-    },
-    {
       "at": "2026-10-30T15:47:32+00:00",
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
@@ -1074,6 +1068,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。"
+    },
+    {
+      "at": "2026-10-31T21:44:22+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。"
     }
   ]
 }

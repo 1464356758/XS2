@@ -130,6 +130,22 @@
       ],
       "candidate_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
       "candidate_path": "candidates/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt"
+    },
+    "3": {
+      "task_id": "9946ed38-18f4-46a2-8e6e-76ff46e3c910",
+      "chapter": 3,
+      "mode": "write",
+      "phase": "candidate",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7",
+          "reason": "初稿",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7",
+      "candidate_path": "candidates/CH003_dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7.txt"
     }
   },
   "completion": null,

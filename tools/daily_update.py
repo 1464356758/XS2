@@ -103,6 +103,15 @@ def verify_receipt(root, state, receipt):
     ns.require(receipt.get("type") == "novel-daily-completion-v1" and receipt.get("status") == "completed" and
                receipt.get("book_id") == state["book_id"], "每日完成记录身份无效。")
     n = receipt["chapter"]
+    current = state['chapters'].get(str(n), {})
+    if current and current.get('text_sha256') != receipt.get('body_sha256'):
+        for entry in state.get('replaced_chapters', []):
+            if entry.get('chapter') == n and entry.get('old_text_sha256') == receipt.get('body_sha256'):
+                path = ns.inside(root, entry['source_state_path'])
+                ns.require(ns.digest(path.read_text()) == entry['source_state_sha256'], '作者重写旧版归档改变。')
+                previous = ns.read_json(path)
+                ns.require(previous['book_id'] == state['book_id'] and previous['chapters'].get(str(n), {}).get('text_sha256') == receipt['body_sha256'], '旧回执版本归属不符。')
+                return verify_receipt(root, previous, receipt)
     item, gate = formal_evidence(root, state, n)
     ns.require(receipt["baseline_count"] + 1 == n and prefix_fingerprint(state, receipt["baseline_count"]) == receipt["baseline_fingerprint"], "目标章或前文基线改变。")
     ns.require(receipt.get("body_sha256") == item["text_sha256"] and receipt.get("record_sha256") == item["record_sha256"] and
@@ -173,6 +182,8 @@ def finish_locked(root, state, active):
 
 def begin(project, resume_stopped=False, trigger_id=None):
     root, _ = load(project)
+    rewrite_path = root / 'rewrites/active.json'
+    ns.require(not rewrite_path.exists() or ns.read_json(rewrite_path).get('status') == 'completed', '作者授权重写尚未完成，保留原目标，不能先续第三章。')
     with ns.writer_lock(root):
         _, state = load(project)
         today = date_of(stamp())

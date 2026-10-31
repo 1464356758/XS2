@@ -21,6 +21,7 @@ import daily_update as daily
 import novel_state as ns
 import online_state as online
 import operator_recovery
+import author_rewrite
 
 PROTOCOL = "novel-task-executor-v1"
 ID = re.compile(r"[A-Za-z0-9_-]{8,100}")
@@ -58,7 +59,7 @@ def validate_request(project, request):
     require(isinstance(request, dict) and request.get("schema_version") == 1, "执行请求格式无效。")
     require(isinstance(request.get("request_id"), str) and bool(ID.fullmatch(request["request_id"])), "request_id须为8—100位独立请求编号。")
     require(isinstance(request.get("base_sha"), str) and bool(re.fullmatch(r"[0-9a-f]{40}", request["base_sha"])), "请求必须绑定实际基础提交。")
-    require(request.get("phase") in ("preflight", "recover", "begin", "command", "finalize", "block"), "执行阶段无效。")
+    require(request.get("phase") in ("preflight", "recover", "begin", "command", "finalize", "block", "rewrite_begin", "rewrite_command", "rewrite_finalize"), "执行阶段无效。")
     owner = request.get("controller", {})
     require(isinstance(owner, dict), "缺少执行控制者。")
     if request["phase"] in ("preflight", "recover") and owner.get("kind") == "maintenance":
@@ -84,6 +85,8 @@ def validate_request(project, request):
         cfg = ns.read_json(config_path)
         require(cfg.get("book_id") == state["book_id"] and
                 cfg.get("automation_id") == owner.get("automation_id"), "请求控制者与已登记的唯一任务不符。")
+    if request['phase'].startswith('rewrite_'):
+        author_rewrite.grant(project, request)
     return state
 
 
@@ -186,7 +189,11 @@ def guard_after(project, before, phase):
     old = before["state"]; state = ns.load_state(Path(project) / "book")
     ns.verify_files(Path(project) / "book", state)
     require(state["book_id"] == old["book_id"] and state["config"] == old["config"], "执行器不能改身份、关闭冻结或降低门槛。")
+    if phase == 'rewrite_finalize':
+        author_rewrite.guard(project, old, state)
     for n, item in old["chapters"].items():
+        if phase == 'rewrite_finalize' and n == '2':
+            continue
         require(state["chapters"].get(n) == item and state.get("serialization", {}).get("frozen", {}).get(n) == old.get("serialization", {}).get("frozen", {}).get(n), "旧采用章及冻结记录必须完全不变。")
     for path, data in before["files"].items():
         require((Path(project) / "book" / path).read_bytes() == data, "不能改写既有正文或事实文件。")
@@ -211,7 +218,13 @@ def _run(project, request, result):
         return
     root = Path(project) / "book"
     ns.verify_files(root, ns.load_state(root))
-    if phase == "preflight":
+    if phase == 'rewrite_begin':
+        result.update(author_rewrite.begin(project, request))
+    elif phase == 'rewrite_command':
+        author_rewrite.command(project, request, result)
+    elif phase == 'rewrite_finalize':
+        result.update(author_rewrite.finalize(project, request))
+    elif phase == "preflight":
         result["business_status"] = "preflight_passed"
         result["active_status"] = (read_active(project) or {}).get("status")
     elif phase == "recover":
@@ -302,7 +315,7 @@ def apply_request(project, request, source_sha):
         except (ns.WorkspaceError, ValueError, KeyError, OSError, subprocess.SubprocessError) as exc:
             error = re.sub(r"(?:github_pat_|gh[pousr]_)[A-Za-z0-9_]+", "[凭证已隐去]", str(exc))[:2000]
             # A failed finalize must never save an adopted chapter without its receipt.
-            preserve = request["phase"] == "command"
+            preserve = request["phase"] in ("command", "rewrite_command")
             if preserve:
                 try: guard_after(work, before, "command")
                 except (ns.WorkspaceError, OSError, KeyError): preserve = False

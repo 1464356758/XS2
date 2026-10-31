@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "type": "novel-author-rewrite-v1",
+  "authorization_basis": "explicit_author_rewrite_request",
+  "author_instruction": "那就按照github里面的流程重新写啊！每天执行，也需要按照github里面的流程跑！\n\n重新写第二章",
+  "chapter": 2,
+  "rewrite_id": "author_CH002_6a045381042e4c9e9bb9f0daba9b47d9",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+  "reviewed_head": "96c3b38e07443a5118e3eee4992a4731dc20da5d",
+  "expected_state_sha256": "7ddeb747c5147b3db8ec3095ae6e2d70b3944041ddafb38f9fd2eb93015b37c0",
+  "old_text_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
+  "old_record_sha256": "4afca5e61d336af0cccc23dfb89a9de5946b1e6eb7172a8dfb8fbb827c981822",
+  "previous_repairs": 2,
+  "max_local_repairs": 3,
+  "authorized_at": "2026-10-31T00:33:57+00:00"
+}

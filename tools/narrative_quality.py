@@ -208,7 +208,7 @@ def skeleton(root, state, text, record, a):
     brief, _ = current_brief(root, state, a)
     _, coverage = reader_packet(root, state, text, a)
     ev = {"chapter": record["chapter"], "sha256": a.digest(text), "quote": ""}
-    return {"schema_version": 1,
+    result = {"schema_version": 1,
             "actual_scenes": [{"event": "", "choice": "", "change": "", "evidence": [dict(ev)]}],
             "plan_comparison": "",
             "reader": {"mode": "pending", "limitation": "", "coverage": coverage,
@@ -219,11 +219,23 @@ def skeleton(root, state, text, record, a):
                         "queries": list(brief["history_queries"]), "comparisons": [], "no_match_reason": ""},
             "reader_updates": [], "reader_update_note": "",
             "surface_findings": [dict(item, decision="pending", reason="") for item in surface_scan(text)]}
+    policy = Path(root).parent / '.automation/config.json'
+    if policy.is_file() and a.read_json(policy).get('require_pacing_review'):
+        result['pacing_review'] = dict(decision='pending', mainline='', protagonist_initiative='', scene_necessity='',
+            dramatic_change='', payoff='', next_pull='', evidence=[dict(ev)], blocking_issues=['尚未实读节奏与推进'])
+    return result
 
 
 def validate(root, state, text, record, review, a):
     a.require(isinstance(review, dict) and review.get("schema_version") == 1, "缺少V4.3叙事检查。")
     n = record["chapter"]
+    policy = Path(root).parent / '.automation/config.json'
+    if policy.is_file() and a.read_json(policy).get('require_pacing_review'):
+        pacing = review.get('pacing_review', {})
+        a.require(pacing.get('decision') == 'reviewed' and pacing.get('blocking_issues') == [] and
+                  all(nonempty(pacing.get(k)) for k in ('mainline', 'protagonist_initiative', 'scene_necessity', 'dramatic_change', 'payoff', 'next_pull')),
+                  '缺少实读主线、主动选择、场景必要性、实际变化、兑现和续读判断；不能只核账通过。')
+        evidence_list(root, state, text, n, pacing.get('evidence'), a)
     scenes = review.get("actual_scenes")
     a.require(isinstance(scenes, list) and scenes and nonempty(review.get("plan_comparison")), "先从正文提取实际场景，再说明与任务书的差异。")
     for scene in scenes:

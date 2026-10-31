@@ -86,6 +86,18 @@ class QualityFixture(WorkspaceFixture):
 
 
 class NarrativeQualityTests(QualityFixture):
+    def test_required_pacing_review_cannot_be_omitted_or_have_blocking_issues(self):
+        ns.atomic_json(self.root.parent / '.automation/config.json', {'require_pacing_review': True})
+        path, recpath, rec, report = self.prepare(1)
+        with self.assertRaises(ns.WorkspaceError): self.gate(path, recpath, report)
+        pacing = report['narrative_review']['pacing_review']
+        pacing.update(decision='reviewed', mainline='合成主线', protagonist_initiative='合成选择', scene_necessity='合成场景作用',
+                      dramatic_change='合成变化', payoff='合成兑现', next_pull='合成待解',
+                      evidence=[{'chapter': 1, 'sha256': ns.digest(TEXT), 'quote': TEXT}], blocking_issues=[])
+        self.gate(path, recpath, report)
+        pacing['blocking_issues'] = ['合成未解决问题']
+        with self.assertRaises(ns.WorkspaceError): self.gate(path, recpath, report)
+
     def test_new_release_cannot_skip_brief_or_pending_review(self):
         record = self.record(1, TEXT); path = Path(self.temp.name) / "draft.txt"; path.write_text(TEXT, encoding="utf-8")
         ns.candidate(self.root, 1, path)

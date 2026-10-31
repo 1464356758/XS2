@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 2,
+  "base_revision": 5,
+  "task_id": "7af0bf38-915b-4250-a391-70f7a6c684c0",
+  "repairs": 3,
+  "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+  "record_sha256": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "8d9b0c16d726ec00e8d97d7365aa8f313550e39aea5ee72bd7e0d3b1c85b6b12",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "1": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+    "2": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 3,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 4,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 5,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-D2-REVISIT",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-FIRST-NIGHT",
+      "action": "complete",
+      "deadline_chapter": 2,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-INVENTORY-MORNING",
+      "action": "complete",
+      "deadline_chapter": 2,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-REST-FIRST3",
+      "action": "keep",
+      "deadline_chapter": 3,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-SIXTY-FIRST",
+      "action": "complete",
+      "deadline_chapter": 2,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-WEST-FELT-LOAN",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    },
+    {
+      "id": "TH-WEST-WINDOW",
+      "action": "complete",
+      "deadline_chapter": 2,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "187674f43605483cefb16d6fc68afd639d7ff538d8234ecb3c0cd2a982e4f2d9",
+      "queries": [
+        "暖屋 让出 拆床 照护",
+        "诺拉 小灶 领柴 库存"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": [],
+    "pacing_review": {
+      "decision": "pending",
+      "mainline": "",
+      "protagonist_initiative": "",
+      "scene_necessity": "",
+      "dramatic_change": "",
+      "payoff": "",
+      "next_pull": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": ""
+        }
+      ],
+      "blocking_issues": [
+        "尚未实读节奏与推进"
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "rw2_rewrite_command_mvvowdn5_191ig",
+  "request_sha256": "463a21df7a62d66c76cccd3502d8a8a5c26489178fe1502e1d627af95d053bcd",
+  "source_sha": "78b893d4a255547721b6720ae4be7d5998ae5ba6",
+  "base_sha": "bac7c4c01c6251fdfcdf09396a17a48672e7a961",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "rewrite_command",
+  "executed_at": "2026-10-31T00:57:11+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41152888974",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--out",
+        "drafts/CH002_REWRITE_reader.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-01.stdout.txt",
+          "sha256": "4ce27c90066caaa66a77efcc975f9341eba27e8f2a00adade82839f5c67be754",
+          "bytes": 180
+        },
+        "stderr": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--record",
+        "drafts/CH002_REWRITE_record.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-02.stdout.txt",
+          "sha256": "0692826a53138f490ef771247e269cd026ebd026ee1fed44f528705e96a3ac47",
+          "bytes": 110
+        },
+        "stderr": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--record",
+        "drafts/CH002_REWRITE_record.json",
+        "--out",
+        "drafts/CH002_REWRITE_release_pending.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-03.stdout.txt",
+          "sha256": "fe605050858dc661b91cce6ad393f0a49af32ad005be65cc9c353eb7f6e5a150",
+          "bytes": 276
+        },
+        "stderr": {
+          "path": ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "af5e8ddbadce418882ee30997e827001",
+  "chapter": 2,
+  "view_state_path": ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/book/state.json",
+  "changed_paths": [
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/drafts/CH002_REWRITE_reader.md",
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/drafts/CH002_REWRITE_record.json",
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/drafts/CH002_REWRITE_release_pending.json",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-01.stderr.txt",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-01.stdout.txt",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-02.stderr.txt",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-02.stdout.txt",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-03.stderr.txt",
+    ".automation/work/rw2_rewrite_command_mvvowdn5_191ig/tool-03.stdout.txt",
+    "drafts/CH002_REWRITE_reader.md",
+    "drafts/CH002_REWRITE_release_pending.json",
+    "online/index.json"
+  ]
+}

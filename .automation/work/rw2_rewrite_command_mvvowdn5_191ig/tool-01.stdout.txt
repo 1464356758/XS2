@@ -1,0 +1,4 @@
+{
+  "path": "/tmp/novel-tool-batch-v5u39fss/project/.automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/drafts/CH002_REWRITE_reader.md",
+  "characters": 23230
+}

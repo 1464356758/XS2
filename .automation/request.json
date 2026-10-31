@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_begin_mvvoaqyq_jmv3q",
-  "base_sha": "d056dc496ad6e01be7d4713870907abca1307e89",
+  "request_id": "rw2_rewrite_command_mvvoc9sq_ly5pi",
+  "base_sha": "b574d300a7926d33e8f1df8aa1b76f132d8cbc62",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -10,8 +10,65 @@
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "rewrite_begin",
-  "supersedes_unexecuted_request": "rw2_rewrite_begin_mvvo7rrz_73dqk",
-  "observation": "前一来源提交无Actions运行记录且无result，重新提交相同授权和控制者；旧事件若迟到会因分支已推进拒绝。",
+  "phase": "rewrite_command",
+  "run_id": "af5e8ddbadce418882ee30997e827001",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_REWRITE_brief_pending.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "暖屋 让出 拆床 照护",
+        "--limit",
+        "5"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "诺拉 小灶 领柴 库存",
+        "--limit",
+        "5"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH002_REWRITE_brief_ready.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH002_REWRITE_writer.md"
+      ]
+    }
+  ],
   "rewrite_grant": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_preflight_mvvo5sm9_iqurl",
-  "base_sha": "6a3f6a7cddd469938d3353819629f930892c3f97",
+  "request_id": "rw2_rewrite_begin_mvvo7rrz_73dqk",
+  "base_sha": "429cd409592c75a2a1e1af6dc9a7e766e933e534",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -10,5 +10,6 @@
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "preflight"
+  "phase": "rewrite_begin",
+  "rewrite_grant": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json"
 }

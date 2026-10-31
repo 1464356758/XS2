@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_command_mvvowdn5_191ig",
-  "base_sha": "bac7c4c01c6251fdfcdf09396a17a48672e7a961",
+  "request_id": "rw2_rewrite_finalize_mvvp1pc2_kxdnk",
+  "base_sha": "10b11cf3356a5ff7d4a3aa3debb9375678486500",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -10,49 +10,10 @@
     "platform_run_id": null,
     "invocation_kind": "author_manual"
   },
-  "phase": "rewrite_command",
+  "phase": "rewrite_finalize",
   "run_id": "af5e8ddbadce418882ee30997e827001",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
-        "--text",
-        "drafts/CH002_REWRITE_V1.txt",
-        "--out",
-        "drafts/CH002_REWRITE_reader.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/CH002_REWRITE_V1.txt",
-        "--record",
-        "drafts/CH002_REWRITE_record.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
-        "--text",
-        "drafts/CH002_REWRITE_V1.txt",
-        "--record",
-        "drafts/CH002_REWRITE_record.json",
-        "--out",
-        "drafts/CH002_REWRITE_release_pending.json"
-      ]
-    }
-  ],
+  "text": "drafts/CH002_REWRITE_V1.txt",
+  "record": "drafts/CH002_REWRITE_record.json",
+  "report": "drafts/CH002_REWRITE_release.json",
   "rewrite_grant": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json"
 }

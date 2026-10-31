@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_begin_mvvo7rrz_73dqk",
-  "base_sha": "429cd409592c75a2a1e1af6dc9a7e766e933e534",
+  "request_id": "rw2_rewrite_begin_mvvoaqyq_jmv3q",
+  "base_sha": "d056dc496ad6e01be7d4713870907abca1307e89",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -11,5 +11,7 @@
     "invocation_kind": "author_manual"
   },
   "phase": "rewrite_begin",
+  "supersedes_unexecuted_request": "rw2_rewrite_begin_mvvo7rrz_73dqk",
+  "observation": "前一来源提交无Actions运行记录且无result，重新提交相同授权和控制者；旧事件若迟到会因分支已推进拒绝。",
   "rewrite_grant": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json"
 }

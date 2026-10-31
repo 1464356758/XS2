@@ -1,19 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "rw2_rewrite_finalize_mvvp1pc2_kxdnk",
-  "base_sha": "10b11cf3356a5ff7d4a3aa3debb9375678486500",
+  "request_id": "preflight_mvwx5269_ssmcp1wpcmr",
+  "base_sha": "9f584b5a5005953e02fbdfcc4a63da41351446e7",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
-    "platform_run_id": null,
-    "invocation_kind": "author_manual"
+    "session_id": "xs2_mvwx5268_zh5d33ltdk8",
+    "platform_run_id": "3b6e6241-3fb4-8331-8e1d-76dc3d78acce"
   },
-  "phase": "rewrite_finalize",
-  "run_id": "af5e8ddbadce418882ee30997e827001",
-  "text": "drafts/CH002_REWRITE_V1.txt",
-  "record": "drafts/CH002_REWRITE_record.json",
-  "report": "drafts/CH002_REWRITE_release.json",
-  "rewrite_grant": ".automation/rewrites/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9.json"
+  "phase": "preflight"
 }

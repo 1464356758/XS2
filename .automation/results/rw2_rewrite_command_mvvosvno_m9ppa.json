@@ -1,0 +1,25 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "rw2_rewrite_command_mvvosvno_m9ppa",
+  "request_sha256": "ce81b0238a35881b4a06da65ceea77d523759e56e11504fd23e061679cb70291",
+  "source_sha": "1466b36224f5e0ffc6073036eb2c1fc2634a6035",
+  "base_sha": "b1160f759017531458930de0a99f1da9fb4a2a32",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "rewrite_command",
+  "executed_at": "2026-10-31T00:53:04+00:00",
+  "executor_status": "error",
+  "github_run_id": "41152549458",
+  "business_status": "blocked",
+  "error": "重写只操作本次正文与审核，不改设定或其他正式事项。",
+  "changed_paths": [
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/drafts/CH002_REWRITE_V1.txt",
+    "online/index.json"
+  ]
+}

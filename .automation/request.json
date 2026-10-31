@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_mvwx6jep_0odbet6zsk",
-  "base_sha": "d87b96503596778b2917ebee6c53e5ab36b434eb",
+  "request_id": "command_mvwx96sl_dbhyskzvun",
+  "base_sha": "11e44d8d084908187920337c90e219bccdfa77a5",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -16,8 +16,8 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH003_brief.json"
       ]
     },
@@ -26,23 +26,13 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "休息 换班 守火 柴 乌铎",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "付酬 让位 回访 伊恩 主动选择",
-        "--limit",
-        "10"
+        "context",
+        "--profile",
+        "writer",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH003_writer.md"
       ]
     },
     {
@@ -56,9 +46,9 @@
         "--chapter",
         "3",
         "--detail",
-        "CH003本轮begin已确认；实读CH001及新版CH002全文与记录，准备休息日供柴、交班及回访的写前任务书。",
-        "--next-action",
-        "登记任务书、生成并实读writer资料后写完整第三章。"
+        "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
+        "--next",
+        "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。"
       ]
     }
   ],

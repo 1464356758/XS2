@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "created_at": "2026-10-31T00:28:38+08:00",
+  "as_of": "T0；CH001正文尚未生成",
+  "source": {
+    "kind": "author_setting",
+    "canon_path": "book/inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+    "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803"
+  },
+  "adopted_chapters": 0,
+  "observed_story_facts": [],
+  "adopted_character_knowledge": [],
+  "actual_transactions": [],
+  "update_rule": "此为开篇作者基线，不是第0章。未来采用记录凭正文引文更新对应状态；不覆盖旧冻结记录，不回到本基线恢复库存。",
+  "resources": [
+    {
+      "id": "RES-POP",
+      "quantity": 312,
+      "unit": "人",
+      "composition": {
+        "本地": 301,
+        "含伊恩的抵达者": 11
+      },
+      "status": "author_setting"
+    },
+    {
+      "id": "RES-LABOR",
+      "quantity": 172,
+      "unit": "人",
+      "status": "author_setting",
+      "note": "包含护卫12及匠人/学徒17，不额外相加"
+    },
+    {
+      "id": "RES-FOOD",
+      "quantity": 6240,
+      "unit": "混合口粮份",
+      "ownership": "公用粮池",
+      "status": "author_setting_not_character_counted",
+      "composition": {
+        "旧仓": 4240,
+        "携入": 2000
+      }
+    },
+    {
+      "id": "RES-WOOD",
+      "quantity": 96,
+      "unit": "标准捆干柴",
+      "status": "author_setting",
+      "excluded": "潮木未计入可用数量"
+    },
+    {
+      "id": "RES-CASH",
+      "quantity": 342,
+      "unit": "银币",
+      "ownership": "公库",
+      "status": "author_setting_not_character_counted",
+      "composition": {
+        "旧公库": 324,
+        "携入": 18
+      }
+    },
+    {
+      "id": "RES-CLAIM",
+      "quantity": 160,
+      "unit": "银币",
+      "status": "external_claim_unverified",
+      "effect_on_cash": 0,
+      "note": "不等于承认负债或已付款"
+    },
+    {
+      "id": "RES-IRON",
+      "quantity": 118,
+      "unit": "公斤可利用旧铁",
+      "status": "author_setting",
+      "note": "无承压适用证据、加工有损耗"
+    },
+    {
+      "id": "RES-STONE",
+      "quantity": 2,
+      "unit": "完整蓄热石",
+      "status": "author_setting",
+      "excluded": "3枚裂石不计有效容量"
+    },
+    {
+      "id": "RES-BRICK",
+      "quantity": 84,
+      "unit": "可复用耐火砖",
+      "status": "author_setting"
+    },
+    {
+      "id": "RES-HAUL-SLED",
+      "parent_id": "RES-HAUL",
+      "quantity": 2,
+      "unit": "辆雪橇",
+      "status": "author_setting"
+    },
+    {
+      "id": "RES-HAUL-ANIMAL",
+      "parent_id": "RES-HAUL",
+      "quantity": 4,
+      "unit": "头役畜",
+      "status": "author_setting"
+    },
+    {
+      "id": "RES-HEARTH",
+      "quantity": 60,
+      "unit": "公共暖屋安全暖位",
+      "status": "capacity_not_service_delivered",
+      "actual_people_warmed": null
+    },
+    {
+      "id": "RES-RECEIVER",
+      "quantity": 2,
+      "unit": "暖格接收容量",
+      "status": "capacity_not_heat_generated",
+      "actual_heat_generated": null
+    }
+  ],
+  "character_knowledge_baseline": [
+    {
+      "holder": "CHAR-01",
+      "status": "author_setting",
+      "knows": [
+        "有限现代检修与带班经验",
+        "通用语读写和承领令通常范围",
+        "被家族放弃的个人处境"
+      ],
+      "does_not_know": [
+        "龙的身体上限与合作意愿",
+        "T0公库和粮房实盘结果",
+        "本地符文、煤样和矿山细节",
+        "帝国与商会未传来的决定"
+      ]
+    },
+    {
+      "holder": "CHAR-02",
+      "status": "author_setting",
+      "knows": [
+        "自身旧翼伤、吐息恢复需要",
+        "龙族习惯和旧路线记忆"
+      ],
+      "does_not_know": [
+        "伊恩的现代身份",
+        "公库余额和人类合同细节",
+        "未来新路实际状态"
+      ]
+    },
+    {
+      "holder": "CHAR-03",
+      "status": "author_setting",
+      "knows": [
+        "旧库存记录和住户大致需要",
+        "新领主将到"
+      ],
+      "does_not_know": [
+        "新盘点实数",
+        "龙安全上限",
+        "主角现代经历"
+      ]
+    },
+    {
+      "holder": "CHAR-04",
+      "status": "author_setting",
+      "knows": [
+        "旧炉体不能直接启动",
+        "当地石作和旧炉胆经验"
+      ],
+      "does_not_know": [
+        "现代完整设计",
+        "老龙将同意的条件"
+      ]
+    },
+    {
+      "holder": "CHAR-05",
+      "status": "author_setting",
+      "knows": [
+        "南路通常行程",
+        "随行人员和牲口实际状态"
+      ],
+      "does_not_know": [
+        "未收到报告的桥况",
+        "商会内部消息"
+      ]
+    },
+    {
+      "holder": "CHAR-06",
+      "status": "author_setting",
+      "knows": [
+        "白渡市场、自己订单和运力"
+      ],
+      "does_not_know": [
+        "尚未发生或传出的龙火合作",
+        "堡内新配给决定"
+      ]
+    },
+    {
+      "holder": "CHAR-07",
+      "status": "author_setting",
+      "knows": [
+        "旧年度报表",
+        "承领令"
+      ],
+      "does_not_know": [
+        "新盘点",
+        "未报告的龙与合作"
+      ]
+    },
+    {
+      "holder": "CHAR-08",
+      "status": "author_setting",
+      "knows": [
+        "己方订单、成本和路线"
+      ],
+      "does_not_know": [
+        "全部居民私下选择",
+        "全部军需计划"
+      ]
+    },
+    {
+      "holder": "CHAR-09",
+      "status": "author_setting",
+      "knows": [
+        "已收军情和公开报告"
+      ],
+      "does_not_know": [
+        "新设备、合作及居民决定，直到报告实际到达"
+      ]
+    },
+    {
+      "holder": "CHAR-10",
+      "status": "author_setting",
+      "knows": [
+        "本群迁徙条件和旧损失"
+      ],
+      "does_not_know": [
+        "人类城内的实际分配",
+        "赫穆与主角尚未发生的选择"
+      ]
+    }
+  ],
+  "ambiguity_policy": "人物说法、外部主张、猜测、作者设定和正文已证事实分开。没有正文不得填写quote、known_at_chapter或虚假发布来源。"
+}

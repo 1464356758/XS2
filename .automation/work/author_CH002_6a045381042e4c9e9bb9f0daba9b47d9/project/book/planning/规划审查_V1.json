@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "reviewed_at": "2026-10-31T00:32:44+08:00",
+  "review_type": "prewriting_plan",
+  "mode": "same_context_approximation",
+  "independent_reader": false,
+  "review_scope": "同一GPT上下文内对当前设定、全部100条章节方向、前5章场景、基线账与结局依赖的规划审查；非独立读者盲读、非正文审核",
+  "decision": "planning_ready_await_author_start",
+  "source_state_revision": 3,
+  "bindings": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+      "reason": "作者已选择T02，登记独立世界、人物知识边界与开篇基线"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+      "reason": "登记100章十阶段因果路线、承诺结局与前5章场景预算；尚未开始写"
+    }
+  },
+  "checks": [
+    {
+      "item": "作者选择与执行范围",
+      "judgment": "选题已登记，规划可准备；0章且无候选任务，不把本次选择扩成开始写授权。",
+      "source": "book/authorizations/topic_selection.json",
+      "quote": "\"chapter_writing_authorized\": false"
+    },
+    {
+      "item": "时间与阶段衔接",
+      "judgment": "360日历、D106/D360/D466与两个冬季一致；前5章整数时间连续前进。每章不是一天，长跳跃仍须在正文交代消耗。",
+      "source": "book/inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "quote": "D106为743年一月初一，D360为743年落霜月15日，D466为744年一月初一。"
+    },
+    {
+      "item": "人物知情",
+      "judgment": "角色只掌握自身领域，税务、商会和军需不共享主角新消息；后续仍须用实际来源建立新知，规划不能作正文证据。",
+      "source": "book/inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "quote": "普通民众和对手不共享作者视角。"
+    },
+    {
+      "item": "资源与初期可行性",
+      "judgment": "接收热量和安全场地分开，初粮静态20日不能覆盖首冬；路线安排分批获取与真实代价。但价格、损失和食品构成须逐章验证，本预算不是已闭合交易。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "初始6240份只够312常住者静态20日，绝不够首冬106日。"
+    },
+    {
+      "item": "能力与伤损因果",
+      "judgment": "初始深息上限、休息和伤情降低阈值明确；中点损伤不能靠临时新增火力或神医解释。主角停购危险服务不等于扣留龙。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "CH049造成损伤的是在已下降身体阈值下的冒险，实际火力仍不突破开篇日上限。"
+    },
+    {
+      "item": "暖季负荷与离开目的地",
+      "judgment": "负荷上升由工矿、烘干与仓务推动；温谷开篇既存但不可直接抵达，后期路线工程解决物理条件，避免临时添加归宿。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "S05位于暖季后段，过载的主要新增需求来自工矿、烘干、仓务和被预售的服务，不虚构突然严冬。"
+    },
+    {
+      "item": "角色主动与对立方",
+      "judgment": "诺拉可离岗、芮雅可拒单、塞恩可拒绝不当命令、赫穆可走；商会有合法竞争方式，军需提供真实好处，不只轮流降智。具体对白与情绪效果尚无正文可评。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "马洛可主动提高信用条件、推出合法竞争路线，不必每次造假；"
+    },
+    {
+      "item": "反重复与容量",
+      "judgment": "十阶段从求生到试错、交付、依赖、分权、通路、离别和长期检验，方法有变化。100个改变不证明各章9000字都成立，采用前须检查场景是否有有效选择及后果。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "不能只把柴换煤、煤换矿石继续同样压价打脸。"
+    },
+    {
+      "item": "承诺与结局依赖",
+      "judgment": "85章龙实际离城、98章独立过冬、100章客人回访的前后依赖明确；不能用最后回城救火冒充已独立。路线列12项承诺意向，实际植入后才进入正式线程。",
+      "source": "book/inputs/roadmap_7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682.md",
+      "quote": "独立过冬必须在龙回访前成立；"
+    },
+    {
+      "item": "文风与审核边界",
+      "judgment": "以具体生活、克制幽默和真实合作为目标，技术解释服从场面；本次没有正文，不能宣布实际开篇吸引力、读者留存或章节release-check通过。",
+      "source": "book/inputs/canon_6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803.md",
+      "quote": "读者先看见暖起来的人、能吃饭的家和可信任的同伴，再理解必要的技术与分配。"
+    }
+  ],
+  "structural_verification": {
+    "chapter_numbers": "1—100连续且无重号",
+    "stages": "10阶段各10章，末章stage_closing",
+    "near_chapters": 5,
+    "scene_han_budgets": [
+      9000,
+      9000,
+      9000,
+      9000,
+      9000
+    ],
+    "labor_pool_total": 172,
+    "baseline_observed_story_facts": 0,
+    "baseline_actual_transactions": 0,
+    "calendar": "360日/年；D106/360/466与落霜月第9月相符",
+    "first_winter_scenario": "340*106+1200=37240；45000*(1-0.08)=41400；情景余4160份；不代表已采购"
+  },
+  "issues_addressed_before_registration": [
+    {
+      "id": "PLAN-01",
+      "finding": "夏季后段为何发生负荷危机需明确",
+      "resolution": "把工矿、烘干、仓务与预售服务作为新增负荷，不虚构无铺垫严冬。"
+    },
+    {
+      "id": "PLAN-02",
+      "finding": "受伤老龙离城需要可达目的地",
+      "resolution": "开篇设定既有温谷、旧路不通；后期修通地面路线与接应，伤损保留。"
+    },
+    {
+      "id": "PLAN-03",
+      "finding": "热量容量不等于安全暖位，初粮也不等于整冬存粮",
+      "resolution": "两暖格接收能力与60暖位分开，未来粮源逐批与支付、运输绑定。"
+    },
+    {
+      "id": "PLAN-04",
+      "finding": "中点伤势不能用临时突破火力制造",
+      "resolution": "明确身体阈值随伤情下降，危机吐息仍不超过开篇日上限。"
+    }
+  ],
+  "remaining_risks": [
+    {
+      "risk": "实际交易与饮食构成未发生",
+      "handling": "采购价格、支付、运输、访客和龙的食品报酬都要进入同一资源链；4160份不是可以随意再花的保证。"
+    },
+    {
+      "risk": "长章可能变成工程与协商流水账",
+      "handling": "先写完整场景，再反推实际变化；必要时调整未写路线，不靠复述和报表凑字。"
+    },
+    {
+      "risk": "100章远期细节可受已采用剧情影响",
+      "handling": "每5章及阶段末实际全文回看；只改未来，守住已冻结事实与损失。"
+    },
+    {
+      "risk": "平台签约权限与额度仍有研究缺口",
+      "handling": "正式平台建书、投稿和发布前核实，不把本规划当平台接受或收益证明。"
+    }
+  ],
+  "not_performed": [
+    "正文起草",
+    "候选登记",
+    "实际正文引文审计",
+    "release-check",
+    "adopt",
+    "平台发布",
+    "定时任务创建"
+  ],
+  "chapter_writing_authorized": false,
+  "literary_quality_status": "待实际正文验证，不评分承诺签约或收入"
+}

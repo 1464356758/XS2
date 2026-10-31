@@ -1,0 +1,13 @@
+{
+  "chapter": 1,
+  "task_id": "cf1b7cd1-c5d0-4f1c-b633-3cef1d37415a",
+  "round": 2,
+  "old_text_sha256": "530e8d61c3b107f72cf68a95a2f8cf321ad50c2692e025a73074bbbf4b7736eb",
+  "new_text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+  "old_quote": "“知道。你的人叫了好几回大人。”",
+  "new_quote": "“这个比‘大人’好记。”",
+  "issue": "自报姓名之后，用被称大人作已知姓名依据不成立，次数也没有足够原文；改成赫穆对称呼的偏好。",
+  "status": "resolved",
+  "review_mode": "same_context_approximation",
+  "recorded_at": "2026-10-30T17:12:31+00:00"
+}

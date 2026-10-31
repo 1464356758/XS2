@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 1,
+  "base_revision": 3,
+  "task_id": "cf1b7cd1-c5d0-4f1c-b633-3cef1d37415a",
+  "repairs": 2,
+  "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+  "record_sha256": "6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "ec4e442bd2082cf94f8751b893308c514919c492917dab622acd64041c137537",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32"
+  },
+  "reader_reason_to_continue": "第一次热量确实送进饭厅，但六十暖位已经满员，门外另一个男人为母亲带来了椅子。伊恩拿起灯问地址，读者能追问他如何回应一个正当需要，而非再看一次许诺或喷火。",
+  "consequence": "西屋已搬入匠人料箱，床被拆为十二块板、床帐与屏风各有实际去处；伊恩失去原可独住的完整床并劳动疲劳。一次暖屋成功没有解除柴、照护、住房及老龙休息的限制。",
+  "ending_runway": "本章只结清首次互惠与第一处暖意；末尾未把门外母亲接入或扩出第六十一位。CH002承接首夜、求位和实盘，CH003兑现首个休息日，之后转入运粮与交易，避免用同一喷火场面反复续命。当前仅1/100，长期路线和结局条件未提前兑现，暂无压缩结局篇幅需要。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "当前行动按抵达、试火、午后拆搬、天色发灰供热、天黑热汤、九下钟声顺序推进；现代半月前与原身家族回忆明确是前情。章末D0 21:00换算780，未从夜间反跳到早晨。事实表用章末状态，不虚构未报时场景的精确分钟。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "午后，天阴了。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "天黑以后，粮房的灶上飘出热汤的气味。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "夜已经很深，远处的钟楼敲了九下。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "伊恩先由匠人确认旧炉、从试火感到热、听赫穆自述限额；他明确不知本地热路与纹路。公库、口粮和库存数未凭作者基线自动进入角色知情，远方对立者本章未出场。R2去除了由“大人”推出姓名的错误回应。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "认识裂口，并不等于会修这个世界的炉子。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“还有能接的东西吗？”伊恩问。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“旧账有旧账的数。有些木头压在底下，摸着干，烧起来不是那回事。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“这个比‘大人’好记。”"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "床板十二块明确八加四，暖屋南窗与龙棚各有去处；北窗用另借布、床帐铺台、两屏风挡门，门毡补龙棚侧口而非封主出口。一枚蓄热石实用，另一枚仍空；暖位六十已满。八加二加二捆为领用分配，两捆备用仍绑，不能将十二全当燃尽，亦不能把未盘库余登记为实测。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "八块铺棚的板由护卫分着搬"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "四块床板都补在南窗。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "北窗多蒙了一层住户借来的布，厚床帐铺在靠内的坐台。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "剩下两捆先放暖屋门边，绑着，别急着拆。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "屋里有六十个人，谁也不是多余的。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "停坏炉迫使另找有限热源；试火证明可用，龙提出住处，匠人私料占地促成让出西屋与拆床。补窗与照护使热能成为实际暖位，龙见干地后才合作，供暖后仍保留备用柴。因果没有用领主命令、突然修好大炉或免费多房间跳过材料与他人意愿。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“这座先不开。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“架子是我的。上面放着料，没地方搬。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我能替那间屋答应。别的先看过再说。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "只是它终于没再压着湿泥。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“那边新存的热，没撑过整夜。后半夜真不够，还有干柴接一下。”"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "赫穆明确把试火计入当日总量，三日有一日不吐，身体不适可不吐；本次两次有限供火没有被描述成两次完整深息，未计出超过一息。接收总上限两格但仅取一格估计，另一石不用，无额度结转、疗伤或全城满暖。旧翼伤始终在，伊恩的现代经验只用于组织与提问，炉艺由本地匠人掌握。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“这也算今天的火。”它说。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“好好的时候，一天一整口。刚才那样的小口，攒起来也只能算在里面。三天里，总得有一天不吐。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我们也接不了一整口。这两块连上旧附槽，最多两暖格，还是得先试。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“今天就这些。”伊恩说。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“现在没有第二间屋。”"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "首个小火和第一处暖意已在正文兑现，干地也已由赫穆实际卧上，不将春季合作、首夜效果或所有人的安置当完成。新增短期事项分别设到CH002或CH003；春到条件最迟CH020处理，日常拒绝权仍持续有效。第1章不冒充已做五章或阶段全文回看。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "热意碰到了掌心。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“先让我看见地。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "龙腹贴上那几块床板时，伊恩听见了一声长长的呼气。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“明天我跟你看。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“你家在哪儿？”"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "全书正式记录索引0条，实际检索“龙火 暖屋 合作 检修”扫描0条，没有旧章可比较，也不据此保证语义绝无重复。章内的拒绝分属坏炉安全、匠人材料所有权、龙身体边界、住户照护，解决所需的代价不同。早晨试火是可用性，傍晚供热是住户受益；夜里留出吃饭、疲劳和关系余波，不重复一次万能交涉。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“能补得看不见。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“你能替架子答应？”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“这屋不能只搬来人，没人照看。也不能以为把老人抬进门，就不用管她家里还有谁。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“这东西不是给我做的。”"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "赫穆要住处、安静与自由，匠人拒绝冒险和强占私料，诺拉决定照护与备用柴，争板男子有母亲的正当需要。伊恩提供自己的房与床且接受纠正，没有替公共粮和劳动擅自许诺；门外男子亦有自备椅被的行动，不是等待受恩的空影。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“干地。屋顶。安静。想出去的时候，能出去。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我不能拿城里人的粮，全许给你。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我现在去。您先别对谁说，都能进来。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“北边床铺靠窗。要是您母亲睡那里呢？”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我娘不占那张大台子。她坐得住。我把椅子都带来了。”"
+        }
+      ]
+    }
+  },
+  "comparison": [],
+  "future_window": [
+    {
+      "chapter": 2,
+      "goal": "先以明确时序承接D0夜里求位者，给去向与安排，不用跳到D1而略过问话；再核查首夜、备用柴及诺拉安排的实盘。",
+      "change": "让暖位分配从领主偏好变成兼顾照护与实际容量的有限安排；西屋漏风实查，库存只在盘清后进入人物知情。",
+      "ending_question": "有限排位与今夜储备落实后，下一天龙休息时如何守住最低生活热量？"
+    },
+    {
+      "chapter": 3,
+      "goal": "D2兑现首个无深吐息日，组织有限人数取材和可支付劳动。",
+      "change": "取消非必要用料并让出现场判断，付出真实燃料、工钱和工时，在不催龙透支的条件下撑过一天。",
+      "ending_question": "最低保障做到之后，粮路的真实消息是否迫使有限运力另作取舍？"
+    },
+    {
+      "chapter": 4,
+      "goal": "以实际抵达者或亲见建立桥与粮车消息，分留守和救运，承认货主产权。",
+      "change": "带回人及一部分实际货物，同时承担采购、维修和损失，不能把救命功劳变成免费买断。",
+      "ending_question": "队伍疲劳和新支出已落地，随后寒潮来时要放弃哪项资产才能保人？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "set",
+      "deadline_chapter": 20,
+      "reason": "普通口头冬栖合作的到春边界须在第一冬末实际处理，不能默认取得龙的余生；当前只成立首次互惠。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "“先过今晚。棚子要是收拾得能住，你愿意待，我们就说到春天。你要走，我不拦。你有不想干的时候，也先说。”"
+      }
+    },
+    {
+      "id": "TH-DRY-SHELTER",
+      "action": "complete",
+      "deadline_chapter": null,
+      "reason": "首次看见干地并卧上已兑现；这不是棚屋永久免维护，也不代表旧翼痊愈。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "龙腹贴上那几块床板时，伊恩听见了一声长长的呼气。"
+      }
+    },
+    {
+      "id": "TH-FIRST-HEAT",
+      "action": "complete",
+      "deadline_chapter": null,
+      "reason": "从冷屋到实际温意和住户反应，首处热量已交付；不涵盖首夜、全城或整冬。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "伊恩将掌心贴近墙边。温意隔着一小段距离传来，不烫，也不强，和他过去站在运转机房里感到的热很不一样。"
+      }
+    },
+    {
+      "id": "TH-FIRST-NIGHT",
+      "action": "set",
+      "deadline_chapter": 2,
+      "reason": "当前只到21点，是否够整夜仍未知；次章须交代首夜与两捆备用柴实际使用情况。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "“那边新存的热，没撑过整夜。后半夜真不够，还有干柴接一下。”"
+      }
+    },
+    {
+      "id": "TH-INVENTORY-MORNING",
+      "action": "set",
+      "deadline_chapter": 2,
+      "reason": "明确答应明天跟诺拉盘点，须在次章实际执行或记录失约与代价，不能照抄基线作为盘过。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "“明天我跟你看。”"
+      }
+    },
+    {
+      "id": "TH-REST-FIRST3",
+      "action": "set",
+      "deadline_chapter": 3,
+      "reason": "CH003的D2须兑现首个三日内休息日，完成此项不解除后续持续三日限制。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "三天里，总得有一天不吐。"
+      }
+    },
+    {
+      "id": "TH-SIXTY-FIRST",
+      "action": "set",
+      "deadline_chapter": 2,
+      "reason": "椅子、被子和地址问句形成具体待答，次章先承接并给母亲实际去向，不能将她写成已进满屋。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "他接过诺拉手里的灯，将光放低，照着男人卷在被里的那双布鞋。\n\n“你家在哪儿？”"
+      }
+    },
+    {
+      "id": "TH-WEST-WINDOW",
+      "action": "set",
+      "deadline_chapter": 2,
+      "reason": "西屋现放匠料而非主角完整床；说等明天须有检查和合理处理，不能为后续复原旧便利。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "“那个窗，还漏风。”"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "opening": {
+    "first_hook": {
+      "quote": "灰炉堡的锅炉是冷的，院里那条龙也是。",
+      "why": "第一句让热源与龙同时失效，紧接龙拒绝命令，直接给出冻土经营的异常和阻力。"
+    },
+    "core_promise": {
+      "quote": "一线暗红的火，从齿间落了下来。",
+      "why": "3000汉字内有自愿有限龙火、本地蓄热石与手掌受热的实际场面；后文再兑现到住户暖屋，非只预告书名。"
+    },
+    "protagonist_impact": {
+      "quote": "后来那车粮还是被拖走了，他却有了一个可以永远不再回家的地方。\n\n这会儿，地方到了。",
+      "why": "3000汉字内明确承领是失去家族退路的流放，寒冷领地直接成为伊恩自己的生存处境。"
+    }
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "抵达后被龙拒绝，发现旧炉裂损并得知本地匠人判断。",
+        "choice": "伊恩不凭现代来历或领主身份强开。",
+        "change": "停用坏炉成共同边界，今晚的需要仍须面对。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这座先不开。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“那今晚呢？”"
+          }
+        ]
+      },
+      {
+        "event": "匠人带来一枚蓄热石，龙自愿作细火试用。",
+        "choice": "伊恩退在匠人限定处，不将小试当全部能用。",
+        "change": "第一点热可感知，龙强调它计入当日限额。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "一线暗红的火，从齿间落了下来。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这也算今天的火。”它说。"
+          }
+        ]
+      },
+      {
+        "event": "龙提出干地、屋顶、安静、出入，匠人架料也占干地。",
+        "choice": "伊恩不替架子主人作主、不许出公共粮，提自己的西屋并接受龙可拒绝。",
+        "change": "姓名交换与先见干地建立有条件的合作，尚非永久契约。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“我能替那间屋答应。别的先看过再说。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“干地。屋顶。安静。想出去的时候，能出去。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“先让我看见地。”"
+          }
+        ]
+      },
+      {
+        "event": "西屋有可用床，诺拉提出住户照护限制，众人实际拆搬。",
+        "choice": "伊恩系回鞋带、让房拆床；接受接谁须先问，不以赠物代替照护。",
+        "change": "十二块床板、床帐、屏风移走，匠人料箱入房；塞恩旧伤使搬运需调整。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "他坐了两息，还是低头将鞋带系紧。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“我现在去。您先别对谁说，都能进来。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "八块铺棚的板由护卫分着搬"
+          }
+        ]
+      },
+      {
+        "event": "男人争一块板，母亲住北窗下，另一老人不肯被抬。",
+        "choice": "伊恩停下立即找诺拉，按照护需要挪台、借布而不抢板压人。",
+        "change": "四板仍补南窗，北窗加借布，男人母亲后续实际进入，冲突没有简化为刁民服从。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“北边床铺靠窗。要是您母亲睡那里呢？”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "北边暂时多借一层布，过了今晚，还得找正经的材料。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "午后争床板的男人也在。"
+          }
+        ]
+      },
+      {
+        "event": "清出龙腹干地，绕开旧翼、保留主出口。",
+        "choice": "多搬一趟也不动龙拒绝的木头，让龙亲自试木挡。",
+        "change": "赫穆真正离开湿泥并要求喘气，伊恩意识到自己挡住出入口后退开。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "两个人多搬了一趟，也就把那一块让在了原处。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“等我喘口气。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "只是它终于没再压着湿泥。"
+          }
+        ]
+      },
+      {
+        "event": "饭厅关风、计六十签，匠人与龙完成有限供热。",
+        "choice": "伊恩在屋内等实际反应，不催剩下一枚也满。",
+        "change": "老人和孩子实际感到暖意，匠人估到一格并要求看守，龙回棚休息。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这一格到了。房也封住，今晚先按这一格用。还得有人看着。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“现在没有第二间屋。”"
+          }
+        ]
+      },
+      {
+        "event": "夜间领柴吃饭，诺拉保留备用、拒报虚库存，伊恩在龙棚吃汤。",
+        "choice": "伊恩承诺先跟诺拉盘点、尊重入棚许可；不把个人床换来的热私留给自己。",
+        "change": "疲劳和失去舒适住处的后果出现，赫穆第一次叫名字并提醒漏窗，关系有小幅回馈。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "手连握住碗都发抖。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“小灶。领了柴，轮着看。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "这是它头一次叫他的名字。"
+          }
+        ]
+      },
+      {
+        "event": "六十人暖位满，有陪护与照料，另一个男人携椅被为母亲求位。",
+        "choice": "伊恩未赶走对方，也不承诺硬塞第六十一位，接灯问家址。",
+        "change": "第一处暖意成立而公平与容量问题转成具体人的处境，留待下一章回答。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "屋里有六十个人，谁也不是多余的。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“你家在哪儿？”"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "任务书六段预算合计9000汉字，现稿8953，处于8000—10000要求内。按正文事件归纳为九个单元：拆搬、争板照护、龙棚整理产生各自变化，故分别列出；小试火前移至谈完整合作前，先实际兑现题材，再谈边界。最终只有一处暖意，未把预计的六十位扩写为全城获救，也未把夜间检查写作首夜已经平安。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一上下文已接触作者设定与路线，不能真正忘记未来；此次按实际reader包只含的当前完整正文逐段诊断，仍只是同上下文近似，不称独立输入、真实读者或留存测试。",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "只凭正文可理解：伊恩被家族流放、懂检修但不懂本地炉艺，旧炉不能开；龙能有限给火但不是设备，需先有干地和自由。拆自己的床换得初次合作，六十人有暖位，仍有许多人需要别的安排。匿名匠人可按职业辨识，未引入远方势力或大段前史。",
+      "information_load": "主要四个具名人物，现代程野是同一主角旧身份；核心数量仅两石、六十位、十二板与十二捆且各用于改变选择。暖格由匠人以六十人最低过夜解释，无热工参数或全账。R1补出午后争板男子和母亲已在屋内，避免与门外另一男子混淆；R2让姓名回应合逻辑。",
+      "promise_delivery": "开篇冷龙和坏炉造成阻碍，前段确有小火与掌心受热，后段老人、孩子、汤饭将成果落到人。让房与拆床不是口号，老龙能推门且保有拒绝；最后求位者并未被热量成果消音。首夜和库存是明确未知，等待后文而不冒充本章已答。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "热意碰到了掌心。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "午后争床板的男人也在。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "屋里不是春天。人仍裹着衣裳，窗边偶尔还有一点冷气，可说话时已经不必把下巴死死缩进领子。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“你家在哪儿？”"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "V1把实际一次叫法说成三回；R1删除无依据次数，V3仍保持修复。原版本和替换在R1日志保留。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“我的名字。你刚才叫我‘外头那条龙’。”"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "V1突现两只石托，此前只引入一只；R1改为已试过的石托。另一完整石存在不等于此前出场两只托。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "旁边的匠人把试过的石托重新放稳，隔着胡子哼了一声。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "午后男子母亲的入屋结果与章末另一男子求位容易混同；R1增加已入屋的母子位置和借布，门外新男子由独立出场保留为未解决。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "午后争床板的男人也在。他的母亲缩着两只脚，先前借来的那层布留在她背后。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "V2以“大人”称呼作知道伊恩姓名的理由不成立，并有未经文本支持的次数；R2改为对新称呼的偏好，夜里第一次叫伊恩仍成立。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这个比‘大人’好记。”"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "本章无正式外部反派在场，不给远方人物凭空信息。现场阻力有各自诉求：匠人不愿失私料、老龙不被强迫、男人要护母亲，诺拉要安排照护。他们的拒绝迫使伊恩换自己的资源和做法，而非逐个被同一演说收服。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“架子是我的。上面放着料，没地方搬。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“说有风，又趁我睡着把门钉死呢？”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“我又不占地方。我坐门边就成。”"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "伊恩提问题并会抢着答应，赫穆从拒绝和挑剔间接检验其能否兑现，匠人用手艺边界截断夸口，诺拉问的是人今晚能否安置。摸爪祝福、床太短、尾巴扫雪的幽默来自视角与身体差异；对白之后有搬料、留路、接人、存备用的行动，不只是重复政策。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“你能替架子答应？”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“那就别先欠。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“别又答应一早去抬石头。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“给人睡，原先挺长。”"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "成功后没有立刻跳走：伊恩握碗发抖、塞恩靠门屈伤腿、料箱占西屋，赫穆终于离开湿泥又保留喘气时间，住户仍裹衣且需照护。热汤和名字回应给合作留下关系变化，但没有治疗伤翼或消掉住房缺口。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "胳膊酸得厉害，下午搬料箱时没觉得，这会儿歇下来，手连握住碗都发抖。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "塞恩靠到门边，慢慢屈起那条旧伤腿。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“伊恩。”\n\n这是它头一次叫他的名字。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "queries": [
+        "龙火 暖屋 合作 检修"
+      ],
+      "comparisons": [],
+      "no_match_reason": "首章，正式采用记录0；实际history-search扫描0条、命中0条，索引哈希为空列表哈希。不存在可实读的旧章，故历史比较留空。另实际比较本章试火/供热、四类拒绝的目的与成本；这不是全书语义去重证明，也未用未来章纲作已发生桥段。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "旧炉停用，伊恩没有全套本地技术。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这座先不开。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "认识裂口，并不等于会修这个世界的炉子。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "一枚石试火后用于一间暖屋，另一枚未投入；六十位已满，未有第二间屋。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "另一块完好的石头留在边上，没有人因为还空着，就忙着往里添火。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "屋里有六十个人，谁也不是多余的。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "伊恩实际让出床房和材料；赫穆卧上干木并能自行推开出口。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "匠人的料箱占了靠墙的地方"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "龙伸爪试了试，木挡被推开，斜倒在墙边。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "只是它终于没再压着湿泥。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "赫穆自述每日火量和三日休息，主角已听到但本章没有跨三日实测。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“好好的时候，一天一整口。刚才那样的小口，攒起来也只能算在里面。三天里，总得有一天不吐。”"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "匠人以旧刻痕估到一暖格，仍要求看守，不等于已证一整夜都够。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“这一格到了。房也封住，今晚先按这一格用。还得有人看着。”"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "首夜和两捆备用柴实耗、库存盘点、西屋漏风仍待明天处理。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "剩下两捆先放暖屋门边，绑着，别急着拆。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“明天我跟你看。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“那个窗，还漏风。”"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "章末来者为母求位尚未得到安排，伊恩只问家址。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“满了。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“你家在哪儿？”"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "回顾仅取当前正文已揭示的行动与说法，区分可见成果、当事者自述和未知结果。未盘的数值、未来车队与春天不进入已知事实；下一章应先接夜间问话，明确首夜结果再进入次晨，避免把未来安排追写成首章发生。",
+    "surface_findings": []
+  }
+}

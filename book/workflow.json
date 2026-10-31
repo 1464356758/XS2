@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 13,
+  "revision": 14,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -33,7 +33,7 @@
   },
   "research_path": "research/platform_60085c603ad3b8541f3053a39904d71e867f084a44bd01ba239d493be7de0f28.json",
   "topics_path": "research/topics_23855ba5b1cf3f613e6fbf6baa56da33ef2e259e2dc63554cab17bef47cb3f4e.json",
-  "chapter": 3,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-10-30T15:27:55+00:00",
@@ -118,9 +118,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-10-31T00:39:06+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "作者明确授权重写第二章，正式旧版保留至新版检查采用；累计返修不清零。"
     }
   ],
-  "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
-  "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-10-30T23:43:18+00:00"
+  "detail": "作者明确授权重写第二章，正式旧版保留至新版检查采用；累计返修不清零。",
+  "next_action": "在授权前文视图完成任务书、正文、实读与检查。",
+  "updated_at": "2026-10-31T00:39:06+00:00"
 }

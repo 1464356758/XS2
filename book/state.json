@@ -178,6 +178,11 @@
         "path": "releases/CH002_c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2.json",
         "sha256": "c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2",
         "used": true
+      },
+      "3": {
+        "path": "releases/CH003_0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985.json",
+        "sha256": "0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985",
+        "used": false
       }
     },
     "promises": {

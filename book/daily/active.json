@@ -21,10 +21,10 @@
     "platform_run_id": "3b6e6241-3fb4-8331-8e1d-76dc3d78acce"
   },
   "executor_checkpoint": {
-    "request_id": "begin_mvwx5tad_a4bqkjefqnf",
-    "phase": "begin",
-    "at": "2026-10-31T21:34:53+00:00",
-    "github_run_id": "41244244693"
+    "request_id": "command_mvwx96sl_dbhyskzvun",
+    "phase": "command",
+    "at": "2026-10-31T21:37:32+00:00",
+    "github_run_id": "41244447662"
   },
   "reason": "工具第4步失败；完整输出保存在本轮work目录。",
   "blocked_at": "2026-10-31T21:35:22+00:00"

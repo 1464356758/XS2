@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-10-31T21:35:22+00:00",
+    "generated_at": "2026-10-31T21:37:32+00:00",
     "state_revision": 6,
-    "workflow_revision": 15,
-    "state_sha256": "6c2667c921009d365ed62f18837661906a8775c8fdac9e9e5801f7b4deee0ec7",
-    "workflow_sha256": "d871d82a14de26f37113ff20282556d8c83492c44cd00d434e1f347eeb48a7f4",
+    "workflow_revision": 16,
+    "state_sha256": "871ba564b04dc8b88a1f32a99f14481803d9a2ba8d607de8792d709e012ee215",
+    "workflow_sha256": "6e390440114336723609a0a27da1e532f50e2a2c18018f1ef91b2c06967a08a0",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 3,
-    "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。",
-    "next_action": "下一次定时按最新正式第二章续写第三章。",
-    "updated_at": "2026-10-31T01:00:14+00:00"
+    "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
+    "next_action": "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。",
+    "updated_at": "2026-10-31T21:37:32+00:00"
   },
   "chapters": [
     {
@@ -986,12 +986,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T15:27:55+00:00",
-      "phase": "RESEARCH_PLATFORM",
-      "label": "核查平台规则",
-      "detail": "已选择番茄小说，正在等待核查现行规则。"
-    },
-    {
       "at": "2026-10-30T15:47:14+00:00",
       "phase": "SCANNING_RANKINGS",
       "label": "研究榜单",
@@ -1074,6 +1068,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。"
+    },
+    {
+      "at": "2026-10-31T21:37:32+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。"
     }
   ]
 }

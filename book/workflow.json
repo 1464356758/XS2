@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 15,
+  "revision": 16,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -130,9 +130,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。"
+    },
+    {
+      "at": "2026-10-31T21:37:32+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。"
     }
   ],
-  "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。",
-  "next_action": "下一次定时按最新正式第二章续写第三章。",
-  "updated_at": "2026-10-31T01:00:14+00:00"
+  "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
+  "next_action": "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。",
+  "updated_at": "2026-10-31T21:37:32+00:00"
 }

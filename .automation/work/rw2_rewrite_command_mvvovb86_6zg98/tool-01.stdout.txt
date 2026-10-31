@@ -1,0 +1,31 @@
+{
+  "task_id": "7af0bf38-915b-4250-a391-70f7a6c684c0",
+  "chapter": 2,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 3,
+  "history": [
+    {
+      "sha256": "7f06bcf0da90ddcdf48e1a57b750c0148e8b97b279d628c889969a9adbd0d7a3",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd",
+      "reason": "R1：补实临时借宿下午腾台与母亲过渡去向，修正旧件和人物移动连续性、姓名来源与未呈现说话次数，明确陪护换入前先换出；具体引文见CH002_R1_issues。",
+      "repairs": 1
+    },
+    {
+      "sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3",
+      "reason": "R2：回读CH001确认北窗找正经材料的话由诺拉说，改为昨日共同待办，去掉错指伊恩曾说；旧章不动，原任务累计2轮。",
+      "repairs": 2
+    },
+    {
+      "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+      "reason": "作者明确授权结构重写第二章：以实际付酬的白天照护替班促成本夜自愿腾换；承接原任务累计第三轮修订，保留前两轮及旧版本，不清零。",
+      "repairs": 3
+    }
+  ],
+  "candidate_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+  "candidate_path": "candidates/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt"
+}

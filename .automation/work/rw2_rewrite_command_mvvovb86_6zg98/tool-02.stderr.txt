@@ -1,0 +1,4 @@
+usage: novel_state.py [-h] [--root ROOT]
+                      {init,status,count,adopt,revalidate,check-record,checkpoint,context,brief-request,brief-check,history-search,set-input,candidate,repair,memory,read-chapter,finish,reopen,snapshot,export,verify-snapshot,serial-enable,release-request,release-check,publish,incident,serial-plan}
+                      ...
+novel_state.py: error: unrecognized arguments: --chapter 2

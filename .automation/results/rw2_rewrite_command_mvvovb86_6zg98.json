@@ -1,0 +1,88 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "rw2_rewrite_command_mvvovb86_6zg98",
+  "request_sha256": "09ac653e43ffc66eca0108c2c4028b85ac3473d0810a049925098369bc4a288a",
+  "source_sha": "c06aad25cc567795cb1e1ea56cc5e2c6e54b3f58",
+  "base_sha": "05c28a425d9069f11dc143fa7e8d034237f932f5",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "rw_ch002_mvvo5sav_z6t0hi2k",
+    "platform_run_id": null,
+    "invocation_kind": "author_manual"
+  },
+  "phase": "rewrite_command",
+  "executed_at": "2026-10-31T00:54:56+00:00",
+  "executor_status": "error",
+  "github_run_id": "41152702063",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--reason",
+        "作者明确授权结构重写第二章：以实际付酬的白天照护替班促成本夜自愿腾换；承接原任务累计第三轮修订，保留前两轮及旧版本，不清零。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-01.stdout.txt",
+          "sha256": "5a99a9498d34996b7ae9e3ecab2368a33e30614d64aed847aaa565fc906a791a",
+          "bytes": 1443
+        },
+        "stderr": {
+          "path": ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--chapter",
+        "2",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002_REWRITE_V1.txt",
+        "--out",
+        "drafts/CH002_REWRITE_reader.md"
+      ],
+      "exit_code": 2,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-02.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-02.stderr.txt",
+          "sha256": "d6dad927054b2de8720b888e4b422f01231cd38a6d01dd0ff3dbe65d309e2e1c",
+          "bytes": 424
+        }
+      }
+    }
+  ],
+  "business_status": "blocked",
+  "error": "重写工具第2步失败，完整输出已保留。",
+  "changed_paths": [
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/book/candidates/CH002_4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649.txt",
+    ".automation/work/author_CH002_6a045381042e4c9e9bb9f0daba9b47d9/project/book/state.json",
+    ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-01.stderr.txt",
+    ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-01.stdout.txt",
+    ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-02.stderr.txt",
+    ".automation/work/rw2_rewrite_command_mvvovb86_6zg98/tool-02.stdout.txt",
+    "online/index.json"
+  ]
+}

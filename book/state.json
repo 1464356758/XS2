@@ -136,16 +136,21 @@
       "chapter": 3,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "reason": "R1：修正上章谈托位的时段错指与伊恩在场却被派人寻找的连续性，补D3早饭真实领粮后4992和七点时标，明确两名搬工同一身份；具体证据见drafts/CH003_R1_issues.json。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7",
-      "candidate_path": "candidates/CH003_dce576095858efbf16803518658d07e3fca948368ce3653bb4baa288929928a7.txt"
+      "candidate_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+      "candidate_path": "candidates/CH003_39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3.txt"
     }
   },
   "completion": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_mvwx96sl_dbhyskzvun",
-  "base_sha": "11e44d8d084908187920337c90e219bccdfa77a5",
+  "request_id": "command_mvwxi3fj_05fwlh2yk66q",
+  "base_sha": "6357de9ef0c33e6a30b9c51543bfe80e51657b97",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -16,9 +16,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH003_brief.json"
+        "candidate",
+        "--chapter",
+        "3",
+        "--text",
+        "drafts/CH003.txt"
       ]
     },
     {
@@ -28,11 +30,13 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH003.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH003_writer.md"
+        "drafts/CH003_reader.md"
       ]
     },
     {
@@ -42,13 +46,13 @@
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "3",
         "--detail",
-        "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。",
+        "CH003完整初稿已登记；将实读reader全文并做正文反向提纲、八项事实因果及主线节奏复核。",
         "--next",
-        "实读writer资料后写完整CH003；零龙息日、供柴交班与回访须在正文兑现。"
+        "核对真实引文、有限资源、完整休息日、午后回访与实际交班，再准备章后记录及release报告。"
       ]
     }
   ],

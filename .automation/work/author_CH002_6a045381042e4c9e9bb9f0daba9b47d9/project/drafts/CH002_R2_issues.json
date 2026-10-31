@@ -1,0 +1,9 @@
+{
+  "chapter": 2,
+  "revision_round": 2,
+  "old_quote": "“您说过找正经的料补北窗。”",
+  "new_quote": "“昨天说要找正经的料补北窗。”",
+  "reason": "CH001是诺拉处理北窗并答我记着，不能把原话直接指给伊恩；改为昨日说过的共同待办，不改冻结旧章。",
+  "old_sha256": "e0e23e58e3f6af64fba37037acdebf00737cf7123c39330b612ba9327f2ce0dd",
+  "new_sha256": "58565108c0b77a93a72ac4093885f09bc41391ce85bfd3af53f801fbffe61db3"
+}

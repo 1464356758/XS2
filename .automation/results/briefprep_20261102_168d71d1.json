@@ -1,0 +1,82 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "briefprep_20261102_168d71d1",
+  "request_sha256": "cc29118e3c5ed87f2bc56e5523198f6354e5006e10f9b7d1ce34c24d18aab0dc",
+  "source_sha": "22d302f96be39b6909d7331664e9d0b2ce04e8da",
+  "base_sha": "510801b4627d66f550ae139640d078fc0d5bef99",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "168d71d1202d4224b5045f3d9175ee2a",
+    "platform_run_id": "a20f70dd-1438-832f-b3b5-b87b3fb60020"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-01T21:27:33+00:00",
+  "executor_status": "error",
+  "github_run_id": "41352098197",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH004_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/briefprep_20261102_168d71d1/tool-01.stdout.txt",
+          "sha256": "d5ad2c6f00ecf7019ebf0d75b90f2a8464c022e86288a97d04b24acd4af95dad",
+          "bytes": 177
+        },
+        "stderr": {
+          "path": ".automation/work/briefprep_20261102_168d71d1/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "粮车 救运 牲口 芮雅",
+        "--limit",
+        "10",
+        "--out",
+        "drafts/CH004_history_a.json"
+      ],
+      "exit_code": 2,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/briefprep_20261102_168d71d1/tool-02.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": ".automation/work/briefprep_20261102_168d71d1/tool-02.stderr.txt",
+          "sha256": "40e5626f18618f0eccfe528e795f5cc3234c0bdfd824d946b331c3de601822dc",
+          "bytes": 446
+        }
+      }
+    }
+  ],
+  "business_status": "blocked",
+  "error": "工具第2步失败；完整输出保存在本轮work目录。",
+  "run_id": "03e6eb30a8a340838fb3d8d0e0e39b2e",
+  "changed_paths": [
+    ".automation/work/briefprep_20261102_168d71d1/tool-01.stderr.txt",
+    ".automation/work/briefprep_20261102_168d71d1/tool-01.stdout.txt",
+    ".automation/work/briefprep_20261102_168d71d1/tool-02.stderr.txt",
+    ".automation/work/briefprep_20261102_168d71d1/tool-02.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH004_brief_request.json",
+    "online/index.json"
+  ]
+}

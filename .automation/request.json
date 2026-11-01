@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261102_168d71d1",
-  "base_sha": "da41566e6935b890cf8d4523279cd4d9f213b5d3",
+  "request_id": "briefprep_20261102_168d71d1",
+  "base_sha": "510801b4627d66f550ae139640d078fc0d5bef99",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,62 @@
     "session_id": "168d71d1202d4224b5045f3d9175ee2a",
     "platform_run_id": "a20f70dd-1438-832f-b3b5-b87b3fb60020"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261102_0530"
+  "phase": "command",
+  "run_id": "03e6eb30a8a340838fb3d8d0e0e39b2e",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH004_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "粮车 救运 牲口 芮雅",
+        "--limit",
+        "10",
+        "--out",
+        "drafts/CH004_history_a.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "交班 让位 付钱 代价",
+        "--limit",
+        "10",
+        "--out",
+        "drafts/CH004_history_b.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "author",
+        "--budget",
+        "80000",
+        "--query",
+        "粮车 南桥 钱 粮 柴 役畜 塞恩",
+        "--out",
+        "drafts/CH004_author.md"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "history_20261102_168d71d1",
-  "base_sha": "25fcadd49cc5d8d99f0eb3bfee0b88594e385010",
+  "request_id": "writer_20261102_168d71d1",
+  "base_sha": "cde64bb7eb0e2bc6b61f97096538534f51343855",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,23 +17,9 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "粮车 救运 牲口 芮雅",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "交班 让位 付钱 代价",
-        "--limit",
-        "10"
+        "brief-check",
+        "--file",
+        "drafts/CH004_brief.json"
       ]
     },
     {
@@ -43,13 +29,27 @@
         "book",
         "context",
         "--profile",
-        "author",
+        "writer",
         "--budget",
         "80000",
-        "--query",
-        "粮车 南桥 钱 粮 柴 役畜 塞恩",
         "--out",
-        "drafts/CH004_author.md"
+        "drafts/CH004_writer.md"
+      ]
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "4",
+        "--detail",
+        "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。",
+        "--next",
+        "读取writer资料后完整起草CH004。"
       ]
     }
   ]

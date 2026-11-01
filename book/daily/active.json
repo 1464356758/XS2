@@ -7,7 +7,7 @@
   "start_date": "2026-11-02",
   "started_at": "2026-11-01T21:27:02+00:00",
   "chapter": 4,
-  "status": "blocked",
+  "status": "completed",
   "baseline_count": 3,
   "baseline_fingerprint": "c1cef08a29583bb4521196902c9e2241b087f61e6b279802e6c5672402f2439d",
   "attempts": [],
@@ -21,11 +21,13 @@
     "platform_run_id": "a20f70dd-1438-832f-b3b5-b87b3fb60020"
   },
   "executor_checkpoint": {
-    "request_id": "record_20261102_168d71d1",
-    "phase": "command",
-    "at": "2026-11-01T21:39:45+00:00",
-    "github_run_id": "41353146085"
+    "request_id": "finalize2_20261102_168d71d1",
+    "phase": "finalize",
+    "at": "2026-11-01T21:45:02+00:00",
+    "github_run_id": "41353584024"
   },
   "reason": "发布前仍有阻断项或未实际阅读。",
-  "blocked_at": "2026-11-01T21:44:20+00:00"
+  "blocked_at": "2026-11-01T21:44:20+00:00",
+  "completed_at": "2026-11-01T21:45:02+00:00",
+  "receipt_path": "daily/runs/03e6eb30a8a340838fb3d8d0e0e39b2e.json"
 }

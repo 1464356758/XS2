@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 4,
+  "base_revision": 7,
+  "task_id": "df2560cf-a365-4674-8d52-1a807666b477",
+  "repairs": 1,
+  "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+  "record_sha256": "abc8541f5598aebaa48afac9f70b86cdf83c1901eb1b915cb96986d504e8ebf2",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "b62a7b4c89ee5e5fcd81f0616310487fb8d402e665c205a38376271bd21252f2",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+    "2": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+    "3": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+    "4": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc"
+  },
+  "reader_reason_to_continue": "四袋粮真正买进门，芮雅及车夫有了可见的合作起点；城橇损坏、南岸留车、疲劳和风雪同时留下。下章要在更少运力中守住刚救回的人与货，而非再听一次采购预告。",
+  "consequence": "库粮5615，公库283，城属一橇坏一橇好，商队前车毁后车留南岸，2袋湿粮与盐桶损失保留。原60暖位未增；库柴45另暖屋余1。救运人畜今夜不再排工。",
+  "ending_runway": "前三章26808加本稿8678，共35486汉字，进度4/100。处S01且非阶段收束，无本章到期checkpoint；CH005采用前必须连读CH001—CH004正式全文与CH005候选及记录。本章南桥求助给了真实答案，新增坏橇维护；北窗/借毡CH007、春约CH020均保持。整冬与后期离城未提前发生。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "紧接D3七点，八点出发、午前到北岸，花时间实勘浅路再绕南岸，中午后救援与返回，19点近堡、21点收尾。近堡桥报8公里不同白渡42公里，没按旧路线回跳05点。R1补两岸实际绕行与出发先后，章末5100，中段未虚造分钟，原D3已领312不重扣。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "出门时钟楼正敲八下。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "很远，七下。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "钟楼敲了九下。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "柏勒报的是昨夜，伊恩明知不能替今日现场答；到桥亲见，塞恩实走浅路，才作现场选择。芮雅到堡见龙才知它存在，未先知炉火；D3有限热由乌铎报告并经龙点头，不记精密息量。芮雅只说风变且不知多久，不提前知道棚塌。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "过了这几个时辰，车、桥和人怎样，没人能替现场答。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "塞恩带一名护卫去看，来回都走过，才把人领过去；"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“你有一条龙？”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“我说不好。今夜先别让那几头牲口在漏顶底下等。”"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "城方8人=主角+塞恩与4护卫+2搬工，12护卫出5留7；1橇2畜出、1橇2畜留，商队4畜不变城产。6安全袋验每156共936，只买4袋624付52银，另2袋312私存。已领312后库4992再给柏勒1、加624=5615；338+运费实收3-粮52-两工2-鱼4=283，修橇未报价不造付款。D3库57领12余45；暖屋旧1+新2至晚耗2余1，其它领柴未冒称全耗。鱼12先1后11，有原货实付而无自动下一袋。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "里面只有两头属于灰炉堡，另外四头仍随自己的主人。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "每袋折一百五十六份，六袋合九百三十六；"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "两袋仍单独搁着，今夜寄放，不是灰炉堡的余粮。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "现在添六百二十四，库粮五千六百一十五。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "最后余二百八十三。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "屋里还剩一捆未拆。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "求借人先照护、留守而出发；坏桥使必须实勘绕行。偏载和牲口挣动令取粮危险，伊恩撤人畜、芮雅同意弃车，才有车货真实损失。弹木打断城橇使返程限载轮换，老人恶心后再卸袋腾坐而主角增加负重。入仓实验、议价付款后才增加公粮，救到不等于买断，关键安排均发生在正文。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“车底不进人。”他说。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“我做主放车。”她说，“我也赔着。你骂我，回去再骂。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "横档响了一声，断口翘起来。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "他没再问老人能不能忍到下一坡，叫人卸下一袋。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "将四袋粮逐个放到堡粮一侧。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "伊恩只有危险识别和带班经验，不会桥载计算、本地炉艺或治伤。无飞龙运粮、火烘湿粮，车货真失，有限食物不治旧翼。D2零息后D3仅原石有限火，乌铎报告且龙确认，无空石旧炉或精确超限；鱼不换火、不恢复全部额度。热量与60安全位分开，访客在护卫屋，不增暖屋。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "他不知道这里的桥能撑多少，却知道不该叫人凭胆子补这个答案。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“鱼不换火。”他说。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "没用空石，没开坏炉。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "那里连照护家属在内仍是六十个人。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "TH-SOUTH-BRIDGE到期给出照护、实勘、救运与人畜粮实到堡的结果，不只发队。春约、北窗和原毡的旧期限保留，没有以本章救运抹去。坏橇近期CH007前给结果，CH005先查材并停用，不写成下一日两辆好橇；后车未许明日必取。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "quote": "先问能不能借人，把车和牲口弄开。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“人也到了。加柏勒，你们四个。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“明天不能照常用。”乌铎道，"
+        },
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": "“还我时别拿块新的糊弄。”"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "两次history-search真索引/扫描3/3，分别命中CH003和三章；现行前三章全文实读，CH002为替换新版。旧章让床房换首火、付照护换2位、撤活守完零息夜；本章外部实勘和救援，主动弃财救畜、损坏运力后负重回城，有价新粮不是再逐户问/换签。支付劳动和边界是主题复现，但对象、办法与不可逆后果不同；结款闭合本次货权而非整章开会。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "“我能替那间屋答应。别的先看过再说。”"
+        },
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": "“所以今天只买一班。”"
+        },
+        {
+          "chapter": 3,
+          "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "quote": "“木架先不搬。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "车不要了。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "伊恩主动不捆售粮、留运力、禁钻车底、撤畜弃车、担城橇损毁、为老人腾橇位而自己增负重，经验转为行动。芮雅已先卸6袋并限制危险，可不卖粮、自己决定弃车且承损，主张货权运价；哈伦不因演说立刻释怀。搬工先问范围，事后腰痛未变明日照常；赫穆可以吃鱼不换火。主角听现场者判断，但没有把所有推动交配角。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“不在这里讲粮价。先把人和牲口带出来。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "车不要了。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "那辆车有我三年的钱。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "这一次，伊恩松了手。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“以后另问。今晚先回去。”"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+      "quote": "“我能替那间屋答应。别的先看过再说。”",
+      "difference": "CH001出让自己的床房换首火；CH004有限公运力面对危险，弃车救畜、坏橇负重返程，成本与方法均改变，不再拆床给热。"
+    },
+    {
+      "chapter": 2,
+      "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+      "quote": "“所以今天只买一班。”",
+      "difference": "CH002付照护工换休息与2位自愿替换；本章工资只是出队条件，主要办法实勘、弃车、分载，不再逐户换签，施救也未取走货主决定权。"
+    },
+    {
+      "chapter": 3,
+      "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+      "quote": "“木架先不搬。”",
+      "difference": "CH003撤城内低优先活维持零息夜；CH004保留轮班成果外派有限人员，产生坏橇、疲劳与新粮，无法靠重排名单恢复原运力。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 5,
+      "goal": "D4至D5接救运疲劳和变风，处理棚顶/暖位与运力，采用前全文读CH001—CH004及CH005完整候选和记录。",
+      "change": "优先人畜与可休息的龙，承担真实资产损失；坏橇先查料继续停用，不能强拉救运者满勤或龙突破额度。",
+      "ending_question": "寒潮后哪些屋舍材料真正失去，原北窗/借毡如何仍按CH007交付？"
+    },
+    {
+      "chapter": 6,
+      "goal": "据雪后实际空间和存物压力，维护赫穆可自行出入的通道，接住车队与伤者需休息。",
+      "change": "寄存两袋货权、坏橇与商队南岸后车保留，不把售粮变成运力归城；以具体挪物协商给龙留门。",
+      "ending_question": "储位和合用料不足时，如何归私毡、补真正需修的地方而不强占？"
+    },
+    {
+      "chapter": 7,
+      "goal": "取得并实检材料，给北窗、原毡归还与城橇修复/改用途明确结果，不顺延旧期限。",
+      "change": "乌铎可拒坏料，不能拆已用床板复原库存；完成或如实有价处理承诺，让工期承担后果。",
+      "ending_question": "有限空间和余热能否承接付费服务，又不侵占原居民位？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "set",
+      "deadline_chapter": 7,
+      "reason": "本章城橇横档断，CH005先查料并停用，至迟CH007给真实修复/改用途/有代价处理，不下一日凭空两好橇。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "quote": "“明天不能照常用。”乌铎道，“得找合用木料。拆了这根再看里头。”"
+      }
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "付鱼与有限火不取得龙终身，原春到约有效。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "你要走，我不拦。"
+      }
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "未把仍漏北窗宣称修好，旧partial与期限保留。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "风声小了。伊恩的手背贴近那处，仍摸得到一点冷气。"
+      }
+    },
+    {
+      "id": "TH-SOUTH-BRIDGE",
+      "action": "complete",
+      "deadline_chapter": 4,
+      "reason": "来者先获照护，桥实勘、人畜及六安全袋实到堡，求借人目标完成；车货损失仍在。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "quote": "伊恩等最后一袋落稳，才说：“人也到了。加柏勒，你们四个。”"
+      }
+    },
+    {
+      "id": "TH-WEST-FELT-LOAN",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "私毡仍借用，未归原片/未获新同意，救运不豁免期限。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "“不拿。”伊恩说，“那块护着他的料，还是借的。不能这里挡住，楼上又进雪。”"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "柏勒七点后在门口站不稳，被接入护卫屋、得另领1份食物。",
+        "choice": "伊恩不先谈粮价，听昨夜声称而保持现场未知。",
+        "change": "来者真的得到照护且有限救援启动，公粮少1。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“你坐下，也能告诉我。”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“这是新从库里拿的。今早那三百一十二份没有他的。”"
+          }
+        ]
+      },
+      {
+        "event": "伊恩问价请两搬工、只出5护卫与1橇2畜，八点出门。",
+        "choice": "保留7护卫和半数城运力，夜后半班/鲁克不抽。",
+        "change": "主角以人数约束而非全城动员出发，堡里可继续守火。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "加上塞恩，十二名护卫只出五人，另外七人留堡轮换。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“这一辆，两头牲口。另一辆留着。”"
+          }
+        ]
+      },
+      {
+        "event": "北岸见破桥和南岸车队，塞恩实走浅路后带空橇绕行。",
+        "choice": "不踩坏桥，先勘后过；承认芮雅已卸货和其所有权。",
+        "change": "亲见桥况取代昨夜消息，双方会合且车不能正常通行。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“救出来也还是你的。”"
+          }
+        ]
+      },
+      {
+        "event": "哈伦想抢湿袋，石边落块、车斜牲口惊；现场撤人畜后弃前车。",
+        "choice": "伊恩不抬压偏车、芮雅亲自决定放车，工人留安全处。",
+        "change": "牲口脱困而车/2湿袋/盐桶落失，城橇遭弹木损毁。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“我做主放车。”她说，“我也赔着。你骂我，回去再骂。”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "横档响了一声，断口翘起来。"
+          }
+        ]
+      },
+      {
+        "event": "休息后分批过浅路，后车留南岸，受损城橇限载；老人途中恶心。",
+        "choice": "人轮换背抬，伊恩再卸袋给哈伦腾坐，自己增负重并在弯后交手。",
+        "change": "救出不等于到家，真实体力与更低载荷拖迟到19点。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "他没再问老人能不能忍到下一坡，叫人卸下一袋。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "这一次，伊恩松了手。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "很远，七下。"
+          }
+        ]
+      },
+      {
+        "event": "人畜和6袋安全粮进入堡，客人借护卫屋，验份后买4袋。",
+        "choice": "不挤原60人、不取未购货，分开结3运费、52粮款和2工钱。",
+        "change": "库粮5615、公库扣减，312私粮仍封存，工人真能下班。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "两袋仍单独搁着，今夜寄放，不是灰炉堡的余粮。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "诺拉当面各付一银。"
+          }
+        ]
+      },
+      {
+        "event": "买12干鱼给赫穆，芮雅现场第一次见龙，听到鱼不换火。",
+        "choice": "4银真实付，先问龙肯吃，不换加班或涨火量。",
+        "change": "有限购买回应前章空鱼藏，外来合作者见到人龙日常，克制幽默接住紧张余波。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“鱼不换火。”他说。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“四银。”她说，“刚才已经讲过，没涨。”"
+          }
+        ]
+      },
+      {
+        "event": "乌铎判橇停用、报告有限火和守火人核耗柴，风雪加紧。",
+        "choice": "伊恩不排救运者夜工，芮雅先挪牲口，不强许明日满载再跑。",
+        "change": "新粮与坏橇、疲劳和空间压力同时留下，21点转向下一轮寒潮选择。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "扶着门框，将那条已经僵住的腿慢慢放平。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "雪落在上头，起初化掉，后来不再化了。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "写前六段9000汉字预算，实稿8678；写后按正文反提8单元，没有从计划复制变化。整条消息—出发—会合—危险升级—弃车—负重回运—实际入仓/交易—人物余波成立。R1仅补缺失的两岸绕行、D3燃料链和出发/末时标。伊恩没有独自造救援技术，芮雅和塞恩保留现场专业与决定；未去无关家访或重演排位。后车留南岸不是无交付，6袋与4商队人确实到堡，采购4袋和损毁都已完成。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一对话已经知道canon和路线，reader不能使模型真正遗忘，不冒充独立输入、独立模型或真实读者。已生成实读writer，以及CH004_reader_v1.md、CH004_reader_v2.md；两包中的CH001—CH003与先前实读全文逐字一致，当前完整候选在包中逐字核对并分两段实读。只对本次实际覆盖声明。",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "只看正文可知柏勒求借人而非卖粮，主角不能先把货算入公粮；R1补北岸到南岸的实际绕行后，队伍位置连续。芮雅/哈伦既有运货利益且承担真损失。六袋到堡但只四袋购入，1城橇坏、1好；访客并未增加饭厅位。最后是风变预警而非已知灾害全解。",
+      "information_load": "新名柏勒、芮雅、哈伦都随明确行动/利益出场，另一车夫未另加姓名；两本地搬工沿用红线袖/缺指识别。桥边紧张与回程体力是主要篇幅；粮份和银币集中在实际验收结款，少量柴数只补当日热源来源。付鱼连接前章与主线伙伴，并以首次见龙减压，没有另开家庭走访和工程教学支线。后续材料章宜让问题在行动中给结果，不能把结款问答再扩整章。",
+      "promise_delivery": "开场先坐下不是客套，柏勒确得水食；借人后真的出队、弃车有损失、6袋到堡；买4袋付52银后才算归城。劳动者拿钱离开，老人腾橇位的代价落在主角肩上。龙获有价鱼且不换火，芮雅见到的不是无偿粮仓。故事交付了有限新粮，同时让坏橇与未回车有后果。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“你坐下，也能告诉我。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "他没再问老人能不能忍到下一坡，叫人卸下一袋。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "两袋仍单独搁着，今夜寄放，不是灰炉堡的余粮。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“鱼不换火。”他说。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "I01初稿会合前未交代北/南岸通行，读者需脑补跨坏桥；R1在北岸隔水喊、塞恩实勘后空橇绕浅路，未改变旧章。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "I02D3留堡白天烧柴原缺同源领耗，R1补12捆来源、库45和暖屋旧1+新2耗2余1，龙傍晚热不顶白天消耗。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "饭厅昨夜剩的一捆另放，不再扣一次。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "I03出发前后回述已集中到8点，桥距与白渡分开，21点收束；8公里为柏勒估量而非精密地图。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "出门时钟楼正敲八下。"
+          }
+        },
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "本章产权对话承担成果交付，下一章不宜再以同样篇幅的货数与付款构成冲突；须转入真实棚顶/人员取舍。这是未来节奏建议，本章救运闭环已成立，无未修的阅读阻断。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "明天要守住的，不止是这扇门。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "无凭空坏人：桥损、牲口恐惧、老人不舍车、芮雅保货权和城内留守同时限制行动。哈伦要车是七冬使用与积蓄，不因主角正义而降智；芮雅主动说我也赔着，既有主张也受损，反对方不只等待被说服。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“你不要，你说得轻！”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "那辆车有我三年的钱。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“救出来也还是你的。”"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "柏勒先强调粮非赠品，芮雅讲回去再谈与不涨鱼价，哈伦反对判车，龙以水囊和鱼点评人类；诉求不同且会改变行动。主角回答先救、先留运力、到弯再交，主要结果靠做而非演说。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“不在这里讲粮价。先把人和牲口带出来。”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“四银。”她说，“刚才已经讲过，没涨。”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“那把你自己的水装上。”"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "车落后芮雅手抖抵额、哈伦闭眼不愿吃又吃；主角不许诺变回车，不用毕竟人都在抵其积蓄。回程膝湿、旧腿痛、老人恶心都改变负载，回城搬工能离、救运者不排夜班。坏橇明日停用、商队后车留南岸，风雪压力由损失而来，无免费复原。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“我没法答应给你变回来。”"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "这句话今天已经足够帮他们作一次决定，不能再拿来替老人抵掉三年的钱。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“明天不能照常用。”乌铎道，"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "扶着门框，将那条已经僵住的腿慢慢放平。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "16219b881d844fa603aeb80ba875cbac2e74028f1ae672547888c2a1d616e4e9",
+      "queries": [
+        "粮车 救运 牲口 芮雅",
+        "交班 让位 付钱 代价"
+      ],
+      "comparisons": [
+        {
+          "source": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "“我能替那间屋答应。别的先看过再说。”"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "车不要了。"
+          },
+          "similarity": "同样面对不属于自己可随意支配的财物与他人拒绝。",
+          "difference": "旧章给自己房床换首火；今章货主自己决定弃车，主角保护人员但担公橇损失，有价运入新粮，不靠再献一件家具化解。"
+        },
+        {
+          "source": {
+            "chapter": 2,
+            "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+            "quote": "“所以今天只买一班。”"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "他没再问老人能不能忍到下一坡，叫人卸下一袋。"
+          },
+          "similarity": "都有照护和有报酬劳动。",
+          "difference": "旧章付半日照护令家属自愿让两位；今章核心是救援/回程，已疲劳队伍为老人腾橇位并轮换背抬，代价变体力与运力而非再次换签。"
+        },
+        {
+          "source": {
+            "chapter": 3,
+            "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+            "quote": "“木架先不搬。”"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“这一辆，两头牲口。另一辆留着。”"
+          },
+          "similarity": "带班经验都需要克制占满资源的冲动。",
+          "difference": "旧章在城内撤活以守火，这章保留成果有限出队，遭自然危险和坏橇，不再用全章重新排夜班；回运和采购给物质变化。"
+        }
+      ],
+      "no_match_reason": "有命中而非无相似：两次实际history-search的indexed_records=scanned_records=3，查询A命中3、B命中1/2/3；实读state指向三章现行全文回查。摘要索引不是语义去重或全文已读证明。正式只有三章，没有最近三章外的旧章；已替换CH002旧版仅审计，未参与前情。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "柏勒先得水食，城方8人有限外派，留7护卫和1橇2畜。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "加上塞恩，十二名护卫只出五人，另外七人留堡轮换。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "桥坏被亲见，实走浅路才绕行；前车粮盐真落失，两头前车挽畜获救、城橇损坏。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "横档响了一声，断口翘起来。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "商队后车还在南岸，6袋与四商队人到堡，四挽畜归自己主人非城产。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "车留在南岸背风处，轮边作了醒目的记号。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“人也到了。加柏勒，你们四个。”"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "4袋624份购入，2袋312私存，库5615、公库283；坏橇需停用。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "现在添六百二十四，库粮五千六百一十五。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "最后余二百八十三。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“明天不能照常用。”乌铎道，"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "12干鱼付4银给赫穆，不换火；芮雅在堡里首次知道龙。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“鱼不换火。”他说。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“你有一条龙？”"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "乌铎说D3傍晚原石得有限热，赫穆点头；伊恩并未现场观察整个留堡日，不能推总热量或全天火次。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "说傍晚按原来那一枚石接过一点热，是赫穆自己答应的，没用空石，没开坏炉。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "芮雅认为风要变但不知道多久，不是读者已见次日灾害与结果。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "“我说不好。今夜先别让那几头牲口在漏顶底下等。”"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "只派生正文可见或明确声称；乌铎报告与芮雅天气判断保留来源，不注入未来寒潮塌棚、商会/税官消息和长期粮约。床板、旧翼和私毡未因本章省略就复原，读者回顾不代替事实账。",
+    "surface_findings": [],
+    "pacing_review": {
+      "decision": "reviewed",
+      "mainline": "实读起因是柏勒求援而城缺粮，升级为桥坏、车偏和伤人畜，关键抉择在“车不要了。”之后货主亲自同意弃车；再以限载回运和真实入仓闭环。结款是这次有主货变成公粮的必要最后一步，不用采购预告代交付。",
+      "protagonist_initiative": "伊恩先决定不捆售粮与只出一橇，现场“车底不进人”是他把危险识别转为约束，撤畜弃车、担橇损、老人难走时叫卸一袋并自己接抬。芮雅与塞恩给专业判断，主角仍作有代价的选择，没有连续被配角教完才记一句懂了。",
+      "scene_necessity": "照护与留守限制能出多少人；浅路实勘决定能会合和回运；老人反对使弃车不是无情选项；城橇受损实际降低回程载荷；半途腾橇位展示选择后果，入仓验货和付款落货权。买鱼接上前章空藏与主线伙伴，见龙短幽默释放紧张。无与救运无关的巡户或修炉支线，R1补柴仅两处短段说明堡内不免费运转。",
+      "dramatic_change": "从桥上的粮一粒非自己的，到624份有价入公仓，主角获得合作起点却失去一半完整城橇，商队一车毁一车仍在南岸。代价不能因人活着就清零，哈伦与芮雅都有反应，疲劳导致夜间岗位与下一章运力收缩，变化见于行为和物而非报告称关系变好。",
+      "payoff": "“人也到了。加柏勒，你们四个。”和六袋落干处交付南桥求借人；诺拉付52银后四袋归城，两袋留私货。工毕实付且让走，龙得有来源的干鱼并“鱼不换火”。本章以有限粮与人回来提供温暖，而不是只写选择正确没结果。",
+      "next_pull": "结尾坏橇断木上的雪不再化、芮雅说变风，救运者今夜需歇；多两日粮并不能增加棚顶与安全空间。CH005必须在真实减少的运力与人力中择舍，既有救运成果保持，吸引力来自后果相撞而非凭空新反派。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "车不要了。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“车底不进人。”他说。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "他没再问老人能不能忍到下一坡，叫人卸下一袋。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“人也到了。加柏勒，你们四个。”"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“鱼不换火。”他说。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "雪落在上头，起初化掉，后来不再化了。"
+        }
+      ],
+      "blocking_issues": []
+    }
+  }
+}

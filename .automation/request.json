@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "writer_20261102_168d71d1",
-  "base_sha": "cde64bb7eb0e2bc6b61f97096538534f51343855",
+  "request_id": "candidate_20261102_168d71d1",
+  "base_sha": "5090cead85753330d655b13170f8ca13c4d713dd",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH004_brief.json"
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/CH004_v1.txt"
       ]
     },
     {
@@ -29,11 +31,13 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH004_v1.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH004_writer.md"
+        "drafts/CH004_reader_v1.md"
       ]
     },
     {
@@ -43,13 +47,13 @@
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "4",
         "--detail",
-        "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。",
+        "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。",
         "--next",
-        "读取writer资料后完整起草CH004。"
+        "读取完整reader资料，核八项与主线六维，处理真实问题。"
       ]
     }
   ]

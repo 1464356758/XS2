@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-01T21:29:20+00:00",
+    "generated_at": "2026-11-01T21:35:41+00:00",
     "state_revision": 7,
-    "workflow_revision": 19,
-    "state_sha256": "4e24495b7b7c7fdbeb2688c3b35567105a804a00d3beafb4afbb0e77cb482c5b",
-    "workflow_sha256": "0da334409fd8fa02fe23491bfe71f61aecc87a3503221cc120f05c2a6b83d26a",
+    "workflow_revision": 20,
+    "state_sha256": "cdd950730cf0e65805d9bc81837af26865007ae130a88f35b90adb27415a5cfe",
+    "workflow_sha256": "0d9f4418d2b52b92716713294a015951d527d4478d28090bb0e25f72012cf976",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 4,
-    "detail": "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。",
-    "next_action": "读取writer资料后完整起草CH004。",
-    "updated_at": "2026-11-01T21:29:20+00:00"
+    "detail": "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。",
+    "next_action": "读取完整reader资料，核八项与主线六维，处理真实问题。",
+    "updated_at": "2026-11-01T21:35:41+00:00"
   },
   "chapters": [
     {
@@ -998,12 +998,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T15:55:21+00:00",
-      "phase": "PLANNING",
-      "label": "长篇规划",
-      "detail": "作者已明确选择T02，正在建立世界设定、人物与资源基线、100章路线和前5章安排。"
-    },
-    {
       "at": "2026-10-30T16:32:44+00:00",
       "phase": "PLANNING",
       "label": "长篇规划",
@@ -1086,6 +1080,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。"
+    },
+    {
+      "at": "2026-11-01T21:35:41+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。"
     }
   ]
 }

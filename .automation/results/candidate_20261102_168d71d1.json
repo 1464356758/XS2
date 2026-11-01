@@ -1,0 +1,119 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "candidate_20261102_168d71d1",
+  "request_sha256": "06e7a3f285a210dd0f3a7ac16cac95989683c8a40ec3f987d6bb1ab8412bb55b",
+  "source_sha": "81e9f8a0a0db67bae4f59867fc90dfd9fc308188",
+  "base_sha": "5090cead85753330d655b13170f8ca13c4d713dd",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "168d71d1202d4224b5045f3d9175ee2a",
+    "platform_run_id": "a20f70dd-1438-832f-b3b5-b87b3fb60020"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-01T21:35:41+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41352802796",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/CH004_v1.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-01.stdout.txt",
+          "sha256": "28b56daf87f1c0671e64738b9a205cde78a4bce85da54ff39682bdd94940a308",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH004_v1.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH004_reader_v1.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-02.stdout.txt",
+          "sha256": "7bda29ec8e42c59f4cf30690afe20955b8ff94ed2e7d6f45299460783a47218f",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "REVIEWING",
+        "--chapter",
+        "4",
+        "--detail",
+        "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。",
+        "--next",
+        "读取完整reader资料，核八项与主线六维，处理真实问题。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-03.stdout.txt",
+          "sha256": "9c804abeafd36dacace17fbcb4c294c52d7720ed641d30d82a8e775d627a97bb",
+          "bytes": 89
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261102_168d71d1/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "03e6eb30a8a340838fb3d8d0e0e39b2e",
+  "changed_paths": [
+    ".automation/work/candidate_20261102_168d71d1/tool-01.stderr.txt",
+    ".automation/work/candidate_20261102_168d71d1/tool-01.stdout.txt",
+    ".automation/work/candidate_20261102_168d71d1/tool-02.stderr.txt",
+    ".automation/work/candidate_20261102_168d71d1/tool-02.stdout.txt",
+    ".automation/work/candidate_20261102_168d71d1/tool-03.stderr.txt",
+    ".automation/work/candidate_20261102_168d71d1/tool-03.stdout.txt",
+    "book/candidates/CH004_b510c68fb219a234fa4b9a4b7107714a0e8aa62a8003a114ee2f50a88b18ff45.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "book/workflow.json",
+    "drafts/CH004_reader_v1.md",
+    "online/index.json"
+  ]
+}

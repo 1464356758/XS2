@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 19,
+  "revision": 20,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -154,9 +154,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。"
+    },
+    {
+      "at": "2026-11-01T21:35:41+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。"
     }
   ],
-  "detail": "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。",
-  "next_action": "读取writer资料后完整起草CH004。",
-  "updated_at": "2026-11-01T21:29:20+00:00"
+  "detail": "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。",
+  "next_action": "读取完整reader资料，核八项与主线六维，处理真实问题。",
+  "updated_at": "2026-11-01T21:35:41+00:00"
 }

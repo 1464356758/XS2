@@ -11,7 +11,7 @@
   "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
   "narrative_review_version": 1,
   "writing_brief_sha256": "b62a7b4c89ee5e5fcd81f0616310487fb8d402e665c205a38376271bd21252f2",
-  "decision": "adopt",
+  "decision": "release",
   "read_full_text": true,
   "blocking_issues": [],
   "read_coverage": {

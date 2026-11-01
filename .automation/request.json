@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "finalize_20261102_168d71d1",
-  "base_sha": "f5d00e679a6956e0d9202e437e99abc292212286",
+  "request_id": "finalize2_20261102_168d71d1",
+  "base_sha": "e9a4bc8878d5b1d52e3ae37a556041d0a4880236",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",

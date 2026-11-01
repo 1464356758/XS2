@@ -21,10 +21,10 @@
     "platform_run_id": "a20f70dd-1438-832f-b3b5-b87b3fb60020"
   },
   "executor_checkpoint": {
-    "request_id": "begin_20261102_168d71d1",
-    "phase": "begin",
-    "at": "2026-11-01T21:27:02+00:00",
-    "github_run_id": "41352057361"
+    "request_id": "history_20261102_168d71d1",
+    "phase": "command",
+    "at": "2026-11-01T21:27:55+00:00",
+    "github_run_id": "41352131292"
   },
   "reason": "工具第2步失败；完整输出保存在本轮work目录。",
   "blocked_at": "2026-11-01T21:27:33+00:00"

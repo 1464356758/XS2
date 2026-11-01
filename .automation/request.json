@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "repair1_20261102_168d71d1",
-  "base_sha": "ed907d2d0c0b91e929de8a5891153ca01122cfe7",
+  "request_id": "record_20261102_168d71d1",
+  "base_sha": "f1af880e655d56d85808719ceabb563eba3ba81c",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "4",
+        "check-record",
         "--text",
         "drafts/CH004_v2.txt",
-        "--reason",
-        "R1：补北岸求援队经实勘浅路绕到南岸的会合因果，补D3同源领柴与屋内耗存，集中出发时序和九点章末；证据见CH004_R1_issues。"
+        "--record",
+        "drafts/CH004_record.json"
       ]
     },
     {
@@ -31,15 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH004_v2.txt",
-        "--budget",
-        "80000",
+        "--record",
+        "drafts/CH004_record.json",
         "--out",
-        "drafts/CH004_reader_v2.md"
+        "drafts/CH004_release_request.json"
       ]
     }
   ]

@@ -1,0 +1,290 @@
+{
+  "chapter": 4,
+  "title": "断桥上的粮车",
+  "stage": "S01",
+  "base_revision": 7,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+  "complete": true,
+  "story_time_end": 5100,
+  "temporal_precision": "紧接CH003 D3七点求援；八下钟声出发、午前到北岸，实勘浅路后绕南岸会合，午后救援及负重回程，十九点到堡，九下钟声定章末D3 21点=5100。中段不凭空标分钟；charter桥距来自柏勒报告，白渡仍42公里约两日路。",
+  "summary": "柏勒湿冷到堡后先获护卫屋歇脚、温水和另领1份食物。伊恩只派一辆城橇两役畜，与塞恩和4护卫、2自愿付酬搬工共8人出发，另7护卫与1橇2畜留堡。D3实际领柴12（8户2厨2暖屋），库57->45，暖屋旧1另计。北岸见坏桥，芮雅隔水告知旧浅路，塞恩实勘后带空橇绕到南岸会合。她已卸出6袋安全粮，哈伦不舍旧车。伊恩禁止入车底，危险升级时撤牲口、放弃坏车与2湿粮袋和盐桶；芮雅自己同意放车，老人有失落。救出4头商队挽畜中前车2头、全员存活，城橇横档被弹木打断。后车留南岸，安全6袋和可携杂货分批过浅路，限载轮换，哈伦恶心后再卸1袋腾坐处，19点实到堡。商队4人含柏勒临借护卫屋，不挤原60暖位。诺拉与芮雅实验每袋156份，买4袋624份付52银，2袋312份仍芮雅寄存。另实收运费3银、付搬工各1银、12干河鱼4银给龙且不换火，公库338+3-52-2-4=283，库粮4992-1+624=5615。乌铎报告D3傍晚赫穆自愿给原一枚石有限热，旧炉未开、无新暖位；暖屋当日可用3捆至晚耗2余1，未将其它领柴全当燃尽。城橇次日停用待查料，塞恩腿、搬工腰、人畜疲劳保留，21点风雪加重而下章寒潮未提前解决。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "三天里，总得有一天不吐。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "“还我时别拿块新的糊弄。”匠人道，“这块是我拿惯的。”"
+      },
+      {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "库内由五千三百零四份减至四千九百九十二。"
+      },
+      {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "公库还余三百三十八枚银币，"
+      },
+      {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "先问能不能借人，把车和牲口弄开。"
+      }
+    ],
+    "conclusion": "已实际生成实读writer、初稿reader及修订reader；最近三章全文为state指向的现行正文，包括更换后的CH002，均已实读。R1补两岸会合与D3燃料来源，修订累计1/3，未改冻结章。同一对话无法遗忘路线，限信息审读标same_context_approximation。八项事实因果与主线六维各用本版真实引文，文学判断先于机械校验；没有将tests或字数当文学质量。模型及思考档位无实际元数据，未验证。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "visitors:D3:messenger",
+      "value": "柏勒为本次求援者，先获得护卫屋座位、水、斗篷和独立新领1份粮；非原312配给或第61暖位。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "“这是新从库里拿的。今早那三百一十二份没有他的。”"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:near_bridge_distance",
+      "value": "柏勒报近堡南路桥约8公里、不同白渡桥；伊恩经实际往返核路但未取得精密测绘，不把白渡42公里压成当日往返。",
+      "holder": "CHAR-01",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "八公里上下，不是白渡那座。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D3:rescue_party",
+      "value": "城方8人=伊恩+塞恩及4护卫+两名本地搬工；护卫总12中出5留7，鲁克与夜后半班不抽，另外1橇2畜留堡。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "加上塞恩，十二名护卫只出五人，另外七人留堡轮换。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D3库57实领12后45；8捆住户2厨2暖屋，不把领出等同耗尽；旧潮木与已领余柴不并作干库。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "今日从五十七捆里领十二捆，八捆给住户、两捆厨房、两捆饭厅，库里留四十五。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:issued_distribution",
+      "value": "D3新领12=8户2厨2屋；D2暖屋余1仍在屋内另计。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "饭厅昨夜剩的一捆另放，不再扣一次。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D3暖屋旧1+新2合3，到晚烧2余1；只至当晚核数，未预知整夜足够。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "屋里还剩一捆未拆。"
+    },
+    {
+      "kind": "fact",
+      "key": "route:D3:safe_approach",
+      "value": "先在北岸隔水喊，塞恩与护卫实走浅路，再8人空橇分开绕南岸，不踩坏桥；回程车重过不了，分批轻物人畜过。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "空雪橇和两头役畜分开绕行，谁也没踩上坏桥。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-06:role",
+      "value": "芮雅为当事运输合伙人及与哈伦合买粮者；她已主动卸出6袋安全粮、不让再进险区，非等主角才行动。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "粮也是我和哈伦合买的。"
+    },
+    {
+      "kind": "fact",
+      "key": "rescue:D3:abandon_wagon",
+      "value": "伊恩止危险取货、护留人力，芮雅亲口同意放前车；前车落毁、压旁2袋湿粮及盐桶落失，不登记城产损失或事后全收回。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "“我做主放车。”她说，“我也赔着。你骂我，回去再骂。”"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-HAUL:sleds",
+      "value": "城有2橇中本次出行1橇横档被弹木撞断，轻载拖回，次日不能照常用，另一辆留堡完整；没有凭商队车新增长期城产。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "横档响了一声，断口翘起来。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-HAUL:animals",
+      "value": "城属2出2留均在；商队4挽畜全带回，前车2救出但疲惫不再重载，归商队，不算城4之外新获得。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "里面只有两头属于灰炉堡，另外四头仍随自己的主人。"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:remaining_wagon",
+      "value": "商队后车仍在南岸背风处，有记号与重杂件/一部分草束；未入堡，未许明日可取，不把留车写已失或已修。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "车留在南岸背风处，轮边作了醒目的记号。"
+    },
+    {
+      "kind": "fact",
+      "key": "haul:D3:actual_arrival",
+      "value": "六安全粮袋和可带杂物于D3十九点抵堡，不以救出/装载代替实入干处。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "将六袋粮送到粮房檐下干处，当着芮雅的面逐袋点过。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "原饭厅仍60含照护；四商队客临借护卫屋现有空间，主角原落脚处让给哈伦，客自带夜食，不扩大安全暖位。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "她没把客人送进饭厅，那里连照护家属在内仍是六十个人。"
+    },
+    {
+      "kind": "fact",
+      "key": "trade:D3:grain",
+      "value": "实验六袋日用混合粮每袋156，共936；公库另付52银购4袋624，2袋312仍寄存货主，非全粮归城。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "四袋五十二银。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "D3已领312后4992，额外给柏勒1至4991，实购624后5615；客人晚自带粮、寄存312不加公粮，不重复扣全堡312。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "现在添六百二十四，库粮五千六百一十五。"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:private_deposit",
+      "value": "两袋312份仍商队货权，独立袋口记号寄存，不是公共余粮。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "两袋仍单独搁着，今夜寄放，不是灰炉堡的余粮。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "原338+实际收运费3-购粮52-两搬工共2-干鱼4=283；无新借款，橇维修未报价未付款，盐委托责任未结不造债数。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "最后余二百八十三。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D3:paid",
+      "value": "同D2两名本地搬工另问另付全趟各1银，实际到手可走；未排明日，缺指者腰痛待看不能记无伤。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "诺拉当面各付一银。"
+    },
+    {
+      "kind": "fact",
+      "key": "food:D3:dragon_fish",
+      "value": "公库4银购商队未落水的12干河鱼，先给1试后送11；不以鱼换火、不把干鱼当无限以后口粮、未说明已全吃完。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "剩下十一尾鱼送到木挡外。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-06:dragon_seen",
+      "value": "芮雅在堡里看见赫穆、听它说话，才知道龙在此；到桥前不知供热合作细节。",
+      "holder": "CHAR-06",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "“你有一条龙？”"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:D3_heat_report",
+      "value": "乌铎报告D3傍晚赫穆自愿给原1石有限热、未用空石或旧炉，赫穆点头确认；不伪造精确息量、不豁免三日休息上限。",
+      "holder": "CHAR-01",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "说傍晚按原来那一枚石接过一点热，是赫穆自己答应的，没用空石，没开坏炉。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-05:left_leg",
+      "value": "塞恩去程得坐，现场与返程休腿，回堡腿僵，今夜不排救运者守火；旧伤不因成功消失。",
+      "holder": "",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "扶着门框，将那条已经僵住的腿慢慢放平。"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-06:weather_warning",
+      "value": "芮雅据风雪观察认为风要变但不知多久；非精准天气预报或已知次日棚塌，现将牲口挪不漏处不等整夜安全。",
+      "holder": "CHAR-06",
+      "valid_from": 5100,
+      "valid_until": null,
+      "quote": "“我说不好。今夜先别让那几头牲口在漏顶底下等。”"
+    }
+  ],
+  "progression": {
+    "goal": "回应D3七点求援，以有限人畜救出受困车队，把有主安全粮真正运到堡内并取得可承担的采购结果。",
+    "obstacle": "桥坏、车压偏、伤人畜与缺人；货主不愿弃车且粮非免费，城内守火需留人，城橇受损后回程载荷进一步减少。",
+    "method": "先照护和核路，留守而有限出发；由塞恩实勘浅路、芮雅掌握车与牲口，伊恩划清危险区与可用人力，放弃坏车货，轮换负重并给老人腾橇位；入仓实验后单独结运费、粮款、工钱及鱼款。",
+    "choice": "不以救命压粮价，不派全运力或借龙飞运；关键时刻放弃可抢的车货和城橇完整性，哈伦再不能走时加肩负重让坐，城方承担城橇损毁不强摊工人或商队。",
+    "result": "商队四人含柏勒和四挽畜到堡，六安全粮袋实际入干处；堡买624份，余312份货主寄存；龙获12干鱼，首次见芮雅，劳务与运费真实收付。",
+    "consequence": "粮5615、现金283、库干柴45且暖屋余1，城橇1坏1好，商队前车毁、后车南岸未回，2湿粮袋与盐损失不恢复，人畜需歇而风雪加紧。",
+    "next_options": "CH005先接救运后疲劳与受损运力，处理棚顶/暖位压力，采用前全文读CH001—CH004及CH005候选。CH006通路与存物冲突，CH007北窗及借毡原期限不延。",
+    "scene_function": "从求救走到实勘、放弃、回运和入仓，带班经验表现为撤危险动作、分载、保护留守与轮换，不再整章排位或轮流受教。交易与鱼使外部合作连回堡内人龙主线。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-SOUTH-BRIDGE",
+      "action": "payoff",
+      "description": "到场者得照护、桥况实际看过，救出人畜且六袋安全粮到堡；购粮另谈，原求援已完成而车损不归零。",
+      "quote": "伊恩等最后一袋落稳，才说：“人也到了。加柏勒，你们四个。”"
+    },
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "plant",
+      "description": "城橇横档断，乌铎判次日停用待查合用料；近期必须给结果，不恢复成两辆好橇。",
+      "quote": "“明天不能照常用。”乌铎道，“得找合用木料。拆了这根再看里头。”"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 8678
+}

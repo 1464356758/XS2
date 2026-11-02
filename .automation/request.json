@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "briefprep_20261103_ffbab652",
-  "base_sha": "e93e49862df4f23d6cc172ced778e401a02efb97",
+  "request_id": "writer_20261103_ffbab652",
+  "base_sha": "2d6faa52594c4ce2016dbe8ac3321c9d87ccd6cb",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,33 +17,39 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH005_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--budget",
+        "80000",
         "--out",
-        "drafts/CH005_brief_request.json"
+        "drafts/CH005_writer.md"
       ]
     },
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "休息 棚顶 牲口 木架 西屋",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "取舍 放弃 让出 龙火 交班",
-        "--limit",
-        "10"
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "5",
+        "--detail",
+        "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。",
+        "--next",
+        "读取writer资料后完整起草CH005。"
       ]
     }
   ]

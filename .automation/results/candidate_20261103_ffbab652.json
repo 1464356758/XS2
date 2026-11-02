@@ -1,0 +1,115 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "candidate_20261103_ffbab652",
+  "request_sha256": "132eb6f62e93d7bd9d3e9118e9e61405a3d2d2bc90fdb8a4f625509679885d6f",
+  "source_sha": "0530905c14b01b804cc429513106496b9f9acc29",
+  "base_sha": "8abb78726352e574491b19ab8b828c6cd9abf55f",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "ffbab6524ad94a448176799932c9c689",
+    "platform_run_id": "d30b9764-5780-8321-a0fd-a621214fdd69"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T21:49:35+00:00",
+  "executor_status": "error",
+  "github_run_id": "41531778799",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "5",
+        "--text",
+        "drafts/CH005_v1.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-01.stdout.txt",
+          "sha256": "0edf647e4c938d2c1df32d1b131d6d52c82a4027132ebfa3e2ae76be6aea82db",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH005_v1.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH005_reader_v1.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-02.stdout.txt",
+          "sha256": "9d273dc2bbc8663adfdfb381957a1a51393bb62a88cf587f5215fe2c1c5a8e4d",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--status",
+        "REVIEWING",
+        "--chapter",
+        "5"
+      ],
+      "exit_code": 2,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-03.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": ".automation/work/candidate_20261103_ffbab652/tool-03.stderr.txt",
+          "sha256": "ebcf0d75da4d504aa68581eef8c5a0eb2377ff9d43b417929532419e8a3cad6e",
+          "bytes": 406
+        }
+      }
+    }
+  ],
+  "business_status": "blocked",
+  "error": "工具第3步失败；完整输出保存在本轮work目录。",
+  "run_id": "2f6994a9cd644ca39dca4477fed4810c",
+  "changed_paths": [
+    ".automation/work/candidate_20261103_ffbab652/tool-01.stderr.txt",
+    ".automation/work/candidate_20261103_ffbab652/tool-01.stdout.txt",
+    ".automation/work/candidate_20261103_ffbab652/tool-02.stderr.txt",
+    ".automation/work/candidate_20261103_ffbab652/tool-02.stdout.txt",
+    ".automation/work/candidate_20261103_ffbab652/tool-03.stderr.txt",
+    ".automation/work/candidate_20261103_ffbab652/tool-03.stdout.txt",
+    "book/candidates/CH005_e65457a629a31c56ead18dc6998c2acb462a788890da1ad6574b8649749d2ce6.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH005_reader_v1.md",
+    "online/index.json"
+  ]
+}

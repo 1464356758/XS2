@@ -1,0 +1,15 @@
+{
+  "chapter": 5,
+  "round": 2,
+  "mode": "same_context_approximation",
+  "task_id": "6e8f6164-ad52-4b48-80ba-c3cf7a78143b",
+  "source_sha256": "9cbe217aee78a668fc4fb5e7051c8b194c3b4b3e1e123f185ac491c73167ab3b",
+  "issues": [
+    {
+      "source_quote": "夜里总共烧了五捆",
+      "judgment": "西屋原炉从D4午后已燃，五捆应覆盖点火至D5晨，不能将“夜里五捆”误读成午后用量之外另五捆。",
+      "resolution": "明确从昨日午后点起炉到现在总共烧五；领取6、实耗5、晨余1不变。"
+    }
+  ],
+  "conclusion": "只修本候选一处累计耗柴时段，计入原任务第2轮，不改旧章、数量或审核门槛。"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "chapter": 5,
+  "task_id": "6e8f6164-ad52-4b48-80ba-c3cf7a78143b",
+  "run_id": "2f6994a9cd644ca39dca4477fed4810c",
+  "mode": "same_context_approximation",
+  "round": 1,
+  "source_sha256": "e65457a629a31c56ead18dc6998c2acb462a788890da1ad6574b8649749d2ce6",
+  "target_sha256": "9cbe217aee78a668fc4fb5e7051c8b194c3b4b3e1e123f185ac491c73167ab3b",
+  "issues": [
+    {
+      "severity": "must_fix",
+      "source_quote": "“我拿。你在门边，让一让。”",
+      "history_quote": "“您抬那头空筐。”男人道，“这个我拿工钱的。”",
+      "history_chapter": 3,
+      "judgment": "CH005深夜再次伸手搬柴被劝开、看人接火后被催睡，与CH003同套受教/休息桥段过近，拖慢暴雪临居主线。",
+      "resolution": "压缩重复受教与交班长段；替换为孩子惊惧、父亲要求母女去冷廊、主角当场保留全部八人并讲清真实撤离通路的合住摩擦；主角主动安排并自行睡下。"
+    },
+    {
+      "severity": "must_fix",
+      "source_quote": "柏勒没有跟着，哈伦的手也还裹着布，鲁克试着踩过伤脚，便又坐回去了。四人",
+      "judgment": "鲁克是城车夫，与三位商队成员紧接“四人”可误读成商队第四人。",
+      "resolution": "点清柏勒、另一个车夫、哈伦及芮雅四人；去掉同句鲁克。"
+    },
+    {
+      "severity": "must_fix",
+      "source_quote": "里头两块碎布，一只顶针，没有剪子。",
+      "judgment": "初稿次晨用“裁出”无交代工具，虽不构成资源大增仍有实物连续性缺口。",
+      "resolution": "改沿碎布旧破口撕开，不添新剪子。"
+    },
+    {
+      "severity": "must_fix",
+      "source_quote": "没在同一时辰又被写去别处抬水。",
+      "judgment": "“被写去”是排工表视角的制作式解释，且多处否定句重述已见约束使中段延宕。",
+      "resolution": "删除制作式说明及重复劳动/库存训诫，保留真实合同、付款与库存变化。"
+    }
+  ],
+  "conclusion": "一轮局部修订，仍8514汉字，不改冻结前章，不重置任务或计数；重新生成reader再审核。"
+}

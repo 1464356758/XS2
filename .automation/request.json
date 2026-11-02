@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "candidate_20261103_ffbab652",
-  "base_sha": "8abb78726352e574491b19ab8b828c6cd9abf55f",
+  "request_id": "repair1_20261103_ffbab652",
+  "base_sha": "59ba92a4395fbfbb5034327773b82a911e323f88",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "5",
         "--text",
-        "drafts/CH005_v1.txt"
+        "drafts/CH005_v2.txt",
+        "--reason",
+        "R1：压缩与CH003重复的深夜受教交班，补八人临居实际摩擦、主角主动留住母女与自行休息；点清商队四人身份，修碎布用法与制作式说明，证据见drafts/CH005_R1_issues.json。"
       ]
     },
     {
@@ -33,11 +35,11 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH005_v1.txt",
+        "drafts/CH005_v2.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH005_reader_v1.md"
+        "drafts/CH005_reader_v2.md"
       ]
     },
     {
@@ -46,10 +48,14 @@
         "--project",
         ".",
         "task",
-        "--status",
+        "--phase",
         "REVIEWING",
         "--chapter",
-        "5"
+        "5",
+        "--detail",
+        "CH005第一轮局部修订已登记；实读reader并核对八项、节奏与五章全文回看。",
+        "--next",
+        "完成实质审核及记录后按执行器finalize统一采用与finish。"
       ]
     }
   ]

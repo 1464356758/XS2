@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 8,
+  "revision": 9,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -61,9 +61,64 @@
       "record_sha256": "abc8541f5598aebaa48afac9f70b86cdf83c1901eb1b915cb96986d504e8ebf2",
       "han_count": 8678,
       "adopted_at": "2026-11-01T21:45:02+00:00"
+    },
+    "5": {
+      "title": "这一夜不许硬撑",
+      "stage": "S01",
+      "text_path": "chapters/CH005_df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8.txt",
+      "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+      "record_path": "records/CH005_bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49.json",
+      "record_sha256": "bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49",
+      "han_count": 8523,
+      "adopted_at": "2026-11-02T22:07:27+00:00"
     }
   },
-  "checkpoints": [],
+  "checkpoints": [
+    {
+      "kind": "window",
+      "from": 1,
+      "to": 5,
+      "base_revision": 8,
+      "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+      "read_mode": "full_text_batches",
+      "decision": "adjust_future",
+      "coverage": {
+        "1": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "2": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "3": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "4": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "5": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8"
+      },
+      "record_coverage": {
+        "1": "6222c2d38232bec7c01103481711b7610177580773401eb760217fe1663931b5",
+        "2": "4a7820cc40d00746679f14d5911b0d5c55587e9cf73b37ebbded6f0a1821d8bf",
+        "3": "92abd7ca1d8ed4571349556890fa6feed55236450e7987e94876b369c023b17b",
+        "4": "abc8541f5598aebaa48afac9f70b86cdf83c1901eb1b915cb96986d504e8ebf2",
+        "5": "bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49"
+      },
+      "findings": [
+        {
+          "scope": "future",
+          "severity": "watch",
+          "conclusion": "初稿深夜受教/交班同CH003过近，已在当前章R1实修；CH006—008避免再靠重复核账或教主角休息推进，须交付通路、材料或收益取舍。不是当前章未修问题，不改冻结旧章。",
+          "evidence": [
+            {
+              "chapter": 5,
+              "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+              "quote": "这回没人催，他自己先将挡在眼前的灯挪远，合上了眼。"
+            }
+          ]
+        }
+      ],
+      "conclusion": "本轮在CH005采用前分批实读CH001、state引用的更换版CH002、CH003、CH004全文，再读最终完整CH005候选，正文版本与记录版本完整绑定。reader里的CH001为带引文回顾，但本回看另实读CH001原文，不以回顾冒充全文。旧版CH002仅审计。本报告用于本章采用，不追认旧章为本轮新审核通过。",
+      "causal_progress": "CH001停旧炉、谈边界、让私料得到单石60位热；CH002求位者沿家址暂借到真实照护换位并盘点借毡；CH003完整D2不吐、付酬替代到D3求援；CH004实勘浅路、弃货救人畜、购624且橇坏客伤风雪入堡；CH005这些后果逼主角改原空间，移私料拆己物让8人先入后塌并真正过夜。实际时间和物资以现行正文为准，旧初始化路线不覆盖。",
+      "repetition_comparison": "有限工钱、停危险工、不强迫龙是持续伦理，但解法已从CH002照护腾2位到CH003无火日轮班，再到CH004货权运输与本章私产转临居/合住。R1删CH003近似受教桥段，改夜哭及冷廊冲突和自主休息。下章将离开权落到真实通路，避免只再说一次尊重。",
+      "character_changes": "伊恩仍不替匠人掌本地炉艺，却能主动取消取车、拆己物、撤取架、留母女并自定交班休息。赫穆从初谈可走、D2实休，至本章停火有效又面临储物挤出口；诺拉有接班而非永远守账，乌铎收回原私毡、照约下工。芮雅不出车独立决定，缝补母女不因被救便即刻感恩，只在晨间请主角按布。",
+      "promise_payoffs": "新版CH002已兑现首夜柴、盘点、求位去处及西屋临护；CH003兑现D2整休及家庭回访；CH004桥求援实到人畜粮而车损保留；CH005提前真还借毡、交付8人与原60过夜。北窗和城橇CH007不延，到春CH020，新D5整休CH006验证。当前午前不虚结完整日。",
+      "ending_runway": "5章44009汉字，尚95章，冬季/合作/离开终点都未提前用完。第10章阶段须有可见责任与交付变化，不能连续巡屋。约90万容量仍可覆盖必要场面，但不用总字数证明好看；CH010依据实际再估。",
+      "next_action": "本轮仅采用CH005。下一目标CH006《给龙留一扇门》，承接正式本章的低柴、空间与人畜疲劳，用实际取舍解决自由出入并见证D5整休；CH007原北窗/橇期限保留。前5章采用后只读。"
+    }
+  ],
   "needs_revalidation": [],
   "inputs": {
     "canon": {
@@ -197,7 +252,7 @@
       "task_id": "6e8f6164-ad52-4b48-80ba-c3cf7a78143b",
       "chapter": 5,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 2,
       "history": [
         {
@@ -240,6 +295,10 @@
       "4": {
         "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
         "record_sha256": "abc8541f5598aebaa48afac9f70b86cdf83c1901eb1b915cb96986d504e8ebf2"
+      },
+      "5": {
+        "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+        "record_sha256": "bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49"
       }
     },
     "published": {},
@@ -263,6 +322,11 @@
         "path": "releases/CH004_76e4ee79596e7876ca3ac95d86dd621f3fcb834925f8425a0ec73bbf35e75339.json",
         "sha256": "76e4ee79596e7876ca3ac95d86dd621f3fcb834925f8425a0ec73bbf35e75339",
         "used": true
+      },
+      "5": {
+        "path": "releases/CH005_39eaf48a1edfb0e77b73a0782fb315a9929ad0c3af5d02688ddf71c6c3e609e4.json",
+        "sha256": "39eaf48a1edfb0e77b73a0782fb315a9929ad0c3af5d02688ddf71c6c3e609e4",
+        "used": true
       }
     },
     "promises": {
@@ -283,7 +347,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       },
       "TH-DRY-SHELTER": {
         "history": [
@@ -526,7 +590,7 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       },
       "TH-WEST-FELT-LOAN": {
         "history": [
@@ -541,11 +605,23 @@
               "quote": "“还我时别拿块新的糊弄。”匠人道，“这块是我拿惯的。”"
             },
             "chapter": 2
+          },
+          {
+            "id": "TH-WEST-FELT-LOAN",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "同一旧毡检查折还，原主人摸边认过收袋；提前归还实物，不拿新片抵旧。",
+            "evidence": {
+              "chapter": 5,
+              "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+              "quote": "匠人用拇指摸过自己认得的边，收进工具袋。"
+            },
+            "chapter": 5
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 4
+        "status": "closed",
+        "last_reviewed_chapter": 5
       },
       "TH-SOUTH-BRIDGE": {
         "history": [
@@ -595,7 +671,26 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
+      },
+      "TH-D5-REST": {
+        "history": [
+          {
+            "id": "TH-D5-REST",
+            "action": "set",
+            "deadline_chapter": 6,
+            "reason": "D3/D4已吐，D5整日无吐须CH006实际见证；当前十点只是开始，不解除持续三日限制。",
+            "evidence": {
+              "chapter": 5,
+              "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+              "quote": "眼前安静，不等于休息日已经过去。"
+            },
+            "chapter": 5
+          }
+        ],
+        "deadline_chapter": 6,
+        "status": "open",
+        "last_reviewed_chapter": 5
       }
     },
     "incidents": {}

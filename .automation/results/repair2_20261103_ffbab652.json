@@ -1,0 +1,89 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "repair2_20261103_ffbab652",
+  "request_sha256": "f70a8aedac67e00362bdac40299cc8bd37a553b831586908f0233fee0256eb8b",
+  "source_sha": "419a8d660ba90b48639a8106d149973166c0be60",
+  "base_sha": "eb5adbc567913a65203f6a73bba77a84e8045b3b",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "ffbab6524ad94a448176799932c9c689",
+    "platform_run_id": "d30b9764-5780-8321-a0fd-a621214fdd69"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T21:55:13+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41532674957",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "5",
+        "--text",
+        "drafts/CH005_v3.txt",
+        "--reason",
+        "R2：将西屋耗五捆的时段写清为D4午后点炉至D5晨，消除仅夜耗五另加午后的歧义；领取6耗5余1不变，见drafts/CH005_R2_issues.json。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/repair2_20261103_ffbab652/tool-01.stdout.txt",
+          "sha256": "d2500fb726946ccf305e16708365a38d45e760c77690caad3d9262f3fe534631",
+          "bytes": 1151
+        },
+        "stderr": {
+          "path": ".automation/work/repair2_20261103_ffbab652/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH005_v3.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH005_reader_v3.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/repair2_20261103_ffbab652/tool-02.stdout.txt",
+          "sha256": "13a210b66731ac1f3a75fb16e952f6d6c21d46fa1f1649c48f4f46065b203dc2",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/repair2_20261103_ffbab652/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "2f6994a9cd644ca39dca4477fed4810c",
+  "changed_paths": [
+    ".automation/work/repair2_20261103_ffbab652/tool-01.stderr.txt",
+    ".automation/work/repair2_20261103_ffbab652/tool-01.stdout.txt",
+    ".automation/work/repair2_20261103_ffbab652/tool-02.stderr.txt",
+    ".automation/work/repair2_20261103_ffbab652/tool-02.stdout.txt",
+    "book/candidates/CH005_df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH005_reader_v3.md",
+    "online/index.json"
+  ]
+}

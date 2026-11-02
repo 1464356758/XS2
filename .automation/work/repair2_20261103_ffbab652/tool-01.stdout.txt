@@ -1,0 +1,26 @@
+{
+  "task_id": "6e8f6164-ad52-4b48-80ba-c3cf7a78143b",
+  "chapter": 5,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 2,
+  "history": [
+    {
+      "sha256": "e65457a629a31c56ead18dc6998c2acb462a788890da1ad6574b8649749d2ce6",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "9cbe217aee78a668fc4fb5e7051c8b194c3b4b3e1e123f185ac491c73167ab3b",
+      "reason": "R1：压缩与CH003重复的深夜受教交班，补八人临居实际摩擦、主角主动留住母女与自行休息；点清商队四人身份，修碎布用法与制作式说明，证据见drafts/CH005_R1_issues.json。",
+      "repairs": 1
+    },
+    {
+      "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+      "reason": "R2：将西屋耗五捆的时段写清为D4午后点炉至D5晨，消除仅夜耗五另加午后的歧义；领取6耗5余1不变，见drafts/CH005_R2_issues.json。",
+      "repairs": 2
+    }
+  ],
+  "candidate_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+  "candidate_path": "candidates/CH005_df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8.txt"
+}

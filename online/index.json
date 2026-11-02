@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-02T21:49:35+00:00",
+    "generated_at": "2026-11-02T21:53:55+00:00",
     "state_revision": 8,
-    "workflow_revision": 22,
-    "state_sha256": "bd5b7805c1e2ce8c93d3e5716197eed8ac62155eed0a305e24ebc29df26c9dad",
-    "workflow_sha256": "1adba4a3c003907ec77a795d231394789ea8bd244e4d2b9261002dd51a8d8a32",
+    "workflow_revision": 23,
+    "state_sha256": "5a8c2e32084fa4b997a8ed28cbd63d8d13fada05d8cefee9567a7fdf937abe95",
+    "workflow_sha256": "1bfcf3a7bcabbf5bb9ee7d04897e54a2743d30f80ff0f58fa0d6f73be4a34848",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 5,
-    "detail": "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。",
-    "next_action": "读取writer资料后完整起草CH005。",
-    "updated_at": "2026-11-02T21:37:03+00:00"
+    "detail": "CH005第一轮局部修订已登记；实读reader并核对八项、节奏与五章全文回看。",
+    "next_action": "完成实质审核及记录后按执行器finalize统一采用与finish。",
+    "updated_at": "2026-11-02T21:53:55+00:00"
   },
   "chapters": [
     {
@@ -1010,12 +1010,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T16:55:24+00:00",
-      "phase": "REVIEWING",
-      "label": "检查本章",
-      "detail": "CH001完整初稿8909汉字已登记，正在实读正文反向提纲、限信息审读与事实因果审核。"
-    },
-    {
       "at": "2026-10-30T16:59:46+00:00",
       "phase": "REVIEWING",
       "label": "检查本章",
@@ -1098,6 +1092,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。"
+    },
+    {
+      "at": "2026-11-02T21:53:55+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH005第一轮局部修订已登记；实读reader并核对八项、节奏与五章全文回看。"
     }
   ]
 }

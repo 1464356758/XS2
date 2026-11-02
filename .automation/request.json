@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "repair2_20261103_ffbab652",
-  "base_sha": "eb5adbc567913a65203f6a73bba77a84e8045b3b",
+  "request_id": "record_20261103_ffbab652",
+  "base_sha": "570a078ce75663f42e246f019c2c0f471734351a",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "5",
+        "check-record",
         "--text",
         "drafts/CH005_v3.txt",
-        "--reason",
-        "R2：将西屋耗五捆的时段写清为D4午后点炉至D5晨，消除仅夜耗五另加午后的歧义；领取6耗5余1不变，见drafts/CH005_R2_issues.json。"
+        "--record",
+        "drafts/CH005_record.json"
       ]
     },
     {
@@ -31,15 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH005_v3.txt",
-        "--budget",
-        "80000",
+        "--record",
+        "drafts/CH005_record.json",
         "--out",
-        "drafts/CH005_reader_v3.md"
+        "drafts/CH005_release_request.json"
       ]
     }
   ]

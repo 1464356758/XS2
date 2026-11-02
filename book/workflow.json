@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 21,
+  "revision": 22,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -166,9 +166,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-02T21:37:03+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。"
     }
   ],
-  "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。",
-  "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-11-01T21:45:02+00:00"
+  "detail": "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。",
+  "next_action": "读取writer资料后完整起草CH005。",
+  "updated_at": "2026-11-02T21:37:03+00:00"
 }

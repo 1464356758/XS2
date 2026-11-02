@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "writer_20261103_ffbab652",
-  "base_sha": "2d6faa52594c4ce2016dbe8ac3321c9d87ccd6cb",
+  "request_id": "candidate_20261103_ffbab652",
+  "base_sha": "8abb78726352e574491b19ab8b828c6cd9abf55f",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH005_brief.json"
+        "candidate",
+        "--chapter",
+        "5",
+        "--text",
+        "drafts/CH005_v1.txt"
       ]
     },
     {
@@ -29,11 +31,13 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH005_v1.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH005_writer.md"
+        "drafts/CH005_reader_v1.md"
       ]
     },
     {
@@ -42,14 +46,10 @@
         "--project",
         ".",
         "task",
-        "--phase",
-        "WRITING",
+        "--status",
+        "REVIEWING",
         "--chapter",
-        "5",
-        "--detail",
-        "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。",
-        "--next",
-        "读取writer资料后完整起草CH005。"
+        "5"
       ]
     }
   ]

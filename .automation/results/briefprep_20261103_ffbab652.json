@@ -1,0 +1,106 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "briefprep_20261103_ffbab652",
+  "request_sha256": "f253bdf79db5ddf7755adf79675305d7943eee025475126f28c4dc7508d3a193",
+  "source_sha": "be898bc21c86ad2d649c4ab1d097e1ba1b44a47a",
+  "base_sha": "e93e49862df4f23d6cc172ced778e401a02efb97",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "ffbab6524ad94a448176799932c9c689",
+    "platform_run_id": "d30b9764-5780-8321-a0fd-a621214fdd69"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T21:32:59+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41529326554",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH005_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-01.stdout.txt",
+          "sha256": "3af7663b3a03f19d7cd62ab16d8d30cd178790d716e353714603ed383f02ff4b",
+          "bytes": 177
+        },
+        "stderr": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "休息 棚顶 牲口 木架 西屋",
+        "--limit",
+        "10"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-02.stdout.txt",
+          "sha256": "5f3d62bcd299336b0ac84c1fb409c146d09416d9939e7763737cfe2b391d5a6c",
+          "bytes": 11933
+        },
+        "stderr": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "取舍 放弃 让出 龙火 交班",
+        "--limit",
+        "10"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-03.stdout.txt",
+          "sha256": "8bb942358e9286f908d65fdcbd420470f520e95ac570fdc8bc90a81c3741cad3",
+          "bytes": 11933
+        },
+        "stderr": {
+          "path": ".automation/work/briefprep_20261103_ffbab652/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "2f6994a9cd644ca39dca4477fed4810c",
+  "changed_paths": [
+    ".automation/work/briefprep_20261103_ffbab652/tool-01.stderr.txt",
+    ".automation/work/briefprep_20261103_ffbab652/tool-01.stdout.txt",
+    ".automation/work/briefprep_20261103_ffbab652/tool-02.stderr.txt",
+    ".automation/work/briefprep_20261103_ffbab652/tool-02.stdout.txt",
+    ".automation/work/briefprep_20261103_ffbab652/tool-03.stderr.txt",
+    ".automation/work/briefprep_20261103_ffbab652/tool-03.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH005_brief_request.json",
+    "online/index.json"
+  ]
+}

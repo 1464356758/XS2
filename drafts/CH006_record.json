@@ -1,0 +1,193 @@
+{
+  "chapter": 6,
+  "title": "给龙留一扇门",
+  "stage": "S01",
+  "base_revision": 9,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+  "complete": true,
+  "story_time_end": 8520,
+  "temporal_precision": "接D5十点（7320）空筐；午钟确认檐下，暮时自行出棚与补柴、天黑返回，晚间再落雪；次日六下钟声后、D6新发放前收尾（8520，六点量级）。",
+  "summary": "D5上午接上章空筐，伊恩实试板角撞筐，赫穆不接受先喊人挪物才能走；伊恩沿车辙选定好城橇原停背风檐，明确牺牲防雪便利、自担清雪且护卫不另增夜岗。塞恩核位置和牲口通道，芮雅为解释挪车与南岸未行亲自协助伊恩挪空车，不调用商队牲口。午钟交付三户可提私物的有限干位，陶壶和布包磨石放下，缝补母女的一处留空，断凳腿不得挤占。四私料箱仍在粮房，原塌屋物未取。伊恩用实走与移柴筐留下木挡活动和龙身转向地。赫穆暮时自行出棚走到院门内背风处，天黑自行回棚，并主动演示板声给怕屋响的女孩。好橇露天积雪结湿，伊恩借帚实扫浮雪又归还，残冰和出车清理留待下次。D5暮库柴12另发4（饭厅2、西屋2）余8，D6晨饭厅总5全添、尚有余炭，西屋总3拆2余1。D5整日及夜均无新龙火，D6六点仍未供；两处原炉撑到清晨而北窗仍漏。D6新发放未开始，公私粮、钱不因搬放变化。旧断橇未修，居民携一根带裂的湿木来问值不值得交换，未检验、收购或抵价。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+        "quote": "龙伸爪试了试，木挡被推开，斜倒在墙边。"
+      },
+      {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "第一个完整休息日过去了，它一口火也没吐"
+      },
+      {
+        "chapter": 4,
+        "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "quote": "车留在南岸背风处，轮边作了醒目的记号。"
+      },
+      {
+        "chapter": 5,
+        "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+        "quote": "等男人空着手跨过门槛"
+      },
+      {
+        "chapter": 5,
+        "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+        "quote": "只是赫穆要出去，就得先叫人将它们搬开。"
+      }
+    ],
+    "conclusion": "生成并实际读取writer、初稿与修订稿reader。初稿陶壶来源与上一章撤离动作不连贯，R1交代邻家归还与被角随身物，删重复说通路改为移走柴筐；最终复核动作、费用及储位结果。反向提纲、八项事实与因果、六维节奏见绑定版本的release。同上下文近似，模型及思考档位未验证。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "site:dragon_shed:D5_passage_test",
+      "value": "原木挡板角撞试放的空筐；原出入口两侧和转身地空出，墙脚平石示意，实际送走险些临放的柴筐。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "板角撞上筐身，顿住了。它还没推到从前的位置。"
+    },
+    {
+      "kind": "state",
+      "key": "site:eaves:D5_small_storage",
+      "value": "原好城橇背风檐临给西屋三户各一份可提物；实际放陶壶、一包两块磨石、邻人借空筐，第三处为缝补母女留空，不占役畜路或滴水处。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "这里新得的两处只容下一个壶、一包磨石和一只空筐。还有一段不到手臂宽的地，给还没有东西可放的人。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:pot_origin",
+      "value": "伊恩从西屋母亲得知陶壶、梳子及围裙灾前留邻家，D4夜送还，不是再进塌屋抢回。",
+      "holder": "CHAR-01",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "风起来之前，我把壶借给了隔壁烧水，梳子和围裙也留在那儿。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-HAUL:sleds",
+      "value": "一坏一好。伊恩和芮雅徒手挪唯一好城橇至背风露天，头向院门，待清雪/检查才出车；当夜伊恩扫浮雪，余冰仍在；坏橇断横档未修。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "他们将车停在伊恩先前踩下脚印的地方。橇头朝向院门。"
+    },
+    {
+      "kind": "fact",
+      "key": "char:CHAR-02:D5_independent_exit",
+      "value": "赫穆自行推原木挡并出棚，未展翼，走到院门内背风处，然后自行回棚，没有求开门、没离开灰炉堡。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "它没有找伊恩。它从院里回来，把下巴放回那八块板里颜色最深的一块上"
+    },
+    {
+      "kind": "fact",
+      "key": "char:CHAR-02:D5_rest",
+      "value": "D5整自然日无深吐息，到D6六点核实，两处原炉用柴，旧石无新火；不解除以后周期。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+    },
+    {
+      "kind": "fact",
+      "key": "char:CHAR-02:door_sound_contact",
+      "value": "赫穆自己向缝补女儿示范木挡刮擦与落地声音；女孩后来能辨两声，未等于惊惧消失。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "赫穆将爪子收了回去：“我能先刮一声。”"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D5十点库12，暮实发4（饭厅2西屋2）至8，D6早新发放前仍8。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "库里昨暮减到的八捆，一根也没有在半夜变多。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D5原待用3（含旧余1）加新2，至D6六点全5已添、余炭仍有，已领未拆捆0。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "到今日清晨五捆全烧进去了，最后一捆刚才才添完，火里还有它余下的炭。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:westroom_reserve",
+      "value": "D5晨余1+暮新2，总3，至D6晨拆用2，未拆整1。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "西屋从昨早那一捆起，后来加的两捆只拆了一捆，晨边还剩一捆完整的。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:north_window",
+      "value": "北窗旧布仍被风掀，近窗老人少睡；D6要请乌铎看，未修。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "北窗边的布鼓起来又瘪下去"
+    },
+    {
+      "kind": "state",
+      "key": "material:D6:stool_leg_offer",
+      "value": "未获干檐位的住户持一根自有旧裂凳腿来问交换，伊恩摸到一端偏湿、交回本人，未成交或判合用。",
+      "holder": "",
+      "valid_from": 8520,
+      "valid_until": null,
+      "quote": "他把它递回去，叫男人先捏在自己手里，一会儿同他一道去见乌铎。"
+    }
+  ],
+  "progression": {
+    "goal": "让赫穆的出棚权在实际储物需求下仍可行，同时让失屋三户小件有去处。",
+    "obstacle": "原储位被占或倒塌，空筐卡木挡，唯一好城橇和去牲口棚的路占干檐；龙必须休，住户仍需供柴。",
+    "method": "实测板角，挪空橇让干檐给三户、划止于白石、留取物和动物路，验证龙全身转向。",
+    "choice": "以好城橇受雪和自己清雪的代价换独立出入口；不征用人畜、不赶走空位权利人、不要求龙说明去处。",
+    "result": "陶壶磨石实存，第三格空着；龙独立出棚并自主回来且主动与女孩说板响。D5整日休息完成。",
+    "consequence": "好橇露天清理费工，坏橇未修；D6晨公粮4991、私粮304、现金274无新交易，库柴8、饭厅余炭、西屋整1。北窗仍冷，合料未定。",
+    "next_options": "CH007实检北窗、断横档和拟交旧料，期限不顺延，检验结果与材料归属分别处理。",
+    "scene_function": "将自由从口头许诺变成可走可回的一条路，将关系推进置于声音辨认而非一次龙火义务中。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-D5-REST",
+      "action": "payoff",
+      "description": "从第五章十点承接至次晨六下钟，D5整日零深息；两炉烧柴实际负担可见，后续周期保留。",
+      "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "develop",
+      "description": "赫穆真的自己离开棚又自己回来；日常独立出入口兑现一部分合作原则，不结束春季期限。",
+      "quote": "它没有找伊恩。它从院里回来，把下巴放回那八块板里颜色最深的一块上"
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "develop",
+      "description": "近窗老人实指夜风漏口，未修，CH007原期限保持。",
+      "quote": "“你明早来，先看这一头。”"
+    },
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "develop",
+      "description": "挪好橇不改变坏橇状态，D6晨断横档仍在车边，CH007原期限保持。",
+      "quote": "坏橇仍搁在原处，那根卸下的横档横在车边"
+    }
+  ],
+  "stage_closing": false
+}

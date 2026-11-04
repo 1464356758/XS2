@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 9,
+  "revision": 10,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -71,6 +71,16 @@
       "record_sha256": "bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49",
       "han_count": 8523,
       "adopted_at": "2026-11-02T22:07:27+00:00"
+    },
+    "6": {
+      "title": "给龙留一扇门",
+      "stage": "S01",
+      "text_path": "chapters/CH006_2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764.txt",
+      "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+      "record_path": "records/CH006_61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42.json",
+      "record_sha256": "61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42",
+      "han_count": 8307,
+      "adopted_at": "2026-11-04T21:43:32+00:00"
     }
   },
   "checkpoints": [
@@ -278,7 +288,7 @@
       "task_id": "5609cba8-cb3e-4ad1-aaca-48dafd116749",
       "chapter": 6,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -320,6 +330,10 @@
       "5": {
         "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
         "record_sha256": "bb6b4e726e69a2fc421ab63040328a9cb136b20cc1727ecc0a5f66c18d9b8b49"
+      },
+      "6": {
+        "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "record_sha256": "61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42"
       }
     },
     "published": {},
@@ -348,6 +362,11 @@
         "path": "releases/CH005_39eaf48a1edfb0e77b73a0782fb315a9929ad0c3af5d02688ddf71c6c3e609e4.json",
         "sha256": "39eaf48a1edfb0e77b73a0782fb315a9929ad0c3af5d02688ddf71c6c3e609e4",
         "used": true
+      },
+      "6": {
+        "path": "releases/CH006_a83a211e2ef3ca499e773f782ea084c7800c36e8ee93c64fa2a4ac24dcea0ed8.json",
+        "sha256": "a83a211e2ef3ca499e773f782ea084c7800c36e8ee93c64fa2a4ac24dcea0ed8",
+        "used": true
       }
     },
     "promises": {
@@ -368,7 +387,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
       },
       "TH-DRY-SHELTER": {
         "history": [
@@ -611,7 +630,7 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
       },
       "TH-WEST-FELT-LOAN": {
         "history": [
@@ -692,7 +711,7 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
       },
       "TH-D5-REST": {
         "history": [
@@ -707,11 +726,23 @@
               "quote": "眼前安静，不等于休息日已经过去。"
             },
             "chapter": 5
+          },
+          {
+            "id": "TH-D5-REST",
+            "action": "complete",
+            "deadline_chapter": 6,
+            "reason": "本章跨至D6六点，正文和对话均支持D5整日无深息，饭厅和西屋实用柴。",
+            "evidence": {
+              "chapter": 6,
+              "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+              "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+            },
+            "chapter": 6
           }
         ],
         "deadline_chapter": 6,
-        "status": "open",
-        "last_reviewed_chapter": 5
+        "status": "closed",
+        "last_reviewed_chapter": 6
       }
     },
     "incidents": {}

@@ -7,7 +7,7 @@
   "start_date": "2026-11-05",
   "started_at": "2026-11-04T21:33:03+00:00",
   "chapter": 6,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 5,
   "baseline_fingerprint": "e5f04690dacccbeba23bc5a2435008fa75549c6013fb39159521a035addf4958",
   "attempts": [],
@@ -21,9 +21,11 @@
     "platform_run_id": "87b4c752-82d0-832d-ba77-18020a09e90f"
   },
   "executor_checkpoint": {
-    "request_id": "command_20261105_73ij3kc8b7u",
-    "phase": "command",
-    "at": "2026-11-04T21:40:43+00:00",
-    "github_run_id": "41918294332"
-  }
+    "request_id": "finalize_20261105_8cautqpjl9m",
+    "phase": "finalize",
+    "at": "2026-11-04T21:43:32+00:00",
+    "github_run_id": "41918729115"
+  },
+  "completed_at": "2026-11-04T21:43:32+00:00",
+  "receipt_path": "daily/runs/860c712bb39840dabfa4691c542d75a5.json"
 }

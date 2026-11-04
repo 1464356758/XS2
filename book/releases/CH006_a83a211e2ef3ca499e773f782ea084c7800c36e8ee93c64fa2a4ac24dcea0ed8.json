@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 6,
+  "base_revision": 9,
+  "task_id": "5609cba8-cb3e-4ad1-aaca-48dafd116749",
+  "repairs": 1,
+  "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+  "record_sha256": "61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "d29fe3429dfb2eddd3ea797d344bc4fdc32060238a00c826287e2f61fa23ba64",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "3": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+    "4": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+    "5": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+    "6": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764"
+  },
+  "reader_reason_to_continue": "门已经可以自己进出，留在外面的橇却真的挂冰；次晨带裂凳腿来到漏窗与断横档之间，下一次得看材料能否经过有代价的检验。",
+  "consequence": "西屋三户获限量干檐，赫穆独立出回并有了和怕响孩子的一句日常联系。好橇露天需要清雪，北窗和断档仍在；库存干柴跌至8。",
+  "ending_runway": "当前五章回看在CH005已经完成，本章仍S01未到下一五章或阶段节点。采用后52316汉字，余94章约需84.77万汉字，平均9018，仍可在章长范围内推进。CH010前按期从现行全文回看。先用材料、实际收益和房屋同意三种不同取舍推进，长期仍朝脱离单一龙热源。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "D5十点接空筐，午钟交干檐，暮时出棚和补柴，夜归，次日六钟后核D5整休；D6新配给未开始。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+          "quote": "到上午十点，伊恩走到院角。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "午钟第一声响时"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "次日六下钟声响过，伊恩掀开衣服起来。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "壶的来处由物主当面说，龙去处伊恩只答不知道；旧木偏湿是触觉，未推定可用于车窗。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "风起来之前，我把壶借给了隔壁烧水，梳子和围裙也留在那儿。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "“我不知道。”"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "另一头隔着手套都能觉出有些湿。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "库12实发4余8；饭厅待用3加2均添、末捆余炭，西屋1加2拆2余整1。小件源于灾前邻借归还与随身被角，四私料箱没挪。好橇徒手空移，未调用商队牲口；无新交易或新发粮，公粮4991、私粮304、现金274沿用已记余额。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "“西屋两捆，饭厅也两捆。”"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "到今日清晨五捆全烧进去了，最后一捆刚才才添完，火里还有它余下的炭。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "西屋从昨早那一捆起，后来加的两捆只拆了一捆，晨边还剩一捆完整的。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "里头四只料箱原样在干墙下，仍是乌铎的。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "板角试放撞筐，须另找实际干位；挪橇得檐，腾出门和尾巴转弯地，随后独立出回得到验证。露天受雪当晚就让伊恩付清理时间。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "板角撞上筐身，顿住了。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "他们将车停在伊恩先前踩下脚印的地方。橇头朝向院门。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "伊恩看见尾尖经过上午筐放过的那块地方。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "他将手从车板上拿开，转去厨房借一把旧扫帚。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "赫穆步行、旧翼仍低拖，D5不吐，旧石无新热，住户两原炉烧柴而无增位。伊恩做辨障和组织，旧木仍须乌铎判断。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "它没有展翼，爪子落地很沉。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "他把它递回去，叫男人先捏在自己手里，一会儿同他一道去见乌铎。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "跨完D5才核实整休日；眼前自由进出有行为兑现，冬栖约仍至春。北窗与坏橇本章仍待处理，保持CH007到期。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+          "quote": "眼前安静，不等于休息日已经过去。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "这个休息日过去了。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "坏橇仍搁在原处，那根卸下的横档横在车边"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "北窗边的布鼓起来又瘪下去"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "早先留车用于桥救的风险缓冲，本章反要牺牲留车的遮雪便利；相对开篇试推木挡，本章真走真回并新增转身实测。R1将重复说留路换为移柴筐。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "“这一辆，两头牲口。另一辆留着。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "quote": "龙伸爪试了试，木挡被推开，斜倒在墙边。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "他叫住一个正要把柴筐放到那里的人，帮他把筐送到该去的门边。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "它没有找伊恩。它从院里回来"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "伊恩自己试放、选地点、担清雪、保留第三户空位；塞恩校停位、芮雅只帮几步，龙自己出回并发起交流，缝补者决定不寄物而留位置。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "真要出车，我先留清雪的时辰，自己到场。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "“那一截留她。”"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "“我帮你把这辆的头转过去。就这几步，别喊我的牲口。”"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "赫穆将爪子收了回去：“我能先刮一声。”"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 3,
+      "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+      "quote": "“醒着也可以不上工。”",
+      "difference": "D2的冲突是住户想借未用龙火，解法是付酬轮班与柴；D5休息是留门压力下的约束，不再把同一夜班方案作故事主轴。"
+    },
+    {
+      "chapter": 4,
+      "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+      "quote": "“这一辆，两头牲口。另一辆留着。”",
+      "difference": "桥上前章留车为保城、弃车取人。本章不出堡救运，而让唯一好橇失掉遮雪，芮雅只帮手推几步并留住对自己后车的诉求。"
+    },
+    {
+      "chapter": 5,
+      "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+      "quote": "只是赫穆要出去，就得先叫人将它们搬开。",
+      "difference": "上章用自有床框和毯安置人，末尾留储物两难；本章不再拆家具、扩暖位，而改一处现有停车位置，龙尾实过并主动回棚，存物者仍有空位和被拒两种结果。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 7,
+      "goal": "按期处理断横档与北窗漏处的材料问题。",
+      "change": "让有主的疑木经过本地匠人实查、退料或有限用途决定，给两条到期事项真实处置及代价。",
+      "ending_question": "在只剩一辆好橇还要先清雪的情况下，何处找得到真正适用的料？"
+    },
+    {
+      "chapter": 8,
+      "goal": "分辨公共热与客人付费服务。",
+      "change": "按真实余量决定能交付什么；若无独立热或物料就承担少赚。",
+      "ending_question": "谁会承担今天拒掉这笔钱的成本？"
+    },
+    {
+      "chapter": 9,
+      "goal": "面对不愿让出旧屋的住户和实际扩建选址。",
+      "change": "用产权人决定与备选址的真成本推进，避免重复借一处空地就解决。",
+      "ending_question": "不强占旧屋以后，哪一项扩建要放慢或改做？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "断横档仍在车边，挪好橇没有修坏橇，CH007原期限。",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "坏橇仍搁在原处，那根卸下的横档横在车边"
+      }
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "独立出棚并自主回去属于冬初的行为进展，长约仍按春到核对。",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "它没有找伊恩。它从院里回来"
+      }
+    },
+    {
+      "id": "TH-D5-REST",
+      "action": "complete",
+      "deadline_chapter": 6,
+      "reason": "本章跨至D6六点，正文和对话均支持D5整日无深息，饭厅和西屋实用柴。",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+      }
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "北窗夜风可见，老人指具体漏处，D6尚待匠人核料，CH007原期限。",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "北窗边的布鼓起来又瘪下去"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "抱壶求放，试挪空筐撞木挡。",
+        "choice": "伊恩用板角旧痕试而非凭眼放，拒绝临时等人挪。",
+        "change": "棚口看似空但龙不能独自过；他承担午钟答复。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "板角撞上筐身，顿住了。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“我走的时候，不会先喊你。”"
+          }
+        ]
+      },
+      {
+        "event": "找现有檐下，看见好橇和牲口路；芮雅担心南岸一事被误解。",
+        "choice": "伊恩决定挪空橇露天，亲担出车清雪；塞恩只校地点，芮雅主动帮助。",
+        "change": "实腾干檐，牲口路保留，唯一好橇承雪且未预留给客。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "真要出车，我先留清雪的时辰，自己到场。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他们将车停在伊恩先前踩下脚印的地方。"
+          }
+        ]
+      },
+      {
+        "event": "午钟三户各选小物，另有住户想抢空位；有人又要放柴筐。",
+        "choice": "保留缝补母女空位、拒太长断木、实际送走挡路柴筐。",
+        "change": "陶壶与磨石落地，有可指给人看的替代点，动线维持。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“我今天给不出别的檐。”他说，“那一截留她。”"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他叫住一个正要把柴筐放到那里的人，帮他把筐送到该去的门边。"
+          }
+        ]
+      },
+      {
+        "event": "赫穆自行出棚去院门内，暮时两炉要柴，天黑自行回来。",
+        "choice": "伊恩不追问，实发4柴；赫穆自己给孩子示范板声。",
+        "change": "尾尖实过筐原位，双向净空成立；从单向怕响到能辨认。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "伊恩看见尾尖经过上午筐放过的那块地方。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "它没有找伊恩。它从院里回来"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "赫穆将爪子收了回去：“我能先刮一声。”"
+          }
+        ]
+      },
+      {
+        "event": "露天橇粘雪、孩子夜里等第二声，北窗仍冷，到D6六钟。",
+        "choice": "伊恩清浮雪并保留干檐，次晨让有主的旧裂木等匠人。",
+        "change": "车辆代价实付，D5整休兑现，库柴8，北窗和坏橇变成待实检的下一步。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他将手从车板上拿开，转去厨房借一把旧扫帚。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "这个休息日过去了。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "那条路也已经开着。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "先从正文提取五场再对任务书。碰筐、换位、交付、龙独走、整休均落地。没有扩建门或炉；新增板声和孩子的回应把出入权接进居民日常。R1删除重复说明，改用送走柴筐提供实际净空。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同上下文已知大纲和设定。实际阅读reader v1与v2，CH003—005为正式全文，CH001—002是资料包有引文回顾；关键首章木挡另回查原文。没有独立盲读或真实读者样本。",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "reader_recap",
+          "release_sha256": "9ca0c2e30246c0e65e9a95da5aafe3c910c78d8c90f0f99e3ad355b315e51ef5"
+        },
+        "2": {
+          "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "mode": "reader_recap",
+          "release_sha256": "c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2"
+        },
+        "3": {
+          "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "mode": "full_text"
+        },
+        "5": {
+          "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+          "mode": "full_text"
+        },
+        "6": {
+          "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "开场布卷内的壶把马上给出储物动机，板角撞击解释为什么墙边空地也不行；干檐在另一处，龙走的是原木挡到院门内，不误作离堡或飞行。修订后壶与缝补女人的针盒可分清。",
+      "information_load": "数字集中暮时发柴与次晨结果，储位边界由缰绳扫过、白石、尾巴验证。中段芮雅谈后车提供唯一好橇的实际用途冲突，无新救援出发。",
+      "promise_delivery": "实际放壶和磨石，旧木挡独立出回，整日零火由次晨确认。父亲护壶和孩子听出第二声给过夜结果，夜间积雪显示保路代价。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "板角撞上筐身，顿住了。"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "它没有找伊恩。它从院里回来"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "这个休息日过去了。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "R1已修初稿所称壶等为撤时抢出而与第五章撤离动作不连贯的问题，改成邻家旧借归还并删除初稿在母亲口中的混淆性针盒举例。",
+          "evidence": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "昨晚他家来还，送到西屋"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "R1压缩二次说明转向净空，改作移柴筐，尾尖实过旧位置检验；晚扫车保留选择后果。",
+          "evidence": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "伊恩看见尾尖经过上午筐放过的那块地方。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "真实阻力来自需要存物、护车与急取后车的人，各有可理解的计划。扛凳腿者被拒后自己走，次晨持小件找交易机会。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“她有桌的时候，再让我来搬不就行了？”"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“他说不能用，我就拿走。”男人说。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "赫穆不先喊人点破暂放方案，芮雅的追问是为回应哈伦而非求特权，母亲保留空位让失去仍有声音。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“我走的时候，不会先喊你。”"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "我得有一句能当面说给他的话。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "“我总得有样东西能往回放。”"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "壶的旧声、女儿仍要抱、空位与遗物桌未得保留灾损；夜间父亲自己护壶，孩子试认两声，关系以行为微动。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "家里从前烧水是什么声音，往后我大约都听不见了。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "停了一会儿，小女孩自己说，后头还有一下短的。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "dea7cca74858336e6a4fccbfc58d3a2354eedfd527de7ed0d7efaccbbbaf2cf6",
+      "queries": [
+        "料棚 木挡 出路 冬栖",
+        "交班 让出 拆床 停工 取舍"
+      ],
+      "comparisons": [
+        {
+          "source": {
+            "chapter": 1,
+            "sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+            "quote": "龙伸爪试了试，木挡被推开，斜倒在墙边。"
+          },
+          "current_evidence": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "它没有找伊恩。它从院里回来"
+          },
+          "similarity": "同一木挡与可自行走的约定。",
+          "difference": "首章在空场试开，本章有人拿来存物、有车位成本且龙实际全身过和自主返回。"
+        },
+        {
+          "source": {
+            "chapter": 3,
+            "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+            "quote": "第一个完整休息日过去了，它一口火也没吐"
+          },
+          "current_evidence": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "这个休息日过去了。"
+          },
+          "similarity": "都有完整休息日及人烧柴。",
+          "difference": "CH003解决轮班和热量替代；这次烧柴成本并行于独立出回，未重写排班教程。"
+        },
+        {
+          "source": {
+            "chapter": 5,
+            "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+            "quote": "只是赫穆要出去，就得先叫人将它们搬开。"
+          },
+          "current_evidence": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "伊恩看见尾尖经过上午筐放过的那块地方。"
+          },
+          "similarity": "储物与出入口冲突直接相承。",
+          "difference": "先拦空筐的临时决定变成真干檐与龙转向净空，雪橇从此多一道清雪成本。"
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "好城橇让出背风檐给西屋三户小件，露天实际挂雪且由伊恩扫；第三处仍留空。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他们将车停在伊恩先前踩下脚印的地方。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "那一截留她。"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他将手从车板上拿开，转去厨房借一把旧扫帚。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "赫穆自己走出料棚并回来，夜里板声有了可辨的前后两声，D5整日不吐。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "它没有找伊恩。它从院里回来"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "赫穆将爪子收了回去：“我能先刮一声。”"
+          },
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "这个休息日过去了。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "一根带裂且摸起来一端湿的凳腿能否换物或合用未检验，也未许诺后车能取。",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "他把它递回去，叫男人先捏在自己手里，一会儿同他一道去见乌铎。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "只取本章可见结果和明确疑点，未将留门写成离开灰炉堡或把湿木当新库存。",
+    "surface_findings": [],
+    "pacing_review": {
+      "decision": "reviewed",
+      "mainline": "壶无处放使试置筐撞门，替代空间取自好橇檐下，白天实际交付后由龙尾走过原筐位置并自主回棚完成。开头物件到结尾动作是同一条主线。",
+      "protagonist_initiative": "试测碰撞、提出停车换位、实担扫雪、拒挤缝补者空位与撤走柴筐是伊恩所作。队长校地、芮雅移车是补足具体职责。",
+      "scene_necessity": "试筐证明原路无解，谈橇确定急用代价，白石划到可取的位置，暮色出回用于检验，夜扫车和晨余柴表明不是免成本。R1已将重复讲通路改成送走柴筐。芮雅的几句问路保留唯一可用运输资产的另一头需求。",
+      "dramatic_change": "一开始住户提议随叫挪筐，末尾龙能两向独走且人有替代干位。好橇挂雪实际增加工作；赫穆主动跟孩子约定板声。",
+      "payoff": "龙推挡、全身转出与回来均在正文，主人实际放物和取壶；整自然日无深息到次晨才核。孩子后来听出短声，惊惧未神奇消失。",
+      "next_pull": "好橇外露使断档未修更有压力，北窗风被老人指明，住户带来并不确定可用的一根木。下一章要兑现检验及取舍，本章留门成果已交。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "板角撞上筐身，顿住了。",
+          "aspect": "mainline"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "真要出车，我先留清雪的时辰，自己到场。",
+          "aspect": "protagonist_initiative"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "他叫住一个正要把柴筐放到那里的人，帮他把筐送到该去的门边。",
+          "aspect": "scene_necessity"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "伊恩看见尾尖经过上午筐放过的那块地方。",
+          "aspect": "dramatic_change"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "它没有找伊恩。它从院里回来",
+          "aspect": "payoff"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "这个休息日过去了。",
+          "aspect": "payoff"
+        },
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "另一头隔着手套都能觉出有些湿。",
+          "aspect": "next_pull"
+        }
+      ],
+      "blocking_issues": []
+    }
+  },
+  "audit_notes": {
+    "same_context_approximation": true,
+    "actual_model": "unverified",
+    "actual_thinking_level": "unverified",
+    "writer_packet": "drafts/CH006_writer.md",
+    "reader_packets": [
+      "drafts/CH006_reader_v1.md",
+      "drafts/CH006_reader_v2.md"
+    ],
+    "repairs": 1,
+    "platform_publish_evidence": null
+  }
+}

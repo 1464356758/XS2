@@ -1,0 +1,85 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261105_a3vmba80p1p",
+  "request_sha256": "d40cb988ff4837273f7fa47838aaf42d55ec95c9ee6ed053abbc2ee21ad518d9",
+  "source_sha": "b40dfc73bf2e16dde3f97abf3f370b01bbcdfd93",
+  "base_sha": "59200b2b1d5ec681387417256d68ecc9c49599de",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_nov05_ls8yelq6fgjmw2mu68y",
+    "platform_run_id": "87b4c752-82d0-832d-ba77-18020a09e90f"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-04T21:38:31+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41917960353",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "6",
+        "--text",
+        "drafts/CH006_v1.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261105_a3vmba80p1p/tool-01.stdout.txt",
+          "sha256": "df0d299c2ca8ca0391c4f9992857d17e3143c8e8bea9217438245b3e5cfb6672",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261105_a3vmba80p1p/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH006_v1.txt",
+        "--out",
+        "drafts/CH006_reader_v1.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261105_a3vmba80p1p/tool-02.stdout.txt",
+          "sha256": "b81629aa0631745ac7f4d6bd751f1b770850b2690e1f86094d4c5166bbe5ffa3",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261105_a3vmba80p1p/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "860c712bb39840dabfa4691c542d75a5",
+  "changed_paths": [
+    ".automation/work/command_20261105_a3vmba80p1p/tool-01.stderr.txt",
+    ".automation/work/command_20261105_a3vmba80p1p/tool-01.stdout.txt",
+    ".automation/work/command_20261105_a3vmba80p1p/tool-02.stderr.txt",
+    ".automation/work/command_20261105_a3vmba80p1p/tool-02.stdout.txt",
+    "book/candidates/CH006_98fde15e00e26688c25e6a72cb0800c73be6d9188d54d0287942b462ec334fb8.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH006_reader_v1.md",
+    "online/index.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "preflight_20261105_2gb3lv97fcc",
+  "request_sha256": "6263df7e333a91ad99b177940465206db8f302cd211c0ecc32d341063ea8ef14",
+  "source_sha": "7843f82a1a69278f989f5930cb65ef3c68c88cba",
+  "base_sha": "80581128e2778ed587076793d41a53abac1294d0",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_nov05_ls8yelq6fgjmw2mu68y",
+    "platform_run_id": "87b4c752-82d0-832d-ba77-18020a09e90f"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-04T21:32:38+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41917052538",
+  "business_status": "preflight_passed",
+  "active_status": "completed",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}

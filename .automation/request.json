@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261105_a3vmba80p1p",
-  "base_sha": "59200b2b1d5ec681387417256d68ecc9c49599de",
+  "request_id": "command_20261105_koepy7a5mv8",
+  "base_sha": "68c15dbc8bb85370890b64bf44205579ac795bef",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "6",
         "--text",
-        "drafts/CH006_v1.txt"
+        "drafts/CH006_v2.txt",
+        "--reason",
+        "R1：原撤屋时丈夫空手、母亲接送孩子，初稿将陶壶等说成撤出时抢救物，且针盒易误认；明确陶壶等灾前在邻家、昨夜归还，磨石来自被角随身布袋，压缩重复讲通路并用送走挡路柴筐落实转身净空。"
       ]
     },
     {
@@ -33,9 +35,9 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH006_v1.txt",
+        "drafts/CH006_v2.txt",
         "--out",
-        "drafts/CH006_reader_v1.md"
+        "drafts/CH006_reader_v2.md"
       ]
     }
   ]

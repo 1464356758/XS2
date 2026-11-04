@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261105_8kih5kqzakq",
-  "base_sha": "3c65064a3897a0adb8d9fce969f7f0cfa7ea9037",
+  "request_id": "command_20261105_ow4iou0pje8",
+  "base_sha": "cfe4a7640be725c04b6395bc55dffdce2738688b",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,33 +17,21 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH006_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH006_brief_request.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "料棚 木挡 出路 冬栖",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "交班 让出 拆床 停工 取舍",
-        "--limit",
-        "5"
+        "drafts/CH006_writer.md"
       ]
     }
   ]

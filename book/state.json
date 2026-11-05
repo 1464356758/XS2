@@ -310,16 +310,21 @@
       "chapter": 7,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "d0226650b59050e86c40f3a1c59b0d1646e697fd97c995d6725ea7dd38ba1573",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4",
+          "reason": "R1：纠正D3鱼袋的相对日期、阿卓到场与有薪约定先后、领粮前分水及柴捆已烧/备用歧义；删除重复拒取塌架和复看叮嘱，以单橇两次实送水承担损失，原任务不重置。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "d0226650b59050e86c40f3a1c59b0d1646e697fd97c995d6725ea7dd38ba1573",
-      "candidate_path": "candidates/CH007_d0226650b59050e86c40f3a1c59b0d1646e697fd97c995d6725ea7dd38ba1573.txt"
+      "candidate_sha256": "797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4",
+      "candidate_path": "candidates/CH007_797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4.txt"
     }
   },
   "completion": null,

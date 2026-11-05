@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261106_xgwt7qdnap",
-  "base_sha": "1b6a09531d7dc025392caca17418e49f07c36da0",
+  "request_id": "command_20261106_d3mi2vbrbfr",
+  "base_sha": "6365ff9c9a1e52aae01d055503220ab3cc5b12cf",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "7",
         "--text",
-        "drafts/CH007_v1.txt"
+        "drafts/CH007_v2.txt",
+        "--reason",
+        "R1：纠正D3鱼袋的相对日期、阿卓到场与有薪约定先后、领粮前分水及柴捆已烧/备用歧义；删除重复拒取塌架和复看叮嘱，以单橇两次实送水承担损失，原任务不重置。"
       ]
     },
     {
@@ -33,25 +35,9 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH007_v1.txt",
+        "drafts/CH007_v2.txt",
         "--out",
-        "drafts/CH007_reader_v1.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--chapter",
-        "7",
-        "--detail",
-        "CH007完整初稿已登记，实读reader并检查反向提纲、八项因果与六项主线节奏；同上下文近似审读。",
-        "--next",
-        "按真实正文集中核对，必要时在同一任务内局部修订。"
+        "drafts/CH007_reader_v2.md"
       ]
     }
   ]

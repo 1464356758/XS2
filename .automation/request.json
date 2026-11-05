@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261106_qeb5x0dbf7d",
-  "base_sha": "5f624ba56d419d9ca9e416cef2a5dd44a6f96433",
+  "request_id": "command_20261106_pfgrivq06ao",
+  "base_sha": "5a3e8a70bf16a41f5716e51d9fd78dbd522678f9",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "7",
+        "check-record",
         "--text",
         "drafts/CH007_v3.txt",
-        "--reason",
-        "R2：去掉施工中先送厨房柴后又将全部四捆入库分发的重复；改传话并写实午前交柴延至一点的饭冷代价与实际交付。讲清已盛热水与北巷井水的路线分歧，同一任务累计2轮。"
+        "--record",
+        "drafts/CH007_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH007_v3.txt",
+        "--record",
+        "drafts/CH007_record.json",
         "--out",
-        "drafts/CH007_reader_v3.md"
+        "drafts/CH007_release_request.json"
       ]
     }
   ]

@@ -771,6 +771,10 @@
     "6": {
       "path": "briefs/CH006_d29fe3429dfb2eddd3ea797d344bc4fdc32060238a00c826287e2f61fa23ba64.json",
       "sha256": "d29fe3429dfb2eddd3ea797d344bc4fdc32060238a00c826287e2f61fa23ba64"
+    },
+    "7": {
+      "path": "briefs/CH007_7c671d05563a87eab009a1d8530c621ffb8d5ad4b67ef446a65ed57eb11502ce.json",
+      "sha256": "7c671d05563a87eab009a1d8530c621ffb8d5ad4b67ef446a65ed57eb11502ce"
     }
   },
   "replaced_chapters": [

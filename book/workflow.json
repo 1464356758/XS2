@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 25,
+  "revision": 26,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -190,9 +190,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第6章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-05T21:46:03+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH007完整初稿已登记，实读reader并检查反向提纲、八项因果与六项主线节奏；同上下文近似审读。"
     }
   ],
-  "detail": "第6章已采用并冻结；平台发布另凭真实回执登记。",
-  "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-11-04T21:43:32+00:00"
+  "detail": "CH007完整初稿已登记，实读reader并检查反向提纲、八项因果与六项主线节奏；同上下文近似审读。",
+  "next_action": "按真实正文集中核对，必要时在同一任务内局部修订。",
+  "updated_at": "2026-11-05T21:46:03+00:00"
 }

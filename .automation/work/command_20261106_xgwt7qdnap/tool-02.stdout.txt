@@ -1,0 +1,4 @@
+{
+  "path": "/tmp/novel-tool-batch-jqkappev/project/drafts/CH007_reader_v1.md",
+  "characters": 51427
+}

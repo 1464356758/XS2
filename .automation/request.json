@@ -1,17 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "finalize_20261105_8cautqpjl9m",
-  "base_sha": "b802547794cc907fcfcd08a529bfbc394cd4d8ee",
+  "request_id": "preflight_20261106_p1764qj73w8",
+  "base_sha": "c2f4594bdd399a5fcc912a225ae682f955bb86c8",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "xs2_nov05_ls8yelq6fgjmw2mu68y",
-    "platform_run_id": "87b4c752-82d0-832d-ba77-18020a09e90f"
+    "session_id": "xs2_20261106_q9kun3e1s2cmw42bph7",
+    "platform_run_id": "967badde-93cc-8333-a7dd-28af41c2a305"
   },
-  "phase": "finalize",
-  "run_id": "860c712bb39840dabfa4691c542d75a5",
-  "text": "drafts/CH006_v2.txt",
-  "record": "drafts/CH006_record.json",
-  "report": "drafts/CH006_release.json"
+  "phase": "preflight"
 }

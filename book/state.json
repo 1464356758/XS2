@@ -310,7 +310,7 @@
       "chapter": 7,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 1,
+      "repairs": 2,
       "history": [
         {
           "sha256": "d0226650b59050e86c40f3a1c59b0d1646e697fd97c995d6725ea7dd38ba1573",
@@ -321,10 +321,15 @@
           "sha256": "797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4",
           "reason": "R1：纠正D3鱼袋的相对日期、阿卓到场与有薪约定先后、领粮前分水及柴捆已烧/备用歧义；删除重复拒取塌架和复看叮嘱，以单橇两次实送水承担损失，原任务不重置。",
           "repairs": 1
+        },
+        {
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "reason": "R2：去掉施工中先送厨房柴后又将全部四捆入库分发的重复；改传话并写实午前交柴延至一点的饭冷代价与实际交付。讲清已盛热水与北巷井水的路线分歧，同一任务累计2轮。",
+          "repairs": 2
         }
       ],
-      "candidate_sha256": "797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4",
-      "candidate_path": "candidates/CH007_797c34ccc9a561431566f7e1a7b5a6aaeb8defd65b771fb2072b30733c5321f4.txt"
+      "candidate_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+      "candidate_path": "candidates/CH007_fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3.txt"
     }
   },
   "completion": null,

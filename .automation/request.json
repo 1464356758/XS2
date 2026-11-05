@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261106_3l4tdq373yi",
-  "base_sha": "249df4f40c2edc4eb75a27369f0f282609c0ff82",
+  "request_id": "command_20261106_d68uz5ngara",
+  "base_sha": "89c7229b645ddd970a5983a841a295563acb7c24",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,54 @@
     "session_id": "xs2_20261106_q9kun3e1s2cmw42bph7",
     "platform_run_id": "967badde-93cc-8333-a7dd-28af41c2a305"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261106_0530"
+  "phase": "command",
+  "run_id": "df871556b8014055bc80fd5c71f5a030",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH007_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "坏木 退料 工期 北窗 雪橇",
+        "--limit",
+        "5"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "拒绝 付酬 工钱 放弃 主动",
+        "--limit",
+        "5"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "拆料 供柴 补窗 移箱 不拿",
+        "--limit",
+        "6"
+      ]
+    }
+  ]
 }

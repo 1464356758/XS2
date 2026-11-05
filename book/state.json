@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 10,
+  "revision": 11,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -81,6 +81,16 @@
       "record_sha256": "61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42",
       "han_count": 8307,
       "adopted_at": "2026-11-04T21:43:32+00:00"
+    },
+    "7": {
+      "title": "被挑出来的坏木头",
+      "stage": "S01",
+      "text_path": "chapters/CH007_fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3.txt",
+      "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+      "record_path": "records/CH007_f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6.json",
+      "record_sha256": "f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6",
+      "han_count": 8328,
+      "adopted_at": "2026-11-05T22:03:58+00:00"
     }
   },
   "checkpoints": [
@@ -309,7 +319,7 @@
       "task_id": "a93de98c-35a0-41df-8c7e-f6b4da6e9d77",
       "chapter": 7,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 2,
       "history": [
         {
@@ -360,6 +370,10 @@
       "6": {
         "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
         "record_sha256": "61b4dcd6b0b5a2686fc9d5d4d0ab95e7465e4163c346a5c0cd3009aef88d9b42"
+      },
+      "7": {
+        "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "record_sha256": "f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6"
       }
     },
     "published": {},
@@ -393,6 +407,11 @@
         "path": "releases/CH006_a83a211e2ef3ca499e773f782ea084c7800c36e8ee93c64fa2a4ac24dcea0ed8.json",
         "sha256": "a83a211e2ef3ca499e773f782ea084c7800c36e8ee93c64fa2a4ac24dcea0ed8",
         "used": true
+      },
+      "7": {
+        "path": "releases/CH007_93b2188b6afd8fb147d5a11f31af89541f0c9d4c9a4f32d5a9a7eb640ecf3a01.json",
+        "sha256": "93b2188b6afd8fb147d5a11f31af89541f0c9d4c9a4f32d5a9a7eb640ecf3a01",
+        "used": true
       }
     },
     "promises": {
@@ -413,7 +432,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 6
+        "last_reviewed_chapter": 7
       },
       "TH-DRY-SHELTER": {
         "history": [
@@ -652,11 +671,23 @@
               "quote": "“饭厅北窗那阵风，还是得挡。别我今天没去，你们就说那儿不冷了。”"
             },
             "chapter": 2
+          },
+          {
+            "id": "TH-NORTH-WINDOW",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "匠人更换坏处、暮风同位亲试，老人松手直风止；只完成原漏口，不保证整屋整冬永不再漏。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+              "quote": "直到外面又来一阵风，门上的布响了一次，她才把那只手落到被上。"
+            },
+            "chapter": 7
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 6
+        "status": "closed",
+        "last_reviewed_chapter": 7
       },
       "TH-WEST-FELT-LOAN": {
         "history": [
@@ -733,11 +764,23 @@
               "quote": "“明天不能照常用。”乌铎道，“得找合用木料。拆了这根再看里头。”"
             },
             "chapter": 4
+          },
+          {
+            "id": "TH-CITY-SLED-REPAIR",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "原事项允许有代价改用途，车身已明确舍弃实拆，留滑木不报复车，单橇两趟有损失，不用新期限延原等待。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+              "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+            },
+            "chapter": 7
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 6
+        "status": "closed",
+        "last_reviewed_chapter": 7
       },
       "TH-D5-REST": {
         "history": [
@@ -769,6 +812,25 @@
         "deadline_chapter": 6,
         "status": "closed",
         "last_reviewed_chapter": 6
+      },
+      "TH-FUEL-NEXT": {
+        "history": [
+          {
+            "id": "TH-FUEL-NEXT",
+            "action": "set",
+            "deadline_chapter": 8,
+            "reason": "库0、饭厅无未拆备用，补窗不是新增燃料，下章须落实当夜/次晨接柴真实来源与代价。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+              "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+            },
+            "chapter": 7
+          }
+        ],
+        "deadline_chapter": 8,
+        "status": "open",
+        "last_reviewed_chapter": 7
       }
     },
     "incidents": {}

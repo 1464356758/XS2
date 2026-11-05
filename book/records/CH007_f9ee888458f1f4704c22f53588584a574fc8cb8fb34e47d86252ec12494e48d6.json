@@ -1,0 +1,337 @@
+{
+  "chapter": 7,
+  "title": "被挑出来的坏木头",
+  "stage": "S01",
+  "base_revision": 10,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+  "complete": true,
+  "story_time_end": 9240,
+  "summary": "D6六点接杜安凳腿，乌铎在北窗顶风时看出坏压条与下角需换，拒收裂湿腿原件返主。伊恩面对库柴8和两项待办，主动请匠人实检坏橇余材，听清不止坏一根横档；在哈伦、芮雅真实不满中决定拆原车身，2内侧旧板取料补窗，滑木好件留用、湿碎另置，有限干余材量成4捆。先发8、回收4实入再发4，合12按8户2厨1暖屋1西屋，仓0；午前未准时交柴认迟、住户等饭冷，一点前实交并实付上午6银，暮复看另1，现金267。阿卓认料前已约2银至一点，两搬工各6铜均下工。伊恩清露天好橇、塞恩短段检查，单橇使北巷2桶井水与西屋1桶热水排两趟，他亲推承额外劳，不调用役畜、不定南岸取车日。暮北风复看旧布不再鼓、老人放下捂颈的手；赫穆自愿仅供原1石有限热，旧炉/第2石不动、旧翼仍低。饭厅新1柴已添余炭无整捆，西屋晨1已添、新1未拆。公粮D6发312后4679、私粮发4后300。末18点北窗兑现、坏橇原体终止复用并承担损失，柴库空与商队愿谈今夜付费把后续问题留下，未收入未发布。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "“饭厅北窗那阵风，还是得挡。别我今天没去，你们就说那儿不冷了。”"
+      },
+      {
+        "chapter": 3,
+        "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+        "quote": "风声小了。伊恩的手背贴近那处，仍摸得到一点冷气。"
+      },
+      {
+        "chapter": 4,
+        "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "quote": "“明天不能照常用。”乌铎道，“得找合用木料。拆了这根再看里头。”"
+      },
+      {
+        "chapter": 5,
+        "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+        "quote": "“今天修不上。”乌铎先说，“没有这根料，别拿别的凑。另一辆还在，先用那个。”"
+      },
+      {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "库里昨暮减到的八捆，一根也没有在半夜变多。"
+      }
+    ],
+    "conclusion": "本轮实读CH004—006全文、CH002—006记录推进、相关CH002/003原文片段与现行输入；writer实读后完整起草，V1/V2/V3 reader真实生成读取，重复历史与先前本轮全文逐字核对，同上下文不能独立盲读。反向提纲见release，R1修日期/劳动来源且以运水替重复拒取，R2修分发重复与等饭代价。最终完整V3再次分段实读，八项与六项节奏分别作判断，无已知阻断。CH007不触发五章/阶段新回看，既有1—5完整覆盖有效；程序门槛不代文学判断。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "D6实际领出原312人当日基础份后4991-312=4679；西屋8人与饭厅60含在原数，不再加给。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "她将库粮四千六百七十九记好"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:private_deposit",
+      "value": "芮雅D6从自有寄存粮304领商队4份，余300，货权与公粮继续分开，无新购粮。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "芮雅随后从自己袋中另领四份，寄存粮便余三百。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "D6公库274付乌铎上午3、暮复看1、阿卓2、搬工2人合1=7，余267；换铜不额外损益，未收住宿费、未买凳腿。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "公库二百六十七银。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D6:terms_paid",
+      "value": "乌铎看料施工至过午3银另暮复看1；阿卓认料动手前自报含认料到一点2银；另2成年搬工各6铜有限当日班均实付下工。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "诺拉当面付他两银，给乌铎上午三银。两名搬工一边六铜"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:Azuo_D6_terms",
+      "value": "伊恩在阿卓动手前听清含认料的2银和一点截止后同意，未借先干再说套住全天。",
+      "holder": "CHAR-01",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "他听清先认料、再定拆取和补窗，自己报了两银，连这趟认料算在内，做到过午一点。伊恩应下"
+    },
+    {
+      "kind": "state",
+      "key": "material:D6:stool_leg_offer",
+      "value": "杜安是前章凳腿主人，本章旧裂湿凳腿经乌铎看内部裂不适窗料，原件退回，未买未换未混作干柴；本人家仍有需要。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "木头跟着主人出了门。"
+    },
+    {
+      "kind": "fact",
+      "key": "craft:D6:classification",
+      "value": "乌铎区分横档、可取窄料旧板、返湿与受伤余件；伊恩负责选择与协调，不以摸表面取代匠人判断。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "两边滑木还能留，断横档却不止断了的那一处，旁边几件受过力的小木也有损。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-HAUL:sleds",
+      "value": "原坏城橇车身经伊恩明确决定拆解：2内侧旧板取料补窗、部分干余材烧用，滑木和好连接件留存；已非待换一根横档的原车，城仅1整橇。完整橇清雪检查在堡内送水，未出堡、未取南岸车。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+    },
+    {
+      "kind": "fact",
+      "key": "haul:D6:good_sled_clear_test",
+      "value": "伊恩承接露天停橇成本，清浮雪积冰后塞恩现场认过滑木绳具，与护卫短段空推，之后徒手送北巷2桶井水及西屋1桶热水；没调用任何役畜。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "两人推空车走了院内一小段，没套牲口。"
+    },
+    {
+      "kind": "fact",
+      "key": "haul:D6:actual_cost",
+      "value": "一整橇引起北巷井水与西屋热水争用；厨房方拒让热水绕风，伊恩排先后亲推，杜安只帮到自己巷口，西屋等完才得到门下1桶热水。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "等车的人把已经盛好的一桶热水放上来，他同她推过院子，停在西屋楼梯下"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D6初仓8全发；拆坏橇的有限可烧干余材经匠人筛选/按日常标准捆4，实入库再全发，章末0。不是塌屋架、私料或原床板新生；湿碎和留用件不充数。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "四捆先入空下来的库位，再按还没给的去处送"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:issued_distribution",
+      "value": "D6合计新领12=早8+回收4；住户8、厨房2、饭厅1、西屋1。R2删施工前另送厨房柴，最终只有这一套实际领发。已领不等于全耗。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "早晨的八捆加眼前四捆，住户得八，厨房得二，饭厅新得一，西屋新得一。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D6六点承前余炭、无未拆；当日新1已添，傍晚只余火且未拆备用0，随后仅原石得有限热，不预保完整夜。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "白天续着晨炭，后来添了今早领的一捆，眼下没有未拆的备用。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:westroom_reserve",
+      "value": "D6晨余整1已添，至暮余炭；D6新1仍捆着，非2整捆，也不保证整夜足够。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "他去看过西屋门前那捆柴，没拆，炉里晨边添的那捆还留着炭"
+    },
+    {
+      "kind": "fact",
+      "key": "work:D6:fuel_late",
+      "value": "午前说给结果/交柴实际未赶上，伊恩传话认迟改一点前，住户为省余柴端锅等冷，随后实接柴；当章承担而非抹掉延迟。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "剩柴是他们在省，等着的这一阵，冷下去的也是他们的饭。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:north_window",
+      "value": "D6坏压条与下角坏板由坏橇2内侧旧板取合用窄料换补，原布仍用；暮北风实看不再整个鼓、颈后直风停止、老人松手捧碗，墙仍冷非永不再漏保证。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "旧布没有再整个鼓起来。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:north_window_effect",
+      "value": "伊恩先清晨亲受直风，午后不冒称成功，暮风亲站原位并与匠人/老人复看才知原口挡住；没有测算精准省柴率。",
+      "holder": "CHAR-01",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "颈后没有再忽冷忽冷地抽。墙本身还是冷"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "原暖屋仍60含照护，西屋三户8人独立原壁炉临住不增暖位；补一窗不变两处龙热或120位。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "这点热没有在院里多造一间屋，也没给西屋那八个人另分一份。"
+    },
+    {
+      "kind": "state",
+      "key": "site:西屋:emergency_occupancy",
+      "value": "三户8人继续临住原西屋，下午送水到楼梯下仍须人提上楼；不因补饭厅窗迁出或去塌屋取物。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "八个人没有因为楼下修好窗便挪过去"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:D6:one_stone",
+      "value": "D6暮问过本人后赫穆仅向原一石吐一段并收住，再喘歇，未二处供热、未全息计量；D5休已过不结转额度，后续三日限制仍在。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "赫穆自己停到它惯常的位置，将一段火落进去，收住，喘过一阵。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:left_wing",
+      "value": "旧左翼依旧垂得低，出门未展开，无休一天就痊愈或新增飞运。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "左翼照旧比另一边垂得低，转出门时没有展开。"
+    },
+    {
+      "kind": "state",
+      "key": "site:灰炉堡:旧封闭炉",
+      "value": "封闭炉继续停用，第二完整石仍未用，叉铁片未取；拆车没有更改能力边界。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "未用的完整石仍留着，旧炉的叉铁片也没取下"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-01:hand_knee",
+      "value": "伊恩膝伤不能久蹲、手背布被挂后重绕、嘴角仍疼，亲推运水增酸；无瞬复满勤。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "膝盖不许他蹲久，蹲一阵便扶着车边站起，让腿缓开。"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:remaining_wagon",
+      "value": "商队南岸后车未取，伊恩明确本章不定取回日期且未见当前货况；芮雅/哈伦保留不满与货权，不能把等待写成其同意损失。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "我今天不给取车的日期。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:rear_wagon_not_seen_now",
+      "value": "伊恩向芮雅承认尚未看见南岸现况，不以作者地图替代角色观察，不能许无损。",
+      "holder": "CHAR-01",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "“我还没看见。”他说。"
+    },
+    {
+      "kind": "fact",
+      "key": "food:D6:dragon_fish_observed",
+      "value": "赫穆从救车回来D3晚已送来的原鱼袋再取吃1尾，未新增交易或公粮；余鱼本章未点清，不编余额或无限供应。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "它用爪尖拨着救车回来那晚送来的鱼袋，选出一尾"
+    },
+    {
+      "kind": "state",
+      "key": "site:eaves:D5_small_storage",
+      "value": "原放壶/磨石/空筐干位和缝补女人空位继续留，不给拆橇余件占用；龙棚路持续可自出入。",
+      "holder": "",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "伊恩把散料收到原坏橇旁边，不挤放壶和磨石的干檐，也不靠龙棚门口。"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-06:paid_stay_proposal",
+      "value": "芮雅表示不想一直白借住、愿谈今夜所需，不接受拿未来一趟运输抵；只为当事者提议，未定价收钱或卖暖位。",
+      "holder": "CHAR-06",
+      "valid_from": 9240,
+      "valid_until": null,
+      "quote": "“我们不会一直白借住。”她说，“今夜先谈今夜，别急着拿以后一趟车来抵。”"
+    }
+  ],
+  "progression": {
+    "goal": "以真实合用料处理北窗漏风与坏城橇，接住今日燃料缺口。",
+    "obstacle": "杜安旧腿裂湿、坏橇损伤不止横档，仓柴8不足当日12；修车/保车和补窗不可兼得，商队也需运输。",
+    "method": "伊恩主动问整车余材用途，请匠分级，公开听受影响者后拆身取板与4捆干料；雇有限班、亲清好橇、分送并实付，暮风再坐原位。",
+    "choice": "放弃原坏橇迅速复车的便利与伙伴赞同，承担工钱、交柴迟延和单橇两次亲推；退杜安原件，不征商畜或炉火补空。",
+    "result": "原北窗直吹被挡、老人可双手捧碗；旧橇车身实际拆，余件留而不算第二好车，当日4捆真实补送，七银实付。",
+    "consequence": "只1整城橇，南岸车未取、商队不满未消；公粮4679/私300/现金267/仓柴0，暖屋无未拆、西屋新1待用；下一夜和明晨燃料不预保。",
+    "next_options": "仅下一次处理CH008：从D6十八点承接有界付费借宿/汤水提议，先核燃料与原住户承诺，收入须真收且不用未来运力抵，寻找实到柴源；CH009空间产权、CH010真实轮值分别推进。",
+    "scene_function": "以一条材料用途主线串起退料、资产取舍、施工与配送、运输余波和暮风兑现；中段从重复说不改为亲做两趟的可见代价。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "payoff",
+      "description": "原坏压条及下角换合用旧板，暮风实试不再吹颈，给实际结果而非再等料；不保证永不漏。",
+      "quote": "“手能放下了。”老人又说。"
+    },
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "close",
+      "description": "明确放弃原车身复用并拆解改窗/柴，留滑木好件但不称修好；原事项按有代价改用途关闭，后续造车不是被默认为完成。",
+      "quote": "“拆。先给窗的料留足，能烧的另分。滑木不烧，好件不凑柴数。原车身不要了。”"
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "develop",
+      "description": "主动询龙、只原石供热并让通路持续可走，属于持续边界；春季去留未到不关闭。",
+      "quote": "“饭厅那块石头，今天你肯不肯？”"
+    },
+    {
+      "id": "TH-FUEL-NEXT",
+      "action": "plant",
+      "description": "D6十八点仓柴已空，次晨新发无来源，须下章对接当夜/次晨接柴方案与代价，不能以补窗虚算库存或收益。",
+      "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 8328
+}

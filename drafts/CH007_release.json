@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 7,
+  "base_revision": 10,
+  "task_id": "a93de98c-35a0-41df-8c7e-f6b4da6e9d77",
+  "repairs": 2,
+  "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+  "record_sha256": "f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "7c671d05563a87eab009a1d8530c621ffb8d5ad4b67ef446a65ed57eb11502ce",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "4": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+    "5": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+    "6": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+    "7": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3"
+  },
+  "reader_reason_to_continue": "北窗真实挡风、坏橇车身却不可复原；仓柴空与车队愿谈今夜付费并至。下一步有何真能出售、能否接到柴而不卖原住户热，来自本章已付代价。",
+  "consequence": "只有1整橇，二次亲推与伙伴不满保留；274付7余267、公粮4679私300、仓柴0，饭厅无未拆备用/西屋新1未拆。窗挡风不增屋、不愈伤、不许南岸取车期；午前交柴迟到的饭冷已写实。",
+  "ending_runway": "本章8328汉字，若采用为7/100章共60644；余93章距90万839356，均约9025汉字，兼容章长但不证明文学质量。冬季供给、春去留与独立热源未提前结清。S01尚3章分别服务/空间/轮值，不让旧路线D6标签覆盖实际D6十八点。CH010阶段采用前须全文回看并重估，当前CH007不假作新回看。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "接CH006的D6六点，止同日暮18点，时间9240=6*1440+600；未跨日重复发粮。R1鱼袋由错写前日改为救车D3晚；R2保留午前交柴未赶上与一点前实交、饭冷代价，不把延迟抹去。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "次日六下钟声响过，伊恩掀开衣服起来。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "一点的钟声敲过，阿卓将工具卷好。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "伊恩回到院中时，六下钟声正在暮色里落完。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "它用爪尖拨着救车回来那晚送来的鱼袋，选出一尾"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "木料内部与炉艺由匠人实检，伊恩只提问/亲受风；余柴问住户后取得，未用作者基线代实盘。南岸当前情况未见，芮雅主动指出，伊恩承认；杜安父亲做凳是当事者说法。无远端人物突然获知本城新事。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "裂缝绕过旧榫口，走到了背面。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“我还没看见。”他说。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“我的凳腿，是我爹做的。我以为还能留好一截。您别当我拿坏的哄人。”"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "粮4991-312=4679，私304-4=300；现金274-匠4-学徒2-两搬工合1=267，换铜无新收益。8旧库+坏橇实筛4=12，分8户2厨1饭厅1西屋，仓0，只入发一次；饭厅1已烧/无未拆，西屋晨1已添新1未拆。2板补窗、滑木好件保留，湿碎另置；未取塌屋架/原12板/私箱。好橇清冰实推，仅堡内徒手运水，不用商畜。",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "quote": "库里昨暮减到的八捆，一根也没有在半夜变多。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "她将库粮四千六百七十九记好，芮雅随后从自己袋中另领四份，寄存粮便余三百。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "早晨的八捆加眼前四捆，住户得八，厨房得二，饭厅新得一，西屋新得一。库存一捆不留"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "白天续着晨炭，后来添了今早领的一捆，眼下没有未拆的备用。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "公库二百六十七银。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "拒裂腿仍须挡风接柴，伊恩主动检坏橇全体用途，听清有用部分不等于可复车，才承担反对拆身。两板四捆有实际损失来源；等料使饭冷，单橇亲推两趟使损失有体感。暮风复看在龙热前，没把龙火当补窗原因。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“不能当车的东西，能不能当窗料？别只看断的那根，帮我看看剩下的。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“拆。先给窗的料留足，能烧的另分。滑木不烧，好件不凑柴数。原车身不要了。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "剩柴是他们在省，等着的这一阵，冷下去的也是他们的饭。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "好橇回到原处时，地上多了两道往返的辙"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "伊恩组织工序和亲推，不替本地匠人认材/懂炉。D5整休已在前章真完成，D6仅自愿一段给原石，不结转、不计整息。旧翼低垂、第二石未用、旧封闭炉叉封；饭厅仍60另西屋8，不以热容量乘人数。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "乌铎让他先把覆雪的外层与里面原来压住的木料分开"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "左翼照旧比另一边垂得低，转出门时没有展开。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "未用的完整石仍留着，旧炉的叉铁片也没取下"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "赫穆自己停到它惯常的位置，将一段火落进去，收住，喘过一阵。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "北窗7期限实换坏处并暮风亲坐验证；坏橇依原项允许的有代价改用途明确终止原车身，不能称修复。春去留20不变，已闭首夜/借毡/D5休不重开；仓柴0的新接柴义务8。午前交柴延迟当章认迟承担饭冷后实交。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "quote": "“饭厅北窗那阵风，还是得挡。别我今天没去，你们就说那儿不冷了。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“今早这个口，挡住了。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "原车身不要了。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "我说过午前，料却还没捆量完，是我耽误了。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "三次实际检索各扫描6正式记录，索引64b134…，不是全书全文覆盖。与3撤活换班、4险情弃私车、5拆己床安8人、6挪好橇换干檐分别比较：本章主动拆公用车身换窗与柴，反对者仍反对，单橇亲推承担不可兼得。R1删同一塌架重复拒取，已实修而非留建议。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "quote": "“木架先不搬。”伊恩说"
+        },
+        {
+          "chapter": 4,
+          "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "quote": "车不要了。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "今天这副橇安安静静停着，没人能替他把决定推给河水。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "这两趟走完，北窗仍关着，院中的两根滑木也仍拼不成车。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "乌铎否决后主角主动检整车、下拆身决定、雇有限班、清橇送水认迟并复看，不是受教等别人解困。芮雅与哈伦保货权及不满、不出畜；老人要当场坐试，杜安只帮到自己的巷口，各有诉求与边界。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“先看。”他说，“拆不拆，我来答。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“我不赞成你现在切。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "杜安点了头：“我只帮到巷口。家里还有柴得背。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "老人将一只手伸向他：“你在这里坐。”"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 4,
+      "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+      "quote": "“我做主放车。”她说，“我也赔着。你骂我，回去再骂。”",
+      "difference": "CH004芮雅弃即将坠河私车，伊恩守救人边界；CH007静置公橇可继续等，但伊恩主动拆身，芮雅仍反对，不能借险情替他选。"
+    },
+    {
+      "chapter": 5,
+      "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+      "quote": "床框的长边被拆开，雕花床柱也不再成套。",
+      "difference": "CH005舍个人床得到8人临居；本章损公共运输资产，补窗4捆之后单橇二次亲推，合作者没因舍物自动赞同。"
+    },
+    {
+      "chapter": 6,
+      "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+      "quote": "他们将车停在伊恩先前踩下脚印的地方。橇头朝向院门。",
+      "difference": "CH006挪完整橇保车、成本清雪；本章兑现清雪并终止另一坏车身，运输争用成实际成本，不再仅划通路。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 8,
+      "goal": "从D6十八点接车队今夜所需、付费与接柴缺口，仅下一轮写。",
+      "change": "核原60/另8、原石及柴量，只售独立可用服务；收入须真收、接柴须实到，无来源保留缺口代价，不以未来运输抵住宿。",
+      "ending_question": "哪一项服务能卖而不挤居民热？钱能换来哪批真到的柴？"
+    },
+    {
+      "chapter": 9,
+      "goal": "依CH008正式结果确认空间需求，实际接触有主旧屋与拒绝者。",
+      "change": "尊重守亡者旧屋者的拒绝，选择更费料但可承担的未来方案，不恢复已拆资产或征私料充扩容。",
+      "ending_question": "产权与材料有限，谁仍在等，哪处能真落地？"
+    },
+    {
+      "chapter": 10,
+      "goal": "用实际人手燃料和龙持续休息约束建立可核轮值，S01阶段交付。",
+      "change": "各方真实承担/交接一轮，采用前实读CH001—010有效全文和记录并重估；不倒退旧D6计划。",
+      "ending_question": "有限轮值能撑多久？七日活下去不等于整冬已过或独立热源完成。"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-CITY-SLED-REPAIR",
+      "action": "complete",
+      "deadline_chapter": 7,
+      "reason": "原事项允许有代价改用途，车身已明确舍弃实拆，留滑木不报复车，单橇两趟有损失，不用新期限延原等待。",
+      "evidence": {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+      }
+    },
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "继续询龙本人、限原石留出入口，只是当日行为，春去留20不变。",
+      "evidence": {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "“饭厅那块石头，今天你肯不肯？”"
+      }
+    },
+    {
+      "id": "TH-FUEL-NEXT",
+      "action": "set",
+      "deadline_chapter": 8,
+      "reason": "库0、饭厅无未拆备用，补窗不是新增燃料，下章须落实当夜/次晨接柴真实来源与代价。",
+      "evidence": {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+      }
+    },
+    {
+      "id": "TH-NORTH-WINDOW",
+      "action": "complete",
+      "deadline_chapter": 7,
+      "reason": "匠人更换坏处、暮风同位亲试，老人松手直风止；只完成原漏口，不保证整屋整冬永不再漏。",
+      "evidence": {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "直到外面又来一阵风，门上的布响了一次，她才把那只手落到被上。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "D6黎明看北窗顶风，旧裂腿翻出背面裂口。",
+        "choice": "伊恩不再截直段赶用，乌铎拒料原件归杜安。",
+        "change": "临压不是已修，失去廉价快料迫主角另选，杜安受挫不抹平。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "木头跟着主人出了门。"
+          }
+        ]
+      },
+      {
+        "event": "八捆先发仍缺四处，主角主动查看坏橇全体可用部件。",
+        "choice": "按匠人分级，知道可补窗却不等于可作横档。",
+        "change": "保住原车身待料与立即补风接柴不能兼得。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“不能当车的东西，能不能当窗料？别只看断的那根，帮我看看剩下的。”"
+          }
+        ]
+      },
+      {
+        "event": "在塞恩/哈伦/芮雅面前说明只留一整橇，听见未回私货的反对。",
+        "choice": "仍亲自决定拆原身，留好件、不许南岸取车日。",
+        "change": "连接真松开、车身消失，伙伴没被说服成赞同。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "第一处旧连接松开时，没有桥边那样大的响动。板身往下一沉"
+          }
+        ]
+      },
+      {
+        "event": "有限有薪班拆取补窗，伊恩清好橇，干余料实量入库分发。",
+        "choice": "午前未赶上认迟、承担饭冷而不急钉；一点前实交、付钱让人走。",
+        "change": "窗安住、四捆补四处，仓0、上午钱268，工期未延成免费夜工。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "剩柴是他们在省，等着的这一阵，冷下去的也是他们的饭。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "四捆先入空下来的库位，再按还没给的去处送"
+          }
+        ]
+      },
+      {
+        "event": "北巷井水与西屋热水争用单橇，厨房方拒热水绕风。",
+        "choice": "伊恩排次序亲推，杜安只帮到自家巷口。",
+        "change": "失去车身变两次有车辙的工夫，受挫杜安得到平等合作和回应。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "好橇回到原处时，地上多了两道往返的辙"
+          }
+        ]
+      },
+      {
+        "event": "芮雅仍不满但提出只谈今夜付费，随后暮风真到。",
+        "choice": "主角不拿未来运力抵交易，先与老人/匠人坐原位置复看。",
+        "change": "旧漏口直风止、老人手放下，交易未发生收入。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“我们不会一直白借住。”她说，“今夜先谈今夜，别急着拿以后一趟车来抵。”"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "外头一阵风过，乌铎的衣领没动。"
+          }
+        ]
+      },
+      {
+        "event": "龙自愿只原石给一段，18点主角回望残橇与捧碗老人。",
+        "choice": "不索第2处火，保留柴源未得与不满。",
+        "change": "窄而真实的暖意兑现，运力/钱损失仍在，下一章理由已落到现实。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "这点热没有在院里多造一间屋，也没给西屋那八个人另分一份。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "她终于能松开自己的领口。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "先据最终V3反提以上七个事件单元，再比五场任务书：退料—拆橇取舍—施工配送—暮风交付中心成立，实际只回收两板与四捆，未兼得第二整橇。初稿重复塌架拒取会使中段停在再次说不，R1实删并换单橇实运；R2写入认迟饭冷，未以效率或摘要冒充计划兑现。没有新增无源材料或改canon/冻结章。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一上下文保有作者设定与任务书，无法真的忘掉；只按reader给出的正文/带引文回顾判断理解，不称独立输入、盲读、真实读者或留存试验。V1回顾与当前完整包实读，V2/V3生成后完整当前正文分段实读；各包重复历史均逐字核对本轮此前实读4—6全文，不以摘要冒充。CH001—003在reader中为真实带引文回顾，另回查2/3相关原文，不标本轮读过其全文。",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "reader_recap",
+          "release_sha256": "9ca0c2e30246c0e65e9a95da5aafe3c910c78d8c90f0f99e3ad355b315e51ef5"
+        },
+        "2": {
+          "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "mode": "reader_recap",
+          "release_sha256": "c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2"
+        },
+        "3": {
+          "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "mode": "reader_recap",
+          "release_sha256": "0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985"
+        },
+        "4": {
+          "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "mode": "full_text"
+        },
+        "5": {
+          "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+          "mode": "full_text"
+        },
+        "6": {
+          "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "mode": "full_text"
+        },
+        "7": {
+          "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "只凭文本可理解：材料不合用使两件急务不能并办，主角拆坏橇原体换窗料与柴；旧板可补窗不等于横档，匠人分级使退料不是贵贱双标。哈伦/芮雅等私车，反对有依据。暮风先止后供热，读者能区分保温改善和新热。",
+      "information_load": "钱粮只在晨发/工毕付款、柴只在缺口与实交进入，不要求读者背初始总表。清雪与运水保留因其兑现CH006成本和本章失车；R1已删同一塌架再拒绝，R2让施工/等饭靠一条主线相连。龙火段限原石，不再整段复述全部世界规则。末页用双手捧碗对两根滑木，代价与结果可辨。",
+      "promise_delivery": "北窗从清晨亲受直风到暮风原位不鼓、老人双手用碗，兑现具体生活改变。坏橇以明确拆身改用途终止原复车等待，没谎称修好。仓柴0与未回货不被成功盖掉；春去留未到，下一章接柴8仍待真实行动。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "直到外面又来一阵风，门上的布响了一次，她才把那只手落到被上。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "V1把D3购鱼写前日、阿卓先干再约；R1纠正来时并前置含认料薪期，累计修订1，不改过去。",
+          "evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "他听清先认料、再定拆取和补窗，自己报了两银，连这趟认料算在内，做到过午一点。伊恩应下"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "V1再问取塌架并拒绝与CH005同处重复，会延迟主线兑现；R1删除，改单橇争用真实两趟，使资产损失影响行动，非留建议。",
+          "evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "这两趟走完，北窗仍关着，院中的两根滑木也仍拼不成车。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "V2施工时先送厨房柴、后将全部四捆再入库，存在双发歧义；R2改传话、认迟饭冷，四捆仅统一入发一次，累计2轮。",
+          "evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "四捆先入空下来的库位，再按还没给的去处送"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "暖屋已烧的新1不能又像整捆备用；R1明确余火且无未拆。R2西屋热水已盛与北巷井水路线分歧讲清，不把同一桶既待取又已盛。",
+          "evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "白天续着晨炭，后来添了今早领的一捆，眼下没有未拆的备用。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "阻力是有正当需要的不同人和材料，不硬加反派：乌铎拒不合用、哈伦还在等、芮雅不出畜且反对、厨房方拒热水绕风。主角可决定公橇，不能替其同意。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“我也等着。”"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "他本想拼一趟，厨房来的人却不肯。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "乌铎以是否仍可坐反问旧料，杜安求物件和尊严；哈伦短句追问，芮雅指出未见货况而非训完整道理；伊恩从急截直段变自己下决定。龙只关心自己的板没拆，幽默与自主性同在。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“先看。”他说，“拆不拆，我来答。”"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“这里的没拆。”"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "哈伦转身不回头、芮雅仍难受、杜安借橇有自己家要送，均非一朝同意。主角亲推和饭冷留成本，最后只让路进门未强行和解。身体伤仍在，不靠道理恢复人畜满勤。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "哈伦转身回屋，门帘在他好手背上刮了一下。他没甩开，也没回头。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "谁也没有替早晨那场争执说算了，老人只将脚边一只空碗往里收，好让人进门。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "64b134fed640390c22096ca783a74de083494cb9f7bbb56b08477ac46a7c00d4",
+      "queries": [
+        "坏木 退料 工期 北窗 雪橇",
+        "拒绝 付酬 工钱 放弃 主动",
+        "拆料 供柴 补窗 移箱 不拿"
+      ],
+      "comparisons": [
+        {
+          "source": {
+            "chapter": 3,
+            "sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+            "quote": "“木架先不搬。”伊恩说"
+          },
+          "current_evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“拆。先给窗的料留足，能烧的另分。滑木不烧，好件不凑柴数。原车身不要了。”"
+          },
+          "similarity": "同有取消原打算、保护有限劳动与燃料的伦理。",
+          "difference": "旧章撤非必要搬架以换守班，本章终止运输资产的旧用途、真实拆料、伙伴保留反对；R1删除重复塌架拒取。"
+        },
+        {
+          "source": {
+            "chapter": 4,
+            "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+            "quote": "车不要了。"
+          },
+          "current_evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "今天这副橇安安静静停着，没人能替他把决定推给河水。"
+          },
+          "similarity": "都放弃车辆，且哈伦目睹损失。",
+          "difference": "旧是正在坠河的私车且芮雅作主，本章是可等的堡公产，由伊恩自己承担决定，不能拿救命压过反对。"
+        },
+        {
+          "source": {
+            "chapter": 5,
+            "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+            "quote": "床框的长边被拆开，雕花床柱也不再成套。"
+          },
+          "current_evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "好橇回到原处时，地上多了两道往返的辙"
+          },
+          "similarity": "拆物得到当下生活改善。",
+          "difference": "个人床便利变公用运输成本，补窗不是新住8人；运力损失通过二次亲推落实，不再只有舍物后宣布暖。"
+        },
+        {
+          "source": {
+            "chapter": 6,
+            "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+            "quote": "若要出车，连两条滑木下面都得先清给人看。"
+          },
+          "current_evidence": {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "两人推空车走了院内一小段，没套牲口。"
+          },
+          "similarity": "同一好橇露天积冰问题连续。",
+          "difference": "CH006仅提出代价并扫浮雪，本章清底实试、随后真的送水两趟，连续性兑现不等于重复空讲。"
+        }
+      ],
+      "no_match_reason": "已找到可比桥段，比较如上；三条实际关键词检索均扫6记录，关键词索引不证明全书原文无其它相似，本轮额外回读有关原文。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "裂凳腿被退回原主，坏橇原车身真正拆用，留两滑木不等于第二辆车。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "木头跟着主人出了门。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "当日干柴只有8旧库和4回收，实发后库0；单橇让主角多走两次，工程不是无代价恢复。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "早晨的八捆加眼前四捆，住户得八，厨房得二，饭厅新得一，西屋新得一。库存一捆不留"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "好橇回到原处时，地上多了两道往返的辙"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "暮风原位复看不再吹颈，老人两手捧碗；龙只给原石有限火、旧翼未复。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "她才把那只手落到被上。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "赫穆自己停到它惯常的位置，将一段火落进去，收住，喘过一阵。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "芮雅愿只谈今夜付费、不拿未来运力抵；尚未成交或产生收入。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“我们不会一直白借住。”她说，“今夜先谈今夜，别急着拿以后一趟车来抵。”"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "南岸车当前货况仍未见，次晨干柴没有入库来源，不能由窗好或愿付款推得解决。",
+        "evidence": [
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "“我还没看见。”他说。"
+          },
+          {
+            "chapter": 7,
+            "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+            "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "回顾只据最终V3正文，区别实际观察与角色提议/未知；不继承下一章计划、canon基线或收益预测，不追认旧章本轮新审。",
+    "surface_findings": [],
+    "pacing_review": {
+      "decision": "reviewed",
+      "blocking_issues": [],
+      "mainline": "起因是同一阵北窗直风和8捆干柴不足，裂腿被拒后主角将任务转为拆旧橇而非继续求好料。‘不能当车的东西，能不能当窗料？’把各段系在如何以有限材料留热的线上；晚风及残橇收束同一冲突。",
+      "protagonist_initiative": "‘拆不拆，我来答’之后确实由伊恩下拆身决定、雇有限有薪人手、清唯一好橇、排两趟亲推和认迟。专业权留乌铎但推进不全交配角；哈伦芮雅反对未被说服，主动性含承受关系损失。",
+      "scene_necessity": "黎明验风证明为什么不能再等；退料撤掉快解；检橇/反对建立不可兼得；施工发柴有真收入来源和延迟代价；清橇/送水兑现前章露天成本及失车后果；芮雅余波把具体交易引来；暮风与原石才有生活交付。R1删除重复塌架拒取和复看叮嘱，以‘地上多了两道往返的辙’承担成本；该影响主线的绕行已实修，不留为建议。",
+      "dramatic_change": "开场旧橇仍可等料、老人手不能离颈；结尾‘只有两根留用滑木’和老人双手捧碗并存。钱少7、仓柴0、运水两趟和伙伴不满留下，资产形体及生活处境真实变化，非只记录又学会一个边界。",
+      "payoff": "‘外头一阵风过，乌铎的衣领没动’与老人‘手能放下了’在暮风实际坐试后发生，早于龙热，因果可辨。原北窗章7兑现；原城橇事项以明确有损改用途结束，不谎称修好。热只在既有一屋、原石、原60内，不把下一夜或整冬保证当成果。",
+      "next_pull": "北窗答案给完后，‘可库里已是空的’仍是眼前次晨问题；芮雅‘今夜先谈今夜’引出能卖什么服务而不卖原承诺。具体燃料、钱和运力相互制约，续读理由来自成果之后新选择，不重新挂修窗空钩子。",
+      "evidence": [
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“不能当车的东西，能不能当窗料？别只看断的那根，帮我看看剩下的。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“先看。”他说，“拆不拆，我来答。”"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "好橇回到原处时，地上多了两道往返的辙"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "原来坏橇停着的地方，只有两根留用滑木，旁边堆着不能当车的旧件。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "外头一阵风过，乌铎的衣领没动。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“手能放下了。”老人又说。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+        },
+        {
+          "chapter": 7,
+          "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "quote": "“我们不会一直白借住。”她说，“今夜先谈今夜，别急着拿以后一趟车来抵。”"
+        }
+      ]
+    }
+  },
+  "audit_notes": {
+    "read_mode": "same_context_approximation",
+    "writer": {
+      "path": "drafts/CH007_writer.md",
+      "read_full": true
+    },
+    "reader": {
+      "paths": [
+        "drafts/CH007_reader_v1.md",
+        "drafts/CH007_reader_v2.md",
+        "drafts/CH007_reader_v3.md"
+      ],
+      "final_candidate_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+      "final_current_text_read": "complete_in_two_batches",
+      "recent_three": "本轮先直接实读CH004—006全文，reader重复全文逐字核对；较早1—3为实际带证据回顾，2/3另回查相关原文"
+    },
+    "revision_logs": [
+      "drafts/CH007_R1_issues.json",
+      "drafts/CH007_R2_issues.json"
+    ],
+    "repairs": 2,
+    "han_count": 8328,
+    "model": "unverified",
+    "reasoning_level": "unverified",
+    "publication": "unreported",
+    "checkpoint": "CH007非五章或阶段新回看点，现有CH001—005有效全文回看保留，CH010采用前重做完整阶段回看。",
+    "literary_judgment": "工具机械通过只核格式与引文，文学判断依据上述实际事件、主动选择、节奏取舍和兑现，非字数证明。"
+  }
+}

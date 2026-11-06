@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261107_71p9ny09ugk",
-  "base_sha": "eee8c63e98e6289cb02b6ec4fd80d1ce41d13daa",
+  "request_id": "command_20261107_tviyc7ujq3o",
+  "base_sha": "92565925db1e908de0ee0c2d000627fce6675d70",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH008_brief.json"
+        "candidate",
+        "--chapter",
+        "8",
+        "--text",
+        "drafts/CH008_v1.txt"
       ]
     },
     {
@@ -29,9 +31,27 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH008_v1.txt",
         "--out",
-        "drafts/CH008_writer.md"
+        "drafts/CH008_reader_v1.md"
+      ]
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "REVIEWING",
+        "--chapter",
+        "8",
+        "--detail",
+        "CH008完整初稿已登记，进行全文反向提纲、限信息与事实因果和节奏实读。",
+        "--next",
+        "实读reader，局部修订阻断问题，原任务最多3轮。"
       ]
     }
   ]

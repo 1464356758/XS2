@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-06T21:48:09+00:00",
+    "generated_at": "2026-11-06T21:55:28+00:00",
     "state_revision": 11,
-    "workflow_revision": 27,
-    "state_sha256": "8a4150cbb195636cdb81c698ec2d0e40e9d0e0939e2d07bf66c902e0e8eaca56",
-    "workflow_sha256": "14f231fa44608e73614b141d8bba8ecdc03c180efc4b10287162eac93962d060",
+    "workflow_revision": 28,
+    "state_sha256": "6d9e76406761b0fcad82bc0a94ca9bd18705cd75956d36a449b2dc7a0a95ed91",
+    "workflow_sha256": "839d42e1d51bde757d78e41cc39b120fce69a4e9c229c440fe8cccec94a03c6f",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 8,
-    "detail": "第7章已采用并冻结；平台发布另凭真实回执登记。",
-    "next_action": "读取正式状态后，由下一次日更处理下一章。",
-    "updated_at": "2026-11-05T22:03:58+00:00"
+    "detail": "CH008完整初稿已登记，进行全文反向提纲、限信息与事实因果和节奏实读。",
+    "next_action": "实读reader，局部修订阻断问题，原任务最多3轮。",
+    "updated_at": "2026-11-06T21:55:28+00:00"
   },
   "chapters": [
     {
@@ -1046,12 +1046,6 @@
   },
   "history": [
     {
-      "at": "2026-10-30T23:43:18+00:00",
-      "phase": "WAITING_NEXT",
-      "label": "等待下一章",
-      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
-    },
-    {
       "at": "2026-10-31T00:39:06+00:00",
       "phase": "WRITING",
       "label": "撰写正文",
@@ -1134,6 +1128,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第7章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-06T21:55:28+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH008完整初稿已登记，进行全文反向提纲、限信息与事实因果和节奏实读。"
     }
   ]
 }

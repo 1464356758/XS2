@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261107_qjvd4tiv2f",
-  "base_sha": "45cdb98c086c3b03b7662114e7eba61f7d83d0b5",
+  "request_id": "command_20261107_1gfnp0gk89a",
+  "base_sha": "80acd2ea8ca42470952bdf4649bae5ec2eaa5c79",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "8",
+        "check-record",
         "--text",
         "drafts/CH008_v3.txt",
-        "--reason",
-        "R2：六银只比两匠今日全薪不泛指七银全体；删除未证富商标签，交代杜安返门问柴与伊恩接诺拉上楼看母女的移动信息，详见drafts/CH008_R2_issues.json。"
+        "--record",
+        "drafts/CH008_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH008_v3.txt",
+        "--record",
+        "drafts/CH008_record.json",
         "--out",
-        "drafts/CH008_reader_v3.md"
+        "drafts/CH008_release_request.json"
       ]
     }
   ]

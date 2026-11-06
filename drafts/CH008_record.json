@@ -1,0 +1,300 @@
+{
+  "chapter": 8,
+  "title": "热汤也要付账",
+  "stage": "S01",
+  "base_revision": 11,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+  "complete": true,
+  "story_time_end": 10080,
+  "summary": "D6十八点承原护卫屋热汤之问。芮雅提6银买4暖位或谈2位，伊恩亲见原60含照护无空，拒卖且不挪西8；原住户饭水先完、厨人确认余炭只够一次，先报1银获同意再下锅，用商队当日已领剩熟谷饼做4碗，实收12铜、厨工半小时实付6铜下班，哈伦吃空而伤冷不消。主角问烘饼旧业，经杜安线索、诺拉认门与玛芙开门，实见30私干捆只售24留6，实付12银，不含旧屋。雇4自愿居民各6铜三趟8捆人拉唯一整橇，21点全进库；夜发4（饭2西1厨1）余20，四搬工全付下工，现金253银6铜。D7八点原60与西8过夜，饭厅夜2烧1余整1，西屋暮1+夜1全添剩炭，厨房夜1散余未量；晨再发12=8户2厨1饭1西，库8，饭厅整2、西屋整1。公粮新发312余4367，私粮新4余296，昨汤不再扣。无新增龙火至D7八点、旧翼不愈、路仍空、旧炉不启、南岸后车未取。六铜小收入说明有界服务可真交，旧烘饼屋持钥匙未借，下一章空间产权问题仍未解决。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 5,
+        "sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+        "quote": "原壁炉没有熄，炉边还留着一捆完整干柴。"
+      },
+      {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+      },
+      {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
+      },
+      {
+        "chapter": 4,
+        "sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+        "quote": "先有这三枚真实落在桌上，随后诺拉才开公库，另数出五十二枚"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+        "quote": "这钱付给梅婶，替你妻子看半天。她做完这半天就该拿。今晚你们能不能在家，等你妻子睡醒了再说。"
+      }
+    ],
+    "conclusion": "本轮实读正式CH005—007全文、近5章记录推进和相关2/4原文、当前任务writer及每版reader。reader的1—4是带引文回顾，不冒充这四章全文；5—7与本轮已读原文逐字一致，最终候选另全文复读。R1修报价时序、晨起重复睡眠问答和事实指代等，R2再补六银只比两匠全薪与人物移动；累计2轮，不重开任务。五场有各自结果，四碗热食、24柴入库及D7实际发柴已兑现，不以合字数或工具通过判断文学质量。CH008非五章/阶段关口，原1—5有效全文回看保留，CH010到期须另做。未核实模型和思考档位，不登记平台发布。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "D7八点前实际发原312人基础份，4679-312=4367；原饭厅60和西屋8均在312内。已发不等于全吃完。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "四千六百七十九减去三百一十二，公粮剩四千三百六十七。"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:private_deposit",
+      "value": "商队D6已领4份剩食做热不重复扣，D7另领4，寄存300至296，无新购粮或转公共粮。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "芮雅来领车队四份时，自己的寄存粮剩二百九十六。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "267银+12铜热食服务收入-6铜厨工-12银买24捆柴-24铜四搬工=253银6铜；1银=12铜。向玛芙换2银为24铜不另增减。拒收六银未算收入。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "公库剩二百五十三银，另六铜。"
+    },
+    {
+      "kind": "fact",
+      "key": "trade:D6:heat_service",
+      "value": "四客用D6当日已领的熟谷和饼，住户饭水先完；厨人只用现存余炭做4碗一次服务，开餐前报1银，商队付12铜。不是买卖原60位、楼上8位、通夜热或未来运输。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "她从钱袋里数出十二枚铜钱，放到离锅远些的干木板上。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D6:evening_kitchen",
+      "value": "厨人接受半小时六铜，四碗送回、刷净归还，实际收六铜并不到19点离开，未扩大成通夜班。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "女人刷净叠好，认过那六枚铜钱，才取下挂在门边的外衣。"
+    },
+    {
+      "kind": "fact",
+      "key": "food:D6:merchant_hot_meal_result",
+      "value": "哈伦实际吃下半碗以上软饼谷汤，4碗送回原护卫屋食后全还；非喂生豆、额外公粮或即时疗伤。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "伊恩站在门边，看老人把碗吃空。"
+    },
+    {
+      "kind": "fact",
+      "key": "trade:D6:private_fuel_purchase",
+      "value": "经杜安提示旧业、诺拉认门，玛芙亲开北巷旧烘饼屋柴间，验干并按堡日常分量重捆实见30，她仅卖24留6；12银现款实付。新查明私柴，不是作者基线自动公共化，也无第二批已保证。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "十二枚银币，玛芙一一捻过边沿，收进自己的布袋"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D6章初0，新购24实际三趟进库，夜发4至20，D7新发12，末8；不是重拆旧城橇、塌屋架或取原床板。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "等八下钟声敲过，库内还有八捆。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:issued_distribution",
+      "value": "CH008新增D6夜4=饭厅2、西屋1、厨房1；连CH007当日12，D6总16=8户3厨3饭厅2西屋。D7晨新12=8住户2厨1饭厅1西屋，已领与耗存分别核对。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "八捆住户、二捆厨房、一捆饭厅、一捆西屋，十二捆陆续由来领的人带走。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D6十八点原0，夜领2只烧1；D7晨旧余整1再领新1，共整2待用，原石昨暮有限热已弱，不以账保证下一夜。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "饭厅旧余的一捆加今日新的一捆，有两捆完整待用"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:westroom_reserve",
+      "value": "D6暮旧未拆1加夜新1合2，至D7晨均入原壁炉，剩炭0整；晨新领1重束待用，末整1，不同暖屋相互混算。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "西屋新的一捆送上楼，老人儿子解了外绳，先拣一根看过，再重新束好"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:kitchen_remainder",
+      "value": "D6当日原2捆实余炭供四客一次，不添原留引火碎片；夜新1已拆用至晨仍有零散，不计整捆。D7另领新2供当日，未假作全部燃尽。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "厨房里，新领的一捆夜柴已经拆开用过，还留着一些零散木片。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D6:evening_fuel_haul",
+      "value": "四名自愿成年住户含杜安、均无今夜值守班，三趟堡内北巷各8捆，合24；2银换24铜各6实付、全部下工，没有伤者/商队/畜力默认满勤。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "这两银不是追加柴价，等四个搬工进门，诺拉将换来的铜钱各数六枚，发到他们手里。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-HAUL:sleds",
+      "value": "仅用CH007清好的1整城橇短程人拉，检滑木薄冰、首趟冰处卸2再装，三趟柴实到；原坏城橇无复车/重回收，末好橇仍停露天。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "伊恩把空橇停回原来的露天处，头仍向着院门。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "原60含照护不挪卖，D7晨六十仍在；原石1处热量而非新容量。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "饭厅的六十个人都在。"
+    },
+    {
+      "kind": "state",
+      "key": "site:西屋:emergency_occupancy",
+      "value": "原8继续在原西屋壁炉临居，过夜但仍拥冷，孩子怕冷及原塌屋桌子未取，未迁走腾商用位。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "西屋那八个人也过了夜。"
+    },
+    {
+      "kind": "state",
+      "key": "site:护卫屋:merchant_stay",
+      "value": "商队4人仍在原护卫屋临借的4处，不新增居民暖位或保证通夜热；哈伦手伤脚痛、柏勒腿伤仍在。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "四个人的铺盖还是那四处，既没搬进饭厅，也没被赶去冷廊。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:north_window",
+      "value": "CH007补窗原处至本夜有效，老人自述半夜未直扑脖子，仍裹被非整屋温暖或疗愈保证。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "半夜也没扑我脖子。"
+    },
+    {
+      "kind": "state",
+      "key": "site:北巷旧烘饼屋:ownership",
+      "value": "玛芙持钥匙控制私人旧烘饼屋，亡夫遗留长案木模和冷炉仍在；本次只卖24柴，自己保留6，未出租、移交或同意扩建，未认证可作公共暖屋。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "柴卖给你，屋子没借。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:private_fuel_room",
+      "value": "伊恩从杜安职业线索与诺拉带路到玛芙开门验看后，才知新私柴和主人条件；知道房不含交易，未从路线预知可征用空房。",
+      "holder": "CHAR-01",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "你若有肯卖的，我们今晚要买。屋里是不是还有，你带我们看过才知道。"
+    },
+    {
+      "kind": "belief",
+      "key": "char:CHAR-06:paid_stay_proposal",
+      "value": "芮雅在伤者冷痛中愿付6银换4暖位或谈2位，真实遭拒后另选1银一次热食；仍保留独立运力与未来订单，非感恩免费劳工。",
+      "holder": "CHAR-06",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "若不便全去，至少让哈伦和柏勒坐一夜。价钱你说。"
+    },
+    {
+      "kind": "fact",
+      "key": "heat:D6_night_D7_morning:no_extra_fire",
+      "value": "仅承CH007D6暮原1石有限火，自昨夜至D7八点无新增吐息；不是完整D7整休已验证。D5整休及日上限/三日休息约束持续，不结转。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "昨夜到今早，它没再给任何地方吐火"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:left_wing",
+      "value": "左翼仍低且不能平贴，老龙仅自推木挡探头，未飞运或休息即愈。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "左翼照旧不肯平整地贴住背。"
+    },
+    {
+      "kind": "state",
+      "key": "site:灰炉堡:旧封闭炉",
+      "value": "原旧封闭炉叉铁片不摘、第二完整石未投入，旧烘饼屋的冷炉也未启用或检验作公共设备。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "两枚完整的石头仍只有原来一枚用着，旧炉上打叉的铁片也还挂着。"
+    },
+    {
+      "kind": "state",
+      "key": "site:eaves:D5_small_storage",
+      "value": "三户原放壶磨石和缝补女人空格不被占，好橇仍露天，龙木挡至院的路留空。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "那段从板角到院中的路仍空着。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-01:hand_knee",
+      "value": "手背伤、嘴角疼、膝伤仍在，买柴理捆换手、只陪首趟不无限拖；夜实际睡，次晨膝仍僵。",
+      "holder": "",
+      "valid_from": 10080,
+      "valid_until": null,
+      "quote": "他先活动一会儿腿，才穿好靴子"
+    }
+  ],
+  "progression": {
+    "goal": "在D6十八点库柴0时接住伤客付费需要与居民热承诺，真实供过夜和D7晨柴。",
+    "obstacle": "原暖屋60满、西8也不能挪；伤客愿给6银但无可卖暖位。厨房余炭和厨工只能加一次，私柴所有人有退路与亡夫旧屋边界，只有1整橇、有限人钱。",
+    "method": "亲见座位实用后拒卖，另谈有薪半小时及1银一次四碗；主动问本地烘饼旧业、现场验私干柴并现金买24，雇四人三趟搬入再夜/晨分发。",
+    "choice": "真放弃6银，以公共原钱付12银柴和2银搬工，服务只收12铜且付6铜工；留主人6捆、不以买柴占屋、不卖未来龙火/车队运输。",
+    "result": "四碗实吃归碗、厨工实下班，24柴实到、夜4晨12发完后仓8；原60和西8留原位过夜，钱粮余数可追，杜安靠真实劳动得6铜而非卖裂腿。",
+    "consequence": "公库253银6铜、公粮4367/私296、仓8/暖屋整2/西整1，生计旧物及商队车伤未复。服务一次能做不等于夜夜商业供热，空屋有主人且没借。",
+    "next_options": "仅下次推进CH009《那间空着的屋子》：从分开的热食服务需求与玛芙未借的旧烘饼屋出发，核产权、悲伤与替代空间真实代价，不默认交易含房。CH010轮值与阶段全文回看、CH011粮仓问题均留实际时序。",
+    "scene_function": "从六银诱惑到放弃，四碗小兑现逼出燃料接续的支出；卖柴主人的记忆将物资变成有主资产，真实三趟与晨火验证前章承诺，最后房门让有限商业服务需要新空间而非抢居民。"
+  },
+  "thread_events": [
+    {
+      "id": "TH-FUEL-NEXT",
+      "action": "payoff",
+      "description": "本章实际买24实付搬到，夜4与D7晨12真实发放，原住户过夜且库8；只兑现本夜/次晨接柴，不声称整冬供应。",
+      "quote": "等八下钟声敲过，库内还有八捆。"
+    }
+  ],
+  "stage_closing": false
+}

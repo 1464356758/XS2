@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 11,
+  "revision": 12,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -91,6 +91,16 @@
       "record_sha256": "f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6",
       "han_count": 8328,
       "adopted_at": "2026-11-05T22:03:58+00:00"
+    },
+    "8": {
+      "title": "热汤也要付账",
+      "stage": "S01",
+      "text_path": "chapters/CH008_18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0.txt",
+      "text_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+      "record_path": "records/CH008_a06ef13c65b61537237a0afb4c5bb9015114d9a34cc4c4d4d7e322c6f8ef895a.json",
+      "record_sha256": "a06ef13c65b61537237a0afb4c5bb9015114d9a34cc4c4d4d7e322c6f8ef895a",
+      "han_count": 8247,
+      "adopted_at": "2026-11-06T22:08:29+00:00"
     }
   },
   "checkpoints": [
@@ -345,7 +355,7 @@
       "task_id": "f3b44206-7cb1-4457-81ec-25f613af7ebd",
       "chapter": 8,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 2,
       "history": [
         {
@@ -400,6 +410,10 @@
       "7": {
         "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
         "record_sha256": "f9ee888458f1f4704c22f53588584a574fc8cb8fb34e47d86252ec12494e48d6"
+      },
+      "8": {
+        "text_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+        "record_sha256": "a06ef13c65b61537237a0afb4c5bb9015114d9a34cc4c4d4d7e322c6f8ef895a"
       }
     },
     "published": {},
@@ -438,6 +452,11 @@
         "path": "releases/CH007_93b2188b6afd8fb147d5a11f31af89541f0c9d4c9a4f32d5a9a7eb640ecf3a01.json",
         "sha256": "93b2188b6afd8fb147d5a11f31af89541f0c9d4c9a4f32d5a9a7eb640ecf3a01",
         "used": true
+      },
+      "8": {
+        "path": "releases/CH008_babe428674b18d5ce4403f25370bd2971b38a384b48c5f8d1f57fa3ebe9d2517.json",
+        "sha256": "babe428674b18d5ce4403f25370bd2971b38a384b48c5f8d1f57fa3ebe9d2517",
+        "used": true
       }
     },
     "promises": {
@@ -458,7 +477,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 7
+        "last_reviewed_chapter": 8
       },
       "TH-DRY-SHELTER": {
         "history": [
@@ -852,11 +871,23 @@
               "quote": "可库里已是空的，明晨要送出去的新柴，并不在任何一处等着他。"
             },
             "chapter": 7
+          },
+          {
+            "id": "TH-FUEL-NEXT",
+            "action": "complete",
+            "deadline_chapter": 8,
+            "reason": "真实从0买入24，夜分4后原60/西8过夜，D7晨再分12，库余8，钱与搬工已付；只完成上一章本夜/明晨接柴的到期义务，后续燃料仍有限。",
+            "evidence": {
+              "chapter": 8,
+              "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+              "quote": "等八下钟声敲过，库内还有八捆。"
+            },
+            "chapter": 8
           }
         ],
         "deadline_chapter": 8,
-        "status": "open",
-        "last_reviewed_chapter": 7
+        "status": "closed",
+        "last_reviewed_chapter": 8
       }
     },
     "incidents": {}

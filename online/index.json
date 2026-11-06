@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-06T22:01:57+00:00",
-    "state_revision": 11,
-    "workflow_revision": 28,
-    "state_sha256": "479eb8500cc9dbb113f61601ac146fb1209ee8f6e2f02c399a038e0a878abd12",
-    "workflow_sha256": "839d42e1d51bde757d78e41cc39b120fce69a4e9c229c440fe8cccec94a03c6f",
+    "generated_at": "2026-11-06T22:08:29+00:00",
+    "state_revision": 12,
+    "workflow_revision": 29,
+    "state_sha256": "34811fe8572e186a3343a8dfb37cc0d25a7802a072540908123dd5b029470b59",
+    "workflow_sha256": "5aac769be428daab805a0c7afbb7f6e888d626cdc211c56a724120d25dc22df5",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 7,
+    "adopted_chapters": 8,
     "target_han": 900000,
-    "actual_han": 60644,
+    "actual_han": 68891,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 5,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 7,
+    "frozen_chapters": 8,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 8,
-    "detail": "CH008完整初稿已登记，进行全文反向提纲、限信息与事实因果和节奏实读。",
-    "next_action": "实读reader，局部修订阻断问题，原任务最多3轮。",
-    "updated_at": "2026-11-06T21:55:28+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 9,
+    "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-11-06T22:08:29+00:00"
   },
   "chapters": [
     {
@@ -125,6 +125,18 @@
       "han_count": 8328,
       "text_path": "book/chapters/CH007_fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3.txt",
       "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 8,
+      "title": "热汤也要付账",
+      "stage": "S01",
+      "han_count": 8247,
+      "text_path": "book/chapters/CH008_18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0.txt",
+      "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -1046,12 +1058,6 @@
   },
   "history": [
     {
-      "at": "2026-10-31T00:39:06+00:00",
-      "phase": "WRITING",
-      "label": "撰写正文",
-      "detail": "作者明确授权重写第二章，正式旧版保留至新版检查采用；累计返修不清零。"
-    },
-    {
       "at": "2026-10-31T01:00:14+00:00",
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
@@ -1134,6 +1140,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH008完整初稿已登记，进行全文反向提纲、限信息与事实因果和节奏实读。"
+    },
+    {
+      "at": "2026-11-06T22:08:29+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

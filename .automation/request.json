@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261107_gkpz5xgcvin",
-  "base_sha": "8a8d1af6f0af456d5f7aa9b401526d23c7d9699c",
+  "request_id": "command_20261107_jk26im2rwrg",
+  "base_sha": "9d57cf59b59cdad0578bc9b92984c10020ea2c4b",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,54 @@
     "session_id": "xs2_20261107_gfaoff4u05kmw5huq27",
     "platform_run_id": "16b8fa94-eeb0-8325-925c-7111bcd9db2d"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261107_0530"
+  "phase": "command",
+  "run_id": "9b5b086ebe9849b8a0104cbb3f77c8c9",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH008_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "付费 运费 热汤 暖位 工钱",
+        "--limit",
+        "7"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "买柴 余柴 私粮 交易 报酬",
+        "--limit",
+        "7"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "拒绝 让位 商队 代价",
+        "--limit",
+        "7"
+      ]
+    }
+  ]
 }

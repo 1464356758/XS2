@@ -1,0 +1,87 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261107_qjvd4tiv2f",
+  "request_sha256": "1224d76a4de89a87f235898b1f62f34943aac7b2d01da82c1b12a733da262a55",
+  "source_sha": "035b45c0dea44ff358c720bdf747f5bf6ac9146d",
+  "base_sha": "45cdb98c086c3b03b7662114e7eba61f7d83d0b5",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261107_gfaoff4u05kmw5huq27",
+    "platform_run_id": "16b8fa94-eeb0-8325-925c-7111bcd9db2d"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-06T21:59:07+00:00",
+  "executor_status": "ok",
+  "github_run_id": "42301103689",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "8",
+        "--text",
+        "drafts/CH008_v3.txt",
+        "--reason",
+        "R2：六银只比两匠今日全薪不泛指七银全体；删除未证富商标签，交代杜安返门问柴与伊恩接诺拉上楼看母女的移动信息，详见drafts/CH008_R2_issues.json。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261107_qjvd4tiv2f/tool-01.stdout.txt",
+          "sha256": "40e6c927d3d2de0d9817d7a52ca588293085424bb626aea896d01532b1ecfbae",
+          "bytes": 1202
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261107_qjvd4tiv2f/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH008_v3.txt",
+        "--out",
+        "drafts/CH008_reader_v3.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261107_qjvd4tiv2f/tool-02.stdout.txt",
+          "sha256": "c6bbdb6f8fb43b6c6194eb06948571080681e204f89db332291cc0bbc9eb4fde",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261107_qjvd4tiv2f/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "9b5b086ebe9849b8a0104cbb3f77c8c9",
+  "changed_paths": [
+    ".automation/work/command_20261107_qjvd4tiv2f/tool-01.stderr.txt",
+    ".automation/work/command_20261107_qjvd4tiv2f/tool-01.stdout.txt",
+    ".automation/work/command_20261107_qjvd4tiv2f/tool-02.stderr.txt",
+    ".automation/work/command_20261107_qjvd4tiv2f/tool-02.stdout.txt",
+    "book/candidates/CH008_18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH008_reader_v3.md",
+    "online/index.json"
+  ]
+}

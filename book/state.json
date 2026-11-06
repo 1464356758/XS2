@@ -346,7 +346,7 @@
       "chapter": 8,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 1,
+      "repairs": 2,
       "history": [
         {
           "sha256": "d5dc0152db3e226f763561c034bbd33cd024e8247eddba0683098592d7032f57",
@@ -357,10 +357,15 @@
           "sha256": "c0a2e2b59bbd3c33b855b4214a92ef4a4fea3997d02af8e089b816a66290a74f",
           "reason": "R1：让报价和同意前置下锅，删晨间重复询问睡眠与失真收支设想，修芮雅伤手暗示、诺拉上下楼时序、六银一半指代及未出场凭据；补九点搬运完成时标，详见drafts/CH008_R1_issues.json。",
           "repairs": 1
+        },
+        {
+          "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+          "reason": "R2：六银只比两匠今日全薪不泛指七银全体；删除未证富商标签，交代杜安返门问柴与伊恩接诺拉上楼看母女的移动信息，详见drafts/CH008_R2_issues.json。",
+          "repairs": 2
         }
       ],
-      "candidate_sha256": "c0a2e2b59bbd3c33b855b4214a92ef4a4fea3997d02af8e089b816a66290a74f",
-      "candidate_path": "candidates/CH008_c0a2e2b59bbd3c33b855b4214a92ef4a4fea3997d02af8e089b816a66290a74f.txt"
+      "candidate_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+      "candidate_path": "candidates/CH008_18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0.txt"
     }
   },
   "completion": null,

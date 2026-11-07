@@ -1,0 +1,281 @@
+{
+  "chapter": 9,
+  "title": "那间空着的屋子",
+  "stage": "S01",
+  "base_revision": 12,
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "text_sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+  "complete": true,
+  "story_time_end": 10620,
+  "summary": "D7八点接北巷关门，玛芙只许看、明确拒租前间，女儿盼租金的意见未被抹平。伊恩不再劝，自己选用厨房原有顶廊拐角做短停挡风处：向本地木匠验买8宽干板4干立料及配套铁件8银，木工3银、两自愿有限班搬工各6铜合1银，乌铎两次只看原灶与通路1银，合13实付。先送原饭水再施工，木工完成两片挡板、小门及构件；原凳移半步，白天留一头落锅，夜间原用不变。下午两人带锅实试，居民、质疑者、玛芙母女和芮雅先后使用，不加炉火或夜宿暖位。十七点试用停，原住户饭水照供，续开须实际接手者。玛芙未交钥匙、案或私柴；公库240银6铜，公粮4367私296、库柴8未变，各处实际耗存另列。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "mode": "same_context_approximation",
+    "sources_checked": [
+      {
+        "chapter": 8,
+        "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+        "quote": "公库剩二百五十三银，另六铜。"
+      },
+      {
+        "chapter": 8,
+        "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+        "quote": "原三百一十二人各在原数内，四千六百七十九减去三百一十二，公粮剩四千三百六十七。"
+      },
+      {
+        "chapter": 8,
+        "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+        "quote": "饭厅旧余的一捆加今日新的一捆，有两捆完整待用；"
+      },
+      {
+        "chapter": 8,
+        "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+        "quote": "木头已经进了堡仓，那道门仍属于她。"
+      },
+      {
+        "chapter": 7,
+        "sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+        "quote": "那两道滑木与留用的件还在院另一边，凑不出第五捆，今夜也不会再长成一副车身。"
+      },
+      {
+        "chapter": 6,
+        "sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+        "quote": "旧石没接新火，赫穆昨夜没给任何地方补火。这个休息日过去了。"
+      }
+    ],
+    "conclusion": "本轮从实际main读取现行state和新版CH002指针，实读CH006—008全文、CH004—008实际推进记录及相关早章材料/私物原文段落；实跑全书8条历史索引三组查询。writer实际生成并完整读取，V1与R1后的V2 reader均读：1—5为带引文回顾，6—8为与已读正式全文一致的全文，当前候选每版另完整复读。未把1—5回顾宣称全文。本章在原task累计1轮修订，补凳位、空锅、报柴来源和误暗示，压缩重复内省；从正文反提五个场景并逐项判断八项和主线六维。拒租后真付钱、施工、交付和首次使用形成结果，不以字数及检查程序代替判断。母女未和解、客需未全满足、后续班次未落实均如实保留。CH009非五章/阶段关口，沿用有效1—5回看，CH010须6—10及1—10全文另审。无平台发布依据，实际模型和思考档位未验证。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "res:RES-CASH:balance",
+      "value": "D7此次新材料8银、木工3银、两搬工共1银、乌铎1银，合支13银实付；253银6铜至240银6铜。一银换十二铜仅找零，不增减本钱；无新收入或租金。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "公库剩二百四十银，另六铜。"
+    },
+    {
+      "kind": "fact",
+      "key": "trade:D7:windbreak_material_purchase",
+      "value": "木匠自有店现货，8块宽干板4根干立料及本次配套铁扣钉价8银，当面付料款；与乌铎私箱、原坏橇、原床板和玛芙私产分开。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "诺拉带八枚银币过来，当面付清料钱。八枚都收进木匠的袋子，那一批木头才算归堡里。"
+    },
+    {
+      "kind": "state",
+      "key": "material:D7:windbreak_allocation",
+      "value": "本次8板4立料用于挡板、小门和固定构件；短余头不报标准柴，未用钉由木匠收回，不制造第二批现货。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "八块宽板与四根立料做成了挡板、门和固定它们的木构件，短余头靠在新板内侧，没被谁扎一根绳报进柴库。"
+    },
+    {
+      "kind": "fact",
+      "key": "labour:D7:windbreak_construction",
+      "value": "木工在先前窗活之后接本次3银到17点；两另问自愿的本地搬工各6铜至17点，未抽夜岗；乌铎两次检查原灶烟路及通路1银。工作完成均实付，不能推定今夜继续值守。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "木匠将其中一枚换成十二铜，两名搬工各收六枚，三银工钱另付到他手里，乌铎的一银也当面给了。"
+    },
+    {
+      "kind": "state",
+      "key": "site:厨房外廊:service_windbreak",
+      "value": "原有顶与两面石墙范围内加两片挡板、小门，成2人带锅短停挡风接饭水点；实试和实际用户已使用，无新炉、独立饭屋、客房或夜宿暖位。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "两人能彼此让开，外头送满桶的人也仍能直走过去。再多便没有余地。"
+    },
+    {
+      "kind": "state",
+      "key": "site:厨房外廊:trial_hours",
+      "value": "D7十七点本次试用结束；晚些是否续开须真实接手者和厨工接受那半小时，未承诺明早或下一夜自动开放。原饭厅、西屋饭水照送。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "今天试用到这里，晚些要不要继续开放，先找出实际接手的人，再请她留那半个钟。"
+    },
+    {
+      "kind": "state",
+      "key": "site:厨房外廊:bench_use",
+      "value": "原条凳沿墙向角挪半步，一头在挡板内白日接锅，另一截在原廊；夜里清净回伊恩原铺用。不是新床或取玛芙长案。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "白日拿一头接锅，夜里收净，仍给伊恩铺原来的铺盖。"
+    },
+    {
+      "kind": "state",
+      "key": "site:北巷旧烘饼屋:ownership",
+      "value": "玛芙允许此次看看后明确拒绝连半间出租，伊恩不留租款不再派人劝、答今夜不进。前间/柴间仍主人锁管，长案木模和冷炉未移交或启用；女儿盼租金不等于产权授权，未新增取柴。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "她没有从衣内掏钥匙，只向着女儿离开的方向走。"
+    },
+    {
+      "kind": "fact",
+      "key": "site:D7:owner_public_use",
+      "value": "玛芙与女儿用已领粮和自带锅实际到新点取水，不靠交钥匙换服务；母女仍有分歧，未证明丧偶哀伤消除。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "谁也没有因这几步不受风，便忽然肯把早晨的话收回去。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-01:private_room_refusal",
+      "value": "伊恩当面听到屋主连半间也不愿；知道女儿仍盼租金并不赞成关屋，不拿女儿意见代主人同意。",
+      "holder": "CHAR-01",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "他问：“若只用这一半，也不愿意？”\n\n“不愿意。”"
+    },
+    {
+      "kind": "belief",
+      "key": "char:玛芙女儿:rental_preference",
+      "value": "女儿认为租前屋、挪旧物可省别处钱和照看负担；此为她的诉求，未成为租约或母亲决定。",
+      "holder": "玛芙的女儿",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "收了租，也能少用一点别处的钱。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "char:CHAR-06:limited_new_service",
+      "value": "芮雅亲口得知新点只有接锅功能，专用做饭屋仍无；今晚另做饭须原住户做完且工人肯留，未付本次新餐钱，独立商队选择保留。",
+      "holder": "CHAR-06",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "那先别算我今晚买了。哈伦今早吃得动，我把剩的先给他备着，等你有准话。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-FOOD:warehouse",
+      "value": "D7八点已发312份，本章同日至17点不再扣一日；公粮仍4367，取水及施工不新增粮食采购或取用。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "公粮仍四千三百六十七，商队私存仍二百九十六。"
+    },
+    {
+      "kind": "state",
+      "key": "cargo:D3:private_deposit",
+      "value": "商队D7晨4份已经领过，至17点私存仍296，未新发4或转公粮；哈伦食欲为芮雅说法，不记痊愈。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "没另发一遍今晨的三百一十二份粮。公粮仍四千三百六十七，商队私存仍二百九十六。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warehouse",
+      "value": "D7晨12发后库8，本章未再领/买柴；新板余头不入标准柴计数，后续续夜需实际领，不提前减未来柴。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "库里八捆一根没变，今日新板的短余头也不在里面；"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:warmhouse_reserve",
+      "value": "D7八点整2，此后守火人当面报拆用1，章末整1；北窗原补板压布原状，仍60位不扩容，非全堡恒暖。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "说今日两捆待用的已拆添了一捆，余一捆整的；"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:westroom_reserve",
+      "value": "D7晨新领1实际进原壁炉，到17点只余火炭、0整捆；来源西屋守火人向诺拉当面报，未将饭厅那1整混给西屋。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "今日那一捆已入原壁炉，眼下只余火和炭，未拆的整捆没有了。"
+    },
+    {
+      "kind": "state",
+      "key": "res:RES-WOOD:kitchen_remainder",
+      "value": "D7新领2已拆用1，尚整1；旧散余仍未量，不把新领全当燃尽或剩量无限，热水仍用原灶。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "厨房今日领的二捆已拆用一捆，另有一捆整的，旧散余不再报成新的。"
+    },
+    {
+      "kind": "state",
+      "key": "site:饭厅:warm_occupancy",
+      "value": "原60含照护不改，挡风点的两人短停不是60/120新暖位，不向商队卖原位置。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "那里面六十人的位置原样，北窗补过的旧板仍压着布。"
+    },
+    {
+      "kind": "state",
+      "key": "site:护卫屋:merchant_stay",
+      "value": "4客仍原护卫屋4处，未迁为新点宿客；柏勒腿伤、哈伦手伤冷痛未靠取水点治愈或征为施工/试走劳力。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "护卫屋四人的铺盖未挪，柏勒没有被叫来试走，哈伦的伤手也没有再多端一趟锅。"
+    },
+    {
+      "kind": "state",
+      "key": "heat:D7_through_17:no_extra_fire",
+      "value": "承D7八点前无新息，本章到17点仍不请新火；原一石未添热，第二完整石未用，旧封闭炉未摘叉铁片。不能据17点宣称D7完整休，日一息/三日至少一休边界继续不结转。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "原来供饭厅的那一枚石没有添新热，另一枚完整石仍在原处，旧炉的叉铁片还挂着。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-02:left_wing",
+      "value": "左翼仍压低，赫穆自控木挡探看、小门不适龙通行，无飞运或休息即愈；原龙通路不借作料地。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "左翼还是压得低，日光从未合严的一边照进来，它自己拿鼻端将木挡又顶开一点。"
+    },
+    {
+      "kind": "state",
+      "key": "char:CHAR-01:hand_knee",
+      "value": "膝不蹲持重，扶板手早发酸由搬工接回，有限参与带班；未写伤愈或一人包全木工，本地工艺由当事匠人负责。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "他自己站在墙侧，膝头没蹲下去，托板的手却比想的早发酸。搬工看见，伸手接回那一头，他便让开"
+    },
+    {
+      "kind": "state",
+      "key": "site:eaves:D5_small_storage",
+      "value": "三户原存物檐格、龙门路不借做新点的料场，本章只在厨房原范围施工，不取原床板/滑木/私铁箱。",
+      "holder": "",
+      "valid_from": 10620,
+      "valid_until": null,
+      "quote": "那边通龙棚的路，今天谁也不借。"
+    }
+  ],
+  "progression": {
+    "goal": "取得可分流饭水与客需的真实可用场所，先问旧烘饼屋。",
+    "obstacle": "屋主重视自己做过半生的屋与旧物，女儿虽盼租金却不能替她授权；原厨房口冷且拥，居民要求效果和公钱取舍，专用热饭/夜宿需求大于材料工时。",
+    "method": "拒绝后不加价劝租，现场看原廊角，付费向本地匠人定有限木作，错开饭水先裁后装，缩小边界留桶路，以原凳接锅，两人实试再让人使用。",
+    "choice": "伊恩自己决定公库出13银并承担成果很小的质疑，不借他人产权或无来源旧料；只做能交付的短停点，未来开门要另找同意接手的人。",
+    "result": "D7十七点前新挡风小门与接锅位置实际完成，质疑者、玛芙母女、芮雅均能使用；13银全实付、有限班下工。旧屋继续锁着，新点有人用过。",
+    "consequence": "公库减为240银6铜、没有新夜宿/炉或商业收入；锅水落地引出清扫与接手责任，试用到17点收止。主人保留控制，母女矛盾并未自动消失。",
+    "next_options": "依已做成的新点询问实际接手者、工钱班时和供柴，落实能开到何时；未承诺完成下一章轮值，更未取回南岸后车或明日去白渡。",
+    "scene_function": "五场从看屋拒租、替代付费、施工取舍、实体试用付款，到屋主使用及闭门收工；每场改变可选方案或完成条件。R1用实际让桶通过代替一段重复产权内省，避免巡屋核账成为主线。"
+  },
+  "thread_events": [],
+  "stage_closing": false,
+  "measured_han": 8168
+}

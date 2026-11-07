@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 12,
+  "revision": 13,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -101,6 +101,16 @@
       "record_sha256": "a06ef13c65b61537237a0afb4c5bb9015114d9a34cc4c4d4d7e322c6f8ef895a",
       "han_count": 8247,
       "adopted_at": "2026-11-06T22:08:29+00:00"
+    },
+    "9": {
+      "title": "那间空着的屋子",
+      "stage": "S01",
+      "text_path": "chapters/CH009_74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c.txt",
+      "text_sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+      "record_path": "records/CH009_640c9f3e87523afe711c04e9781d0e537ae16dfa6cc24cd07966612ba7a0a0e3.json",
+      "record_sha256": "640c9f3e87523afe711c04e9781d0e537ae16dfa6cc24cd07966612ba7a0a0e3",
+      "han_count": 8168,
+      "adopted_at": "2026-11-07T22:07:14+00:00"
     }
   },
   "checkpoints": [
@@ -381,7 +391,7 @@
       "task_id": "39a16e42-9fc7-46b9-892c-9dfb495b9a1c",
       "chapter": 9,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -435,6 +445,10 @@
       "8": {
         "text_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
         "record_sha256": "a06ef13c65b61537237a0afb4c5bb9015114d9a34cc4c4d4d7e322c6f8ef895a"
+      },
+      "9": {
+        "text_sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+        "record_sha256": "640c9f3e87523afe711c04e9781d0e537ae16dfa6cc24cd07966612ba7a0a0e3"
       }
     },
     "published": {},
@@ -478,6 +492,11 @@
         "path": "releases/CH008_babe428674b18d5ce4403f25370bd2971b38a384b48c5f8d1f57fa3ebe9d2517.json",
         "sha256": "babe428674b18d5ce4403f25370bd2971b38a384b48c5f8d1f57fa3ebe9d2517",
         "used": true
+      },
+      "9": {
+        "path": "releases/CH009_7092009e1595da5997c7c177f2849ffe5a10fc92efc8e8029a74600f5e1c28f3.json",
+        "sha256": "7092009e1595da5997c7c177f2849ffe5a10fc92efc8e8029a74600f5e1c28f3",
+        "used": true
       }
     },
     "promises": {
@@ -498,7 +517,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 8
+        "last_reviewed_chapter": 9
       },
       "TH-DRY-SHELTER": {
         "history": [

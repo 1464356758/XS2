@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261108_x1icf9pe6f",
-  "base_sha": "b1963255043348a2c2e770c95b554489d2fb992f",
+  "request_id": "command_20261108_8hm26g7xxcs",
+  "base_sha": "5fe12586490d2a704f0bf4fddada995dc080baa2",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "9",
+        "check-record",
         "--text",
         "drafts/CH009_v2.txt",
-        "--reason",
-        "reader V1 实读：压缩让路后的重复内省，补明原长凳挪位与夜间原用、两只空锅的回收及装水交接、守火人当面报柴的来源；去掉未经前文成立的再次搬案暗示。保留拒绝、支出、首次试用及服务缩限的实际后果，不改既定主线。"
+        "--record",
+        "drafts/CH009_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH009_v2.txt",
+        "--record",
+        "drafts/CH009_record.json",
         "--out",
-        "drafts/CH009_reader_v2.md"
+        "drafts/CH009_release_request.json"
       ]
     }
   ]

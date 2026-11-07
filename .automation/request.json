@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261108_h8z0e3wwckb",
-  "base_sha": "234e5b23bdc7ba35f5cc7933c339f1afdf1ae986",
+  "request_id": "command_20261108_lhejtp85ac",
+  "base_sha": "8359c401c651dd1e2b6c4e4321c3fb5d8cf7fecd",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,45 +17,37 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH009_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH009_brief_request.json"
+        "drafts/CH009_writer.md"
       ]
     },
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "空屋 产权 亡者 玛芙 扩建",
-        "--limit",
-        "8"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "拒绝 让出 拆床 补窗 木板",
-        "--limit",
-        "8"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "商用 热汤 取水 工钱",
-        "--limit",
-        "8"
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "9",
+        "--detail",
+        "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
+        "--next",
+        "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。"
       ]
     }
   ]

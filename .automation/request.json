@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261108_r7euczc42aq",
-  "base_sha": "6ec4ad8266292841b546f73ad09ba42f798d0b21",
+  "request_id": "command_20261108_h8z0e3wwckb",
+  "base_sha": "234e5b23bdc7ba35f5cc7933c339f1afdf1ae986",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,54 @@
     "session_id": "xs2_20261108_0eas29ta9xtc23dwl5t782",
     "platform_run_id": "6a279446-1e58-832b-b7f9-ed3038b504a6"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261108_0530"
+  "phase": "command",
+  "run_id": "71a34e0711d043bda04dddfa59ee9b20",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH009_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "空屋 产权 亡者 玛芙 扩建",
+        "--limit",
+        "8"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "拒绝 让出 拆床 补窗 木板",
+        "--limit",
+        "8"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "商用 热汤 取水 工钱",
+        "--limit",
+        "8"
+      ]
+    }
+  ]
 }

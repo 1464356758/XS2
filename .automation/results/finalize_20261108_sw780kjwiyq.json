@@ -1,0 +1,25 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "finalize_20261108_sw780kjwiyq",
+  "request_sha256": "90953f145f0c37774f7ecf50bd8b5d1f52b1f11c96d58d4383dd99bbeaac0479",
+  "source_sha": "55d76f8f5e160950b356e609d71861a0b4315164",
+  "base_sha": "2f1c5903018cbe57a49ed61426446194563466b7",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261108_0eas29ta9xtc23dwl5t782",
+    "platform_run_id": "6a279446-1e58-832b-b7f9-ed3038b504a6"
+  },
+  "phase": "finalize",
+  "executed_at": "2026-11-07T22:05:36+00:00",
+  "executor_status": "error",
+  "github_run_id": "42418948290",
+  "business_status": "blocked",
+  "error": "发布前仍有阻断项或未实际阅读。",
+  "run_id": "71a34e0711d043bda04dddfa59ee9b20",
+  "changed_paths": [
+    "book/daily/active.json",
+    "online/index.json"
+  ]
+}

@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-07T21:33:46+00:00",
+    "generated_at": "2026-11-07T21:37:52+00:00",
     "state_revision": 12,
-    "workflow_revision": 29,
-    "state_sha256": "34811fe8572e186a3343a8dfb37cc0d25a7802a072540908123dd5b029470b59",
-    "workflow_sha256": "5aac769be428daab805a0c7afbb7f6e888d626cdc211c56a724120d25dc22df5",
+    "workflow_revision": 30,
+    "state_sha256": "301d171bdc19f761b677ee3df1d88ef89c00b25df836c5fb238ab029fea4db13",
+    "workflow_sha256": "6e95270d7aacfaa057200c752268683548e5bd6446be38e5c77a206e377e1591",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 9,
-    "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。",
-    "next_action": "读取正式状态后，由下一次日更处理下一章。",
-    "updated_at": "2026-11-06T22:08:29+00:00"
+    "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
+    "next_action": "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。",
+    "updated_at": "2026-11-07T21:37:52+00:00"
   },
   "chapters": [
     {
@@ -1058,12 +1058,6 @@
   },
   "history": [
     {
-      "at": "2026-10-31T01:00:14+00:00",
-      "phase": "WAITING_NEXT",
-      "label": "等待下一章",
-      "detail": "作者授权的第二章新版已按原审核采用冻结；旧版本与回执保留。"
-    },
-    {
       "at": "2026-10-31T21:37:32+00:00",
       "phase": "WRITING",
       "label": "撰写正文",
@@ -1146,6 +1140,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-07T21:37:52+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。"
     }
   ]
 }

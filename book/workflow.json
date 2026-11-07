@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 29,
+  "revision": 30,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -214,9 +214,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-07T21:37:52+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。"
     }
   ],
-  "detail": "第8章已采用并冻结；平台发布另凭真实回执登记。",
-  "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-11-06T22:08:29+00:00"
+  "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
+  "next_action": "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。",
+  "updated_at": "2026-11-07T21:37:52+00:00"
 }

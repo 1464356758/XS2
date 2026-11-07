@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "finalize_20261108_sw780kjwiyq",
-  "base_sha": "2f1c5903018cbe57a49ed61426446194563466b7",
+  "request_id": "finalize_20261108_qm8ahxqs1wo",
+  "base_sha": "9f42a402305cec36d14e8beecdf8167af72daf34",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -13,5 +13,5 @@
   "run_id": "71a34e0711d043bda04dddfa59ee9b20",
   "text": "drafts/CH009_v2.txt",
   "record": "drafts/CH009_record.json",
-  "report": "drafts/CH009_release.json"
+  "report": "drafts/CH009_release_v2.json"
 }

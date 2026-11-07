@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 30,
+  "revision": 31,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -220,9 +220,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。"
+    },
+    {
+      "at": "2026-11-07T21:49:30+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH009完整初稿已登记，开始实读reader、反向提纲、八项证据与六项主线节奏判断。"
     }
   ],
-  "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
-  "next_action": "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。",
-  "updated_at": "2026-11-07T21:37:52+00:00"
+  "detail": "CH009完整初稿已登记，开始实读reader、反向提纲、八项证据与六项主线节奏判断。",
+  "next_action": "在原任务最多3轮内修已证实问题，再完成record/release与统一finalize。",
+  "updated_at": "2026-11-07T21:49:30+00:00"
 }

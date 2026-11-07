@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-07T21:37:52+00:00",
+    "generated_at": "2026-11-07T21:49:30+00:00",
     "state_revision": 12,
-    "workflow_revision": 30,
-    "state_sha256": "301d171bdc19f761b677ee3df1d88ef89c00b25df836c5fb238ab029fea4db13",
-    "workflow_sha256": "6e95270d7aacfaa057200c752268683548e5bd6446be38e5c77a206e377e1591",
+    "workflow_revision": 31,
+    "state_sha256": "ac0a91a50d2889dfc47d9c82adb156c8dd06a752a776b913a99516e76cb3749d",
+    "workflow_sha256": "b296de102e0274222f5b34a7779214831553a1d9729b457ca3e84df03665b36a",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 9,
-    "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
-    "next_action": "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。",
-    "updated_at": "2026-11-07T21:37:52+00:00"
+    "detail": "CH009完整初稿已登记，开始实读reader、反向提纲、八项证据与六项主线节奏判断。",
+    "next_action": "在原任务最多3轮内修已证实问题，再完成record/release与统一finalize。",
+    "updated_at": "2026-11-07T21:49:30+00:00"
   },
   "chapters": [
     {
@@ -1058,12 +1058,6 @@
   },
   "history": [
     {
-      "at": "2026-10-31T21:37:32+00:00",
-      "phase": "WRITING",
-      "label": "撰写正文",
-      "detail": "CH003写前实读及全书历史检索完成；本轮首批工具参数--next-action已据完整stderr纠正为--next，原run_id及计数不变。"
-    },
-    {
       "at": "2026-10-31T21:44:22+00:00",
       "phase": "REVIEWING",
       "label": "检查本章",
@@ -1146,6 +1140,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。"
+    },
+    {
+      "at": "2026-11-07T21:49:30+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH009完整初稿已登记，开始实读reader、反向提纲、八项证据与六项主线节奏判断。"
     }
   ]
 }

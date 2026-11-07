@@ -1,0 +1,21 @@
+{
+  "task_id": "39a16e42-9fc7-46b9-892c-9dfb495b9a1c",
+  "chapter": 9,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 1,
+  "history": [
+    {
+      "sha256": "99fd7ff98380168b7a2f0fdd2dbd72ecb25a6821327a17281f3ec0af6899e566",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+      "reason": "reader V1 实读：压缩让路后的重复内省，补明原长凳挪位与夜间原用、两只空锅的回收及装水交接、守火人当面报柴的来源；去掉未经前文成立的再次搬案暗示。保留拒绝、支出、首次试用及服务缩限的实际后果，不改既定主线。",
+      "repairs": 1
+    }
+  ],
+  "candidate_sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+  "candidate_path": "candidates/CH009_74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c.txt"
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261108_lhejtp85ac",
-  "base_sha": "8359c401c651dd1e2b6c4e4321c3fb5d8cf7fecd",
+  "request_id": "command_20261108_84km27l35fr",
+  "base_sha": "f6ebc763ad9baa0ad6a19fb5e44981023c163e93",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH009_brief.json"
+        "candidate",
+        "--chapter",
+        "9",
+        "--text",
+        "drafts/CH009_v1.txt"
       ]
     },
     {
@@ -29,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH009_v1.txt",
         "--out",
-        "drafts/CH009_writer.md"
+        "drafts/CH009_reader_v1.md"
       ]
     },
     {
@@ -41,13 +45,13 @@
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "9",
         "--detail",
-        "CH009已确认本轮归属，实读CH006—008全文及近五章推进，完成全书8条相似办法检索，准备完整正文。",
+        "CH009完整初稿已登记，开始实读reader、反向提纲、八项证据与六项主线节奏判断。",
         "--next",
-        "实读writer，写完整CH009后生成reader并进行事实因果及六项节奏实审。"
+        "在原任务最多3轮内修已证实问题，再完成record/release与统一finalize。"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261109_ol7u8ko98x",
-  "base_sha": "0f505e4321f2cbc6698bc1e1baa2b9b8aff2ee33",
+  "request_id": "command_20261109_2ynplj25p7s",
+  "base_sha": "8d60f0fbedee3f408d28358eab13d63eeab3d0bc",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,47 +17,37 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH010_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH010_brief_request.json"
+        "drafts/CH010_writer.md"
       ]
     },
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "轮值 守夜 交班 替班 工钱",
-        "--limit",
-        "9"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "灯 休息 领主 接手 余火",
-        "--limit",
-        "9"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "撤出 空位 自愿 人手",
-        "--before",
-        "7",
-        "--limit",
-        "9"
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "10",
+        "--detail",
+        "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。",
+        "--next",
+        "完整起草本章，实读reader并完成阶段及五章全文回看、八项与六项节奏审核后统一采用。"
       ]
     }
   ]

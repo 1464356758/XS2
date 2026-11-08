@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261109_ojpue8oc0zb",
-  "base_sha": "38985274b471ff2584095157791dd42d2abe4ada",
+  "request_id": "finalize_20261109_xzw4j0f9xga",
+  "base_sha": "0b6f555bb7d2efc012b9665ecf478497dd337c01",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,34 +9,9 @@
     "session_id": "xs2_20261109_mmfinf7l83rqxpkiw4p7",
     "platform_run_id": "ab7aa758-60f0-8331-b285-5e4b4a863b51"
   },
-  "phase": "command",
+  "phase": "finalize",
   "run_id": "85446a1701bd4190a0e902ed54b9d253",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/CH010_v2.txt",
-        "--record",
-        "drafts/CH010_record.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
-        "--text",
-        "drafts/CH010_v2.txt",
-        "--record",
-        "drafts/CH010_record.json",
-        "--out",
-        "drafts/CH010_release_request.json"
-      ]
-    }
-  ]
+  "text": "drafts/CH010_v2.txt",
+  "record": "drafts/CH010_record.json",
+  "report": "drafts/CH010_release.json"
 }

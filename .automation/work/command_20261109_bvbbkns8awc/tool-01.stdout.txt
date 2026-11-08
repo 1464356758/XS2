@@ -1,0 +1,21 @@
+{
+  "task_id": "dc5a5c9b-f423-4e7a-bb87-6992559f80c2",
+  "chapter": 10,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 1,
+  "history": [
+    {
+      "sha256": "3004e1bc40d7aa7d0a1f74cb6b310ea2cf60537bba32e157fc9e43668d7dffcb",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+      "reason": "R1：按reader实读修杜安凳腿D6/D7时序，厨工加留半小时先谈6铜并18:30实付、现金改238银整；修未查即宣称石余热的误义；履行晨间额外做饭答复、补旧配给饼来源和灯油续添；删无推进孩子支线与轻慢合理质疑的旁白。",
+      "repairs": 1
+    }
+  ],
+  "candidate_sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+  "candidate_path": "candidates/CH010_80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec.txt"
+}

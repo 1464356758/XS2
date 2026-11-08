@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261109_xw9etuqnelb",
-  "base_sha": "17e04ac10abac3b2d2cdf04c6f742b1fd5a6c03d",
+  "request_id": "command_20261109_bvbbkns8awc",
+  "base_sha": "d9191493d16b8bbc6f766b496988de21551c2b8b",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "10",
         "--text",
-        "drafts/CH010_v1.txt"
+        "drafts/CH010_v2.txt",
+        "--reason",
+        "R1：按reader实读修杜安凳腿D6/D7时序，厨工加留半小时先谈6铜并18:30实付、现金改238银整；修未查即宣称石余热的误义；履行晨间额外做饭答复、补旧配给饼来源和灯油续添；删无推进孩子支线与轻慢合理质疑的旁白。"
       ]
     },
     {
@@ -33,25 +35,9 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH010_v1.txt",
+        "drafts/CH010_v2.txt",
         "--out",
-        "drafts/CH010_reader_v1.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--chapter",
-        "10",
-        "--detail",
-        "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。",
-        "--next",
-        "完整限信息近似审读，按真实问题局部修订，完成阶段1—10和窗口6—10全文证据。"
+        "drafts/CH010_reader_v2.md"
       ]
     }
   ]

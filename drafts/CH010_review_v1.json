@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "chapter": 10,
+  "task_id": "dc5a5c9b-f423-4e7a-bb87-6992559f80c2",
+  "candidate_sha256": "3004e1bc40d7aa7d0a1f74cb6b310ea2cf60537bba32e157fc9e43668d7dffcb",
+  "reader_path": "drafts/CH010_reader_v1.md",
+  "mode": "same_context_approximation",
+  "limitation": "同一上下文已读设定和路线；reader只供已写材料，不能让模型忘掉先前知识，不冒充独立读者。",
+  "full_reader_read": {
+    "reader_recap": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "full_text": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "additional_stage_full_text_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "reverse_outline": [
+    "17—18点停试后定实际双班、工钱、下工与有限停门权，客商今夜不额外做饭",
+    "18点开门到21点，接锅与分5柴实际生效，灯转跑腿人",
+    "21点西屋热水与门口等待冲突，主角支持关门，承认告知疏漏并陪水到母亲手中",
+    "夜间短歇、龙仍自控出口、午夜真实交灯和首班1银付款",
+    "D8六点原住人过夜，末班1银完付；余3柴与次日接手仍未解决"
+  ],
+  "blocking_issues": [
+    {
+      "id": "timeline_duan",
+      "severity": "must_fix",
+      "quote": "今早那根没能拿去修饭厅的凳腿",
+      "finding": "reader CH007全文定位为D6清晨，本章接CH009为D7暮，不能称今早；相同错词及清晨对照须一起改。"
+    },
+    {
+      "id": "labour_half_hour",
+      "severity": "must_fix",
+      "quote": "晚饭过后我留那半个钟",
+      "finding": "明确延长厨工半小时却未谈报酬与实付，不能以另有夜班掩盖本人的工。R1谈6铜并18:30真正付款离开；结余随实际减到238银整。"
+    },
+    {
+      "id": "heat_semantics",
+      "severity": "must_fix",
+      "quote": "伊恩也没去摸一下，便说余热还够用。",
+      "finding": "否定范围错误，字面成为未查便宣称余热充足，违背热量边界；改为原小灶实际柴，旧石无新火。"
+    },
+    {
+      "id": "next_morning_answer",
+      "severity": "must_fix",
+      "quote": "明早先同你说有还是没有。",
+      "finding": "初稿晨见芮雅只核粮和客伤，未回答当晚热饭的后续；R1晨明确暂不接额外做饭，不留待下一章替本章兑现。"
+    },
+    {
+      "id": "breakfast_source",
+      "severity": "verify",
+      "quote": "伊恩坐下吃自己的那份早饭",
+      "finding": "新D8粮尚未发，须说明是自己昨早已领后留下的饼加热水，不隐扣新粮。"
+    }
+  ],
+  "pacing_review": {
+    "mainline": "新点是否真正由接手者做有限决定，21点实选和送到形成主线，非单排旧轮值。",
+    "protagonist_initiative": "亲问付工、授有限停门，面对13银质疑真想重开而收脚，选择支持且担告知疏漏。",
+    "scene_necessity": "找班—实开—受质疑—交班—下工可连成条件链；part2无用孩子掰饼及一段旁白重复未改变条件，应删以减少核心冲突前绕行。",
+    "dramatic_change": "杜安先关不等批准，伊恩不撤决定；葛林后半夜沿用，自行给空盆定位置，事后不被挪。",
+    "payoff": "母亲真用到水、当班者领钱离开；但缺厨工延班付酬和次晨商饭答复必须修，不仅列建议采用。",
+    "next_pull": "库3、下一夜重问真实同意、粮源和商队独立选择均未解决。",
+    "blocking_issues": [
+      "所列工时和晨答复不完整，R1补实际兑现；删重复旁白和不改变条件的小支线。"
+    ]
+  },
+  "repair_plan": "在同一task做R1，修时序、6铜实付及结余、石热误义、晨商业答复和饼来源；删除无作用小支线与削弱合理质疑的旁白，保持核心21点选择和洗手慢场。",
+  "proposed_repairs": 1
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261109_huwgmq3mv",
-  "base_sha": "70085f929157e84a41305b05d9ae457945e4686a",
+  "request_id": "command_20261109_ol7u8ko98x",
+  "base_sha": "0f505e4321f2cbc6698bc1e1baa2b9b8aff2ee33",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,56 @@
     "session_id": "xs2_20261109_mmfinf7l83rqxpkiw4p7",
     "platform_run_id": "ab7aa758-60f0-8331-b285-5e4b4a863b51"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261109_0530"
+  "phase": "command",
+  "run_id": "85446a1701bd4190a0e902ed54b9d253",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH010_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "轮值 守夜 交班 替班 工钱",
+        "--limit",
+        "9"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "灯 休息 领主 接手 余火",
+        "--limit",
+        "9"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "撤出 空位 自愿 人手",
+        "--before",
+        "7",
+        "--limit",
+        "9"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261109_2ynplj25p7s",
-  "base_sha": "8d60f0fbedee3f408d28358eab13d63eeab3d0bc",
+  "request_id": "command_20261109_xw9etuqnelb",
+  "base_sha": "17e04ac10abac3b2d2cdf04c6f742b1fd5a6c03d",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH010_brief.json"
+        "candidate",
+        "--chapter",
+        "10",
+        "--text",
+        "drafts/CH010_v1.txt"
       ]
     },
     {
@@ -29,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH010_v1.txt",
         "--out",
-        "drafts/CH010_writer.md"
+        "drafts/CH010_reader_v1.md"
       ]
     },
     {
@@ -41,13 +45,13 @@
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "10",
         "--detail",
-        "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。",
+        "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。",
         "--next",
-        "完整起草本章，实读reader并完成阶段及五章全文回看、八项与六项节奏审核后统一采用。"
+        "完整限信息近似审读，按真实问题局部修订，完成阶段1—10和窗口6—10全文证据。"
       ]
     }
   ]

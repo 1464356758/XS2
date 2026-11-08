@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-08T21:43:27+00:00",
+    "generated_at": "2026-11-08T21:54:17+00:00",
     "state_revision": 13,
-    "workflow_revision": 33,
-    "state_sha256": "889ad65e28697a481f82a835dbf276c8a7a8c06b18a88988d80358154b19289b",
-    "workflow_sha256": "77fbb9eb9d992ade8867bd8606c0898f849f84e724543be0fdc04ee04ebb1e64",
+    "workflow_revision": 34,
+    "state_sha256": "95a840b33dd68bb2cf93e7e87f6d3c06023e221265b0f96f08d08e75e8822384",
+    "workflow_sha256": "3274e93426f6aca05ac88b83f87e10bde6fc2ef093575400698e75cbcb7c6183",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 10,
-    "detail": "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。",
-    "next_action": "完整起草本章，实读reader并完成阶段及五章全文回看、八项与六项节奏审核后统一采用。",
-    "updated_at": "2026-11-08T21:43:27+00:00"
+    "detail": "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。",
+    "next_action": "完整限信息近似审读，按真实问题局部修订，完成阶段1—10和窗口6—10全文证据。",
+    "updated_at": "2026-11-08T21:54:17+00:00"
   },
   "chapters": [
     {
@@ -1070,12 +1070,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T21:29:20+00:00",
-      "phase": "WRITING",
-      "label": "撰写正文",
-      "detail": "CH004已实读前三章正式全文和记录，按真实历史检索登记救运主线任务书；同一run_id继续，未改变冻结章。"
-    },
-    {
       "at": "2026-11-01T21:35:41+00:00",
       "phase": "REVIEWING",
       "label": "检查本章",
@@ -1158,6 +1152,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。"
+    },
+    {
+      "at": "2026-11-08T21:54:17+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。"
     }
   ]
 }

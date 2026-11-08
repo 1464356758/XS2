@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261109_bvbbkns8awc",
-  "base_sha": "d9191493d16b8bbc6f766b496988de21551c2b8b",
+  "request_id": "command_20261109_ojpue8oc0zb",
+  "base_sha": "38985274b471ff2584095157791dd42d2abe4ada",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "10",
+        "check-record",
         "--text",
         "drafts/CH010_v2.txt",
-        "--reason",
-        "R1：按reader实读修杜安凳腿D6/D7时序，厨工加留半小时先谈6铜并18:30实付、现金改238银整；修未查即宣称石余热的误义；履行晨间额外做饭答复、补旧配给饼来源和灯油续添；删无推进孩子支线与轻慢合理质疑的旁白。"
+        "--record",
+        "drafts/CH010_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH010_v2.txt",
+        "--record",
+        "drafts/CH010_record.json",
         "--out",
-        "drafts/CH010_reader_v2.md"
+        "drafts/CH010_release_request.json"
       ]
     }
   ]

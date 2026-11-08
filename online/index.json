@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-08T22:00:12+00:00",
-    "state_revision": 13,
-    "workflow_revision": 34,
-    "state_sha256": "ef43e87786e795720cf10ce72d8a95b24710ff98dc3195f8d9bbb06fe8837b58",
-    "workflow_sha256": "3274e93426f6aca05ac88b83f87e10bde6fc2ef093575400698e75cbcb7c6183",
+    "generated_at": "2026-11-08T22:07:41+00:00",
+    "state_revision": 14,
+    "workflow_revision": 35,
+    "state_sha256": "0b35f926057df9cb7adbcc4b0e4abb3dd2b540ee11f5ab50be82dfca1bf03a72",
+    "workflow_sha256": "ccd2246c940da7b238208182512dc27dfc686d7a7df239b5473a18216bd9a85b",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 9,
+    "adopted_chapters": 10,
     "target_han": 900000,
-    "actual_han": 77059,
+    "actual_han": 85579,
     "completed": false,
     "needs_revalidation": [],
-    "reviewed_until": 5,
+    "reviewed_until": 10,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 9,
+    "frozen_chapters": 10,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 10,
-    "detail": "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。",
-    "next_action": "完整限信息近似审读，按真实问题局部修订，完成阶段1—10和窗口6—10全文证据。",
-    "updated_at": "2026-11-08T21:54:17+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 11,
+    "detail": "第10章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-11-08T22:07:41+00:00"
   },
   "chapters": [
     {
@@ -149,6 +149,18 @@
       "han_count": 8168,
       "text_path": "book/chapters/CH009_74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c.txt",
       "sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 10,
+      "title": "灰炉堡的第七盏灯",
+      "stage": "S01",
+      "han_count": 8520,
+      "text_path": "book/chapters/CH010_80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec.txt",
+      "sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -1070,12 +1082,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T21:35:41+00:00",
-      "phase": "REVIEWING",
-      "label": "检查本章",
-      "detail": "CH004完整初稿8454汉字已登记，开始从正文反提场景及限信息审读，未采用冻结。"
-    },
-    {
       "at": "2026-11-01T21:45:02+00:00",
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
@@ -1158,6 +1164,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH010完整初稿已登记，准备实读生成的reader；未通过人工八项、六项节奏及阶段全文回看前不采用。"
+    },
+    {
+      "at": "2026-11-08T22:07:41+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第10章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

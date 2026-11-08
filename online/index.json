@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-08T21:37:42+00:00",
+    "generated_at": "2026-11-08T21:43:27+00:00",
     "state_revision": 13,
-    "workflow_revision": 32,
-    "state_sha256": "cd92cd80a1f50e24f5dba9b16d5b32b82e22f5480fb52d0e6b77229179289d05",
-    "workflow_sha256": "de01bc93833b4f1c870cab735a2334747bbccce98a80ea9034de77808b496ad7",
+    "workflow_revision": 33,
+    "state_sha256": "889ad65e28697a481f82a835dbf276c8a7a8c06b18a88988d80358154b19289b",
+    "workflow_sha256": "77fbb9eb9d992ade8867bd8606c0898f849f84e724543be0fdc04ee04ebb1e64",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 10,
-    "detail": "第9章已采用并冻结；平台发布另凭真实回执登记。",
-    "next_action": "读取正式状态后，由下一次日更处理下一章。",
-    "updated_at": "2026-11-07T22:07:14+00:00"
+    "detail": "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。",
+    "next_action": "完整起草本章，实读reader并完成阶段及五章全文回看、八项与六项节奏审核后统一采用。",
+    "updated_at": "2026-11-08T21:43:27+00:00"
   },
   "chapters": [
     {
@@ -1070,12 +1070,6 @@
   },
   "history": [
     {
-      "at": "2026-10-31T21:52:07+00:00",
-      "phase": "WAITING_NEXT",
-      "label": "等待下一章",
-      "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。"
-    },
-    {
       "at": "2026-11-01T21:29:20+00:00",
       "phase": "WRITING",
       "label": "撰写正文",
@@ -1158,6 +1152,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第9章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-08T21:43:27+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH010已核对本轮归属，实读CH001—009正式全文和近五章推进，按全书检索准备跨处接班的实际决定与后果。"
     }
   ]
 }

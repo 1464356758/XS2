@@ -1,0 +1,23 @@
+{
+  "mode": "same_context_approximation",
+  "task_id": "52d38ac8-e43c-4b3f-8a92-c248dbf63865",
+  "repairs_requested": 2,
+  "reader_v2_path": "drafts/CH011_reader_v2.md",
+  "findings": [
+    {
+      "id": "R2-PROP",
+      "severity": "must_fix",
+      "before": "湿木，就搁筐外",
+      "after": "湿木，就单放这两只筐里",
+      "reason": "出发时的湿柴分装位置同回程筐内湿柴不一致，统一为两筐单放，不改变18干+2湿及收付。"
+    },
+    {
+      "id": "R2-LOCAL",
+      "severity": "clarify",
+      "before": "妹妹回来了",
+      "after": "妹妹从西巷过来了",
+      "reason": "用本地明确去向替含混的回来，不新增无盘点的外来人口；删拿完粮避免误读为又领一份。"
+    }
+  ],
+  "other_assessment": "V2全文已由reader再读，1—7回顾及8—10全文前缀同已实读V1完全相同；午钟两处借原合灶只用原领两份、灶主自愿推后半锅、保留迟饭代价，未加公粮或厨房商用班。主角主动看柴位与24+24+36已落正文。当前主冲突、保粮/损失及开饭兑现成立，R2只修本项物件位置并澄清本地照护来源，不重做候选或清零次数。"
+}

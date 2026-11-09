@@ -1,0 +1,56 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261110_mw9tchvm_ru716wga",
+  "request_sha256": "7c6fb97874544b280d558166a3f561230c20cad8162aec048b461de90766f4f7",
+  "source_sha": "d48e02b4e46018c656a461502eefb7fa1557f184",
+  "base_sha": "10a7134a843a28118b18d8b8a93ce8bf86ac691d",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261110_mw9s3326_qh08qte5",
+    "platform_run_id": "044d60ea-2514-8323-bff3-d526f5fb6684"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-09T22:09:02+00:00",
+  "executor_status": "error",
+  "github_run_id": "42709181595",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH011_v3.txt",
+        "--record",
+        "drafts/CH011_record.json",
+        "--report",
+        "drafts/CH011_release.json"
+      ],
+      "exit_code": 2,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261110_mw9tchvm_ru716wga/tool-01.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261110_mw9tchvm_ru716wga/tool-01.stderr.txt",
+          "sha256": "eb4ff7ef27d2afe1b3439f624b05abaab2c8d1e21fcec57b04d24700096d9c18",
+          "bytes": 64
+        }
+      }
+    }
+  ],
+  "business_status": "blocked",
+  "error": "工具第1步失败；完整输出保存在本轮work目录。",
+  "run_id": "f7c80f450dbc443d809f1f88a63cf4c0",
+  "changed_paths": [
+    ".automation/work/command_20261110_mw9tchvm_ru716wga/tool-01.stderr.txt",
+    ".automation/work/command_20261110_mw9tchvm_ru716wga/tool-01.stdout.txt",
+    "book/daily/active.json",
+    "online/index.json"
+  ]
+}

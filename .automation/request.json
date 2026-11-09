@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261110_mw9szwle_25x8zqkd",
-  "base_sha": "75c9aebb1de8c6f9a08b30727008b88f0a315ba9",
+  "request_id": "command_20261110_mw9t3bl5_q1di9zpb",
+  "base_sha": "7536e4fa624876e7a79a26386ac44006a6b16be2",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "11",
+        "check-record",
         "--text",
         "drafts/CH011_v3.txt",
-        "--reason",
-        "R2统一出发/回程湿柴单放两筐的位置；托伦妹妹明确从本堡西巷来，删可能误读为二次领粮的措辞。不改数量、目标或预算。"
+        "--record",
+        "drafts/CH011_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH011_v3.txt",
+        "--record",
+        "drafts/CH011_record.json",
         "--out",
-        "drafts/CH011_reader_v3.md"
+        "drafts/CH011_release_request.json"
       ]
     }
   ]

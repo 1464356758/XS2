@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261110_mw9s8wot_nzod3qnx",
-  "base_sha": "8187f31104b545dc85af0bd369c4837d6eca0634",
+  "request_id": "command_20261110_mw9sff52_vy2j3fmb",
+  "base_sha": "f63e881235b46bf26fb56a1f418095250ffd3dcd",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,47 +17,37 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "brief-check",
+        "--file",
+        "drafts/CH011_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH011_brief_request.json"
+        "drafts/CH011_writer.md"
       ]
     },
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "粮房 渗水 损耗 垫木 私粮",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "干柴 买柴 临时 钱 粮 换物",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "腾地 料箱 借 灶 搬 代价",
-        "--before",
-        "8",
-        "--limit",
-        "7"
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "11",
+        "--detail",
+        "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。",
+        "--next",
+        "完成第十一章全文后生成reader并实做八项及节奏审读。"
       ]
     }
   ]

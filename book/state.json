@@ -530,7 +530,7 @@
       "chapter": 11,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 1,
+      "repairs": 2,
       "history": [
         {
           "sha256": "c59c41238aa261b27ff7fe4b03650075571db09b9e282463822a7c3fca285b07",
@@ -541,10 +541,15 @@
           "sha256": "ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367",
           "reason": "R1实读修点数含混、午钟断火者去向和审核口吻入文；保粮后柴位约束改为主角主动发现，补领余量回话来源。",
           "repairs": 1
+        },
+        {
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "reason": "R2统一出发/回程湿柴单放两筐的位置；托伦妹妹明确从本堡西巷来，删可能误读为二次领粮的措辞。不改数量、目标或预算。",
+          "repairs": 2
         }
       ],
-      "candidate_sha256": "ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367",
-      "candidate_path": "candidates/CH011_ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367.txt"
+      "candidate_sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+      "candidate_path": "candidates/CH011_3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada.txt"
     }
   },
   "completion": null,

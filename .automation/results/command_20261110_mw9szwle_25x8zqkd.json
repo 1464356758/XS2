@@ -1,0 +1,87 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261110_mw9szwle_25x8zqkd",
+  "request_sha256": "45de43b3e80e050273034fc017ba00cc4686d708704ce2f8be368ab9d528d8a5",
+  "source_sha": "a1ca09d9058e0138bbc55f4267088576384cb9e2",
+  "base_sha": "75c9aebb1de8c6f9a08b30727008b88f0a315ba9",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261110_mw9s3326_qh08qte5",
+    "platform_run_id": "044d60ea-2514-8323-bff3-d526f5fb6684"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-09T21:59:14+00:00",
+  "executor_status": "ok",
+  "github_run_id": "42707610410",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "11",
+        "--text",
+        "drafts/CH011_v3.txt",
+        "--reason",
+        "R2统一出发/回程湿柴单放两筐的位置；托伦妹妹明确从本堡西巷来，删可能误读为二次领粮的措辞。不改数量、目标或预算。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-01.stdout.txt",
+          "sha256": "770b6a7ae73cb16b701b1b3e182511f9298184f17ab36d25a166598aef64e508",
+          "bytes": 1075
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH011_v3.txt",
+        "--out",
+        "drafts/CH011_reader_v3.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-02.stdout.txt",
+          "sha256": "20e92139d58d16afb09db5e69e820c56656cb4e4e0acceffffc3133e366b2357",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "f7c80f450dbc443d809f1f88a63cf4c0",
+  "changed_paths": [
+    ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-01.stderr.txt",
+    ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-01.stdout.txt",
+    ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-02.stderr.txt",
+    ".automation/work/command_20261110_mw9szwle_25x8zqkd/tool-02.stdout.txt",
+    "book/candidates/CH011_3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH011_reader_v3.md",
+    "online/index.json"
+  ]
+}

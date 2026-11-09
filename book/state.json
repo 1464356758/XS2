@@ -649,6 +649,11 @@
         "path": "releases/CH010_35156d03d6355382e04a7b573e33628fd23df9877427c2ae78a63c95ef11eb1c.json",
         "sha256": "35156d03d6355382e04a7b573e33628fd23df9877427c2ae78a63c95ef11eb1c",
         "used": true
+      },
+      "11": {
+        "path": "releases/CH011_793bf06178b7efb8471e80bdf7637c9cea86b999dfb2b13d79fd841279a3341c.json",
+        "sha256": "793bf06178b7efb8471e80bdf7637c9cea86b999dfb2b13d79fd841279a3341c",
+        "used": false
       }
     },
     "promises": {

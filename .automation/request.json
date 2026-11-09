@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261110_mw9tfkua_36ga6l6k",
-  "base_sha": "cbfa081ec93f250ebdce51b144365d276632a310",
+  "request_id": "finalize_20261110_mw9th6do_0e8ab8k8",
+  "base_sha": "a8b39ad1d4308550f60d34da76139c69fbdbae94",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,22 +9,9 @@
     "session_id": "xs2_20261110_mw9s3326_qh08qte5",
     "platform_run_id": "044d60ea-2514-8323-bff3-d526f5fb6684"
   },
-  "phase": "command",
+  "phase": "finalize",
   "run_id": "f7c80f450dbc443d809f1f88a63cf4c0",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-check",
-        "--text",
-        "drafts/CH011_v3.txt",
-        "--record",
-        "drafts/CH011_record.json",
-        "--report",
-        "drafts/CH011_release_checked.json"
-      ]
-    }
-  ]
+  "text": "drafts/CH011_v3.txt",
+  "record": "drafts/CH011_record.json",
+  "report": "drafts/CH011_release_checked.json"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261110_mw9st3i1_0fuiijsk",
-  "base_sha": "ac4d672c3a2eac3694c64722db81651614a110a9",
+  "request_id": "command_20261110_mw9sxfbo_kqbi6knb",
+  "base_sha": "3738909404927e056e1fbf674b2d756ef7566567",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "11",
         "--text",
-        "drafts/CH011_v1.txt"
+        "drafts/CH011_v2.txt",
+        "--reason",
+        "R1实读修点数含混、午钟断火者去向和审核口吻入文；保粮后柴位约束改为主角主动发现，补领余量回话来源。"
       ]
     },
     {
@@ -33,25 +35,9 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH011_v1.txt",
+        "drafts/CH011_v2.txt",
         "--out",
-        "drafts/CH011_reader_v1.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--chapter",
-        "11",
-        "--detail",
-        "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。",
-        "--next",
-        "按实读问题在原任务内修订，再完成记录与发布前审核。"
+        "drafts/CH011_reader_v2.md"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "title": "被流放冻土后，巨龙来给我烧锅炉",
-  "revision": 14,
+  "revision": 15,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -121,6 +121,16 @@
       "record_sha256": "22db94b217fce753a2038bfd07b9a9180d4dc1306cbca931316bbf5afa080e56",
       "han_count": 8520,
       "adopted_at": "2026-11-08T22:07:41+00:00"
+    },
+    "11": {
+      "title": "墙角渗出来的水",
+      "stage": "S02",
+      "text_path": "chapters/CH011_3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada.txt",
+      "text_sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+      "record_path": "records/CH011_e5392f38eba9e8f5d1ae8c07b57971d356718ba5d7213b7b2bd29259bc951f56.json",
+      "record_sha256": "e5392f38eba9e8f5d1ae8c07b57971d356718ba5d7213b7b2bd29259bc951f56",
+      "han_count": 8563,
+      "adopted_at": "2026-11-09T22:12:40+00:00"
     }
   },
   "checkpoints": [
@@ -529,7 +539,7 @@
       "task_id": "52d38ac8-e43c-4b3f-8a92-c248dbf63865",
       "chapter": 11,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 2,
       "history": [
         {
@@ -596,6 +606,10 @@
       "10": {
         "text_sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
         "record_sha256": "22db94b217fce753a2038bfd07b9a9180d4dc1306cbca931316bbf5afa080e56"
+      },
+      "11": {
+        "text_sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+        "record_sha256": "e5392f38eba9e8f5d1ae8c07b57971d356718ba5d7213b7b2bd29259bc951f56"
       }
     },
     "published": {},
@@ -653,7 +667,7 @@
       "11": {
         "path": "releases/CH011_793bf06178b7efb8471e80bdf7637c9cea86b999dfb2b13d79fd841279a3341c.json",
         "sha256": "793bf06178b7efb8471e80bdf7637c9cea86b999dfb2b13d79fd841279a3341c",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -674,7 +688,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 10
+        "last_reviewed_chapter": 11
       },
       "TH-DRY-SHELTER": {
         "history": [

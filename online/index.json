@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-09T22:11:27+00:00",
-    "state_revision": 14,
-    "workflow_revision": 37,
-    "state_sha256": "38f5f28a20dedc38cf97b2f5f52d9dbc80e825dea89f7f49f3b20307e2cfc818",
-    "workflow_sha256": "cecc6a60c40aa1c644c6dd7e5caa300444a1eac9463411d4e1d77159ac7fcebc",
+    "generated_at": "2026-11-09T22:12:40+00:00",
+    "state_revision": 15,
+    "workflow_revision": 38,
+    "state_sha256": "df5e5b966b0cc98c9e6322b577c789fdf19f3f83d9b86ee84423c46ed5b646e4",
+    "workflow_sha256": "98421938e41c43f18e9f93b307e1120fdad3d7ad1ddb016b64df9f089408b717",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 10,
+    "adopted_chapters": 11,
     "target_han": 900000,
-    "actual_han": 85579,
+    "actual_han": 94142,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 10,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 10,
+    "frozen_chapters": 11,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 11,
-    "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。",
-    "next_action": "按实读问题在原任务内修订，再完成记录与发布前审核。",
-    "updated_at": "2026-11-09T21:53:57+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 12,
+    "detail": "第11章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-11-09T22:12:40+00:00"
   },
   "chapters": [
     {
@@ -161,6 +161,18 @@
       "han_count": 8520,
       "text_path": "book/chapters/CH010_80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec.txt",
       "sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 11,
+      "title": "墙角渗出来的水",
+      "stage": "S02",
+      "han_count": 8563,
+      "text_path": "book/chapters/CH011_3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada.txt",
+      "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -1082,12 +1094,6 @@
   },
   "history": [
     {
-      "at": "2026-11-02T21:53:55+00:00",
-      "phase": "REVIEWING",
-      "label": "检查本章",
-      "detail": "CH005第一轮局部修订已登记；实读reader并核对八项、节奏与五章全文回看。"
-    },
-    {
       "at": "2026-11-02T22:07:27+00:00",
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
@@ -1170,6 +1176,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。"
+    },
+    {
+      "at": "2026-11-09T22:12:40+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第11章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

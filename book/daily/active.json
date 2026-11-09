@@ -7,7 +7,7 @@
   "start_date": "2026-11-10",
   "started_at": "2026-11-09T21:37:05+00:00",
   "chapter": 11,
-  "status": "blocked",
+  "status": "completed",
   "baseline_count": 10,
   "baseline_fingerprint": "5575f514f4ca9ace17ab7727ea313f66029097500f8e6154191bcdfc45ad78cb",
   "attempts": [],
@@ -21,11 +21,13 @@
     "platform_run_id": "044d60ea-2514-8323-bff3-d526f5fb6684"
   },
   "executor_checkpoint": {
-    "request_id": "command_20261110_mw9tfkua_36ga6l6k",
-    "phase": "command",
-    "at": "2026-11-09T22:11:27+00:00",
-    "github_run_id": "42709562825"
+    "request_id": "finalize_20261110_mw9th6do_0e8ab8k8",
+    "phase": "finalize",
+    "at": "2026-11-09T22:12:40+00:00",
+    "github_run_id": "42709762478"
   },
   "reason": "工具第1步失败；完整输出保存在本轮work目录。",
-  "blocked_at": "2026-11-09T22:10:35+00:00"
+  "blocked_at": "2026-11-09T22:10:35+00:00",
+  "completed_at": "2026-11-09T22:12:40+00:00",
+  "receipt_path": "daily/runs/f7c80f450dbc443d809f1f88a63cf4c0.json"
 }

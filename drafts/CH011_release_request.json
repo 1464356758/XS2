@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "chapter": 11,
+  "base_revision": 14,
+  "task_id": "52d38ac8-e43c-4b3f-8a92-c248dbf63865",
+  "repairs": 2,
+  "text_sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+  "record_sha256": "e5392f38eba9e8f5d1ae8c07b57971d356718ba5d7213b7b2bd29259bc951f56",
+  "canon_sha256": "6bf116418c782c6a584261d17482a52a78d91f6c2cb9c039202b8378c02de803",
+  "roadmap_sha256": "7faa85ac79892e6c010c946bca65027208f3e66acf1aa318b7c22d9039fa2682",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "908fab7260530dc046bd90b32426568915b196faa4cb58cd4e07023eb2b37c0b",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "8": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+    "9": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+    "10": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+    "11": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 8,
+      "sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 9,
+      "sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 10,
+      "sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 12,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 13,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 14,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "TH-COOP-SPRING",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "",
+      "evidence": {
+        "chapter": 11,
+        "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 11,
+            "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "22c83bc52a592a4b19a99c04aeffa767d62c364494e27c352f8980ccc60abc32",
+          "mode": "reader_recap",
+          "release_sha256": "9ca0c2e30246c0e65e9a95da5aafe3c910c78d8c90f0f99e3ad355b315e51ef5"
+        },
+        "2": {
+          "text_sha256": "4cf9da10d06a1a9bca4b0f45e6e207bb34393fefdc83797472fb2448f881c649",
+          "mode": "reader_recap",
+          "release_sha256": "c58f5a7f5f52e2d87095c13cabf97d45ba9a2106a0ed2a6732740266e434c8b2"
+        },
+        "3": {
+          "text_sha256": "39b804805f5352bf8ef8732b8eb03ccb61452605e7bef2119c34dcffd27eacf3",
+          "mode": "reader_recap",
+          "release_sha256": "0fa0cb5616c25e0f772dd5791112916f5e13762aa02a2c74227fd31583bbe985"
+        },
+        "4": {
+          "text_sha256": "bd13b07ed563d7bb0082215af35ceec19015f5dc387065b8bf1d10bbcce8d7fc",
+          "mode": "reader_recap",
+          "release_sha256": "76e4ee79596e7876ca3ac95d86dd621f3fcb834925f8425a0ec73bbf35e75339"
+        },
+        "5": {
+          "text_sha256": "df9b16c4bb759cca831267229886d3d7029e9165141ec8766da31a125cc5ade8",
+          "mode": "reader_recap",
+          "release_sha256": "39eaf48a1edfb0e77b73a0782fb315a9929ad0c3af5d02688ddf71c6c3e609e4"
+        },
+        "6": {
+          "text_sha256": "2629ddfea4ebc79be96d3e4298e6a464ead3657f731555a666c2bb9d710cd764",
+          "mode": "reader_recap",
+          "release_sha256": "a83a211e2ef3ca499e773f782ea084c7800c36e8ee93c64fa2a4ac24dcea0ed8"
+        },
+        "7": {
+          "text_sha256": "fe7865101ff15cefe516ca3a5ee3f821a2cba7f27f192594b3f25569fa0987d3",
+          "mode": "reader_recap",
+          "release_sha256": "93b2188b6afd8fb147d5a11f31af89541f0c9d4c9a4f32d5a9a7eb640ecf3a01"
+        },
+        "8": {
+          "text_sha256": "18af44bf255825110f08d03730af0459230b6206ae626d28c9f89bb7f61adaf0",
+          "mode": "full_text"
+        },
+        "9": {
+          "text_sha256": "74d84e89ea3a8a7fbbc5ab60991c5ac0443dc9113aebc77f42b41424e037d85c",
+          "mode": "full_text"
+        },
+        "10": {
+          "text_sha256": "80fdb570654568e7e7f998af39fe3e920fb13e023d956c0e9b67427253db0eec",
+          "mode": "full_text"
+        },
+        "11": {
+          "text_sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 11,
+            "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 11,
+            "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 11,
+            "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "db335dde0025ae24c74158d693e1ccb4a019cc276462d4d33e5eb5e596e47df1",
+      "queries": [
+        "粮房 渗水 损耗 垫木 私粮",
+        "干柴 买柴 临时 钱 粮 换物",
+        "腾地 料箱 借 灶 搬 代价"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": [],
+    "pacing_review": {
+      "decision": "pending",
+      "mainline": "",
+      "protagonist_initiative": "",
+      "scene_necessity": "",
+      "dramatic_change": "",
+      "payoff": "",
+      "next_pull": "",
+      "evidence": [
+        {
+          "chapter": 11,
+          "sha256": "3a71a9b24e791d3185d35af060e2b62b70b04bc1636d7d133c5043edc66a6ada",
+          "quote": ""
+        }
+      ],
+      "blocking_issues": [
+        "尚未实读节奏与推进"
+      ]
+    }
+  }
+}

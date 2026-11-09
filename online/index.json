@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-09T21:43:20+00:00",
+    "generated_at": "2026-11-09T21:53:57+00:00",
     "state_revision": 14,
-    "workflow_revision": 36,
-    "state_sha256": "4626c14aa8430c19cbc10669b4deb7fa3c2478c65643dd7e2c37c010385ec11e",
-    "workflow_sha256": "45987c43593d1a213dc732d6ff048016aa3b50296b1efe61e4ab22b83ded1d4e",
+    "workflow_revision": 37,
+    "state_sha256": "6f41e2f5274ff8c72b53e4ff01971d7b3f16e6b1ff8156538286e4aeccb67316",
+    "workflow_sha256": "cecc6a60c40aa1c644c6dd7e5caa300444a1eac9463411d4e1d77159ac7fcebc",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 11,
-    "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。",
-    "next_action": "完成第十一章全文后生成reader并实做八项及节奏审读。",
-    "updated_at": "2026-11-09T21:43:20+00:00"
+    "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。",
+    "next_action": "按实读问题在原任务内修订，再完成记录与发布前审核。",
+    "updated_at": "2026-11-09T21:53:57+00:00"
   },
   "chapters": [
     {
@@ -1082,12 +1082,6 @@
   },
   "history": [
     {
-      "at": "2026-11-02T21:37:03+00:00",
-      "phase": "WRITING",
-      "label": "撰写正文",
-      "detail": "CH005写前已实读CH001—CH004正式全文、记录和当前路线，历史检索4/4；登记暴雪安置主线任务书，五章全文回看在采用前完成。"
-    },
-    {
       "at": "2026-11-02T21:53:55+00:00",
       "phase": "REVIEWING",
       "label": "检查本章",
@@ -1170,6 +1164,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。"
+    },
+    {
+      "at": "2026-11-09T21:53:57+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。"
     }
   ]
 }

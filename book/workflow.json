@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 36,
+  "revision": 37,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -256,9 +256,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。"
+    },
+    {
+      "at": "2026-11-09T21:53:57+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。"
     }
   ],
-  "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。",
-  "next_action": "完成第十一章全文后生成reader并实做八项及节奏审读。",
-  "updated_at": "2026-11-09T21:43:20+00:00"
+  "detail": "第十一章完整初稿已登记，生成reader后进行同上下文近似实读及反向提纲、八项证据和六项节奏审核；尚未采用。",
+  "next_action": "按实读问题在原任务内修订，再完成记录与发布前审核。",
+  "updated_at": "2026-11-09T21:53:57+00:00"
 }

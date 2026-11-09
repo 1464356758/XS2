@@ -1098,6 +1098,10 @@
     "10": {
       "path": "briefs/CH010_89ebaa817b9357a35adcbab3345458ce484a5ff9e41da0e52fa72a90c76f620d.json",
       "sha256": "89ebaa817b9357a35adcbab3345458ce484a5ff9e41da0e52fa72a90c76f620d"
+    },
+    "11": {
+      "path": "briefs/CH011_908fab7260530dc046bd90b32426568915b196faa4cb58cd4e07023eb2b37c0b.json",
+      "sha256": "908fab7260530dc046bd90b32426568915b196faa4cb58cd4e07023eb2b37c0b"
     }
   },
   "replaced_chapters": [

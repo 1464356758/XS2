@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-09T21:38:15+00:00",
+    "generated_at": "2026-11-09T21:43:20+00:00",
     "state_revision": 14,
-    "workflow_revision": 35,
-    "state_sha256": "0b35f926057df9cb7adbcc4b0e4abb3dd2b540ee11f5ab50be82dfca1bf03a72",
-    "workflow_sha256": "ccd2246c940da7b238208182512dc27dfc686d7a7df239b5473a18216bd9a85b",
+    "workflow_revision": 36,
+    "state_sha256": "4626c14aa8430c19cbc10669b4deb7fa3c2478c65643dd7e2c37c010385ec11e",
+    "workflow_sha256": "45987c43593d1a213dc732d6ff048016aa3b50296b1efe61e4ab22b83ded1d4e",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 11,
-    "detail": "第10章已采用并冻结；平台发布另凭真实回执登记。",
-    "next_action": "读取正式状态后，由下一次日更处理下一章。",
-    "updated_at": "2026-11-08T22:07:41+00:00"
+    "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。",
+    "next_action": "完成第十一章全文后生成reader并实做八项及节奏审读。",
+    "updated_at": "2026-11-09T21:43:20+00:00"
   },
   "chapters": [
     {
@@ -1082,12 +1082,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T21:45:02+00:00",
-      "phase": "WAITING_NEXT",
-      "label": "等待下一章",
-      "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。"
-    },
-    {
       "at": "2026-11-02T21:37:03+00:00",
       "phase": "WRITING",
       "label": "撰写正文",
@@ -1170,6 +1164,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第10章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-09T21:43:20+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "本轮实读现行CH001—010全文及相关记录，生成任务书与三组历史检索；登记CH011任务书后按writer起草完整候选，未采用。"
     }
   ]
 }

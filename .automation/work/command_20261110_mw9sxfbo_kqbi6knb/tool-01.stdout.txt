@@ -1,0 +1,21 @@
+{
+  "task_id": "52d38ac8-e43c-4b3f-8a92-c248dbf63865",
+  "chapter": 11,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 1,
+  "history": [
+    {
+      "sha256": "c59c41238aa261b27ff7fe4b03650075571db09b9e282463822a7c3fca285b07",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367",
+      "reason": "R1实读修点数含混、午钟断火者去向和审核口吻入文；保粮后柴位约束改为主角主动发现，补领余量回话来源。",
+      "repairs": 1
+    }
+  ],
+  "candidate_sha256": "ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367",
+  "candidate_path": "candidates/CH011_ca1b834d0366bef8253d362329445c666815c411efce6541ed487b14656fd367.txt"
+}

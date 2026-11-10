@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261111_mwb7f3rb_p2awmzob",
-  "base_sha": "032b2ec4774a743cb4288408892d4b46cfe2ddbe",
+  "request_id": "command_20261111_mwb7g5wr_xgkgbaqv",
+  "base_sha": "6e085567013fb7faa0187690955d65a9b994cbe5",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -9,6 +9,56 @@
     "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
     "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261111_0530"
+  "phase": "command",
+  "run_id": "5657b58934be43928e5235e36dbf9228",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH012_brief_pending.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "芮雅 商队 运粮 押金 南岸 后车",
+        "--limit",
+        "11"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "粮 柴 货权 拒绝 工钱 运力",
+        "--limit",
+        "11"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "借车 分批 送回 交易 口粮",
+        "--before",
+        "9",
+        "--limit",
+        "8"
+      ]
+    }
+  ]
 }

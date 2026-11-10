@@ -1,14 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "begin_20261110_mw9tt7x9_hy86lq7q",
-  "base_sha": "6ee793b20e8b512e101131528a889eee52520709",
+  "request_id": "preflight_20261111_mwb7dqxq_yem57cr7",
+  "base_sha": "a5321e9dd2da7b1623b9e20bbcb87461863e690c",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "xs2_retry_20261110_mw9tqy99_iwt7hfm9",
-    "platform_run_id": null
+    "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
+    "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
   },
-  "phase": "begin",
-  "trigger_id": "scheduled_20261110_0530"
+  "phase": "preflight"
 }

@@ -1,0 +1,119 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261111_mwb818vu_a7sv11kn",
+  "request_sha256": "c2b0c86727f9d7836e90d704833e08ded40bb5fa65f7678707c895755d6457dc",
+  "source_sha": "d434960bb05f32cf48187a5c00eb0cd7791fd496",
+  "base_sha": "78868a306b1f5fccbbdddca1912cd28c34fbf22e",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
+    "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-10T21:48:00+00:00",
+  "executor_status": "ok",
+  "github_run_id": "42908498405",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "12",
+        "--text",
+        "drafts/CH012_v1.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-01.stdout.txt",
+          "sha256": "ce75d691054090d4c29bd7ca8704666a406abd19009c176e945ee26a63b63891",
+          "bytes": 492
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH012_v1.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH012_reader_v1.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-02.stdout.txt",
+          "sha256": "2939eec320dc40beb173aa7aec8947f8fa4849b20088fae7bee2338ee42b3a81",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "REVIEWING",
+        "--chapter",
+        "12",
+        "--detail",
+        "CH012完整初稿已登记；生成并实读reader后反提正文场景，核对八项事实因果与六项主线节奏，尚未采用。",
+        "--next",
+        "完成实读审核与必要局部修订，原目标最多三轮；检查通过后统一finalize。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-03.stdout.txt",
+          "sha256": "e7fe81e27916573f8d1a19cae8f036b5008b0427789039dbb33693039e81b6a3",
+          "bytes": 90
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5657b58934be43928e5235e36dbf9228",
+  "changed_paths": [
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-01.stderr.txt",
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-01.stdout.txt",
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-02.stderr.txt",
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-02.stdout.txt",
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-03.stderr.txt",
+    ".automation/work/command_20261111_mwb818vu_a7sv11kn/tool-03.stdout.txt",
+    "book/candidates/CH012_5843167450f15cbf4c9c48c023e2f7cf5f874c711ac11bfd915983bd436749b9.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "book/workflow.json",
+    "drafts/CH012_reader_v1.md",
+    "online/index.json"
+  ]
+}

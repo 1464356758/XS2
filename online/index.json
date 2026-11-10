@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS2",
     "branch": "main",
-    "generated_at": "2026-11-10T21:38:01+00:00",
+    "generated_at": "2026-11-10T21:48:00+00:00",
     "state_revision": 15,
-    "workflow_revision": 39,
-    "state_sha256": "aa01c6446ba856f4f8b94c08b1477b844c854085c44484df4f6907f71cba214d",
-    "workflow_sha256": "73b1ffa9be39ed84ab23e841677a916615df212574e656a3d0fa91a4f2569a79",
+    "workflow_revision": 40,
+    "state_sha256": "6554ce2cf0408e64693d4945e4c2643806f9bc268244c426bfd86359a5077ea4",
+    "workflow_sha256": "a246c6a793f9bc7cd67de671c1dcb92051a22f2f6730ad03079ff4a918f9e0b7",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 12,
-    "detail": "CH012已确认本轮归属；实读现行CH009—011及相关CH004、008全文、近五章推进与相关记录，完成三组全书/旧章检索，登记任务书后读取writer并起草完整目标章。",
-    "next_action": "完成CH012完整初稿并实读reader，进行反向提纲、八项证据及六项节奏审核。",
-    "updated_at": "2026-11-10T21:38:01+00:00"
+    "detail": "CH012完整初稿已登记；生成并实读reader后反提正文场景，核对八项事实因果与六项主线节奏，尚未采用。",
+    "next_action": "完成实读审核与必要局部修订，原目标最多三轮；检查通过后统一finalize。",
+    "updated_at": "2026-11-10T21:48:00+00:00"
   },
   "chapters": [
     {
@@ -1094,12 +1094,6 @@
   },
   "history": [
     {
-      "at": "2026-11-04T21:43:32+00:00",
-      "phase": "WAITING_NEXT",
-      "label": "等待下一章",
-      "detail": "第6章已采用并冻结；平台发布另凭真实回执登记。"
-    },
-    {
       "at": "2026-11-05T21:46:03+00:00",
       "phase": "REVIEWING",
       "label": "检查本章",
@@ -1182,6 +1176,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "CH012已确认本轮归属；实读现行CH009—011及相关CH004、008全文、近五章推进与相关记录，完成三组全书/旧章检索，登记任务书后读取writer并起草完整目标章。"
+    },
+    {
+      "at": "2026-11-10T21:48:00+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH012完整初稿已登记；生成并实读reader后反提正文场景，核对八项事实因果与六项主线节奏，尚未采用。"
     }
   ]
 }

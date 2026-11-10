@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261111_mwb818vu_a7sv11kn",
-  "base_sha": "78868a306b1f5fccbbdddca1912cd28c34fbf22e",
+  "request_id": "command_20261111_mwb88l0h_yxc28a2c",
+  "base_sha": "72e6e30ef41a407ccfbdb1f7a6b0410078ebc2a2",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "12",
         "--text",
-        "drafts/CH012_v1.txt"
+        "drafts/CH012_v2.txt",
+        "--reason",
+        "R1：reader全文实读修清晨回指、后车离置时长、近柴消息来源、312份先分后领与尾款条件；删中段重复收窄愿望及运力旁白，改实付分款动作。证据见drafts/CH012_R1_issues.json。"
       ]
     },
     {
@@ -33,27 +35,11 @@
         "--profile",
         "reader",
         "--text",
-        "drafts/CH012_v1.txt",
+        "drafts/CH012_v2.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH012_reader_v1.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--chapter",
-        "12",
-        "--detail",
-        "CH012完整初稿已登记；生成并实读reader后反提正文场景，核对八项事实因果与六项主线节奏，尚未采用。",
-        "--next",
-        "完成实读审核与必要局部修订，原目标最多三轮；检查通过后统一finalize。"
+        "drafts/CH012_reader_v2.md"
       ]
     }
   ]

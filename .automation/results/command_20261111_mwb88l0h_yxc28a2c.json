@@ -1,0 +1,89 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261111_mwb88l0h_yxc28a2c",
+  "request_sha256": "4041cf7f2484d9c7babb15ef0040e128712103b200791c1ef6f0e813c6714b8b",
+  "source_sha": "e5fde28e20b1086a27e37c24bf0ada979a20e763",
+  "base_sha": "72e6e30ef41a407ccfbdb1f7a6b0410078ebc2a2",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
+    "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-10T21:53:41+00:00",
+  "executor_status": "ok",
+  "github_run_id": "42909397180",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "repair",
+        "--chapter",
+        "12",
+        "--text",
+        "drafts/CH012_v2.txt",
+        "--reason",
+        "R1：reader全文实读修清晨回指、后车离置时长、近柴消息来源、312份先分后领与尾款条件；删中段重复收窄愿望及运力旁白，改实付分款动作。证据见drafts/CH012_R1_issues.json。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-01.stdout.txt",
+          "sha256": "5ea82223f4920d16a3cb2bda792c8442fe3cc472efd6f1fc98cb773fe71a2424",
+          "bytes": 855
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH012_v2.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH012_reader_v2.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-02.stdout.txt",
+          "sha256": "7c062b9f27754301a8dd98dd59208637f96806f34e389db56c8e278d457e304d",
+          "bytes": 104
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5657b58934be43928e5235e36dbf9228",
+  "changed_paths": [
+    ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-01.stderr.txt",
+    ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-01.stdout.txt",
+    ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-02.stderr.txt",
+    ".automation/work/command_20261111_mwb88l0h_yxc28a2c/tool-02.stdout.txt",
+    "book/candidates/CH012_40219613bce08d11cbb51828065a3fe4e10343cc7ea6d36d415e5c47ff0495a3.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH012_reader_v2.md",
+    "online/index.json"
+  ]
+}

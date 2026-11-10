@@ -1,0 +1,21 @@
+{
+  "task_id": "064d8608-810f-4d41-afd2-358ac811b32f",
+  "chapter": 12,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 1,
+  "history": [
+    {
+      "sha256": "5843167450f15cbf4c9c48c023e2f7cf5f874c711ac11bfd915983bd436749b9",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "40219613bce08d11cbb51828065a3fe4e10343cc7ea6d36d415e5c47ff0495a3",
+      "reason": "R1：reader全文实读修清晨回指、后车离置时长、近柴消息来源、312份先分后领与尾款条件；删中段重复收窄愿望及运力旁白，改实付分款动作。证据见drafts/CH012_R1_issues.json。",
+      "repairs": 1
+    }
+  ],
+  "candidate_sha256": "40219613bce08d11cbb51828065a3fe4e10343cc7ea6d36d415e5c47ff0495a3",
+  "candidate_path": "candidates/CH012_40219613bce08d11cbb51828065a3fe4e10343cc7ea6d36d415e5c47ff0495a3.txt"
+}

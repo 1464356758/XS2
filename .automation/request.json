@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261111_mwb7oghe_aqu89ay7",
-  "base_sha": "ff3002308d1972ee6563f0a628cc97646d6d1df3",
+  "request_id": "command_20261111_mwb818vu_a7sv11kn",
+  "base_sha": "78868a306b1f5fccbbdddca1912cd28c34fbf22e",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH012_brief.json"
+        "candidate",
+        "--chapter",
+        "12",
+        "--text",
+        "drafts/CH012_v1.txt"
       ]
     },
     {
@@ -29,11 +31,13 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH012_v1.txt",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH012_writer.md"
+        "drafts/CH012_reader_v1.md"
       ]
     },
     {
@@ -43,13 +47,13 @@
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "12",
         "--detail",
-        "CH012已确认本轮归属；实读现行CH009—011及相关CH004、008全文、近五章推进与相关记录，完成三组全书/旧章检索，登记任务书后读取writer并起草完整目标章。",
+        "CH012完整初稿已登记；生成并实读reader后反提正文场景，核对八项事实因果与六项主线节奏，尚未采用。",
         "--next",
-        "完成CH012完整初稿并实读reader，进行反向提纲、八项证据及六项节奏审核。"
+        "完成实读审核与必要局部修订，原目标最多三轮；检查通过后统一finalize。"
       ]
     }
   ]

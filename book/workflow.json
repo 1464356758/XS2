@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 38,
+  "revision": 39,
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
-  "phase": "WAITING_NEXT",
+  "phase": "WRITING",
   "platform": "fanqie",
   "selected_topic": {
     "id": "T02",
@@ -268,9 +268,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第11章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-10T21:38:01+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "CH012已确认本轮归属；实读现行CH009—011及相关CH004、008全文、近五章推进与相关记录，完成三组全书/旧章检索，登记任务书后读取writer并起草完整目标章。"
     }
   ],
-  "detail": "第11章已采用并冻结；平台发布另凭真实回执登记。",
-  "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-11-09T22:12:40+00:00"
+  "detail": "CH012已确认本轮归属；实读现行CH009—011及相关CH004、008全文、近五章推进与相关记录，完成三组全书/旧章检索，登记任务书后读取writer并起草完整目标章。",
+  "next_action": "完成CH012完整初稿并实读reader，进行反向提纲、八项证据及六项节奏审核。",
+  "updated_at": "2026-11-10T21:38:01+00:00"
 }

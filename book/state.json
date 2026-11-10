@@ -1147,6 +1147,10 @@
     "11": {
       "path": "briefs/CH011_908fab7260530dc046bd90b32426568915b196faa4cb58cd4e07023eb2b37c0b.json",
       "sha256": "908fab7260530dc046bd90b32426568915b196faa4cb58cd4e07023eb2b37c0b"
+    },
+    "12": {
+      "path": "briefs/CH012_6c1e038c6e32537e6af7afb2f8ff8f3dad89a5cfd46f9cc46710dc1d764249c8.json",
+      "sha256": "6c1e038c6e32537e6af7afb2f8ff8f3dad89a5cfd46f9cc46710dc1d764249c8"
     }
   },
   "replaced_chapters": [

@@ -1,0 +1,135 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_20261111_mwb7g5wr_xgkgbaqv",
+  "request_sha256": "39d9e434430d14be025a709c86513a19fd51ef37c76a5f03c8a6997573e7b6f1",
+  "source_sha": "caf84d17d332181c59a039c3808e8e077e50788e",
+  "base_sha": "6e085567013fb7faa0187690955d65a9b994cbe5",
+  "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae4d35ceaec8191b9745360f064026d",
+    "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
+    "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-10T21:31:33+00:00",
+  "executor_status": "ok",
+  "github_run_id": "42905869333",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH012_brief_pending.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-01.stdout.txt",
+          "sha256": "f11c0b14ce14cef91f6874c14f2d5f7f0d4ec6df67abf046aaa4bd57090b5ae1",
+          "bytes": 177
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "芮雅 商队 运粮 押金 南岸 后车",
+        "--limit",
+        "11"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-02.stdout.txt",
+          "sha256": "3dbc0505bd2b3cf9f4c3fd784e3271a7ba8bcb5b54e9ec33d453a88a8c981b33",
+          "bytes": 26899
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "粮 柴 货权 拒绝 工钱 运力",
+        "--limit",
+        "11"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-03.stdout.txt",
+          "sha256": "5d233d9dfdf910d8f457edea20fafedb9930d31720b21960e41a9a005447bcff",
+          "bytes": 35132
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "借车 分批 送回 交易 口粮",
+        "--before",
+        "9",
+        "--limit",
+        "8"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-04.stdout.txt",
+          "sha256": "e232bf48b4a28aa972bf7bab272ba94493fcb3b61b0e5e34bd597d8373152117",
+          "bytes": 9578
+        },
+        "stderr": {
+          "path": ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-04.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5657b58934be43928e5235e36dbf9228",
+  "changed_paths": [
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-01.stderr.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-01.stdout.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-02.stderr.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-02.stdout.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-03.stderr.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-03.stdout.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-04.stderr.txt",
+    ".automation/work/command_20261111_mwb7g5wr_xgkgbaqv/tool-04.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH012_brief_pending.json",
+    "online/index.json"
+  ]
+}

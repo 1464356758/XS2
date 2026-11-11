@@ -1,46 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "command_20261111_mwb88l0h_yxc28a2c",
-  "base_sha": "72e6e30ef41a407ccfbdb1f7a6b0410078ebc2a2",
+  "request_id": "preflight_20261112_mwcn4b3j_45sd441l",
+  "base_sha": "51c8647fb605f4b40eda7816b858929f69d17c3a",
   "book_id": "518fa437-86d1-4f05-a4f6-17fa2d92adf3",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae4d35ceaec8191b9745360f064026d",
-    "session_id": "xs2_20261111_mwb7d9y0_ebja58h5",
-    "platform_run_id": "746e60e2-8570-832a-8109-c2ee0e197063"
+    "session_id": "xs2_20261112_mwcn3r9g_z0ji370l",
+    "platform_run_id": "62f79697-4b28-8330-8ea6-fa5f88e7ae16"
   },
-  "phase": "command",
-  "run_id": "5657b58934be43928e5235e36dbf9228",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "repair",
-        "--chapter",
-        "12",
-        "--text",
-        "drafts/CH012_v2.txt",
-        "--reason",
-        "R1：reader全文实读修清晨回指、后车离置时长、近柴消息来源、312份先分后领与尾款条件；删中段重复收窄愿望及运力旁白，改实付分款动作。证据见drafts/CH012_R1_issues.json。"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
-        "--text",
-        "drafts/CH012_v2.txt",
-        "--budget",
-        "80000",
-        "--out",
-        "drafts/CH012_reader_v2.md"
-      ]
-    }
-  ]
+  "phase": "preflight"
 }
